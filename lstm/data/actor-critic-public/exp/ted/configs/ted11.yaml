@@ -1,4 +1,0 @@
-parent: $LVSR/exp/ted/configs/ted9.yaml
-data:
-    max_length: 27
-    filter_by: ['labels']

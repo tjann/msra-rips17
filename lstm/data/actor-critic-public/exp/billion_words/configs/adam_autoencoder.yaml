@@ -1,4 +1,0 @@
-parent: $LVSR/exp/billion_words/configs/adam_sarsa_autoencoder.yaml
-net:
-    criterion:
-        name: log_likelihood

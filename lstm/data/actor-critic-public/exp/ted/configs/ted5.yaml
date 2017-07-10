@@ -1,4 +1,0 @@
-parent: $LVSR/exp/ted/configs/ted1.yaml
-net:
-    dims_bidir: [256]
-
