@@ -1,0 +1,10 @@
+parent: $LVSR/exp/billion_words/configs/actor_critic4.yaml
+net:
+    criterion:
+        solve_bellman: True
+training:
+    external_targets: True
+stages:
+    critic_pretraining:
+        training:
+            num_batches: 30000
