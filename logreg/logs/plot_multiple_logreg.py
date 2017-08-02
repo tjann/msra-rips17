@@ -11,9 +11,9 @@ import numpy as np
 ###################### VARIABLE INPUTS ######################
 synchro = 'async'
 num_sf = 3
-file_names100 = ['async100a.txt', 'async100b.txt', 'async100c.txt']
-file_names1000 = ['async1000a.txt', 'async1000b.txt', 'async1000c.txt']
-file_names10000 = ['async10000a.txt', 'async10000b.txt', 'async10000c.txt']
+file_names100 = ['async100a.txt', 'async100b.txt', 'async100c.txt', 'async100d.txt', 'async100e.txt']
+file_names1000 = ['async1000a.txt', 'async1000b.txt', 'async1000c.txt', 'async1000d.txt', 'async1000e.txt']
+file_names10000 = ['async10000a.txt', 'async10000b.txt', 'async10000c.txt', 'async1000d.txt', 'async1000e.txt']
 num_epoch = 149 # I think # num_samples for logreg
 num_workers = 8
 #############################################################
