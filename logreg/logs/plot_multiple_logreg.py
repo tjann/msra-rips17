@@ -75,9 +75,9 @@ fig, ax = plt.subplots()
 # PLOT SAMPLES SEEN X TRAIN LOSS GRAPH
 for i in range(num_sf):
     x = list(range(100032, 14963129, 100032))
-    x = x[:30]
+#    x = x[:30]
     y = list(error_lists[i])
-    y = y[:30]
+#    y = y[:30]
     # ax.plot(list(range(100032, 14963129, 100032)), list(error_lists[i]), color=color_list[i], label=label_list[i])
     ax.plot(x, y, color=color_list[i], label=label_list[i])
 ax.legend(loc='upper right')
