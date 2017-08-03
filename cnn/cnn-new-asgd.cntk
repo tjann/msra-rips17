@@ -69,20 +69,27 @@ TrainConvNet = {
 
     SGD = {
         epochSize = 0
-        minibatchSize = 128
+        minibatchSize = 512
 
         # Note that learning rates are 10x more than in the paper due to a different 
         # momentum update rule in CNTK: v{t + 1} = lr*(1 - momentum)*g{t + 1} + momentum*v{t} 
-        learningRatesPerMB = 1*80:0.1*40:0.01
+        learningRatesPerMB = 1.0*80:0.1*40:0.01
         momentumPerMB = 0.9
         maxEpochs = 160
         L2RegWeight = 0.0001
         ParallelTrain = [
-            parallelizationMethod = ModelAveragingSGD
+            parallelizationMethod = DataParallelASGD
             distributedMBReading = true
-            ModelAveragingSGD = [
-                syncPeriod=$syncPeriod$
-            ] 
+            DataParallelASGD = [
+                syncPeriodPerWorker=$period$
+                usePipeline = true
+                AdjustLearningRateAtBeginning = [
+                    adjustCoefficient = 0.2
+                    adjustNBMiniBatch = 1024
+                    # Learning rate will be adjusted to original one after ((1 / adjustCoefficient) * adjustNBMiniBatch) samples
+                    # which is 5120 in this case
+                ]
+            ]
         ]
         numMBsToShowResult = 100
     }
