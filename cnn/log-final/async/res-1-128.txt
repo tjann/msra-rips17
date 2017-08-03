@@ -1,0 +1,1345 @@
+CNTK 2.0 (HEAD ade8bc, May 31 2017 17:15:49) on Multiversohk at 2017/08/03 05:18:03
+
+cntk  configFile=cnn-new-asgd.cntk  makeMode=false  period=128
+CNTK 2.0 (HEAD ade8bc, May 31 2017 17:15:49) on Multiversohk at 2017/08/03 05:18:03
+
+cntk  configFile=cnn-new-asgd.cntk  makeMode=false  period=128
+CNTK 2.0 (HEAD ade8bc, May 31 2017 17:15:49) on Multiversohk at 2017/08/03 05:18:03
+
+cntk  configFile=cnn-new-asgd.cntk  makeMode=false  period=128
+--------------------------------------------------------------------------
+[[54770,1],0]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: Multiversohk
+
+Another transport will be used instead, although this may result in
+lower performance.
+--------------------------------------------------------------------------
+CNTK 2.0 (HEAD ade8bc, May 31 2017 17:15:49) on Multiversohk at 2017/08/03 05:18:03
+
+cntk  configFile=cnn-new-asgd.cntk  makeMode=false  period=128
+ping [requestnodes (before change)]: 4 nodes pinging each other
+ping [requestnodes (before change)]: 4 nodes pinging each other
+ping [requestnodes (before change)]: 4 nodes pinging each other
+ping [requestnodes (before change)]: 4 nodes pinging each other
+ping [requestnodes (after change)]: 4 nodes pinging each other
+ping [requestnodes (after change)]: 4 nodes pinging each other
+ping [requestnodes (after change)]: 4 nodes pinging each other
+ping [requestnodes (after change)]: 4 nodes pinging each other
+requestnodes [MPIWrapperMpi]: using 4 out of 4 MPI nodes on a single host (4 requested); we (2) are in (participating)
+ping [mpihelper]: 4 nodes pinging each other
+requestnodes [MPIWrapperMpi]: using 4 out of 4 MPI nodes on a single host (4 requested); we (0) are in (participating)
+ping [mpihelper]: 4 nodes pinging each other
+requestnodes [MPIWrapperMpi]: using 4 out of 4 MPI nodes on a single host (4 requested); we (3) are in (participating)
+ping [mpihelper]: 4 nodes pinging each other
+requestnodes [MPIWrapperMpi]: using 4 out of 4 MPI nodes on a single host (4 requested); we (1) are in (participating)
+ping [mpihelper]: 4 nodes pinging each other
+-------------------------------------------------------------------
+Build info: 
+
+		Built time: May 31 2017 17:14:11
+		Last modified date: Fri May 26 22:32:46 2017
+		Build type: release
+		Build target: GPU
+		With 1bit-SGD: yes
+		With ASGD: yes
+		Math lib: mkl
+		CUDA_PATH: /usr/local/cuda-8.0
+		CUB_PATH: /usr/local/cub-1.4.1
+		CUDNN_PATH: /usr/local/cudnn-5.1
+		Build Branch: HEAD
+		Build SHA1: ade8bc05d30e61160da729aee078e22f8bd4fced
+		Built by Source/CNTK/buildinfo.h$$0 on 8df6191122a5
+		Build Path: /home/philly/jenkins/workspace/CNTK-Build-Linux
+		MPI distribution: Open MPI
+		MPI version: 1.10.3
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+Build info: 
+
+		Built time: May 31 2017 17:14:11
+		Last modified date: Fri May 26 22:32:46 2017
+		Build type: release
+		Build target: GPU
+		With 1bit-SGD: yes
+		With ASGD: yes
+		Math lib: mkl
+		CUDA_PATH: /usr/local/cuda-8.0
+		CUB_PATH: /usr/local/cub-1.4.1
+		CUDNN_PATH: /usr/local/cudnn-5.1
+		Build Branch: HEAD
+		Build SHA1: ade8bc05d30e61160da729aee078e22f8bd4fced
+		Built by Source/CNTK/buildinfo.h$$0 on 8df6191122a5
+		Build Path: /home/philly/jenkins/workspace/CNTK-Build-Linux
+		MPI distribution: Open MPI
+		MPI version: 1.10.3
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+Build info: 
+
+		Built time: May 31 2017 17:14:11
+		Last modified date: Fri May 26 22:32:46 2017
+		Build type: release
+		Build target: GPU
+		With 1bit-SGD: yes
+		With ASGD: yes
+		Math lib: mkl
+		CUDA_PATH: /usr/local/cuda-8.0
+		CUB_PATH: /usr/local/cub-1.4.1
+		CUDNN_PATH: /usr/local/cudnn-5.1
+		Build Branch: HEAD
+		Build SHA1: ade8bc05d30e61160da729aee078e22f8bd4fced
+		Built by Source/CNTK/buildinfo.h$$0 on 8df6191122a5
+		Build Path: /home/philly/jenkins/workspace/CNTK-Build-Linux
+		MPI distribution: Open MPI
+		MPI version: 1.10.3
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+Build info: 
+
+		Built time: May 31 2017 17:14:11
+		Last modified date: Fri May 26 22:32:46 2017
+		Build type: release
+		Build target: GPU
+		With 1bit-SGD: yes
+		With ASGD: yes
+		Math lib: mkl
+		CUDA_PATH: /usr/local/cuda-8.0
+		CUB_PATH: /usr/local/cub-1.4.1
+		CUDNN_PATH: /usr/local/cudnn-5.1
+		Build Branch: HEAD
+		Build SHA1: ade8bc05d30e61160da729aee078e22f8bd4fced
+		Built by Source/CNTK/buildinfo.h$$0 on 8df6191122a5
+		Build Path: /home/philly/jenkins/workspace/CNTK-Build-Linux
+		MPI distribution: Open MPI
+		MPI version: 1.10.3
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+GPU info:
+
+		Device[0]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 11437 MB
+		Device[1]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+		Device[2]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+		Device[3]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+-------------------------------------------------------------------
+
+##############################################################################
+#                                                                            #
+# TrainConvNet command (train action)                                        #
+#                                                                            #
+##############################################################################
+
+-------------------------------------------------------------------
+GPU info:
+
+		Device[0]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 11437 MB
+		Device[1]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+		Device[2]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+		Device[3]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+-------------------------------------------------------------------
+
+##############################################################################
+#                                                                            #
+# TrainConvNet command (train action)                                        #
+#                                                                            #
+##############################################################################
+
+-------------------------------------------------------------------
+GPU info:
+
+		Device[0]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 11437 MB
+		Device[1]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+		Device[2]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+		Device[3]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+-------------------------------------------------------------------
+
+##############################################################################
+#                                                                            #
+# TrainConvNet command (train action)                                        #
+#                                                                            #
+##############################################################################
+
+-------------------------------------------------------------------
+GPU info:
+
+		Device[0]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 11437 MB
+		Device[1]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+		Device[2]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+		Device[3]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+-------------------------------------------------------------------
+
+##############################################################################
+#                                                                            #
+# TrainConvNet command (train action)                                        #
+#                                                                            #
+##############################################################################
+
+[Multiversohk:15489] 3 more processes have sent help message help-mpi-btl-base.txt / btl:no-nics
+[Multiversohk:15489] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+Node 'model.arrayOfFunctions[1].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 3 x 16].
+Node 'model.arrayOfFunctions[1].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'model.arrayOfFunctions[1].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'model.arrayOfFunctions[1].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'model.arrayOfFunctions[1].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 16].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 16].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 16].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 16].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 16].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 16].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 32].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 32 x 32].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.s.arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [1 x 1 x 16 x 32].
+Node 'z.x.x.x.x.x.s.arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.s.arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.s.arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.s.arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 32 x 32].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 32 x 32].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 32 x 32].
+Node 'z.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 32 x 32].
+Node 'z.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 32 x 64].
+Node '_z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 64 x 64].
+Node '_z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.s.arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [1 x 1 x 32 x 64].
+Node 'z.x.x.x.s.arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.s.arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.s.arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.s.arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 64 x 64].
+Node 'z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 64 x 64].
+Node 'z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 64 x 64].
+Node 'z.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 64 x 64].
+Node 'z.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'model.arrayOfFunctions[8].W' (LearnableParameter operation) operation: Tensor shape was inferred as [10 x 1 x 1 x 64].
+Node 'model.arrayOfFunctions[1].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 3 x 16].
+Node 'model.arrayOfFunctions[1].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'model.arrayOfFunctions[1].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'model.arrayOfFunctions[1].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'model.arrayOfFunctions[1].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 16].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 16].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 16].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 16].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 16].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 16].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 32].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 32 x 32].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.s.arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [1 x 1 x 16 x 32].
+Node 'z.x.x.x.x.x.s.arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.s.arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.s.arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.s.arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 32 x 32].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 32 x 32].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 32 x 32].
+Node 'z.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 32 x 32].
+Node 'z.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 32 x 64].
+Node '_z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 64 x 64].
+Node '_z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.s.arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [1 x 1 x 32 x 64].
+Node 'z.x.x.x.s.arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.s.arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.s.arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.s.arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 64 x 64].
+Node 'z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 64 x 64].
+Node 'z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 64 x 64].
+Node 'z.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 64 x 64].
+Node 'z.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'model.arrayOfFunctions[8].W' (LearnableParameter operation) operation: Tensor shape was inferred as [10 x 1 x 1 x 64].
+Node 'model.arrayOfFunctions[1].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 3 x 16].
+Node 'model.arrayOfFunctions[1].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 3 x 16].
+Node 'model.arrayOfFunctions[1].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'model.arrayOfFunctions[1].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'model.arrayOfFunctions[1].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'model.arrayOfFunctions[1].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 16].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 16].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'model.arrayOfFunctions[1].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'model.arrayOfFunctions[1].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'model.arrayOfFunctions[1].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'model.arrayOfFunctions[1].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 16].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 16].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 16].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 16].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 16].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 16].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 16].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 16].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 16].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 32].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 16].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 32].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 32 x 32].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 32 x 32].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.s.arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [1 x 1 x 16 x 32].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.s.arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.s.arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.s.arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.s.arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [1 x 1 x 16 x 32].
+Node 'z.x.x.x.x.x.s.arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 32 x 32].
+Node 'z.x.x.x.x.x.s.arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.s.arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.s.arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.s.arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 32 x 32].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 32 x 32].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 32 x 32].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 32 x 32].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 32 x 32].
+Node 'z.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 32 x 32].
+Node 'z.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 32 x 32].
+Node 'z.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 32 x 64].
+Node '_z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 32 x 64].
+Node '_z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 64 x 64].
+Node '_z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 64 x 64].
+Node '_z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.s.arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [1 x 1 x 32 x 64].
+Node 'z.x.x.x.s.arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [1 x 1 x 32 x 64].
+Node 'z.x.x.x.s.arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.s.arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.s.arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.s.arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.s.arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.s.arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.s.arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.s.arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 64 x 64].
+Node 'z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 64 x 64].
+Node 'z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 64 x 64].
+Node 'z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 64 x 64].
+Node 'z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 64 x 64].
+Node 'z.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 64 x 64].
+Node 'z.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 64 x 64].
+Node 'z.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 64 x 64].
+Node 'z.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'model.arrayOfFunctions[8].W' (LearnableParameter operation) operation: Tensor shape was inferred as [10 x 1 x 1 x 64].
+Node 'model.arrayOfFunctions[8].W' (LearnableParameter operation) operation: Tensor shape was inferred as [10 x 1 x 1 x 64].
+
+Model has 209 nodes. Using GPU 1.
+
+Training criterion:   ce = CrossEntropyWithSoftmax
+Evaluation criterion: errs = ClassificationError
+
+Training 272474 parameters in 65 parameter tensors.
+
+
+Model has 209 nodes. Using GPU 2.
+
+Training criterion:   ce = CrossEntropyWithSoftmax
+Evaluation criterion: errs = ClassificationError
+
+Training 272474 parameters in 65 parameter tensors.
+
+
+Model has 209 nodes. Using GPU 0.
+
+Training criterion:   ce = CrossEntropyWithSoftmax
+Evaluation criterion: errs = ClassificationError
+
+Training 272474 parameters in 65 parameter tensors.
+
+
+Model has 209 nodes. Using GPU 3.
+
+Training criterion:   ce = CrossEntropyWithSoftmax
+Evaluation criterion: errs = ClassificationError
+
+Training 272474 parameters in 65 parameter tensors.
+
+[INFO] [2017-08-03 05:18:11] multiverso MPI-Net is initialized under MPI_THREAD_SERIALIZED mode.
+[INFO] [2017-08-03 05:18:11] multiverso MPI-Net is initialized under MPI_THREAD_SERIALIZED mode.
+[INFO] [2017-08-03 05:18:11] multiverso MPI-Net is initialized under MPI_THREAD_SERIALIZED mode.
+[INFO] [2017-08-03 05:18:11] multiverso MPI-Net is initialized under MPI_THREAD_SERIALIZED mode.
+[INFO] [2017-08-03 05:18:11] All nodes registered. System contains 4 nodes. num_worker = 4, num_server = 4
+[INFO] [2017-08-03 05:18:11] [INFO] [2017-08-03 05:18:11] Create a async server
+[INFO] [2017-08-03 05:18:11] Create a async server
+[INFO] [2017-08-03 05:18:11] Create a async server
+Create a async server
+[INFO] [2017-08-03 05:18:11] [INFO] [2017-08-03 05:18:11] Rank 2: Multiverso start successfully
+[INFO] [2017-08-03 05:18:11] Rank 1: Multiverso start successfully
+[INFO] [2017-08-03 05:18:11] Rank 3: Multiverso start successfully
+Rank 0: Multiverso start successfully
+multiverso initial model loaded.
+multiverso initial model loaded.
+multiverso initial model loaded.
+multiverso initial model loaded.
+Finished Epoch[ 1 of 160]: [Training] ce = 2.14994375 * 12500; errs = 79.560% * 12500; totalSamplesSeen = 12500; learningRatePerSample = 0.001953125; epochTime=20.9404s
+Finished Epoch[ 1 of 160]: [Training] ce = 2.13676594 * 12500; errs = 79.032% * 12500; totalSamplesSeen = 12500; learningRatePerSample = 0.001953125; epochTime=21.9929s
+Finished Epoch[ 1 of 160]: [Training] ce = 2.14871641 * 12500; errs = 79.848% * 12500; totalSamplesSeen = 12500; learningRatePerSample = 0.001953125; epochTime=22.0512s
+Finished Epoch[ 1 of 160]: [Training] ce = 1.97970938 * 12500; errs = 74.208% * 12500; totalSamplesSeen = 12500; learningRatePerSample = 0.001953125; epochTime=25.252s
+Finished Epoch[ 2 of 160]: [Training] ce = 1.78474891 * 12500; errs = 67.688% * 12500; totalSamplesSeen = 25000; learningRatePerSample = 0.001953125; epochTime=13.7054s
+Finished Epoch[ 2 of 160]: [Training] ce = 1.79190891 * 12500; errs = 68.104% * 12500; totalSamplesSeen = 25000; learningRatePerSample = 0.001953125; epochTime=13.707s
+Finished Epoch[ 2 of 160]: [Training] ce = 1.81074031 * 12500; errs = 68.520% * 12500; totalSamplesSeen = 25000; learningRatePerSample = 0.001953125; epochTime=14.0418s
+Finished Epoch[ 2 of 160]: [Training] ce = 1.79865344 * 12500; errs = 67.960% * 12500; totalSamplesSeen = 25000; learningRatePerSample = 0.001953125; epochTime=14.4706s
+Finished Epoch[ 3 of 160]: [Training] ce = 1.77800703 * 12500; errs = 66.400% * 12500; totalSamplesSeen = 37500; learningRatePerSample = 0.001953125; epochTime=12.3463s
+Finished Epoch[ 3 of 160]: [Training] ce = 1.77038437 * 12500; errs = 65.120% * 12500; totalSamplesSeen = 37500; learningRatePerSample = 0.001953125; epochTime=12.6873s
+Finished Epoch[ 3 of 160]: [Training] ce = 1.78485859 * 12500; errs = 66.160% * 12500; totalSamplesSeen = 37500; learningRatePerSample = 0.001953125; epochTime=12.8045s
+Finished Epoch[ 3 of 160]: [Training] ce = 1.76000656 * 12500; errs = 65.136% * 12500; totalSamplesSeen = 37500; learningRatePerSample = 0.001953125; epochTime=13.3959s
+Finished Epoch[ 4 of 160]: [Training] ce = 1.75764188 * 12500; errs = 64.848% * 12500; totalSamplesSeen = 50000; learningRatePerSample = 0.001953125; epochTime=13.9287s
+Finished Epoch[ 4 of 160]: [Training] ce = 1.74559625 * 12500; errs = 64.664% * 12500; totalSamplesSeen = 50000; learningRatePerSample = 0.001953125; epochTime=14.3185s
+Finished Epoch[ 4 of 160]: [Training] ce = 1.74694016 * 12500; errs = 64.840% * 12500; totalSamplesSeen = 50000; learningRatePerSample = 0.001953125; epochTime=14.4794s
+Finished Epoch[ 4 of 160]: [Training] ce = 1.74598484 * 12500; errs = 64.936% * 12500; totalSamplesSeen = 50000; learningRatePerSample = 0.001953125; epochTime=14.5899s
+Finished Epoch[ 5 of 160]: [Training] ce = 1.48767891 * 12500; errs = 55.488% * 12500; totalSamplesSeen = 62500; learningRatePerSample = 0.001953125; epochTime=13.0325s
+Finished Epoch[ 5 of 160]: [Training] ce = 1.47959172 * 12500; errs = 55.184% * 12500; totalSamplesSeen = 62500; learningRatePerSample = 0.001953125; epochTime=13.484s
+Finished Epoch[ 5 of 160]: [Training] ce = 1.46669750 * 12500; errs = 54.888% * 12500; totalSamplesSeen = 62500; learningRatePerSample = 0.001953125; epochTime=14.1037s
+Finished Epoch[ 5 of 160]: [Training] ce = 1.45602359 * 12500; errs = 54.376% * 12500; totalSamplesSeen = 62500; learningRatePerSample = 0.001953125; epochTime=14.3548s
+Finished Epoch[ 6 of 160]: [Training] ce = 1.35475391 * 12500; errs = 49.864% * 12500; totalSamplesSeen = 75000; learningRatePerSample = 0.001953125; epochTime=13.535s
+Finished Epoch[ 6 of 160]: [Training] ce = 1.34069953 * 12500; errs = 49.056% * 12500; totalSamplesSeen = 75000; learningRatePerSample = 0.001953125; epochTime=14.3303s
+Finished Epoch[ 6 of 160]: [Training] ce = 1.32253016 * 12500; errs = 48.576% * 12500; totalSamplesSeen = 75000; learningRatePerSample = 0.001953125; epochTime=14.594s
+Finished Epoch[ 6 of 160]: [Training] ce = 1.33544062 * 12500; errs = 49.224% * 12500; totalSamplesSeen = 75000; learningRatePerSample = 0.001953125; epochTime=14.999s
+Finished Epoch[ 7 of 160]: [Training] ce = 1.30961562 * 12500; errs = 48.328% * 12500; totalSamplesSeen = 87500; learningRatePerSample = 0.001953125; epochTime=14.3603s
+Finished Epoch[ 7 of 160]: [Training] ce = 1.30572336 * 12500; errs = 47.752% * 12500; totalSamplesSeen = 87500; learningRatePerSample = 0.001953125; epochTime=14.4118s
+Finished Epoch[ 7 of 160]: [Training] ce = 1.32549234 * 12500; errs = 49.112% * 12500; totalSamplesSeen = 87500; learningRatePerSample = 0.001953125; epochTime=14.5319s
+Finished Epoch[ 7 of 160]: [Training] ce = 1.29571617 * 12500; errs = 47.600% * 12500; totalSamplesSeen = 87500; learningRatePerSample = 0.001953125; epochTime=14.6288s
+Finished Epoch[ 8 of 160]: [Training] ce = 1.19673812 * 12500; errs = 43.136% * 12500; totalSamplesSeen = 100000; learningRatePerSample = 0.001953125; epochTime=12.8781s
+Finished Epoch[ 8 of 160]: [Training] ce = 1.19360859 * 12500; errs = 42.760% * 12500; totalSamplesSeen = 100000; learningRatePerSample = 0.001953125; epochTime=13.5529s
+Finished Epoch[ 8 of 160]: [Training] ce = 1.19689906 * 12500; errs = 42.848% * 12500; totalSamplesSeen = 100000; learningRatePerSample = 0.001953125; epochTime=14.6998s
+Finished Epoch[ 8 of 160]: [Training] ce = 1.19477719 * 12500; errs = 43.800% * 12500; totalSamplesSeen = 100000; learningRatePerSample = 0.001953125; epochTime=15.0147s
+Finished Epoch[ 9 of 160]: [Training] ce = 1.10186055 * 12500; errs = 39.480% * 12500; totalSamplesSeen = 112500; learningRatePerSample = 0.001953125; epochTime=13.7154s
+Finished Epoch[ 9 of 160]: [Training] ce = 1.11101898 * 12500; errs = 40.000% * 12500; totalSamplesSeen = 112500; learningRatePerSample = 0.001953125; epochTime=13.8268s
+Finished Epoch[ 9 of 160]: [Training] ce = 1.11907359 * 12500; errs = 40.392% * 12500; totalSamplesSeen = 112500; learningRatePerSample = 0.001953125; epochTime=13.9637s
+Finished Epoch[ 9 of 160]: [Training] ce = 1.08652523 * 12500; errs = 39.064% * 12500; totalSamplesSeen = 112500; learningRatePerSample = 0.001953125; epochTime=14.0864s
+Finished Epoch[10 of 160]: [Training] ce = 1.03967758 * 12500; errs = 37.560% * 12500; totalSamplesSeen = 125000; learningRatePerSample = 0.001953125; epochTime=12.626s
+Finished Epoch[10 of 160]: [Training] ce = 1.05322125 * 12500; errs = 37.760% * 12500; totalSamplesSeen = 125000; learningRatePerSample = 0.001953125; epochTime=12.7936s
+Finished Epoch[10 of 160]: [Training] ce = 1.03002148 * 12500; errs = 37.064% * 12500; totalSamplesSeen = 125000; learningRatePerSample = 0.001953125; epochTime=12.8864s
+Finished Epoch[10 of 160]: [Training] ce = 1.05542711 * 12500; errs = 38.336% * 12500; totalSamplesSeen = 125000; learningRatePerSample = 0.001953125; epochTime=13.3247s
+Finished Epoch[11 of 160]: [Training] ce = 0.99359430 * 12500; errs = 35.256% * 12500; totalSamplesSeen = 137500; learningRatePerSample = 0.001953125; epochTime=12.7681s
+Finished Epoch[11 of 160]: [Training] ce = 0.97934891 * 12500; errs = 35.032% * 12500; totalSamplesSeen = 137500; learningRatePerSample = 0.001953125; epochTime=12.9569s
+Finished Epoch[11 of 160]: [Training] ce = 0.97619422 * 12500; errs = 34.632% * 12500; totalSamplesSeen = 137500; learningRatePerSample = 0.001953125; epochTime=13.3328s
+Finished Epoch[11 of 160]: [Training] ce = 0.99030031 * 12500; errs = 34.952% * 12500; totalSamplesSeen = 137500; learningRatePerSample = 0.001953125; epochTime=13.5127s
+Finished Epoch[12 of 160]: [Training] ce = 0.96207711 * 12500; errs = 34.080% * 12500; totalSamplesSeen = 150000; learningRatePerSample = 0.001953125; epochTime=12.181s
+Finished Epoch[12 of 160]: [Training] ce = 0.96325500 * 12500; errs = 34.008% * 12500; totalSamplesSeen = 150000; learningRatePerSample = 0.001953125; epochTime=12.3855s
+Finished Epoch[12 of 160]: [Training] ce = 0.96766273 * 12500; errs = 34.224% * 12500; totalSamplesSeen = 150000; learningRatePerSample = 0.001953125; epochTime=12.8693s
+Finished Epoch[12 of 160]: [Training] ce = 0.94887016 * 12500; errs = 33.792% * 12500; totalSamplesSeen = 150000; learningRatePerSample = 0.001953125; epochTime=13.624s
+Finished Epoch[13 of 160]: [Training] ce = 0.89257719 * 12500; errs = 31.768% * 12500; totalSamplesSeen = 162500; learningRatePerSample = 0.001953125; epochTime=14.7422s
+Finished Epoch[13 of 160]: [Training] ce = 0.90159664 * 12500; errs = 31.896% * 12500; totalSamplesSeen = 162500; learningRatePerSample = 0.001953125; epochTime=15.0552s
+Finished Epoch[13 of 160]: [Training] ce = 0.91798367 * 12500; errs = 33.376% * 12500; totalSamplesSeen = 162500; learningRatePerSample = 0.001953125; epochTime=15.2004s
+Finished Epoch[13 of 160]: [Training] ce = 0.90572070 * 12500; errs = 32.112% * 12500; totalSamplesSeen = 162500; learningRatePerSample = 0.001953125; epochTime=15.5012s
+Finished Epoch[14 of 160]: [Training] ce = 0.82208273 * 12500; errs = 29.640% * 12500; totalSamplesSeen = 175000; learningRatePerSample = 0.001953125; epochTime=13.7241s
+Finished Epoch[14 of 160]: [Training] ce = 0.81190133 * 12500; errs = 28.288% * 12500; totalSamplesSeen = 175000; learningRatePerSample = 0.001953125; epochTime=14.2475s
+Finished Epoch[14 of 160]: [Training] ce = 0.82305266 * 12500; errs = 28.800% * 12500; totalSamplesSeen = 175000; learningRatePerSample = 0.001953125; epochTime=14.6523s
+Finished Epoch[14 of 160]: [Training] ce = 0.82058289 * 12500; errs = 29.272% * 12500; totalSamplesSeen = 175000; learningRatePerSample = 0.001953125; epochTime=14.6545s
+Finished Epoch[15 of 160]: [Training] ce = 0.74730602 * 12500; errs = 26.216% * 12500; totalSamplesSeen = 187500; learningRatePerSample = 0.001953125; epochTime=12.6359s
+Finished Epoch[15 of 160]: [Training] ce = 0.73579719 * 12500; errs = 25.768% * 12500; totalSamplesSeen = 187500; learningRatePerSample = 0.001953125; epochTime=12.6857s
+Finished Epoch[15 of 160]: [Training] ce = 0.74164859 * 12500; errs = 26.008% * 12500; totalSamplesSeen = 187500; learningRatePerSample = 0.001953125; epochTime=12.8206s
+Finished Epoch[15 of 160]: [Training] ce = 0.73934258 * 12500; errs = 26.048% * 12500; totalSamplesSeen = 187500; learningRatePerSample = 0.001953125; epochTime=13.4892s
+Finished Epoch[16 of 160]: [Training] ce = 0.74953922 * 12500; errs = 26.448% * 12500; totalSamplesSeen = 200000; learningRatePerSample = 0.001953125; epochTime=12.1883s
+Finished Epoch[16 of 160]: [Training] ce = 0.73252203 * 12500; errs = 26.208% * 12500; totalSamplesSeen = 200000; learningRatePerSample = 0.001953125; epochTime=12.7725s
+Finished Epoch[16 of 160]: [Training] ce = 0.72582586 * 12500; errs = 25.760% * 12500; totalSamplesSeen = 200000; learningRatePerSample = 0.001953125; epochTime=12.8056s
+Finished Epoch[16 of 160]: [Training] ce = 0.74232133 * 12500; errs = 26.016% * 12500; totalSamplesSeen = 200000; learningRatePerSample = 0.001953125; epochTime=13.0667s
+Finished Epoch[17 of 160]: [Training] ce = 0.71273906 * 12500; errs = 24.360% * 12500; totalSamplesSeen = 212500; learningRatePerSample = 0.001953125; epochTime=12.2859s
+Finished Epoch[17 of 160]: [Training] ce = 0.73526250 * 12500; errs = 25.360% * 12500; totalSamplesSeen = 212500; learningRatePerSample = 0.001953125; epochTime=12.6806s
+Finished Epoch[17 of 160]: [Training] ce = 0.72559445 * 12500; errs = 24.944% * 12500; totalSamplesSeen = 212500; learningRatePerSample = 0.001953125; epochTime=12.8814s
+Finished Epoch[17 of 160]: [Training] ce = 0.70192617 * 12500; errs = 24.912% * 12500; totalSamplesSeen = 212500; learningRatePerSample = 0.001953125; epochTime=13.2081s
+Finished Epoch[18 of 160]: [Training] ce = 0.65819273 * 12500; errs = 23.160% * 12500; totalSamplesSeen = 225000; learningRatePerSample = 0.001953125; epochTime=12.687s
+Finished Epoch[18 of 160]: [Training] ce = 0.66444445 * 12500; errs = 22.848% * 12500; totalSamplesSeen = 225000; learningRatePerSample = 0.001953125; epochTime=13.0519s
+Finished Epoch[18 of 160]: [Training] ce = 0.66706148 * 12500; errs = 23.472% * 12500; totalSamplesSeen = 225000; learningRatePerSample = 0.001953125; epochTime=13.7477s
+Finished Epoch[18 of 160]: [Training] ce = 0.66644227 * 12500; errs = 23.464% * 12500; totalSamplesSeen = 225000; learningRatePerSample = 0.001953125; epochTime=13.7777s
+Finished Epoch[19 of 160]: [Training] ce = 0.63542539 * 12500; errs = 22.184% * 12500; totalSamplesSeen = 237500; learningRatePerSample = 0.001953125; epochTime=13.6616s
+Finished Epoch[19 of 160]: [Training] ce = 0.63426727 * 12500; errs = 22.088% * 12500; totalSamplesSeen = 237500; learningRatePerSample = 0.001953125; epochTime=13.7854s
+Finished Epoch[19 of 160]: [Training] ce = 0.62268660 * 12500; errs = 21.888% * 12500; totalSamplesSeen = 237500; learningRatePerSample = 0.001953125; epochTime=13.9513s
+Finished Epoch[19 of 160]: [Training] ce = 0.64543895 * 12500; errs = 22.248% * 12500; totalSamplesSeen = 237500; learningRatePerSample = 0.001953125; epochTime=14.1887s
+Finished Epoch[20 of 160]: [Training] ce = 0.61754004 * 12500; errs = 21.376% * 12500; totalSamplesSeen = 250000; learningRatePerSample = 0.001953125; epochTime=13.2025s
+Finished Epoch[20 of 160]: [Training] ce = 0.61815355 * 12500; errs = 21.232% * 12500; totalSamplesSeen = 250000; learningRatePerSample = 0.001953125; epochTime=13.4323s
+Finished Epoch[20 of 160]: [Training] ce = 0.60591918 * 12500; errs = 20.992% * 12500; totalSamplesSeen = 250000; learningRatePerSample = 0.001953125; epochTime=13.485s
+Finished Epoch[20 of 160]: [Training] ce = 0.60516773 * 12500; errs = 20.992% * 12500; totalSamplesSeen = 250000; learningRatePerSample = 0.001953125; epochTime=13.6116s
+Finished Epoch[21 of 160]: [Training] ce = 0.59241613 * 12500; errs = 20.808% * 12500; totalSamplesSeen = 262500; learningRatePerSample = 0.001953125; epochTime=13.4823s
+Finished Epoch[21 of 160]: [Training] ce = 0.58839125 * 12500; errs = 20.840% * 12500; totalSamplesSeen = 262500; learningRatePerSample = 0.001953125; epochTime=14.04s
+Finished Epoch[21 of 160]: [Training] ce = 0.58635047 * 12500; errs = 20.216% * 12500; totalSamplesSeen = 262500; learningRatePerSample = 0.001953125; epochTime=14.4075s
+Finished Epoch[21 of 160]: [Training] ce = 0.58994727 * 12500; errs = 20.544% * 12500; totalSamplesSeen = 262500; learningRatePerSample = 0.001953125; epochTime=14.8456s
+Finished Epoch[22 of 160]: [Training] ce = 0.54747773 * 12500; errs = 19.368% * 12500; totalSamplesSeen = 275000; learningRatePerSample = 0.001953125; epochTime=12.6452s
+Finished Epoch[22 of 160]: [Training] ce = 0.55900184 * 12500; errs = 20.096% * 12500; totalSamplesSeen = 275000; learningRatePerSample = 0.001953125; epochTime=12.9146s
+Finished Epoch[22 of 160]: [Training] ce = 0.55827672 * 12500; errs = 19.520% * 12500; totalSamplesSeen = 275000; learningRatePerSample = 0.001953125; epochTime=12.9262s
+Finished Epoch[22 of 160]: [Training] ce = 0.54894961 * 12500; errs = 19.272% * 12500; totalSamplesSeen = 275000; learningRatePerSample = 0.001953125; epochTime=13.4062s
+Finished Epoch[23 of 160]: [Training] ce = 0.53253449 * 12500; errs = 18.704% * 12500; totalSamplesSeen = 287500; learningRatePerSample = 0.001953125; epochTime=14.3703s
+Finished Epoch[23 of 160]: [Training] ce = 0.55511895 * 12500; errs = 19.712% * 12500; totalSamplesSeen = 287500; learningRatePerSample = 0.001953125; epochTime=14.6997s
+Finished Epoch[23 of 160]: [Training] ce = 0.55233566 * 12500; errs = 19.568% * 12500; totalSamplesSeen = 287500; learningRatePerSample = 0.001953125; epochTime=15.0899s
+Finished Epoch[23 of 160]: [Training] ce = 0.54949031 * 12500; errs = 19.464% * 12500; totalSamplesSeen = 287500; learningRatePerSample = 0.001953125; epochTime=15.4562s
+Finished Epoch[24 of 160]: [Training] ce = 0.54023164 * 12500; errs = 18.848% * 12500; totalSamplesSeen = 300000; learningRatePerSample = 0.001953125; epochTime=13.9633s
+Finished Epoch[24 of 160]: [Training] ce = 0.53183602 * 12500; errs = 18.464% * 12500; totalSamplesSeen = 300000; learningRatePerSample = 0.001953125; epochTime=14.9104s
+Finished Epoch[24 of 160]: [Training] ce = 0.55267438 * 12500; errs = 19.192% * 12500; totalSamplesSeen = 300000; learningRatePerSample = 0.001953125; epochTime=15.1236s
+Finished Epoch[24 of 160]: [Training] ce = 0.53186273 * 12500; errs = 18.920% * 12500; totalSamplesSeen = 300000; learningRatePerSample = 0.001953125; epochTime=15.4679s
+Finished Epoch[25 of 160]: [Training] ce = 0.52368648 * 12500; errs = 18.216% * 12500; totalSamplesSeen = 312500; learningRatePerSample = 0.001953125; epochTime=13.0656s
+Finished Epoch[25 of 160]: [Training] ce = 0.53107848 * 12500; errs = 18.504% * 12500; totalSamplesSeen = 312500; learningRatePerSample = 0.001953125; epochTime=13.4065s
+Finished Epoch[25 of 160]: [Training] ce = 0.52109566 * 12500; errs = 18.192% * 12500; totalSamplesSeen = 312500; learningRatePerSample = 0.001953125; epochTime=14.0344s
+Finished Epoch[25 of 160]: [Training] ce = 0.51862812 * 12500; errs = 17.832% * 12500; totalSamplesSeen = 312500; learningRatePerSample = 0.001953125; epochTime=14.2898s
+Finished Epoch[26 of 160]: [Training] ce = 0.50313848 * 12500; errs = 17.552% * 12500; totalSamplesSeen = 325000; learningRatePerSample = 0.001953125; epochTime=14.5097s
+Finished Epoch[26 of 160]: [Training] ce = 0.50113625 * 12500; errs = 17.376% * 12500; totalSamplesSeen = 325000; learningRatePerSample = 0.001953125; epochTime=14.9714s
+Finished Epoch[26 of 160]: [Training] ce = 0.49860293 * 12500; errs = 17.008% * 12500; totalSamplesSeen = 325000; learningRatePerSample = 0.001953125; epochTime=13.5156s
+Finished Epoch[26 of 160]: [Training] ce = 0.48914199 * 12500; errs = 17.088% * 12500; totalSamplesSeen = 325000; learningRatePerSample = 0.001953125; epochTime=15.1788s
+Finished Epoch[27 of 160]: [Training] ce = 0.47509625 * 12500; errs = 16.376% * 12500; totalSamplesSeen = 337500; learningRatePerSample = 0.001953125; epochTime=14.0757s
+Finished Epoch[27 of 160]: [Training] ce = 0.48052852 * 12500; errs = 16.584% * 12500; totalSamplesSeen = 337500; learningRatePerSample = 0.001953125; epochTime=14.1132s
+Finished Epoch[27 of 160]: [Training] ce = 0.49173941 * 12500; errs = 17.184% * 12500; totalSamplesSeen = 337500; learningRatePerSample = 0.001953125; epochTime=14.3785s
+Finished Epoch[27 of 160]: [Training] ce = 0.49698402 * 12500; errs = 17.360% * 12500; totalSamplesSeen = 337500; learningRatePerSample = 0.001953125; epochTime=14.4291s
+Finished Epoch[28 of 160]: [Training] ce = 0.46358273 * 12500; errs = 16.168% * 12500; totalSamplesSeen = 350000; learningRatePerSample = 0.001953125; epochTime=13.0649s
+Finished Epoch[28 of 160]: [Training] ce = 0.47311184 * 12500; errs = 16.320% * 12500; totalSamplesSeen = 350000; learningRatePerSample = 0.001953125; epochTime=13.2857s
+Finished Epoch[28 of 160]: [Training] ce = 0.48216172 * 12500; errs = 16.344% * 12500; totalSamplesSeen = 350000; learningRatePerSample = 0.001953125; epochTime=13.6052s
+Finished Epoch[28 of 160]: [Training] ce = 0.46488914 * 12500; errs = 16.264% * 12500; totalSamplesSeen = 350000; learningRatePerSample = 0.001953125; epochTime=13.8514s
+Finished Epoch[29 of 160]: [Training] ce = 0.46673336 * 12500; errs = 16.144% * 12500; totalSamplesSeen = 362500; learningRatePerSample = 0.001953125; epochTime=12.4693s
+Finished Epoch[29 of 160]: [Training] ce = 0.45618645 * 12500; errs = 16.312% * 12500; totalSamplesSeen = 362500; learningRatePerSample = 0.001953125; epochTime=12.6665s
+Finished Epoch[29 of 160]: [Training] ce = 0.45844133 * 12500; errs = 16.072% * 12500; totalSamplesSeen = 362500; learningRatePerSample = 0.001953125; epochTime=12.956s
+Finished Epoch[29 of 160]: [Training] ce = 0.45107621 * 12500; errs = 15.920% * 12500; totalSamplesSeen = 362500; learningRatePerSample = 0.001953125; epochTime=13.232s
+Finished Epoch[30 of 160]: [Training] ce = 0.44672484 * 12500; errs = 15.976% * 12500; totalSamplesSeen = 375000; learningRatePerSample = 0.001953125; epochTime=14.6102s
+Finished Epoch[30 of 160]: [Training] ce = 0.43504063 * 12500; errs = 15.128% * 12500; totalSamplesSeen = 375000; learningRatePerSample = 0.001953125; epochTime=15.0361s
+Finished Epoch[30 of 160]: [Training] ce = 0.45990246 * 12500; errs = 15.904% * 12500; totalSamplesSeen = 375000; learningRatePerSample = 0.001953125; epochTime=15.2773s
+Finished Epoch[30 of 160]: [Training] ce = 0.45197129 * 12500; errs = 15.864% * 12500; totalSamplesSeen = 375000; learningRatePerSample = 0.001953125; epochTime=15.8087s
+Finished Epoch[31 of 160]: [Training] ce = 0.41484934 * 12500; errs = 14.152% * 12500; totalSamplesSeen = 387500; learningRatePerSample = 0.001953125; epochTime=13.1723s
+Finished Epoch[31 of 160]: [Training] ce = 0.44095723 * 12500; errs = 15.472% * 12500; totalSamplesSeen = 387500; learningRatePerSample = 0.001953125; epochTime=13.3046s
+Finished Epoch[31 of 160]: [Training] ce = 0.43996980 * 12500; errs = 15.232% * 12500; totalSamplesSeen = 387500; learningRatePerSample = 0.001953125; epochTime=13.4343s
+Finished Epoch[31 of 160]: [Training] ce = 0.42313250 * 12500; errs = 14.528% * 12500; totalSamplesSeen = 387500; learningRatePerSample = 0.001953125; epochTime=13.6895s
+Finished Epoch[32 of 160]: [Training] ce = 0.40337934 * 12500; errs = 14.248% * 12500; totalSamplesSeen = 400000; learningRatePerSample = 0.001953125; epochTime=14.9423s
+Finished Epoch[32 of 160]: [Training] ce = 0.40232629 * 12500; errs = 14.000% * 12500; totalSamplesSeen = 400000; learningRatePerSample = 0.001953125; epochTime=15.7082s
+Finished Epoch[32 of 160]: [Training] ce = 0.39462844 * 12500; errs = 13.808% * 12500; totalSamplesSeen = 400000; learningRatePerSample = 0.001953125; epochTime=15.7567s
+Finished Epoch[32 of 160]: [Training] ce = 0.41478652 * 12500; errs = 14.888% * 12500; totalSamplesSeen = 400000; learningRatePerSample = 0.001953125; epochTime=15.9851s
+Finished Epoch[33 of 160]: [Training] ce = 0.40649852 * 12500; errs = 14.088% * 12500; totalSamplesSeen = 412500; learningRatePerSample = 0.001953125; epochTime=13.021s
+Finished Epoch[33 of 160]: [Training] ce = 0.39770758 * 12500; errs = 13.912% * 12500; totalSamplesSeen = 412500; learningRatePerSample = 0.001953125; epochTime=13.2093s
+Finished Epoch[33 of 160]: [Training] ce = 0.41809949 * 12500; errs = 14.056% * 12500; totalSamplesSeen = 412500; learningRatePerSample = 0.001953125; epochTime=13.5904s
+Finished Epoch[33 of 160]: [Training] ce = 0.39557695 * 12500; errs = 13.648% * 12500; totalSamplesSeen = 412500; learningRatePerSample = 0.001953125; epochTime=13.6826s
+Finished Epoch[34 of 160]: [Training] ce = 0.39999430 * 12500; errs = 13.912% * 12500; totalSamplesSeen = 425000; learningRatePerSample = 0.001953125; epochTime=13.7334s
+Finished Epoch[34 of 160]: [Training] ce = 0.40592551 * 12500; errs = 14.112% * 12500; totalSamplesSeen = 425000; learningRatePerSample = 0.001953125; epochTime=13.8426s
+Finished Epoch[34 of 160]: [Training] ce = 0.40574805 * 12500; errs = 14.144% * 12500; totalSamplesSeen = 425000; learningRatePerSample = 0.001953125; epochTime=14.156s
+Finished Epoch[34 of 160]: [Training] ce = 0.40951906 * 12500; errs = 14.112% * 12500; totalSamplesSeen = 425000; learningRatePerSample = 0.001953125; epochTime=14.4697s
+Finished Epoch[35 of 160]: [Training] ce = 0.40535516 * 12500; errs = 13.992% * 12500; totalSamplesSeen = 437500; learningRatePerSample = 0.001953125; epochTime=12.9964s
+Finished Epoch[35 of 160]: [Training] ce = 0.40739398 * 12500; errs = 14.184% * 12500; totalSamplesSeen = 437500; learningRatePerSample = 0.001953125; epochTime=13.4119s
+Finished Epoch[35 of 160]: [Training] ce = 0.40128551 * 12500; errs = 13.560% * 12500; totalSamplesSeen = 437500; learningRatePerSample = 0.001953125; epochTime=13.8063s
+Finished Epoch[35 of 160]: [Training] ce = 0.40414926 * 12500; errs = 13.960% * 12500; totalSamplesSeen = 437500; learningRatePerSample = 0.001953125; epochTime=14.5905s
+Finished Epoch[36 of 160]: [Training] ce = 0.37744531 * 12500; errs = 13.168% * 12500; totalSamplesSeen = 450000; learningRatePerSample = 0.001953125; epochTime=12.9501s
+Finished Epoch[36 of 160]: [Training] ce = 0.36843730 * 12500; errs = 13.072% * 12500; totalSamplesSeen = 450000; learningRatePerSample = 0.001953125; epochTime=13.9466s
+Finished Epoch[36 of 160]: [Training] ce = 0.38449129 * 12500; errs = 13.256% * 12500; totalSamplesSeen = 450000; learningRatePerSample = 0.001953125; epochTime=14.194s
+Finished Epoch[36 of 160]: [Training] ce = 0.37074523 * 12500; errs = 12.880% * 12500; totalSamplesSeen = 450000; learningRatePerSample = 0.001953125; epochTime=14.6492s
+Finished Epoch[37 of 160]: [Training] ce = 0.38146570 * 12500; errs = 13.360% * 12500; totalSamplesSeen = 462500; learningRatePerSample = 0.001953125; epochTime=14.0405s
+Finished Epoch[37 of 160]: [Training] ce = 0.37155453 * 12500; errs = 13.000% * 12500; totalSamplesSeen = 462500; learningRatePerSample = 0.001953125; epochTime=14.0638s
+Finished Epoch[37 of 160]: [Training] ce = 0.37267332 * 12500; errs = 12.840% * 12500; totalSamplesSeen = 462500; learningRatePerSample = 0.001953125; epochTime=14.5495s
+Finished Epoch[37 of 160]: [Training] ce = 0.37840633 * 12500; errs = 13.208% * 12500; totalSamplesSeen = 462500; learningRatePerSample = 0.001953125; epochTime=14.601s
+Finished Epoch[38 of 160]: [Training] ce = 0.36637801 * 12500; errs = 12.728% * 12500; totalSamplesSeen = 475000; learningRatePerSample = 0.001953125; epochTime=14.0478s
+Finished Epoch[38 of 160]: [Training] ce = 0.38600473 * 12500; errs = 13.520% * 12500; totalSamplesSeen = 475000; learningRatePerSample = 0.001953125; epochTime=14.4279s
+Finished Epoch[38 of 160]: [Training] ce = 0.38044684 * 12500; errs = 13.408% * 12500; totalSamplesSeen = 475000; learningRatePerSample = 0.001953125; epochTime=14.4777s
+Finished Epoch[38 of 160]: [Training] ce = 0.36836902 * 12500; errs = 12.952% * 12500; totalSamplesSeen = 475000; learningRatePerSample = 0.001953125; epochTime=14.545s
+Finished Epoch[39 of 160]: [Training] ce = 0.36836301 * 12500; errs = 12.848% * 12500; totalSamplesSeen = 487500; learningRatePerSample = 0.001953125; epochTime=13.4032s
+Finished Epoch[39 of 160]: [Training] ce = 0.35264223 * 12500; errs = 12.200% * 12500; totalSamplesSeen = 487500; learningRatePerSample = 0.001953125; epochTime=13.4743s
+Finished Epoch[39 of 160]: [Training] ce = 0.36465117 * 12500; errs = 12.800% * 12500; totalSamplesSeen = 487500; learningRatePerSample = 0.001953125; epochTime=13.4849s
+Finished Epoch[39 of 160]: [Training] ce = 0.36360867 * 12500; errs = 12.896% * 12500; totalSamplesSeen = 487500; learningRatePerSample = 0.001953125; epochTime=13.8331s
+Finished Epoch[40 of 160]: [Training] ce = 0.35898641 * 12500; errs = 12.456% * 12500; totalSamplesSeen = 500000; learningRatePerSample = 0.001953125; epochTime=12.4301s
+Finished Epoch[40 of 160]: [Training] ce = 0.35096922 * 12500; errs = 12.536% * 12500; totalSamplesSeen = 500000; learningRatePerSample = 0.001953125; epochTime=12.4337s
+Finished Epoch[40 of 160]: [Training] ce = 0.35524832 * 12500; errs = 12.264% * 12500; totalSamplesSeen = 500000; learningRatePerSample = 0.001953125; epochTime=13.3495s
+Finished Epoch[40 of 160]: [Training] ce = 0.36247043 * 12500; errs = 12.472% * 12500; totalSamplesSeen = 500000; learningRatePerSample = 0.001953125; epochTime=13.4154s
+Finished Epoch[41 of 160]: [Training] ce = 0.36410594 * 12500; errs = 12.592% * 12500; totalSamplesSeen = 512500; learningRatePerSample = 0.001953125; epochTime=11.9959s
+Finished Epoch[41 of 160]: [Training] ce = 0.35921969 * 12500; errs = 12.536% * 12500; totalSamplesSeen = 512500; learningRatePerSample = 0.001953125; epochTime=12.6775s
+Finished Epoch[41 of 160]: [Training] ce = 0.35814195 * 12500; errs = 12.520% * 12500; totalSamplesSeen = 512500; learningRatePerSample = 0.001953125; epochTime=13.5119s
+Finished Epoch[41 of 160]: [Training] ce = 0.35059395 * 12500; errs = 12.088% * 12500; totalSamplesSeen = 512500; learningRatePerSample = 0.001953125; epochTime=13.5276s
+Finished Epoch[42 of 160]: [Training] ce = 0.34240738 * 12500; errs = 12.144% * 12500; totalSamplesSeen = 525000; learningRatePerSample = 0.001953125; epochTime=14.3803s
+Finished Epoch[42 of 160]: [Training] ce = 0.35145543 * 12500; errs = 12.344% * 12500; totalSamplesSeen = 525000; learningRatePerSample = 0.001953125; epochTime=14.7138s
+Finished Epoch[42 of 160]: [Training] ce = 0.34815766 * 12500; errs = 12.472% * 12500; totalSamplesSeen = 525000; learningRatePerSample = 0.001953125; epochTime=15.1355s
+Finished Epoch[42 of 160]: [Training] ce = 0.34141473 * 12500; errs = 12.160% * 12500; totalSamplesSeen = 525000; learningRatePerSample = 0.001953125; epochTime=15.217s
+Finished Epoch[43 of 160]: [Training] ce = 0.33361133 * 12500; errs = 11.880% * 12500; totalSamplesSeen = 537500; learningRatePerSample = 0.001953125; epochTime=12.5468s
+Finished Epoch[43 of 160]: [Training] ce = 0.33165328 * 12500; errs = 11.352% * 12500; totalSamplesSeen = 537500; learningRatePerSample = 0.001953125; epochTime=12.6726s
+Finished Epoch[43 of 160]: [Training] ce = 0.34818293 * 12500; errs = 12.168% * 12500; totalSamplesSeen = 537500; learningRatePerSample = 0.001953125; epochTime=12.7026s
+Finished Epoch[43 of 160]: [Training] ce = 0.33881008 * 12500; errs = 12.064% * 12500; totalSamplesSeen = 537500; learningRatePerSample = 0.001953125; epochTime=13.1666s
+Finished Epoch[44 of 160]: [Training] ce = 0.32880754 * 12500; errs = 11.400% * 12500; totalSamplesSeen = 550000; learningRatePerSample = 0.001953125; epochTime=13.2519s
+Finished Epoch[44 of 160]: [Training] ce = 0.33719918 * 12500; errs = 11.456% * 12500; totalSamplesSeen = 550000; learningRatePerSample = 0.001953125; epochTime=13.4153s
+Finished Epoch[44 of 160]: [Training] ce = 0.33960633 * 12500; errs = 12.016% * 12500; totalSamplesSeen = 550000; learningRatePerSample = 0.001953125; epochTime=13.7565s
+Finished Epoch[44 of 160]: [Training] ce = 0.35140801 * 12500; errs = 12.064% * 12500; totalSamplesSeen = 550000; learningRatePerSample = 0.001953125; epochTime=14.0872s
+Finished Epoch[45 of 160]: [Training] ce = 0.34586555 * 12500; errs = 12.080% * 12500; totalSamplesSeen = 562500; learningRatePerSample = 0.001953125; epochTime=12.8863s
+Finished Epoch[45 of 160]: [Training] ce = 0.36103430 * 12500; errs = 12.680% * 12500; totalSamplesSeen = 562500; learningRatePerSample = 0.001953125; epochTime=12.9587s
+Finished Epoch[45 of 160]: [Training] ce = 0.35082914 * 12500; errs = 12.144% * 12500; totalSamplesSeen = 562500; learningRatePerSample = 0.001953125; epochTime=13.3994s
+Finished Epoch[45 of 160]: [Training] ce = 0.34553465 * 12500; errs = 11.992% * 12500; totalSamplesSeen = 562500; learningRatePerSample = 0.001953125; epochTime=14.007s
+Finished Epoch[46 of 160]: [Training] ce = 0.35114578 * 12500; errs = 12.392% * 12500; totalSamplesSeen = 575000; learningRatePerSample = 0.001953125; epochTime=14.2099s
+Finished Epoch[46 of 160]: [Training] ce = 0.34930945 * 12500; errs = 12.224% * 12500; totalSamplesSeen = 575000; learningRatePerSample = 0.001953125; epochTime=14.2284s
+Finished Epoch[46 of 160]: [Training] ce = 0.34304680 * 12500; errs = 12.080% * 12500; totalSamplesSeen = 575000; learningRatePerSample = 0.001953125; epochTime=14.6794s
+Finished Epoch[46 of 160]: [Training] ce = 0.34571957 * 12500; errs = 12.000% * 12500; totalSamplesSeen = 575000; learningRatePerSample = 0.001953125; epochTime=15.1329s
+Finished Epoch[47 of 160]: [Training] ce = 0.32666609 * 12500; errs = 11.256% * 12500; totalSamplesSeen = 587500; learningRatePerSample = 0.001953125; epochTime=11.169s
+Finished Epoch[47 of 160]: [Training] ce = 0.31070289 * 12500; errs = 10.880% * 12500; totalSamplesSeen = 587500; learningRatePerSample = 0.001953125; epochTime=13.7829s
+Finished Epoch[47 of 160]: [Training] ce = 0.31898912 * 12500; errs = 11.048% * 12500; totalSamplesSeen = 587500; learningRatePerSample = 0.001953125; epochTime=14.124s
+Finished Epoch[47 of 160]: [Training] ce = 0.31777234 * 12500; errs = 11.256% * 12500; totalSamplesSeen = 587500; learningRatePerSample = 0.001953125; epochTime=14.41s
+Finished Epoch[48 of 160]: [Training] ce = 0.29082551 * 12500; errs = 10.320% * 12500; totalSamplesSeen = 600000; learningRatePerSample = 0.001953125; epochTime=13.6329s
+Finished Epoch[48 of 160]: [Training] ce = 0.30388385 * 12500; errs = 10.672% * 12500; totalSamplesSeen = 600000; learningRatePerSample = 0.001953125; epochTime=14.023s
+Finished Epoch[48 of 160]: [Training] ce = 0.30180088 * 12500; errs = 10.328% * 12500; totalSamplesSeen = 600000; learningRatePerSample = 0.001953125; epochTime=14.0279s
+Finished Epoch[48 of 160]: [Training] ce = 0.30639035 * 12500; errs = 10.712% * 12500; totalSamplesSeen = 600000; learningRatePerSample = 0.001953125; epochTime=14.6841s
+Finished Epoch[49 of 160]: [Training] ce = 0.29908195 * 12500; errs = 10.672% * 12500; totalSamplesSeen = 612500; learningRatePerSample = 0.001953125; epochTime=13.1972s
+Finished Epoch[49 of 160]: [Training] ce = 0.29276229 * 12500; errs = 10.384% * 12500; totalSamplesSeen = 612500; learningRatePerSample = 0.001953125; epochTime=13.2742s
+Finished Epoch[49 of 160]: [Training] ce = 0.31108775 * 12500; errs = 11.096% * 12500; totalSamplesSeen = 612500; learningRatePerSample = 0.001953125; epochTime=13.7749s
+Finished Epoch[49 of 160]: [Training] ce = 0.29929795 * 12500; errs = 10.280% * 12500; totalSamplesSeen = 612500; learningRatePerSample = 0.001953125; epochTime=14.2661s
+Finished Epoch[50 of 160]: [Training] ce = 0.30306598 * 12500; errs = 10.480% * 12500; totalSamplesSeen = 625000; learningRatePerSample = 0.001953125; epochTime=12.6538s
+Finished Epoch[50 of 160]: [Training] ce = 0.29589756 * 12500; errs = 10.224% * 12500; totalSamplesSeen = 625000; learningRatePerSample = 0.001953125; epochTime=12.7722s
+Finished Epoch[50 of 160]: [Training] ce = 0.30013230 * 12500; errs = 10.440% * 12500; totalSamplesSeen = 625000; learningRatePerSample = 0.001953125; epochTime=13.4362s
+Finished Epoch[50 of 160]: [Training] ce = 0.29759648 * 12500; errs = 10.456% * 12500; totalSamplesSeen = 625000; learningRatePerSample = 0.001953125; epochTime=12.519s
+Finished Epoch[51 of 160]: [Training] ce = 0.29084150 * 12500; errs = 10.248% * 12500; totalSamplesSeen = 637500; learningRatePerSample = 0.001953125; epochTime=13.0375s
+Finished Epoch[51 of 160]: [Training] ce = 0.28684180 * 12500; errs = 10.424% * 12500; totalSamplesSeen = 637500; learningRatePerSample = 0.001953125; epochTime=13.1495s
+Finished Epoch[51 of 160]: [Training] ce = 0.28464893 * 12500; errs = 10.064% * 12500; totalSamplesSeen = 637500; learningRatePerSample = 0.001953125; epochTime=13.3284s
+Finished Epoch[51 of 160]: [Training] ce = 0.30022666 * 12500; errs = 10.400% * 12500; totalSamplesSeen = 637500; learningRatePerSample = 0.001953125; epochTime=13.5405s
+Finished Epoch[52 of 160]: [Training] ce = 0.28624369 * 12500; errs = 10.096% * 12500; totalSamplesSeen = 650000; learningRatePerSample = 0.001953125; epochTime=14.2784s
+Finished Epoch[52 of 160]: [Training] ce = 0.29204770 * 12500; errs = 10.232% * 12500; totalSamplesSeen = 650000; learningRatePerSample = 0.001953125; epochTime=14.4459s
+Finished Epoch[52 of 160]: [Training] ce = 0.28470752 * 12500; errs = 10.248% * 12500; totalSamplesSeen = 650000; learningRatePerSample = 0.001953125; epochTime=15.0456s
+Finished Epoch[52 of 160]: [Training] ce = 0.30258168 * 12500; errs = 10.520% * 12500; totalSamplesSeen = 650000; learningRatePerSample = 0.001953125; epochTime=15.4646s
+Finished Epoch[53 of 160]: [Training] ce = 0.28784201 * 12500; errs = 10.160% * 12500; totalSamplesSeen = 662500; learningRatePerSample = 0.001953125; epochTime=11.0903s
+Finished Epoch[53 of 160]: [Training] ce = 0.26468514 * 12500; errs = 9.488% * 12500; totalSamplesSeen = 662500; learningRatePerSample = 0.001953125; epochTime=11.2211s
+Finished Epoch[53 of 160]: [Training] ce = 0.28591516 * 12500; errs = 10.080% * 12500; totalSamplesSeen = 662500; learningRatePerSample = 0.001953125; epochTime=12.7666s
+Finished Epoch[53 of 160]: [Training] ce = 0.26963547 * 12500; errs = 9.600% * 12500; totalSamplesSeen = 662500; learningRatePerSample = 0.001953125; epochTime=14.9594s
+Finished Epoch[54 of 160]: [Training] ce = 0.26015889 * 12500; errs = 9.240% * 12500; totalSamplesSeen = 675000; learningRatePerSample = 0.001953125; epochTime=13.7505s
+Finished Epoch[54 of 160]: [Training] ce = 0.26464205 * 12500; errs = 9.640% * 12500; totalSamplesSeen = 675000; learningRatePerSample = 0.001953125; epochTime=14.0153s
+Finished Epoch[54 of 160]: [Training] ce = 0.28012369 * 12500; errs = 9.864% * 12500; totalSamplesSeen = 675000; learningRatePerSample = 0.001953125; epochTime=14.0672s
+Finished Epoch[54 of 160]: [Training] ce = 0.27208746 * 12500; errs = 9.248% * 12500; totalSamplesSeen = 675000; learningRatePerSample = 0.001953125; epochTime=14.3174s
+Finished Epoch[55 of 160]: [Training] ce = 0.28132453 * 12500; errs = 10.080% * 12500; totalSamplesSeen = 687500; learningRatePerSample = 0.001953125; epochTime=13.6274s
+Finished Epoch[55 of 160]: [Training] ce = 0.28168484 * 12500; errs = 9.648% * 12500; totalSamplesSeen = 687500; learningRatePerSample = 0.001953125; epochTime=14.6026s
+Finished Epoch[55 of 160]: [Training] ce = 0.29236914 * 12500; errs = 10.344% * 12500; totalSamplesSeen = 687500; learningRatePerSample = 0.001953125; epochTime=14.7101s
+Finished Epoch[55 of 160]: [Training] ce = 0.28495920 * 12500; errs = 9.928% * 12500; totalSamplesSeen = 687500; learningRatePerSample = 0.001953125; epochTime=14.762s
+Finished Epoch[56 of 160]: [Training] ce = 0.28314176 * 12500; errs = 9.928% * 12500; totalSamplesSeen = 700000; learningRatePerSample = 0.001953125; epochTime=13.9156s
+Finished Epoch[56 of 160]: [Training] ce = 0.27379205 * 12500; errs = 9.608% * 12500; totalSamplesSeen = 700000; learningRatePerSample = 0.001953125; epochTime=13.9199s
+Finished Epoch[56 of 160]: [Training] ce = 0.27937637 * 12500; errs = 9.728% * 12500; totalSamplesSeen = 700000; learningRatePerSample = 0.001953125; epochTime=14.0413s
+Finished Epoch[56 of 160]: [Training] ce = 0.28195379 * 12500; errs = 9.696% * 12500; totalSamplesSeen = 700000; learningRatePerSample = 0.001953125; epochTime=14.0564s
+Finished Epoch[57 of 160]: [Training] ce = 0.27927521 * 12500; errs = 9.760% * 12500; totalSamplesSeen = 712500; learningRatePerSample = 0.001953125; epochTime=12.9293s
+Finished Epoch[57 of 160]: [Training] ce = 0.27436182 * 12500; errs = 9.448% * 12500; totalSamplesSeen = 712500; learningRatePerSample = 0.001953125; epochTime=13.3609s
+Finished Epoch[57 of 160]: [Training] ce = 0.28490172 * 12500; errs = 10.024% * 12500; totalSamplesSeen = 712500; learningRatePerSample = 0.001953125; epochTime=13.6439s
+Finished Epoch[57 of 160]: [Training] ce = 0.27961855 * 12500; errs = 9.544% * 12500; totalSamplesSeen = 712500; learningRatePerSample = 0.001953125; epochTime=13.6974s
+Finished Epoch[58 of 160]: [Training] ce = 0.27442738 * 12500; errs = 9.432% * 12500; totalSamplesSeen = 725000; learningRatePerSample = 0.001953125; epochTime=12.9892s
+Finished Epoch[58 of 160]: [Training] ce = 0.27263090 * 12500; errs = 9.848% * 12500; totalSamplesSeen = 725000; learningRatePerSample = 0.001953125; epochTime=13.226s
+Finished Epoch[58 of 160]: [Training] ce = 0.27873646 * 12500; errs = 9.920% * 12500; totalSamplesSeen = 725000; learningRatePerSample = 0.001953125; epochTime=13.4761s
+Finished Epoch[58 of 160]: [Training] ce = 0.27191090 * 12500; errs = 9.592% * 12500; totalSamplesSeen = 725000; learningRatePerSample = 0.001953125; epochTime=13.6509s
+Finished Epoch[59 of 160]: [Training] ce = 0.27847371 * 12500; errs = 9.656% * 12500; totalSamplesSeen = 737500; learningRatePerSample = 0.001953125; epochTime=13.1797s
+Finished Epoch[59 of 160]: [Training] ce = 0.26750811 * 12500; errs = 9.440% * 12500; totalSamplesSeen = 737500; learningRatePerSample = 0.001953125; epochTime=13.3542s
+Finished Epoch[59 of 160]: [Training] ce = 0.26948664 * 12500; errs = 9.464% * 12500; totalSamplesSeen = 737500; learningRatePerSample = 0.001953125; epochTime=13.5352s
+Finished Epoch[59 of 160]: [Training] ce = 0.27156746 * 12500; errs = 9.536% * 12500; totalSamplesSeen = 737500; learningRatePerSample = 0.001953125; epochTime=13.746s
+Finished Epoch[60 of 160]: [Training] ce = 0.25992533 * 12500; errs = 8.920% * 12500; totalSamplesSeen = 750000; learningRatePerSample = 0.001953125; epochTime=14.4863s
+Finished Epoch[60 of 160]: [Training] ce = 0.25993652 * 12500; errs = 9.072% * 12500; totalSamplesSeen = 750000; learningRatePerSample = 0.001953125; epochTime=14.4803s
+Finished Epoch[60 of 160]: [Training] ce = 0.26875719 * 12500; errs = 9.232% * 12500; totalSamplesSeen = 750000; learningRatePerSample = 0.001953125; epochTime=15.0945s
+Finished Epoch[60 of 160]: [Training] ce = 0.26198641 * 12500; errs = 9.128% * 12500; totalSamplesSeen = 750000; learningRatePerSample = 0.001953125; epochTime=15.0993s
+Finished Epoch[61 of 160]: [Training] ce = 0.27876594 * 12500; errs = 9.392% * 12500; totalSamplesSeen = 762500; learningRatePerSample = 0.001953125; epochTime=13.8315s
+Finished Epoch[61 of 160]: [Training] ce = 0.26925205 * 12500; errs = 9.704% * 12500; totalSamplesSeen = 762500; learningRatePerSample = 0.001953125; epochTime=13.9186s
+Finished Epoch[61 of 160]: [Training] ce = 0.26270947 * 12500; errs = 9.392% * 12500; totalSamplesSeen = 762500; learningRatePerSample = 0.001953125; epochTime=13.9197s
+Finished Epoch[61 of 160]: [Training] ce = 0.26973588 * 12500; errs = 9.496% * 12500; totalSamplesSeen = 762500; learningRatePerSample = 0.001953125; epochTime=14.5707s
+Finished Epoch[62 of 160]: [Training] ce = 0.26541930 * 12500; errs = 9.288% * 12500; totalSamplesSeen = 775000; learningRatePerSample = 0.001953125; epochTime=13.088s
+Finished Epoch[62 of 160]: [Training] ce = 0.25294521 * 12500; errs = 9.024% * 12500; totalSamplesSeen = 775000; learningRatePerSample = 0.001953125; epochTime=13.3816s
+Finished Epoch[62 of 160]: [Training] ce = 0.26426104 * 12500; errs = 9.432% * 12500; totalSamplesSeen = 775000; learningRatePerSample = 0.001953125; epochTime=13.7777s
+Finished Epoch[62 of 160]: [Training] ce = 0.25340037 * 12500; errs = 8.992% * 12500; totalSamplesSeen = 775000; learningRatePerSample = 0.001953125; epochTime=14.0684s
+Finished Epoch[63 of 160]: [Training] ce = 0.24951848 * 12500; errs = 8.752% * 12500; totalSamplesSeen = 787500; learningRatePerSample = 0.001953125; epochTime=12.9482s
+Finished Epoch[63 of 160]: [Training] ce = 0.25856588 * 12500; errs = 8.960% * 12500; totalSamplesSeen = 787500; learningRatePerSample = 0.001953125; epochTime=13.0209s
+Finished Epoch[63 of 160]: [Training] ce = 0.25730320 * 12500; errs = 9.048% * 12500; totalSamplesSeen = 787500; learningRatePerSample = 0.001953125; epochTime=13.812s
+Finished Epoch[63 of 160]: [Training] ce = 0.25536760 * 12500; errs = 9.112% * 12500; totalSamplesSeen = 787500; learningRatePerSample = 0.001953125; epochTime=14.5802s
+Finished Epoch[64 of 160]: [Training] ce = 0.24370881 * 12500; errs = 8.704% * 12500; totalSamplesSeen = 800000; learningRatePerSample = 0.001953125; epochTime=12.7276s
+Finished Epoch[64 of 160]: [Training] ce = 0.25307674 * 12500; errs = 9.160% * 12500; totalSamplesSeen = 800000; learningRatePerSample = 0.001953125; epochTime=13.2152s
+Finished Epoch[64 of 160]: [Training] ce = 0.24320828 * 12500; errs = 8.696% * 12500; totalSamplesSeen = 800000; learningRatePerSample = 0.001953125; epochTime=13.3192s
+Finished Epoch[64 of 160]: [Training] ce = 0.25054844 * 12500; errs = 8.728% * 12500; totalSamplesSeen = 800000; learningRatePerSample = 0.001953125; epochTime=13.6434s
+Finished Epoch[65 of 160]: [Training] ce = 0.24536168 * 12500; errs = 8.304% * 12500; totalSamplesSeen = 812500; learningRatePerSample = 0.001953125; epochTime=14.1301s
+Finished Epoch[65 of 160]: [Training] ce = 0.26203039 * 12500; errs = 9.288% * 12500; totalSamplesSeen = 812500; learningRatePerSample = 0.001953125; epochTime=14.4431s
+Finished Epoch[65 of 160]: [Training] ce = 0.25095861 * 12500; errs = 8.792% * 12500; totalSamplesSeen = 812500; learningRatePerSample = 0.001953125; epochTime=14.611s
+Finished Epoch[65 of 160]: [Training] ce = 0.24194576 * 12500; errs = 8.784% * 12500; totalSamplesSeen = 812500; learningRatePerSample = 0.001953125; epochTime=15.5093s
+Finished Epoch[66 of 160]: [Training] ce = 0.24241584 * 12500; errs = 8.544% * 12500; totalSamplesSeen = 825000; learningRatePerSample = 0.001953125; epochTime=14.5675s
+Finished Epoch[66 of 160]: [Training] ce = 0.24857230 * 12500; errs = 8.696% * 12500; totalSamplesSeen = 825000; learningRatePerSample = 0.001953125; epochTime=14.7338s
+Finished Epoch[66 of 160]: [Training] ce = 0.23764168 * 12500; errs = 8.392% * 12500; totalSamplesSeen = 825000; learningRatePerSample = 0.001953125; epochTime=14.9528s
+Finished Epoch[66 of 160]: [Training] ce = 0.24684951 * 12500; errs = 8.368% * 12500; totalSamplesSeen = 825000; learningRatePerSample = 0.001953125; epochTime=15.7689s
+Finished Epoch[67 of 160]: [Training] ce = 0.23887812 * 12500; errs = 8.136% * 12500; totalSamplesSeen = 837500; learningRatePerSample = 0.001953125; epochTime=13.4813s
+Finished Epoch[67 of 160]: [Training] ce = 0.23192574 * 12500; errs = 8.160% * 12500; totalSamplesSeen = 837500; learningRatePerSample = 0.001953125; epochTime=14.3351s
+Finished Epoch[67 of 160]: [Training] ce = 0.23065424 * 12500; errs = 8.000% * 12500; totalSamplesSeen = 837500; learningRatePerSample = 0.001953125; epochTime=14.9242s
+Finished Epoch[67 of 160]: [Training] ce = 0.24614301 * 12500; errs = 8.688% * 12500; totalSamplesSeen = 837500; learningRatePerSample = 0.001953125; epochTime=14.9479s
+Finished Epoch[68 of 160]: [Training] ce = 0.23194707 * 12500; errs = 8.040% * 12500; totalSamplesSeen = 850000; learningRatePerSample = 0.001953125; epochTime=13.1791s
+Finished Epoch[68 of 160]: [Training] ce = 0.22461793 * 12500; errs = 7.776% * 12500; totalSamplesSeen = 850000; learningRatePerSample = 0.001953125; epochTime=13.2196s
+Finished Epoch[68 of 160]: [Training] ce = 0.23645242 * 12500; errs = 8.360% * 12500; totalSamplesSeen = 850000; learningRatePerSample = 0.001953125; epochTime=13.6384s
+Finished Epoch[68 of 160]: [Training] ce = 0.22332307 * 12500; errs = 7.976% * 12500; totalSamplesSeen = 850000; learningRatePerSample = 0.001953125; epochTime=13.9987s
+Finished Epoch[69 of 160]: [Training] ce = 0.23567670 * 12500; errs = 8.304% * 12500; totalSamplesSeen = 862500; learningRatePerSample = 0.001953125; epochTime=12.5893s
+Finished Epoch[69 of 160]: [Training] ce = 0.24694238 * 12500; errs = 8.928% * 12500; totalSamplesSeen = 862500; learningRatePerSample = 0.001953125; epochTime=13.2785s
+Finished Epoch[69 of 160]: [Training] ce = 0.24539352 * 12500; errs = 8.840% * 12500; totalSamplesSeen = 862500; learningRatePerSample = 0.001953125; epochTime=13.2894s
+Finished Epoch[69 of 160]: [Training] ce = 0.25162322 * 12500; errs = 8.984% * 12500; totalSamplesSeen = 862500; learningRatePerSample = 0.001953125; epochTime=14.0235s
+Finished Epoch[70 of 160]: [Training] ce = 0.24884053 * 12500; errs = 8.760% * 12500; totalSamplesSeen = 875000; learningRatePerSample = 0.001953125; epochTime=13.7662s
+Finished Epoch[70 of 160]: [Training] ce = 0.23286703 * 12500; errs = 8.200% * 12500; totalSamplesSeen = 875000; learningRatePerSample = 0.001953125; epochTime=13.9355s
+Finished Epoch[70 of 160]: [Training] ce = 0.24956965 * 12500; errs = 8.816% * 12500; totalSamplesSeen = 875000; learningRatePerSample = 0.001953125; epochTime=14.5847s
+Finished Epoch[70 of 160]: [Training] ce = 0.24317254 * 12500; errs = 8.528% * 12500; totalSamplesSeen = 875000; learningRatePerSample = 0.001953125; epochTime=14.6597s
+Finished Epoch[71 of 160]: [Training] ce = 0.24500959 * 12500; errs = 8.608% * 12500; totalSamplesSeen = 887500; learningRatePerSample = 0.001953125; epochTime=13.5336s
+Finished Epoch[71 of 160]: [Training] ce = 0.24915359 * 12500; errs = 8.776% * 12500; totalSamplesSeen = 887500; learningRatePerSample = 0.001953125; epochTime=13.68s
+Finished Epoch[71 of 160]: [Training] ce = 0.24634482 * 12500; errs = 9.000% * 12500; totalSamplesSeen = 887500; learningRatePerSample = 0.001953125; epochTime=13.8515s
+Finished Epoch[71 of 160]: [Training] ce = 0.25447025 * 12500; errs = 8.816% * 12500; totalSamplesSeen = 887500; learningRatePerSample = 0.001953125; epochTime=13.8883s
+Finished Epoch[72 of 160]: [Training] ce = 0.24873396 * 12500; errs = 8.736% * 12500; totalSamplesSeen = 900000; learningRatePerSample = 0.001953125; epochTime=13.4807s
+Finished Epoch[72 of 160]: [Training] ce = 0.23722627 * 12500; errs = 8.552% * 12500; totalSamplesSeen = 900000; learningRatePerSample = 0.001953125; epochTime=14.3192s
+Finished Epoch[72 of 160]: [Training] ce = 0.25370908 * 12500; errs = 8.872% * 12500; totalSamplesSeen = 900000; learningRatePerSample = 0.001953125; epochTime=14.5757s
+Finished Epoch[72 of 160]: [Training] ce = 0.24460805 * 12500; errs = 8.440% * 12500; totalSamplesSeen = 900000; learningRatePerSample = 0.001953125; epochTime=14.6674s
+Finished Epoch[73 of 160]: [Training] ce = 0.23049471 * 12500; errs = 8.280% * 12500; totalSamplesSeen = 912500; learningRatePerSample = 0.001953125; epochTime=13.166s
+Finished Epoch[73 of 160]: [Training] ce = 0.24037301 * 12500; errs = 8.432% * 12500; totalSamplesSeen = 912500; learningRatePerSample = 0.001953125; epochTime=13.2478s
+Finished Epoch[73 of 160]: [Training] ce = 0.24824006 * 12500; errs = 8.848% * 12500; totalSamplesSeen = 912500; learningRatePerSample = 0.001953125; epochTime=13.6468s
+Finished Epoch[73 of 160]: [Training] ce = 0.25191473 * 12500; errs = 8.976% * 12500; totalSamplesSeen = 912500; learningRatePerSample = 0.001953125; epochTime=13.8681s
+Finished Epoch[74 of 160]: [Training] ce = 0.23520525 * 12500; errs = 8.344% * 12500; totalSamplesSeen = 925000; learningRatePerSample = 0.001953125; epochTime=14.0915s
+Finished Epoch[74 of 160]: [Training] ce = 0.24550318 * 12500; errs = 8.968% * 12500; totalSamplesSeen = 925000; learningRatePerSample = 0.001953125; epochTime=14.1183s
+Finished Epoch[74 of 160]: [Training] ce = 0.24813609 * 12500; errs = 8.824% * 12500; totalSamplesSeen = 925000; learningRatePerSample = 0.001953125; epochTime=15.0055s
+Finished Epoch[74 of 160]: [Training] ce = 0.24489359 * 12500; errs = 8.752% * 12500; totalSamplesSeen = 925000; learningRatePerSample = 0.001953125; epochTime=15.2877s
+Finished Epoch[75 of 160]: [Training] ce = 0.23594307 * 12500; errs = 8.064% * 12500; totalSamplesSeen = 937500; learningRatePerSample = 0.001953125; epochTime=13.5535s
+Finished Epoch[75 of 160]: [Training] ce = 0.23178533 * 12500; errs = 8.192% * 12500; totalSamplesSeen = 937500; learningRatePerSample = 0.001953125; epochTime=13.8883s
+Finished Epoch[75 of 160]: [Training] ce = 0.24174406 * 12500; errs = 8.384% * 12500; totalSamplesSeen = 937500; learningRatePerSample = 0.001953125; epochTime=13.9174s
+Finished Epoch[75 of 160]: [Training] ce = 0.23399441 * 12500; errs = 8.200% * 12500; totalSamplesSeen = 937500; learningRatePerSample = 0.001953125; epochTime=14.5426s
+Finished Epoch[76 of 160]: [Training] ce = 0.22337865 * 12500; errs = 7.840% * 12500; totalSamplesSeen = 950000; learningRatePerSample = 0.001953125; epochTime=13.5752s
+Finished Epoch[76 of 160]: [Training] ce = 0.21566264 * 12500; errs = 7.736% * 12500; totalSamplesSeen = 950000; learningRatePerSample = 0.001953125; epochTime=13.8016s
+Finished Epoch[76 of 160]: [Training] ce = 0.20912000 * 12500; errs = 7.368% * 12500; totalSamplesSeen = 950000; learningRatePerSample = 0.001953125; epochTime=14.2205s
+Finished Epoch[76 of 160]: [Training] ce = 0.22058490 * 12500; errs = 7.552% * 12500; totalSamplesSeen = 950000; learningRatePerSample = 0.001953125; epochTime=14.2843s
+Finished Epoch[77 of 160]: [Training] ce = 0.23080973 * 12500; errs = 8.192% * 12500; totalSamplesSeen = 962500; learningRatePerSample = 0.001953125; epochTime=13.5407s
+Finished Epoch[77 of 160]: [Training] ce = 0.23196621 * 12500; errs = 8.440% * 12500; totalSamplesSeen = 962500; learningRatePerSample = 0.001953125; epochTime=13.8421s
+Finished Epoch[77 of 160]: [Training] ce = 0.23491547 * 12500; errs = 8.248% * 12500; totalSamplesSeen = 962500; learningRatePerSample = 0.001953125; epochTime=14.2624s
+Finished Epoch[77 of 160]: [Training] ce = 0.24268418 * 12500; errs = 8.664% * 12500; totalSamplesSeen = 962500; learningRatePerSample = 0.001953125; epochTime=14.4726s
+Finished Epoch[78 of 160]: [Training] ce = 0.23745139 * 12500; errs = 8.424% * 12500; totalSamplesSeen = 975000; learningRatePerSample = 0.001953125; epochTime=13.4831s
+Finished Epoch[78 of 160]: [Training] ce = 0.23339582 * 12500; errs = 8.360% * 12500; totalSamplesSeen = 975000; learningRatePerSample = 0.001953125; epochTime=13.7301s
+Finished Epoch[78 of 160]: [Training] ce = 0.23486580 * 12500; errs = 8.272% * 12500; totalSamplesSeen = 975000; learningRatePerSample = 0.001953125; epochTime=13.7766s
+Finished Epoch[78 of 160]: [Training] ce = 0.23645070 * 12500; errs = 8.216% * 12500; totalSamplesSeen = 975000; learningRatePerSample = 0.001953125; epochTime=13.9651s
+Finished Epoch[79 of 160]: [Training] ce = 0.22164260 * 12500; errs = 7.864% * 12500; totalSamplesSeen = 987500; learningRatePerSample = 0.001953125; epochTime=13.9538s
+Finished Epoch[79 of 160]: [Training] ce = 0.21465354 * 12500; errs = 7.600% * 12500; totalSamplesSeen = 987500; learningRatePerSample = 0.001953125; epochTime=14.3442s
+Finished Epoch[79 of 160]: [Training] ce = 0.21638227 * 12500; errs = 7.664% * 12500; totalSamplesSeen = 987500; learningRatePerSample = 0.001953125; epochTime=14.5052s
+Finished Epoch[79 of 160]: [Training] ce = 0.21265654 * 12500; errs = 7.440% * 12500; totalSamplesSeen = 987500; learningRatePerSample = 0.001953125; epochTime=15.0276s
+Finished Epoch[80 of 160]: [Training] ce = 0.21454109 * 12500; errs = 7.696% * 12500; totalSamplesSeen = 1000000; learningRatePerSample = 0.001953125; epochTime=12.7839s
+Finished Epoch[80 of 160]: [Training] ce = 0.21605434 * 12500; errs = 7.696% * 12500; totalSamplesSeen = 1000000; learningRatePerSample = 0.001953125; epochTime=13.6758s
+Finished Epoch[80 of 160]: [Training] ce = 0.21147906 * 12500; errs = 7.520% * 12500; totalSamplesSeen = 1000000; learningRatePerSample = 0.001953125; epochTime=13.8688s
+Finished Epoch[80 of 160]: [Training] ce = 0.21829408 * 12500; errs = 7.752% * 12500; totalSamplesSeen = 1000000; learningRatePerSample = 0.001953125; epochTime=13.9841s
+Finished Epoch[81 of 160]: [Training] ce = 0.32939980 * 12500; errs = 11.272% * 12500; totalSamplesSeen = 1012500; learningRatePerSample = 0.0001953125; epochTime=14.8295s
+Finished Epoch[81 of 160]: [Training] ce = 0.31962686 * 12500; errs = 11.072% * 12500; totalSamplesSeen = 1012500; learningRatePerSample = 0.0001953125; epochTime=15.1106s
+Finished Epoch[81 of 160]: [Training] ce = 0.31671139 * 12500; errs = 10.952% * 12500; totalSamplesSeen = 1012500; learningRatePerSample = 0.0001953125; epochTime=15.1885s
+Finished Epoch[81 of 160]: [Training] ce = 0.30141004 * 12500; errs = 10.416% * 12500; totalSamplesSeen = 1012500; learningRatePerSample = 0.0001953125; epochTime=15.2564s
+Finished Epoch[82 of 160]: [Training] ce = 0.18646898 * 12500; errs = 6.168% * 12500; totalSamplesSeen = 1025000; learningRatePerSample = 0.0001953125; epochTime=14.2656s
+Finished Epoch[82 of 160]: [Training] ce = 0.19691844 * 12500; errs = 6.864% * 12500; totalSamplesSeen = 1025000; learningRatePerSample = 0.0001953125; epochTime=14.3259s
+Finished Epoch[82 of 160]: [Training] ce = 0.18342516 * 12500; errs = 6.368% * 12500; totalSamplesSeen = 1025000; learningRatePerSample = 0.0001953125; epochTime=14.56s
+Finished Epoch[82 of 160]: [Training] ce = 0.19043176 * 12500; errs = 6.848% * 12500; totalSamplesSeen = 1025000; learningRatePerSample = 0.0001953125; epochTime=14.7324s
+Finished Epoch[83 of 160]: [Training] ce = 0.15505080 * 12500; errs = 5.248% * 12500; totalSamplesSeen = 1037500; learningRatePerSample = 0.0001953125; epochTime=15.7568s
+Finished Epoch[83 of 160]: [Training] ce = 0.13965826 * 12500; errs = 4.752% * 12500; totalSamplesSeen = 1037500; learningRatePerSample = 0.0001953125; epochTime=16.0375s
+Finished Epoch[83 of 160]: [Training] ce = 0.15303474 * 12500; errs = 5.400% * 12500; totalSamplesSeen = 1037500; learningRatePerSample = 0.0001953125; epochTime=16.2355s
+Finished Epoch[83 of 160]: [Training] ce = 0.15722938 * 12500; errs = 5.536% * 12500; totalSamplesSeen = 1037500; learningRatePerSample = 0.0001953125; epochTime=16.2358s
+Finished Epoch[84 of 160]: [Training] ce = 0.14387026 * 12500; errs = 4.968% * 12500; totalSamplesSeen = 1050000; learningRatePerSample = 0.0001953125; epochTime=12.8624s
+Finished Epoch[84 of 160]: [Training] ce = 0.13896039 * 12500; errs = 4.504% * 12500; totalSamplesSeen = 1050000; learningRatePerSample = 0.0001953125; epochTime=13.4536s
+Finished Epoch[84 of 160]: [Training] ce = 0.12891472 * 12500; errs = 4.440% * 12500; totalSamplesSeen = 1050000; learningRatePerSample = 0.0001953125; epochTime=13.8035s
+Finished Epoch[84 of 160]: [Training] ce = 0.14194533 * 12500; errs = 4.808% * 12500; totalSamplesSeen = 1050000; learningRatePerSample = 0.0001953125; epochTime=13.8273s
+Finished Epoch[85 of 160]: [Training] ce = 0.12877013 * 12500; errs = 4.312% * 12500; totalSamplesSeen = 1062500; learningRatePerSample = 0.0001953125; epochTime=12.3416s
+Finished Epoch[85 of 160]: [Training] ce = 0.13021744 * 12500; errs = 4.416% * 12500; totalSamplesSeen = 1062500; learningRatePerSample = 0.0001953125; epochTime=12.9576s
+Finished Epoch[85 of 160]: [Training] ce = 0.12616376 * 12500; errs = 4.152% * 12500; totalSamplesSeen = 1062500; learningRatePerSample = 0.0001953125; epochTime=13.3185s
+Finished Epoch[85 of 160]: [Training] ce = 0.12310487 * 12500; errs = 4.104% * 12500; totalSamplesSeen = 1062500; learningRatePerSample = 0.0001953125; epochTime=13.3501s
+Finished Epoch[86 of 160]: [Training] ce = 0.12040285 * 12500; errs = 4.024% * 12500; totalSamplesSeen = 1075000; learningRatePerSample = 0.0001953125; epochTime=13.2415s
+Finished Epoch[86 of 160]: [Training] ce = 0.11752863 * 12500; errs = 3.920% * 12500; totalSamplesSeen = 1075000; learningRatePerSample = 0.0001953125; epochTime=13.8966s
+Finished Epoch[86 of 160]: [Training] ce = 0.12763232 * 12500; errs = 4.200% * 12500; totalSamplesSeen = 1075000; learningRatePerSample = 0.0001953125; epochTime=14.6449s
+Finished Epoch[86 of 160]: [Training] ce = 0.12824447 * 12500; errs = 4.400% * 12500; totalSamplesSeen = 1075000; learningRatePerSample = 0.0001953125; epochTime=14.9953s
+Finished Epoch[87 of 160]: [Training] ce = 0.12340059 * 12500; errs = 4.136% * 12500; totalSamplesSeen = 1087500; learningRatePerSample = 0.0001953125; epochTime=13.6635s
+Finished Epoch[87 of 160]: [Training] ce = 0.12267428 * 12500; errs = 4.288% * 12500; totalSamplesSeen = 1087500; learningRatePerSample = 0.0001953125; epochTime=13.9345s
+Finished Epoch[87 of 160]: [Training] ce = 0.11657480 * 12500; errs = 3.800% * 12500; totalSamplesSeen = 1087500; learningRatePerSample = 0.0001953125; epochTime=14.5657s
+Finished Epoch[87 of 160]: [Training] ce = 0.12395692 * 12500; errs = 4.304% * 12500; totalSamplesSeen = 1087500; learningRatePerSample = 0.0001953125; epochTime=14.6238s
+Finished Epoch[88 of 160]: [Training] ce = 0.11967555 * 12500; errs = 4.032% * 12500; totalSamplesSeen = 1100000; learningRatePerSample = 0.0001953125; epochTime=13.9838s
+Finished Epoch[88 of 160]: [Training] ce = 0.11139969 * 12500; errs = 3.624% * 12500; totalSamplesSeen = 1100000; learningRatePerSample = 0.0001953125; epochTime=14.409s
+Finished Epoch[88 of 160]: [Training] ce = 0.11321023 * 12500; errs = 3.752% * 12500; totalSamplesSeen = 1100000; learningRatePerSample = 0.0001953125; epochTime=14.632s
+Finished Epoch[88 of 160]: [Training] ce = 0.12179272 * 12500; errs = 4.064% * 12500; totalSamplesSeen = 1100000; learningRatePerSample = 0.0001953125; epochTime=15.4155s
+Finished Epoch[89 of 160]: [Training] ce = 0.11642633 * 12500; errs = 4.144% * 12500; totalSamplesSeen = 1112500; learningRatePerSample = 0.0001953125; epochTime=13.7946s
+Finished Epoch[89 of 160]: [Training] ce = 0.10857919 * 12500; errs = 3.568% * 12500; totalSamplesSeen = 1112500; learningRatePerSample = 0.0001953125; epochTime=14.0336s
+Finished Epoch[89 of 160]: [Training] ce = 0.11063603 * 12500; errs = 3.832% * 12500; totalSamplesSeen = 1112500; learningRatePerSample = 0.0001953125; epochTime=14.3181s
+Finished Epoch[89 of 160]: [Training] ce = 0.11011111 * 12500; errs = 3.752% * 12500; totalSamplesSeen = 1112500; learningRatePerSample = 0.0001953125; epochTime=14.7053s
+Finished Epoch[90 of 160]: [Training] ce = 0.10796079 * 12500; errs = 3.656% * 12500; totalSamplesSeen = 1125000; learningRatePerSample = 0.0001953125; epochTime=13.9278s
+Finished Epoch[90 of 160]: [Training] ce = 0.11397555 * 12500; errs = 3.912% * 12500; totalSamplesSeen = 1125000; learningRatePerSample = 0.0001953125; epochTime=13.9555s
+Finished Epoch[90 of 160]: [Training] ce = 0.11389956 * 12500; errs = 4.024% * 12500; totalSamplesSeen = 1125000; learningRatePerSample = 0.0001953125; epochTime=14.2441s
+Finished Epoch[90 of 160]: [Training] ce = 0.11155313 * 12500; errs = 3.960% * 12500; totalSamplesSeen = 1125000; learningRatePerSample = 0.0001953125; epochTime=15.0617s
+Finished Epoch[91 of 160]: [Training] ce = 0.11086865 * 12500; errs = 3.568% * 12500; totalSamplesSeen = 1137500; learningRatePerSample = 0.0001953125; epochTime=12.8665s
+Finished Epoch[91 of 160]: [Training] ce = 0.11138026 * 12500; errs = 3.888% * 12500; totalSamplesSeen = 1137500; learningRatePerSample = 0.0001953125; epochTime=12.8832s
+Finished Epoch[91 of 160]: [Training] ce = 0.10892170 * 12500; errs = 3.696% * 12500; totalSamplesSeen = 1137500; learningRatePerSample = 0.0001953125; epochTime=12.9257s
+Finished Epoch[91 of 160]: [Training] ce = 0.10625571 * 12500; errs = 3.672% * 12500; totalSamplesSeen = 1137500; learningRatePerSample = 0.0001953125; epochTime=13.0131s
+Finished Epoch[92 of 160]: [Training] ce = 0.10681142 * 12500; errs = 3.616% * 12500; totalSamplesSeen = 1150000; learningRatePerSample = 0.0001953125; epochTime=13.8536s
+Finished Epoch[92 of 160]: [Training] ce = 0.10810939 * 12500; errs = 3.656% * 12500; totalSamplesSeen = 1150000; learningRatePerSample = 0.0001953125; epochTime=14.1738s
+Finished Epoch[92 of 160]: [Training] ce = 0.10856733 * 12500; errs = 3.720% * 12500; totalSamplesSeen = 1150000; learningRatePerSample = 0.0001953125; epochTime=14.7088s
+Finished Epoch[92 of 160]: [Training] ce = 0.11007668 * 12500; errs = 3.840% * 12500; totalSamplesSeen = 1150000; learningRatePerSample = 0.0001953125; epochTime=14.9655s
+Finished Epoch[93 of 160]: [Training] ce = 0.10671587 * 12500; errs = 3.592% * 12500; totalSamplesSeen = 1162500; learningRatePerSample = 0.0001953125; epochTime=14.0941s
+Finished Epoch[93 of 160]: [Training] ce = 0.11490479 * 12500; errs = 4.080% * 12500; totalSamplesSeen = 1162500; learningRatePerSample = 0.0001953125; epochTime=14.3794s
+Finished Epoch[93 of 160]: [Training] ce = 0.10129177 * 12500; errs = 3.400% * 12500; totalSamplesSeen = 1162500; learningRatePerSample = 0.0001953125; epochTime=14.4831s
+Finished Epoch[93 of 160]: [Training] ce = 0.10269005 * 12500; errs = 3.504% * 12500; totalSamplesSeen = 1162500; learningRatePerSample = 0.0001953125; epochTime=14.523s
+Finished Epoch[94 of 160]: [Training] ce = 0.10688230 * 12500; errs = 3.736% * 12500; totalSamplesSeen = 1175000; learningRatePerSample = 0.0001953125; epochTime=12.8364s
+Finished Epoch[94 of 160]: [Training] ce = 0.10266117 * 12500; errs = 3.544% * 12500; totalSamplesSeen = 1175000; learningRatePerSample = 0.0001953125; epochTime=13.4545s
+Finished Epoch[94 of 160]: [Training] ce = 0.10106610 * 12500; errs = 3.288% * 12500; totalSamplesSeen = 1175000; learningRatePerSample = 0.0001953125; epochTime=14.0807s
+Finished Epoch[94 of 160]: [Training] ce = 0.10501096 * 12500; errs = 3.696% * 12500; totalSamplesSeen = 1175000; learningRatePerSample = 0.0001953125; epochTime=14.35s
+Finished Epoch[95 of 160]: [Training] ce = 0.10831028 * 12500; errs = 3.608% * 12500; totalSamplesSeen = 1187500; learningRatePerSample = 0.0001953125; epochTime=14.07s
+Finished Epoch[95 of 160]: [Training] ce = 0.09735716 * 12500; errs = 3.336% * 12500; totalSamplesSeen = 1187500; learningRatePerSample = 0.0001953125; epochTime=14.4353s
+Finished Epoch[95 of 160]: [Training] ce = 0.10038551 * 12500; errs = 3.456% * 12500; totalSamplesSeen = 1187500; learningRatePerSample = 0.0001953125; epochTime=14.9795s
+Finished Epoch[95 of 160]: [Training] ce = 0.09986652 * 12500; errs = 3.432% * 12500; totalSamplesSeen = 1187500; learningRatePerSample = 0.0001953125; epochTime=15.2991s
+Finished Epoch[96 of 160]: [Training] ce = 0.10444997 * 12500; errs = 3.504% * 12500; totalSamplesSeen = 1200000; learningRatePerSample = 0.0001953125; epochTime=12.4754s
+Finished Epoch[96 of 160]: [Training] ce = 0.09893656 * 12500; errs = 3.376% * 12500; totalSamplesSeen = 1200000; learningRatePerSample = 0.0001953125; epochTime=12.5455s
+Finished Epoch[96 of 160]: [Training] ce = 0.09284328 * 12500; errs = 3.104% * 12500; totalSamplesSeen = 1200000; learningRatePerSample = 0.0001953125; epochTime=13.6078s
+Finished Epoch[96 of 160]: [Training] ce = 0.10311245 * 12500; errs = 3.552% * 12500; totalSamplesSeen = 1200000; learningRatePerSample = 0.0001953125; epochTime=13.6934s
+Finished Epoch[97 of 160]: [Training] ce = 0.09755547 * 12500; errs = 3.264% * 12500; totalSamplesSeen = 1212500; learningRatePerSample = 0.0001953125; epochTime=13.1788s
+Finished Epoch[97 of 160]: [Training] ce = 0.09854984 * 12500; errs = 3.488% * 12500; totalSamplesSeen = 1212500; learningRatePerSample = 0.0001953125; epochTime=13.3384s
+Finished Epoch[97 of 160]: [Training] ce = 0.09588543 * 12500; errs = 3.408% * 12500; totalSamplesSeen = 1212500; learningRatePerSample = 0.0001953125; epochTime=13.6522s
+Finished Epoch[97 of 160]: [Training] ce = 0.10201271 * 12500; errs = 3.496% * 12500; totalSamplesSeen = 1212500; learningRatePerSample = 0.0001953125; epochTime=14.1267s
+Finished Epoch[98 of 160]: [Training] ce = 0.09313238 * 12500; errs = 3.080% * 12500; totalSamplesSeen = 1225000; learningRatePerSample = 0.0001953125; epochTime=13.1537s
+Finished Epoch[98 of 160]: [Training] ce = 0.09669298 * 12500; errs = 3.208% * 12500; totalSamplesSeen = 1225000; learningRatePerSample = 0.0001953125; epochTime=13.5882s
+Finished Epoch[98 of 160]: [Training] ce = 0.09850515 * 12500; errs = 3.352% * 12500; totalSamplesSeen = 1225000; learningRatePerSample = 0.0001953125; epochTime=13.7454s
+Finished Epoch[98 of 160]: [Training] ce = 0.09862688 * 12500; errs = 3.288% * 12500; totalSamplesSeen = 1225000; learningRatePerSample = 0.0001953125; epochTime=13.7515s
+Finished Epoch[99 of 160]: [Training] ce = 0.09782068 * 12500; errs = 3.320% * 12500; totalSamplesSeen = 1237500; learningRatePerSample = 0.0001953125; epochTime=16.5015s
+Finished Epoch[99 of 160]: [Training] ce = 0.09435644 * 12500; errs = 3.208% * 12500; totalSamplesSeen = 1237500; learningRatePerSample = 0.0001953125; epochTime=16.6877s
+Finished Epoch[99 of 160]: [Training] ce = 0.09818950 * 12500; errs = 3.408% * 12500; totalSamplesSeen = 1237500; learningRatePerSample = 0.0001953125; epochTime=16.8571s
+Finished Epoch[99 of 160]: [Training] ce = 0.09429599 * 12500; errs = 3.184% * 12500; totalSamplesSeen = 1237500; learningRatePerSample = 0.0001953125; epochTime=17.1427s
+Finished Epoch[100 of 160]: [Training] ce = 0.09505237 * 12500; errs = 3.040% * 12500; totalSamplesSeen = 1250000; learningRatePerSample = 0.0001953125; epochTime=13.6812s
+Finished Epoch[100 of 160]: [Training] ce = 0.09794826 * 12500; errs = 3.384% * 12500; totalSamplesSeen = 1250000; learningRatePerSample = 0.0001953125; epochTime=13.8445s
+Finished Epoch[100 of 160]: [Training] ce = 0.10338235 * 12500; errs = 3.448% * 12500; totalSamplesSeen = 1250000; learningRatePerSample = 0.0001953125; epochTime=14.5164s
+Finished Epoch[100 of 160]: [Training] ce = 0.09092901 * 12500; errs = 3.136% * 12500; totalSamplesSeen = 1250000; learningRatePerSample = 0.0001953125; epochTime=14.938s
+Finished Epoch[101 of 160]: [Training] ce = 0.09516905 * 12500; errs = 3.248% * 12500; totalSamplesSeen = 1262500; learningRatePerSample = 0.0001953125; epochTime=13.0803s
+Finished Epoch[101 of 160]: [Training] ce = 0.09552512 * 12500; errs = 3.264% * 12500; totalSamplesSeen = 1262500; learningRatePerSample = 0.0001953125; epochTime=13.15s
+Finished Epoch[101 of 160]: [Training] ce = 0.09643001 * 12500; errs = 3.216% * 12500; totalSamplesSeen = 1262500; learningRatePerSample = 0.0001953125; epochTime=13.2469s
+Finished Epoch[101 of 160]: [Training] ce = 0.09321776 * 12500; errs = 3.208% * 12500; totalSamplesSeen = 1262500; learningRatePerSample = 0.0001953125; epochTime=13.5703s
+Finished Epoch[102 of 160]: [Training] ce = 0.09263130 * 12500; errs = 3.032% * 12500; totalSamplesSeen = 1275000; learningRatePerSample = 0.0001953125; epochTime=14.4236s
+Finished Epoch[102 of 160]: [Training] ce = 0.09114175 * 12500; errs = 3.208% * 12500; totalSamplesSeen = 1275000; learningRatePerSample = 0.0001953125; epochTime=14.4248s
+Finished Epoch[102 of 160]: [Training] ce = 0.09125689 * 12500; errs = 3.072% * 12500; totalSamplesSeen = 1275000; learningRatePerSample = 0.0001953125; epochTime=14.4907s
+Finished Epoch[102 of 160]: [Training] ce = 0.09085539 * 12500; errs = 3.128% * 12500; totalSamplesSeen = 1275000; learningRatePerSample = 0.0001953125; epochTime=14.7111s
+Finished Epoch[103 of 160]: [Training] ce = 0.08997068 * 12500; errs = 3.192% * 12500; totalSamplesSeen = 1287500; learningRatePerSample = 0.0001953125; epochTime=14.554s
+Finished Epoch[103 of 160]: [Training] ce = 0.09277594 * 12500; errs = 2.952% * 12500; totalSamplesSeen = 1287500; learningRatePerSample = 0.0001953125; epochTime=14.8153s
+Finished Epoch[103 of 160]: [Training] ce = 0.09169892 * 12500; errs = 3.104% * 12500; totalSamplesSeen = 1287500; learningRatePerSample = 0.0001953125; epochTime=15.003s
+Finished Epoch[103 of 160]: [Training] ce = 0.09467260 * 12500; errs = 3.320% * 12500; totalSamplesSeen = 1287500; learningRatePerSample = 0.0001953125; epochTime=15.5794s
+Finished Epoch[104 of 160]: [Training] ce = 0.09031586 * 12500; errs = 3.024% * 12500; totalSamplesSeen = 1300000; learningRatePerSample = 0.0001953125; epochTime=13.8447s
+Finished Epoch[104 of 160]: [Training] ce = 0.09307512 * 12500; errs = 3.240% * 12500; totalSamplesSeen = 1300000; learningRatePerSample = 0.0001953125; epochTime=14.017s
+Finished Epoch[104 of 160]: [Training] ce = 0.08706139 * 12500; errs = 3.048% * 12500; totalSamplesSeen = 1300000; learningRatePerSample = 0.0001953125; epochTime=14.2078s
+Finished Epoch[104 of 160]: [Training] ce = 0.08928955 * 12500; errs = 3.024% * 12500; totalSamplesSeen = 1300000; learningRatePerSample = 0.0001953125; epochTime=14.4456s
+Finished Epoch[105 of 160]: [Training] ce = 0.09430288 * 12500; errs = 3.296% * 12500; totalSamplesSeen = 1312500; learningRatePerSample = 0.0001953125; epochTime=13.8158s
+Finished Epoch[105 of 160]: [Training] ce = 0.08611778 * 12500; errs = 2.840% * 12500; totalSamplesSeen = 1312500; learningRatePerSample = 0.0001953125; epochTime=14.0873s
+Finished Epoch[105 of 160]: [Training] ce = 0.08975208 * 12500; errs = 3.184% * 12500; totalSamplesSeen = 1312500; learningRatePerSample = 0.0001953125; epochTime=14.0999s
+Finished Epoch[105 of 160]: [Training] ce = 0.09004187 * 12500; errs = 3.040% * 12500; totalSamplesSeen = 1312500; learningRatePerSample = 0.0001953125; epochTime=14.4156s
+Finished Epoch[106 of 160]: [Training] ce = 0.08980046 * 12500; errs = 3.016% * 12500; totalSamplesSeen = 1325000; learningRatePerSample = 0.0001953125; epochTime=13.7736s
+Finished Epoch[106 of 160]: [Training] ce = 0.09388811 * 12500; errs = 3.088% * 12500; totalSamplesSeen = 1325000; learningRatePerSample = 0.0001953125; epochTime=14.1245s
+Finished Epoch[106 of 160]: [Training] ce = 0.08605113 * 12500; errs = 2.896% * 12500; totalSamplesSeen = 1325000; learningRatePerSample = 0.0001953125; epochTime=14.7371s
+Finished Epoch[106 of 160]: [Training] ce = 0.08832021 * 12500; errs = 2.952% * 12500; totalSamplesSeen = 1325000; learningRatePerSample = 0.0001953125; epochTime=14.8761s
+Finished Epoch[107 of 160]: [Training] ce = 0.09035204 * 12500; errs = 2.976% * 12500; totalSamplesSeen = 1337500; learningRatePerSample = 0.0001953125; epochTime=13.7395s
+Finished Epoch[107 of 160]: [Training] ce = 0.09050564 * 12500; errs = 3.392% * 12500; totalSamplesSeen = 1337500; learningRatePerSample = 0.0001953125; epochTime=14.0587s
+Finished Epoch[107 of 160]: [Training] ce = 0.08792164 * 12500; errs = 2.984% * 12500; totalSamplesSeen = 1337500; learningRatePerSample = 0.0001953125; epochTime=14.2304s
+Finished Epoch[107 of 160]: [Training] ce = 0.08791193 * 12500; errs = 3.008% * 12500; totalSamplesSeen = 1337500; learningRatePerSample = 0.0001953125; epochTime=14.5108s
+Finished Epoch[108 of 160]: [Training] ce = 0.08609677 * 12500; errs = 2.856% * 12500; totalSamplesSeen = 1350000; learningRatePerSample = 0.0001953125; epochTime=13.6813s
+Finished Epoch[108 of 160]: [Training] ce = 0.08489478 * 12500; errs = 2.808% * 12500; totalSamplesSeen = 1350000; learningRatePerSample = 0.0001953125; epochTime=14.5019s
+Finished Epoch[108 of 160]: [Training] ce = 0.08879272 * 12500; errs = 3.072% * 12500; totalSamplesSeen = 1350000; learningRatePerSample = 0.0001953125; epochTime=14.5814s
+Finished Epoch[108 of 160]: [Training] ce = 0.08376600 * 12500; errs = 2.744% * 12500; totalSamplesSeen = 1350000; learningRatePerSample = 0.0001953125; epochTime=14.6392s
+Finished Epoch[109 of 160]: [Training] ce = 0.08089814 * 12500; errs = 2.720% * 12500; totalSamplesSeen = 1362500; learningRatePerSample = 0.0001953125; epochTime=13.6977s
+Finished Epoch[109 of 160]: [Training] ce = 0.08752549 * 12500; errs = 3.104% * 12500; totalSamplesSeen = 1362500; learningRatePerSample = 0.0001953125; epochTime=13.8306s
+Finished Epoch[109 of 160]: [Training] ce = 0.08251881 * 12500; errs = 2.872% * 12500; totalSamplesSeen = 1362500; learningRatePerSample = 0.0001953125; epochTime=14.3366s
+Finished Epoch[109 of 160]: [Training] ce = 0.08830133 * 12500; errs = 3.128% * 12500; totalSamplesSeen = 1362500; learningRatePerSample = 0.0001953125; epochTime=14.6356s
+Finished Epoch[110 of 160]: [Training] ce = 0.08596214 * 12500; errs = 2.896% * 12500; totalSamplesSeen = 1375000; learningRatePerSample = 0.0001953125; epochTime=13.2644s
+Finished Epoch[110 of 160]: [Training] ce = 0.08570889 * 12500; errs = 2.936% * 12500; totalSamplesSeen = 1375000; learningRatePerSample = 0.0001953125; epochTime=13.2936s
+Finished Epoch[110 of 160]: [Training] ce = 0.08293346 * 12500; errs = 2.816% * 12500; totalSamplesSeen = 1375000; learningRatePerSample = 0.0001953125; epochTime=13.3393s
+Finished Epoch[110 of 160]: [Training] ce = 0.08442645 * 12500; errs = 2.880% * 12500; totalSamplesSeen = 1375000; learningRatePerSample = 0.0001953125; epochTime=13.5632s
+Finished Epoch[111 of 160]: [Training] ce = 0.08031288 * 12500; errs = 2.736% * 12500; totalSamplesSeen = 1387500; learningRatePerSample = 0.0001953125; epochTime=13.1418s
+Finished Epoch[111 of 160]: [Training] ce = 0.07727725 * 12500; errs = 2.560% * 12500; totalSamplesSeen = 1387500; learningRatePerSample = 0.0001953125; epochTime=13.195s
+Finished Epoch[111 of 160]: [Training] ce = 0.08374468 * 12500; errs = 2.944% * 12500; totalSamplesSeen = 1387500; learningRatePerSample = 0.0001953125; epochTime=13.8682s
+Finished Epoch[111 of 160]: [Training] ce = 0.08825404 * 12500; errs = 2.944% * 12500; totalSamplesSeen = 1387500; learningRatePerSample = 0.0001953125; epochTime=14.3838s
+Finished Epoch[112 of 160]: [Training] ce = 0.08056777 * 12500; errs = 2.632% * 12500; totalSamplesSeen = 1400000; learningRatePerSample = 0.0001953125; epochTime=12.419s
+Finished Epoch[112 of 160]: [Training] ce = 0.08644726 * 12500; errs = 2.896% * 12500; totalSamplesSeen = 1400000; learningRatePerSample = 0.0001953125; epochTime=12.941s
+Finished Epoch[112 of 160]: [Training] ce = 0.08722187 * 12500; errs = 3.000% * 12500; totalSamplesSeen = 1400000; learningRatePerSample = 0.0001953125; epochTime=13.0176s
+Finished Epoch[112 of 160]: [Training] ce = 0.08023243 * 12500; errs = 2.680% * 12500; totalSamplesSeen = 1400000; learningRatePerSample = 0.0001953125; epochTime=13.0963s
+Finished Epoch[113 of 160]: [Training] ce = 0.08332513 * 12500; errs = 2.832% * 12500; totalSamplesSeen = 1412500; learningRatePerSample = 0.0001953125; epochTime=11.7136s
+Finished Epoch[113 of 160]: [Training] ce = 0.08291518 * 12500; errs = 2.872% * 12500; totalSamplesSeen = 1412500; learningRatePerSample = 0.0001953125; epochTime=12.0374s
+Finished Epoch[113 of 160]: [Training] ce = 0.08100508 * 12500; errs = 2.880% * 12500; totalSamplesSeen = 1412500; learningRatePerSample = 0.0001953125; epochTime=13.0044s
+Finished Epoch[113 of 160]: [Training] ce = 0.08177649 * 12500; errs = 2.848% * 12500; totalSamplesSeen = 1412500; learningRatePerSample = 0.0001953125; epochTime=13.1789s
+Finished Epoch[114 of 160]: [Training] ce = 0.08254282 * 12500; errs = 2.848% * 12500; totalSamplesSeen = 1425000; learningRatePerSample = 0.0001953125; epochTime=13.705s
+Finished Epoch[114 of 160]: [Training] ce = 0.08641377 * 12500; errs = 2.976% * 12500; totalSamplesSeen = 1425000; learningRatePerSample = 0.0001953125; epochTime=13.7117s
+Finished Epoch[114 of 160]: [Training] ce = 0.08034778 * 12500; errs = 2.656% * 12500; totalSamplesSeen = 1425000; learningRatePerSample = 0.0001953125; epochTime=14.2365s
+Finished Epoch[114 of 160]: [Training] ce = 0.08525239 * 12500; errs = 2.936% * 12500; totalSamplesSeen = 1425000; learningRatePerSample = 0.0001953125; epochTime=14.4554s
+Finished Epoch[115 of 160]: [Training] ce = 0.08084198 * 12500; errs = 2.744% * 12500; totalSamplesSeen = 1437500; learningRatePerSample = 0.0001953125; epochTime=14.8492s
+Finished Epoch[115 of 160]: [Training] ce = 0.07803817 * 12500; errs = 2.656% * 12500; totalSamplesSeen = 1437500; learningRatePerSample = 0.0001953125; epochTime=15.0756s
+Finished Epoch[115 of 160]: [Training] ce = 0.07958989 * 12500; errs = 2.648% * 12500; totalSamplesSeen = 1437500; learningRatePerSample = 0.0001953125; epochTime=15.4975s
+Finished Epoch[115 of 160]: [Training] ce = 0.07997160 * 12500; errs = 2.776% * 12500; totalSamplesSeen = 1437500; learningRatePerSample = 0.0001953125; epochTime=15.6668s
+Finished Epoch[116 of 160]: [Training] ce = 0.08224729 * 12500; errs = 2.768% * 12500; totalSamplesSeen = 1450000; learningRatePerSample = 0.0001953125; epochTime=12.2484s
+Finished Epoch[116 of 160]: [Training] ce = 0.07999899 * 12500; errs = 2.736% * 12500; totalSamplesSeen = 1450000; learningRatePerSample = 0.0001953125; epochTime=12.5922s
+Finished Epoch[116 of 160]: [Training] ce = 0.07616861 * 12500; errs = 2.824% * 12500; totalSamplesSeen = 1450000; learningRatePerSample = 0.0001953125; epochTime=13.0236s
+Finished Epoch[116 of 160]: [Training] ce = 0.08024627 * 12500; errs = 2.784% * 12500; totalSamplesSeen = 1450000; learningRatePerSample = 0.0001953125; epochTime=13.5934s
+Finished Epoch[117 of 160]: [Training] ce = 0.07536858 * 12500; errs = 2.496% * 12500; totalSamplesSeen = 1462500; learningRatePerSample = 0.0001953125; epochTime=13.515s
+Finished Epoch[117 of 160]: [Training] ce = 0.07949245 * 12500; errs = 2.608% * 12500; totalSamplesSeen = 1462500; learningRatePerSample = 0.0001953125; epochTime=13.5337s
+Finished Epoch[117 of 160]: [Training] ce = 0.08429912 * 12500; errs = 2.864% * 12500; totalSamplesSeen = 1462500; learningRatePerSample = 0.0001953125; epochTime=14.3304s
+Finished Epoch[117 of 160]: [Training] ce = 0.08369434 * 12500; errs = 2.880% * 12500; totalSamplesSeen = 1462500; learningRatePerSample = 0.0001953125; epochTime=14.6119s
+Finished Epoch[118 of 160]: [Training] ce = 0.07858895 * 12500; errs = 2.776% * 12500; totalSamplesSeen = 1475000; learningRatePerSample = 0.0001953125; epochTime=12.601s
+Finished Epoch[118 of 160]: [Training] ce = 0.08224312 * 12500; errs = 2.880% * 12500; totalSamplesSeen = 1475000; learningRatePerSample = 0.0001953125; epochTime=12.7781s
+Finished Epoch[118 of 160]: [Training] ce = 0.08084990 * 12500; errs = 2.752% * 12500; totalSamplesSeen = 1475000; learningRatePerSample = 0.0001953125; epochTime=13.3717s
+Finished Epoch[118 of 160]: [Training] ce = 0.07739155 * 12500; errs = 2.808% * 12500; totalSamplesSeen = 1475000; learningRatePerSample = 0.0001953125; epochTime=13.6279s
+Finished Epoch[119 of 160]: [Training] ce = 0.06901065 * 12500; errs = 2.216% * 12500; totalSamplesSeen = 1487500; learningRatePerSample = 0.0001953125; epochTime=13.3517s
+Finished Epoch[119 of 160]: [Training] ce = 0.07910498 * 12500; errs = 2.616% * 12500; totalSamplesSeen = 1487500; learningRatePerSample = 0.0001953125; epochTime=13.6173s
+Finished Epoch[119 of 160]: [Training] ce = 0.08012643 * 12500; errs = 2.704% * 12500; totalSamplesSeen = 1487500; learningRatePerSample = 0.0001953125; epochTime=13.9803s
+Finished Epoch[119 of 160]: [Training] ce = 0.07632351 * 12500; errs = 2.464% * 12500; totalSamplesSeen = 1487500; learningRatePerSample = 0.0001953125; epochTime=14.1783s
+Finished Epoch[120 of 160]: [Training] ce = 0.07694292 * 12500; errs = 2.672% * 12500; totalSamplesSeen = 1500000; learningRatePerSample = 0.0001953125; epochTime=15.0321s
+Finished Epoch[120 of 160]: [Training] ce = 0.07577667 * 12500; errs = 2.552% * 12500; totalSamplesSeen = 1500000; learningRatePerSample = 0.0001953125; epochTime=15.4752s
+Finished Epoch[120 of 160]: [Training] ce = 0.07759167 * 12500; errs = 2.600% * 12500; totalSamplesSeen = 1500000; learningRatePerSample = 0.0001953125; epochTime=15.8885s
+Finished Epoch[120 of 160]: [Training] ce = 0.08034987 * 12500; errs = 2.704% * 12500; totalSamplesSeen = 1500000; learningRatePerSample = 0.0001953125; epochTime=16.3892s
+Finished Epoch[121 of 160]: [Training] ce = 0.07537264 * 12500; errs = 2.624% * 12500; totalSamplesSeen = 1512500; learningRatePerSample = 1.953125e-05; epochTime=12.9842s
+Finished Epoch[121 of 160]: [Training] ce = 0.07798396 * 12500; errs = 2.592% * 12500; totalSamplesSeen = 1512500; learningRatePerSample = 1.953125e-05; epochTime=13.4486s
+Finished Epoch[121 of 160]: [Training] ce = 0.08430813 * 12500; errs = 3.032% * 12500; totalSamplesSeen = 1512500; learningRatePerSample = 1.953125e-05; epochTime=13.6845s
+Finished Epoch[121 of 160]: [Training] ce = 0.08278577 * 12500; errs = 2.856% * 12500; totalSamplesSeen = 1512500; learningRatePerSample = 1.953125e-05; epochTime=14.135s
+Finished Epoch[122 of 160]: [Training] ce = 0.07226688 * 12500; errs = 2.360% * 12500; totalSamplesSeen = 1525000; learningRatePerSample = 1.953125e-05; epochTime=13.0012s
+Finished Epoch[122 of 160]: [Training] ce = 0.07481829 * 12500; errs = 2.536% * 12500; totalSamplesSeen = 1525000; learningRatePerSample = 1.953125e-05; epochTime=13.6415s
+Finished Epoch[122 of 160]: [Training] ce = 0.07603146 * 12500; errs = 2.608% * 12500; totalSamplesSeen = 1525000; learningRatePerSample = 1.953125e-05; epochTime=13.946s
+Finished Epoch[122 of 160]: [Training] ce = 0.07628213 * 12500; errs = 2.528% * 12500; totalSamplesSeen = 1525000; learningRatePerSample = 1.953125e-05; epochTime=14.013s
+Finished Epoch[123 of 160]: [Training] ce = 0.07299301 * 12500; errs = 2.440% * 12500; totalSamplesSeen = 1537500; learningRatePerSample = 1.953125e-05; epochTime=13.7022s
+Finished Epoch[123 of 160]: [Training] ce = 0.07627438 * 12500; errs = 2.728% * 12500; totalSamplesSeen = 1537500; learningRatePerSample = 1.953125e-05; epochTime=14.0354s
+Finished Epoch[123 of 160]: [Training] ce = 0.07364996 * 12500; errs = 2.584% * 12500; totalSamplesSeen = 1537500; learningRatePerSample = 1.953125e-05; epochTime=14.396s
+Finished Epoch[123 of 160]: [Training] ce = 0.06905749 * 12500; errs = 2.320% * 12500; totalSamplesSeen = 1537500; learningRatePerSample = 1.953125e-05; epochTime=14.414s
+Finished Epoch[124 of 160]: [Training] ce = 0.07442618 * 12500; errs = 2.584% * 12500; totalSamplesSeen = 1550000; learningRatePerSample = 1.953125e-05; epochTime=12.8504s
+Finished Epoch[124 of 160]: [Training] ce = 0.06871762 * 12500; errs = 2.192% * 12500; totalSamplesSeen = 1550000; learningRatePerSample = 1.953125e-05; epochTime=13.2977s
+Finished Epoch[124 of 160]: [Training] ce = 0.07017567 * 12500; errs = 2.264% * 12500; totalSamplesSeen = 1550000; learningRatePerSample = 1.953125e-05; epochTime=13.3s
+Finished Epoch[124 of 160]: [Training] ce = 0.07265580 * 12500; errs = 2.480% * 12500; totalSamplesSeen = 1550000; learningRatePerSample = 1.953125e-05; epochTime=13.6125s
+Finished Epoch[125 of 160]: [Training] ce = 0.07650246 * 12500; errs = 2.496% * 12500; totalSamplesSeen = 1562500; learningRatePerSample = 1.953125e-05; epochTime=14.2286s
+Finished Epoch[125 of 160]: [Training] ce = 0.07635539 * 12500; errs = 2.552% * 12500; totalSamplesSeen = 1562500; learningRatePerSample = 1.953125e-05; epochTime=14.6537s
+Finished Epoch[125 of 160]: [Training] ce = 0.07177431 * 12500; errs = 2.464% * 12500; totalSamplesSeen = 1562500; learningRatePerSample = 1.953125e-05; epochTime=14.9723s
+Finished Epoch[125 of 160]: [Training] ce = 0.06827193 * 12500; errs = 2.336% * 12500; totalSamplesSeen = 1562500; learningRatePerSample = 1.953125e-05; epochTime=15.0248s
+Finished Epoch[126 of 160]: [Training] ce = 0.07182758 * 12500; errs = 2.440% * 12500; totalSamplesSeen = 1575000; learningRatePerSample = 1.953125e-05; epochTime=12.1191s
+Finished Epoch[126 of 160]: [Training] ce = 0.07324256 * 12500; errs = 2.408% * 12500; totalSamplesSeen = 1575000; learningRatePerSample = 1.953125e-05; epochTime=12.4801s
+Finished Epoch[126 of 160]: [Training] ce = 0.07378934 * 12500; errs = 2.456% * 12500; totalSamplesSeen = 1575000; learningRatePerSample = 1.953125e-05; epochTime=12.6008s
+Finished Epoch[126 of 160]: [Training] ce = 0.07139669 * 12500; errs = 2.296% * 12500; totalSamplesSeen = 1575000; learningRatePerSample = 1.953125e-05; epochTime=13.0076s
+Finished Epoch[127 of 160]: [Training] ce = 0.07320571 * 12500; errs = 2.480% * 12500; totalSamplesSeen = 1587500; learningRatePerSample = 1.953125e-05; epochTime=13.232s
+Finished Epoch[127 of 160]: [Training] ce = 0.07228089 * 12500; errs = 2.472% * 12500; totalSamplesSeen = 1587500; learningRatePerSample = 1.953125e-05; epochTime=14.0512s
+Finished Epoch[127 of 160]: [Training] ce = 0.07154508 * 12500; errs = 2.320% * 12500; totalSamplesSeen = 1587500; learningRatePerSample = 1.953125e-05; epochTime=14.1688s
+Finished Epoch[127 of 160]: [Training] ce = 0.07426404 * 12500; errs = 2.480% * 12500; totalSamplesSeen = 1587500; learningRatePerSample = 1.953125e-05; epochTime=14.6652s
+Finished Epoch[128 of 160]: [Training] ce = 0.06546157 * 12500; errs = 2.080% * 12500; totalSamplesSeen = 1600000; learningRatePerSample = 1.953125e-05; epochTime=13.9356s
+Finished Epoch[128 of 160]: [Training] ce = 0.07586460 * 12500; errs = 2.408% * 12500; totalSamplesSeen = 1600000; learningRatePerSample = 1.953125e-05; epochTime=14.0071s
+Finished Epoch[128 of 160]: [Training] ce = 0.06711035 * 12500; errs = 2.304% * 12500; totalSamplesSeen = 1600000; learningRatePerSample = 1.953125e-05; epochTime=14.2104s
+Finished Epoch[128 of 160]: [Training] ce = 0.07146582 * 12500; errs = 2.384% * 12500; totalSamplesSeen = 1600000; learningRatePerSample = 1.953125e-05; epochTime=14.4799s
+Finished Epoch[129 of 160]: [Training] ce = 0.07164125 * 12500; errs = 2.552% * 12500; totalSamplesSeen = 1612500; learningRatePerSample = 1.953125e-05; epochTime=13.1718s
+Finished Epoch[129 of 160]: [Training] ce = 0.06979787 * 12500; errs = 2.456% * 12500; totalSamplesSeen = 1612500; learningRatePerSample = 1.953125e-05; epochTime=13.6796s
+Finished Epoch[129 of 160]: [Training] ce = 0.07621048 * 12500; errs = 2.680% * 12500; totalSamplesSeen = 1612500; learningRatePerSample = 1.953125e-05; epochTime=13.9362s
+Finished Epoch[129 of 160]: [Training] ce = 0.07453514 * 12500; errs = 2.448% * 12500; totalSamplesSeen = 1612500; learningRatePerSample = 1.953125e-05; epochTime=14.4905s
+Finished Epoch[130 of 160]: [Training] ce = 0.06740268 * 12500; errs = 2.200% * 12500; totalSamplesSeen = 1625000; learningRatePerSample = 1.953125e-05; epochTime=13.7545s
+Finished Epoch[130 of 160]: [Training] ce = 0.07364063 * 12500; errs = 2.440% * 12500; totalSamplesSeen = 1625000; learningRatePerSample = 1.953125e-05; epochTime=13.987s
+Finished Epoch[130 of 160]: [Training] ce = 0.07128063 * 12500; errs = 2.432% * 12500; totalSamplesSeen = 1625000; learningRatePerSample = 1.953125e-05; epochTime=14.0837s
+Finished Epoch[130 of 160]: [Training] ce = 0.06774797 * 12500; errs = 2.232% * 12500; totalSamplesSeen = 1625000; learningRatePerSample = 1.953125e-05; epochTime=14.4046s
+Finished Epoch[131 of 160]: [Training] ce = 0.07372062 * 12500; errs = 2.472% * 12500; totalSamplesSeen = 1637500; learningRatePerSample = 1.953125e-05; epochTime=12.6617s
+Finished Epoch[131 of 160]: [Training] ce = 0.07514954 * 12500; errs = 2.608% * 12500; totalSamplesSeen = 1637500; learningRatePerSample = 1.953125e-05; epochTime=13.0858s
+Finished Epoch[131 of 160]: [Training] ce = 0.06834542 * 12500; errs = 2.168% * 12500; totalSamplesSeen = 1637500; learningRatePerSample = 1.953125e-05; epochTime=13.4368s
+Finished Epoch[131 of 160]: [Training] ce = 0.07040357 * 12500; errs = 2.504% * 12500; totalSamplesSeen = 1637500; learningRatePerSample = 1.953125e-05; epochTime=15.0322s
+Finished Epoch[132 of 160]: [Training] ce = 0.07514671 * 12500; errs = 2.648% * 12500; totalSamplesSeen = 1650000; learningRatePerSample = 1.953125e-05; epochTime=13.1414s
+Finished Epoch[132 of 160]: [Training] ce = 0.07012805 * 12500; errs = 2.360% * 12500; totalSamplesSeen = 1650000; learningRatePerSample = 1.953125e-05; epochTime=13.1507s
+Finished Epoch[132 of 160]: [Training] ce = 0.06942542 * 12500; errs = 2.336% * 12500; totalSamplesSeen = 1650000; learningRatePerSample = 1.953125e-05; epochTime=14.2757s
+Finished Epoch[132 of 160]: [Training] ce = 0.07502540 * 12500; errs = 2.688% * 12500; totalSamplesSeen = 1650000; learningRatePerSample = 1.953125e-05; epochTime=14.419s
+Finished Epoch[133 of 160]: [Training] ce = 0.07082333 * 12500; errs = 2.264% * 12500; totalSamplesSeen = 1662500; learningRatePerSample = 1.953125e-05; epochTime=12.441s
+Finished Epoch[133 of 160]: [Training] ce = 0.07025180 * 12500; errs = 2.320% * 12500; totalSamplesSeen = 1662500; learningRatePerSample = 1.953125e-05; epochTime=12.8002s
+Finished Epoch[133 of 160]: [Training] ce = 0.07034665 * 12500; errs = 2.528% * 12500; totalSamplesSeen = 1662500; learningRatePerSample = 1.953125e-05; epochTime=13.5074s
+Finished Epoch[133 of 160]: [Training] ce = 0.06912221 * 12500; errs = 2.384% * 12500; totalSamplesSeen = 1662500; learningRatePerSample = 1.953125e-05; epochTime=13.7067s
+Finished Epoch[134 of 160]: [Training] ce = 0.07092165 * 12500; errs = 2.576% * 12500; totalSamplesSeen = 1675000; learningRatePerSample = 1.953125e-05; epochTime=14.5267s
+Finished Epoch[134 of 160]: [Training] ce = 0.07063067 * 12500; errs = 2.376% * 12500; totalSamplesSeen = 1675000; learningRatePerSample = 1.953125e-05; epochTime=14.6247s
+Finished Epoch[134 of 160]: [Training] ce = 0.06580109 * 12500; errs = 1.984% * 12500; totalSamplesSeen = 1675000; learningRatePerSample = 1.953125e-05; epochTime=14.7002s
+Finished Epoch[134 of 160]: [Training] ce = 0.07298173 * 12500; errs = 2.520% * 12500; totalSamplesSeen = 1675000; learningRatePerSample = 1.953125e-05; epochTime=15.0892s
+Finished Epoch[135 of 160]: [Training] ce = 0.07171081 * 12500; errs = 2.560% * 12500; totalSamplesSeen = 1687500; learningRatePerSample = 1.953125e-05; epochTime=13.4498s
+Finished Epoch[135 of 160]: [Training] ce = 0.06711829 * 12500; errs = 2.328% * 12500; totalSamplesSeen = 1687500; learningRatePerSample = 1.953125e-05; epochTime=13.8535s
+Finished Epoch[135 of 160]: [Training] ce = 0.06952781 * 12500; errs = 2.344% * 12500; totalSamplesSeen = 1687500; learningRatePerSample = 1.953125e-05; epochTime=13.9081s
+Finished Epoch[135 of 160]: [Training] ce = 0.07928231 * 12500; errs = 2.792% * 12500; totalSamplesSeen = 1687500; learningRatePerSample = 1.953125e-05; epochTime=13.9963s
+Finished Epoch[136 of 160]: [Training] ce = 0.06710488 * 12500; errs = 2.200% * 12500; totalSamplesSeen = 1700000; learningRatePerSample = 1.953125e-05; epochTime=14.4383s
+Finished Epoch[136 of 160]: [Training] ce = 0.07147062 * 12500; errs = 2.552% * 12500; totalSamplesSeen = 1700000; learningRatePerSample = 1.953125e-05; epochTime=14.8965s
+Finished Epoch[136 of 160]: [Training] ce = 0.07049771 * 12500; errs = 2.312% * 12500; totalSamplesSeen = 1700000; learningRatePerSample = 1.953125e-05; epochTime=15.2443s
+Finished Epoch[136 of 160]: [Training] ce = 0.07346222 * 12500; errs = 2.520% * 12500; totalSamplesSeen = 1700000; learningRatePerSample = 1.953125e-05; epochTime=15.839s
+Finished Epoch[137 of 160]: [Training] ce = 0.07081841 * 12500; errs = 2.520% * 12500; totalSamplesSeen = 1712500; learningRatePerSample = 1.953125e-05; epochTime=13.7658s
+Finished Epoch[137 of 160]: [Training] ce = 0.07245066 * 12500; errs = 2.432% * 12500; totalSamplesSeen = 1712500; learningRatePerSample = 1.953125e-05; epochTime=13.8088s
+Finished Epoch[137 of 160]: [Training] ce = 0.07045866 * 12500; errs = 2.360% * 12500; totalSamplesSeen = 1712500; learningRatePerSample = 1.953125e-05; epochTime=14.0952s
+Finished Epoch[137 of 160]: [Training] ce = 0.06854551 * 12500; errs = 2.496% * 12500; totalSamplesSeen = 1712500; learningRatePerSample = 1.953125e-05; epochTime=14.3853s
+Finished Epoch[138 of 160]: [Training] ce = 0.06569051 * 12500; errs = 2.128% * 12500; totalSamplesSeen = 1725000; learningRatePerSample = 1.953125e-05; epochTime=14.2992s
+Finished Epoch[138 of 160]: [Training] ce = 0.06838603 * 12500; errs = 2.272% * 12500; totalSamplesSeen = 1725000; learningRatePerSample = 1.953125e-05; epochTime=14.539s
+Finished Epoch[138 of 160]: [Training] ce = 0.07312374 * 12500; errs = 2.600% * 12500; totalSamplesSeen = 1725000; learningRatePerSample = 1.953125e-05; epochTime=14.7454s
+Finished Epoch[138 of 160]: [Training] ce = 0.06929434 * 12500; errs = 2.432% * 12500; totalSamplesSeen = 1725000; learningRatePerSample = 1.953125e-05; epochTime=15.3627s
+Finished Epoch[139 of 160]: [Training] ce = 0.06781022 * 12500; errs = 2.112% * 12500; totalSamplesSeen = 1737500; learningRatePerSample = 1.953125e-05; epochTime=14.4316s
+Finished Epoch[139 of 160]: [Training] ce = 0.07362254 * 12500; errs = 2.504% * 12500; totalSamplesSeen = 1737500; learningRatePerSample = 1.953125e-05; epochTime=14.497s
+Finished Epoch[139 of 160]: [Training] ce = 0.07028559 * 12500; errs = 2.336% * 12500; totalSamplesSeen = 1737500; learningRatePerSample = 1.953125e-05; epochTime=14.6317s
+Finished Epoch[139 of 160]: [Training] ce = 0.06911583 * 12500; errs = 2.304% * 12500; totalSamplesSeen = 1737500; learningRatePerSample = 1.953125e-05; epochTime=15.4716s
+Finished Epoch[140 of 160]: [Training] ce = 0.07076164 * 12500; errs = 2.416% * 12500; totalSamplesSeen = 1750000; learningRatePerSample = 1.953125e-05; epochTime=12.3253s
+Finished Epoch[140 of 160]: [Training] ce = 0.06957369 * 12500; errs = 2.312% * 12500; totalSamplesSeen = 1750000; learningRatePerSample = 1.953125e-05; epochTime=12.8286s
+Finished Epoch[140 of 160]: [Training] ce = 0.06903831 * 12500; errs = 2.384% * 12500; totalSamplesSeen = 1750000; learningRatePerSample = 1.953125e-05; epochTime=12.9165s
+Finished Epoch[140 of 160]: [Training] ce = 0.06992250 * 12500; errs = 2.440% * 12500; totalSamplesSeen = 1750000; learningRatePerSample = 1.953125e-05; epochTime=13.7602s
+Finished Epoch[141 of 160]: [Training] ce = 0.06444940 * 12500; errs = 2.024% * 12500; totalSamplesSeen = 1762500; learningRatePerSample = 1.953125e-05; epochTime=14.2455s
+Finished Epoch[141 of 160]: [Training] ce = 0.07021274 * 12500; errs = 2.312% * 12500; totalSamplesSeen = 1762500; learningRatePerSample = 1.953125e-05; epochTime=14.5409s
+Finished Epoch[141 of 160]: [Training] ce = 0.06926289 * 12500; errs = 2.440% * 12500; totalSamplesSeen = 1762500; learningRatePerSample = 1.953125e-05; epochTime=14.6709s
+Finished Epoch[141 of 160]: [Training] ce = 0.06773631 * 12500; errs = 2.272% * 12500; totalSamplesSeen = 1762500; learningRatePerSample = 1.953125e-05; epochTime=15.5732s
+Finished Epoch[142 of 160]: [Training] ce = 0.07091818 * 12500; errs = 2.432% * 12500; totalSamplesSeen = 1775000; learningRatePerSample = 1.953125e-05; epochTime=14.1561s
+Finished Epoch[142 of 160]: [Training] ce = 0.06783256 * 12500; errs = 2.232% * 12500; totalSamplesSeen = 1775000; learningRatePerSample = 1.953125e-05; epochTime=14.4629s
+Finished Epoch[142 of 160]: [Training] ce = 0.07219922 * 12500; errs = 2.560% * 12500; totalSamplesSeen = 1775000; learningRatePerSample = 1.953125e-05; epochTime=14.8915s
+Finished Epoch[142 of 160]: [Training] ce = 0.06537545 * 12500; errs = 2.256% * 12500; totalSamplesSeen = 1775000; learningRatePerSample = 1.953125e-05; epochTime=15.1715s
+Finished Epoch[143 of 160]: [Training] ce = 0.07407838 * 12500; errs = 2.472% * 12500; totalSamplesSeen = 1787500; learningRatePerSample = 1.953125e-05; epochTime=13.1175s
+Finished Epoch[143 of 160]: [Training] ce = 0.06887258 * 12500; errs = 2.304% * 12500; totalSamplesSeen = 1787500; learningRatePerSample = 1.953125e-05; epochTime=13.5999s
+Finished Epoch[143 of 160]: [Training] ce = 0.07105140 * 12500; errs = 2.264% * 12500; totalSamplesSeen = 1787500; learningRatePerSample = 1.953125e-05; epochTime=14.3439s
+Finished Epoch[143 of 160]: [Training] ce = 0.06621656 * 12500; errs = 2.240% * 12500; totalSamplesSeen = 1787500; learningRatePerSample = 1.953125e-05; epochTime=14.3955s
+Finished Epoch[144 of 160]: [Training] ce = 0.07119648 * 12500; errs = 2.456% * 12500; totalSamplesSeen = 1800000; learningRatePerSample = 1.953125e-05; epochTime=12.7883s
+Finished Epoch[144 of 160]: [Training] ce = 0.06932725 * 12500; errs = 2.440% * 12500; totalSamplesSeen = 1800000; learningRatePerSample = 1.953125e-05; epochTime=13.0109s
+Finished Epoch[144 of 160]: [Training] ce = 0.06831795 * 12500; errs = 2.264% * 12500; totalSamplesSeen = 1800000; learningRatePerSample = 1.953125e-05; epochTime=13.2148s
+Finished Epoch[144 of 160]: [Training] ce = 0.06977436 * 12500; errs = 2.344% * 12500; totalSamplesSeen = 1800000; learningRatePerSample = 1.953125e-05; epochTime=13.3909s
+Finished Epoch[145 of 160]: [Training] ce = 0.06931629 * 12500; errs = 2.224% * 12500; totalSamplesSeen = 1812500; learningRatePerSample = 1.953125e-05; epochTime=13.5594s
+Finished Epoch[145 of 160]: [Training] ce = 0.06340010 * 12500; errs = 1.968% * 12500; totalSamplesSeen = 1812500; learningRatePerSample = 1.953125e-05; epochTime=13.6982s
+Finished Epoch[145 of 160]: [Training] ce = 0.06647254 * 12500; errs = 2.232% * 12500; totalSamplesSeen = 1812500; learningRatePerSample = 1.953125e-05; epochTime=14.2108s
+Finished Epoch[145 of 160]: [Training] ce = 0.06675174 * 12500; errs = 2.304% * 12500; totalSamplesSeen = 1812500; learningRatePerSample = 1.953125e-05; epochTime=14.3771s
+Finished Epoch[146 of 160]: [Training] ce = 0.07081926 * 12500; errs = 2.376% * 12500; totalSamplesSeen = 1825000; learningRatePerSample = 1.953125e-05; epochTime=12.3578s
+Finished Epoch[146 of 160]: [Training] ce = 0.07329692 * 12500; errs = 2.448% * 12500; totalSamplesSeen = 1825000; learningRatePerSample = 1.953125e-05; epochTime=11.9167s
+Finished Epoch[146 of 160]: [Training] ce = 0.06625757 * 12500; errs = 2.168% * 12500; totalSamplesSeen = 1825000; learningRatePerSample = 1.953125e-05; epochTime=14.309s
+Finished Epoch[146 of 160]: [Training] ce = 0.06774671 * 12500; errs = 2.320% * 12500; totalSamplesSeen = 1825000; learningRatePerSample = 1.953125e-05; epochTime=15.249s
+Finished Epoch[147 of 160]: [Training] ce = 0.06277964 * 12500; errs = 2.080% * 12500; totalSamplesSeen = 1837500; learningRatePerSample = 1.953125e-05; epochTime=13.2469s
+Finished Epoch[147 of 160]: [Training] ce = 0.06983452 * 12500; errs = 2.336% * 12500; totalSamplesSeen = 1837500; learningRatePerSample = 1.953125e-05; epochTime=13.2634s
+Finished Epoch[147 of 160]: [Training] ce = 0.06716041 * 12500; errs = 2.176% * 12500; totalSamplesSeen = 1837500; learningRatePerSample = 1.953125e-05; epochTime=13.5107s
+Finished Epoch[147 of 160]: [Training] ce = 0.06912824 * 12500; errs = 2.304% * 12500; totalSamplesSeen = 1837500; learningRatePerSample = 1.953125e-05; epochTime=13.6461s
+Finished Epoch[148 of 160]: [Training] ce = 0.06595591 * 12500; errs = 2.272% * 12500; totalSamplesSeen = 1850000; learningRatePerSample = 1.953125e-05; epochTime=14.5537s
+Finished Epoch[148 of 160]: [Training] ce = 0.06638746 * 12500; errs = 2.152% * 12500; totalSamplesSeen = 1850000; learningRatePerSample = 1.953125e-05; epochTime=14.6937s
+Finished Epoch[148 of 160]: [Training] ce = 0.07157739 * 12500; errs = 2.320% * 12500; totalSamplesSeen = 1850000; learningRatePerSample = 1.953125e-05; epochTime=15.387s
+Finished Epoch[148 of 160]: [Training] ce = 0.07069666 * 12500; errs = 2.272% * 12500; totalSamplesSeen = 1850000; learningRatePerSample = 1.953125e-05; epochTime=15.5448s
+Finished Epoch[149 of 160]: [Training] ce = 0.06662489 * 12500; errs = 2.232% * 12500; totalSamplesSeen = 1862500; learningRatePerSample = 1.953125e-05; epochTime=14.0619s
+Finished Epoch[149 of 160]: [Training] ce = 0.06559519 * 12500; errs = 2.128% * 12500; totalSamplesSeen = 1862500; learningRatePerSample = 1.953125e-05; epochTime=14.738s
+Finished Epoch[149 of 160]: [Training] ce = 0.07124365 * 12500; errs = 2.400% * 12500; totalSamplesSeen = 1862500; learningRatePerSample = 1.953125e-05; epochTime=14.8597s
+Finished Epoch[149 of 160]: [Training] ce = 0.06427707 * 12500; errs = 2.208% * 12500; totalSamplesSeen = 1862500; learningRatePerSample = 1.953125e-05; epochTime=15.0553s
+Finished Epoch[150 of 160]: [Training] ce = 0.06870095 * 12500; errs = 2.384% * 12500; totalSamplesSeen = 1875000; learningRatePerSample = 1.953125e-05; epochTime=13.8038s
+Finished Epoch[150 of 160]: [Training] ce = 0.06875267 * 12500; errs = 2.232% * 12500; totalSamplesSeen = 1875000; learningRatePerSample = 1.953125e-05; epochTime=13.9102s
+Finished Epoch[150 of 160]: [Training] ce = 0.07131847 * 12500; errs = 2.416% * 12500; totalSamplesSeen = 1875000; learningRatePerSample = 1.953125e-05; epochTime=14.3658s
+Finished Epoch[150 of 160]: [Training] ce = 0.06531024 * 12500; errs = 2.064% * 12500; totalSamplesSeen = 1875000; learningRatePerSample = 1.953125e-05; epochTime=14.4268s
+Finished Epoch[151 of 160]: [Training] ce = 0.06854538 * 12500; errs = 2.232% * 12500; totalSamplesSeen = 1887500; learningRatePerSample = 1.953125e-05; epochTime=12.598s
+Finished Epoch[151 of 160]: [Training] ce = 0.07011541 * 12500; errs = 2.256% * 12500; totalSamplesSeen = 1887500; learningRatePerSample = 1.953125e-05; epochTime=13.7983s
+Finished Epoch[151 of 160]: [Training] ce = 0.06681488 * 12500; errs = 2.232% * 12500; totalSamplesSeen = 1887500; learningRatePerSample = 1.953125e-05; epochTime=13.7998s
+Finished Epoch[151 of 160]: [Training] ce = 0.07204911 * 12500; errs = 2.488% * 12500; totalSamplesSeen = 1887500; learningRatePerSample = 1.953125e-05; epochTime=14.2462s
+Finished Epoch[152 of 160]: [Training] ce = 0.06914311 * 12500; errs = 2.320% * 12500; totalSamplesSeen = 1900000; learningRatePerSample = 1.953125e-05; epochTime=12.645s
+Finished Epoch[152 of 160]: [Training] ce = 0.06920716 * 12500; errs = 2.344% * 12500; totalSamplesSeen = 1900000; learningRatePerSample = 1.953125e-05; epochTime=12.9462s
+Finished Epoch[152 of 160]: [Training] ce = 0.06642095 * 12500; errs = 2.312% * 12500; totalSamplesSeen = 1900000; learningRatePerSample = 1.953125e-05; epochTime=13.7594s
+Finished Epoch[152 of 160]: [Training] ce = 0.07297093 * 12500; errs = 2.544% * 12500; totalSamplesSeen = 1900000; learningRatePerSample = 1.953125e-05; epochTime=14.1009s
+Finished Epoch[153 of 160]: [Training] ce = 0.06485221 * 12500; errs = 2.168% * 12500; totalSamplesSeen = 1912500; learningRatePerSample = 1.953125e-05; epochTime=12.5533s
+Finished Epoch[153 of 160]: [Training] ce = 0.06988524 * 12500; errs = 2.376% * 12500; totalSamplesSeen = 1912500; learningRatePerSample = 1.953125e-05; epochTime=12.7013s
+Finished Epoch[153 of 160]: [Training] ce = 0.06843364 * 12500; errs = 2.216% * 12500; totalSamplesSeen = 1912500; learningRatePerSample = 1.953125e-05; epochTime=13.2347s
+Finished Epoch[153 of 160]: [Training] ce = 0.06867483 * 12500; errs = 2.312% * 12500; totalSamplesSeen = 1912500; learningRatePerSample = 1.953125e-05; epochTime=13.7128s
+Finished Epoch[154 of 160]: [Training] ce = 0.07125526 * 12500; errs = 2.512% * 12500; totalSamplesSeen = 1925000; learningRatePerSample = 1.953125e-05; epochTime=11.6836s
+Finished Epoch[154 of 160]: [Training] ce = 0.06934077 * 12500; errs = 2.376% * 12500; totalSamplesSeen = 1925000; learningRatePerSample = 1.953125e-05; epochTime=12.6998s
+Finished Epoch[154 of 160]: [Training] ce = 0.06728054 * 12500; errs = 2.168% * 12500; totalSamplesSeen = 1925000; learningRatePerSample = 1.953125e-05; epochTime=13.0412s
+Finished Epoch[154 of 160]: [Training] ce = 0.06987746 * 12500; errs = 2.440% * 12500; totalSamplesSeen = 1925000; learningRatePerSample = 1.953125e-05; epochTime=13.1694s
+Finished Epoch[155 of 160]: [Training] ce = 0.06903509 * 12500; errs = 2.368% * 12500; totalSamplesSeen = 1937500; learningRatePerSample = 1.953125e-05; epochTime=13.8728s
+Finished Epoch[155 of 160]: [Training] ce = 0.06320604 * 12500; errs = 2.096% * 12500; totalSamplesSeen = 1937500; learningRatePerSample = 1.953125e-05; epochTime=13.9365s
+Finished Epoch[155 of 160]: [Training] ce = 0.06950525 * 12500; errs = 2.408% * 12500; totalSamplesSeen = 1937500; learningRatePerSample = 1.953125e-05; epochTime=14.017s
+Finished Epoch[155 of 160]: [Training] ce = 0.06678882 * 12500; errs = 2.200% * 12500; totalSamplesSeen = 1937500; learningRatePerSample = 1.953125e-05; epochTime=14.5778s
+Finished Epoch[156 of 160]: [Training] ce = 0.06738321 * 12500; errs = 2.280% * 12500; totalSamplesSeen = 1950000; learningRatePerSample = 1.953125e-05; epochTime=12.7992s
+Finished Epoch[156 of 160]: [Training] ce = 0.06833278 * 12500; errs = 2.328% * 12500; totalSamplesSeen = 1950000; learningRatePerSample = 1.953125e-05; epochTime=12.9497s
+Finished Epoch[156 of 160]: [Training] ce = 0.07117140 * 12500; errs = 2.544% * 12500; totalSamplesSeen = 1950000; learningRatePerSample = 1.953125e-05; epochTime=13.272s
+Finished Epoch[156 of 160]: [Training] ce = 0.06909623 * 12500; errs = 2.304% * 12500; totalSamplesSeen = 1950000; learningRatePerSample = 1.953125e-05; epochTime=13.5417s
+Finished Epoch[157 of 160]: [Training] ce = 0.06665184 * 12500; errs = 2.208% * 12500; totalSamplesSeen = 1962500; learningRatePerSample = 1.953125e-05; epochTime=13.3589s
+Finished Epoch[157 of 160]: [Training] ce = 0.06774194 * 12500; errs = 2.264% * 12500; totalSamplesSeen = 1962500; learningRatePerSample = 1.953125e-05; epochTime=13.6411s
+Finished Epoch[157 of 160]: [Training] ce = 0.06555014 * 12500; errs = 2.184% * 12500; totalSamplesSeen = 1962500; learningRatePerSample = 1.953125e-05; epochTime=13.8055s
+Finished Epoch[157 of 160]: [Training] ce = 0.06808221 * 12500; errs = 2.296% * 12500; totalSamplesSeen = 1962500; learningRatePerSample = 1.953125e-05; epochTime=13.8301s
+Finished Epoch[158 of 160]: [Training] ce = 0.07239976 * 12500; errs = 2.376% * 12500; totalSamplesSeen = 1975000; learningRatePerSample = 1.953125e-05; epochTime=13.5217s
+Finished Epoch[158 of 160]: [Training] ce = 0.06634947 * 12500; errs = 2.264% * 12500; totalSamplesSeen = 1975000; learningRatePerSample = 1.953125e-05; epochTime=13.717s
+Finished Epoch[158 of 160]: [Training] ce = 0.06540808 * 12500; errs = 2.152% * 12500; totalSamplesSeen = 1975000; learningRatePerSample = 1.953125e-05; epochTime=14.3691s
+Finished Epoch[158 of 160]: [Training] ce = 0.07249308 * 12500; errs = 2.440% * 12500; totalSamplesSeen = 1975000; learningRatePerSample = 1.953125e-05; epochTime=14.5489s
+Finished Epoch[159 of 160]: [Training] ce = 0.06735473 * 12500; errs = 2.312% * 12500; totalSamplesSeen = 1987500; learningRatePerSample = 1.953125e-05; epochTime=13.9131s
+Finished Epoch[159 of 160]: [Training] ce = 0.06819010 * 12500; errs = 2.264% * 12500; totalSamplesSeen = 1987500; learningRatePerSample = 1.953125e-05; epochTime=14.5325s
+Finished Epoch[159 of 160]: [Training] ce = 0.06894522 * 12500; errs = 2.272% * 12500; totalSamplesSeen = 1987500; learningRatePerSample = 1.953125e-05; epochTime=14.5649s
+Finished Epoch[159 of 160]: [Training] ce = 0.06279049 * 12500; errs = 2.040% * 12500; totalSamplesSeen = 1987500; learningRatePerSample = 1.953125e-05; epochTime=14.6058s
+Finished Epoch[160 of 160]: [Training] ce = 0.06699042 * 12500; errs = 2.280% * 12500; totalSamplesSeen = 2000000; learningRatePerSample = 1.953125e-05; epochTime=13.2261s
+Finished Epoch[160 of 160]: [Training] ce = 0.06860377 * 12500; errs = 2.320% * 12500; totalSamplesSeen = 2000000; learningRatePerSample = 1.953125e-05; epochTime=13.6908s
+Finished Epoch[160 of 160]: [Training] ce = 0.06497876 * 12500; errs = 2.200% * 12500; totalSamplesSeen = 2000000; learningRatePerSample = 1.953125e-05; epochTime=13.7724s
+Finished Epoch[160 of 160]: [Training] ce = 0.06964396 * 12500; errs = 2.392% * 12500; totalSamplesSeen = 2000000; learningRatePerSample = 1.953125e-05; epochTime=14.5191s
+~MultiversoHelper
+~MultiversoHelper
+~MultiversoHelper
+~MultiversoHelper
+[INFO] [2017-08-03 05:57:00] Multiverso Shutdown successfully
+[INFO] [2017-08-03 05:57:00] Multiverso Shutdown successfully
+[INFO] [2017-08-03 05:57:00] Multiverso Shutdown successfully
+[INFO] [2017-08-03 05:57:00] Multiverso Shutdown successfully
+
+
+
+
+
+##############################################################################
+#                                                                            #
+# Eval command (eval action)                                                 #
+#                                                                            #
+##############################################################################
+
+
+
+##############################################################################
+#                                                                            #
+# Eval command (eval action)                                                 #
+#                                                                            #
+##############################################################################
+
+
+##############################################################################
+#                                                                            #
+# Eval command (eval action)                                                 #
+#                                                                            #
+##############################################################################
+
+##############################################################################
+#                                                                            #
+# Eval command (eval action)                                                 #
+#                                                                            #
+##############################################################################
+
+Final Results: Minibatch[1-80]: errs = 9.680% * 10000; top5Errs = 0.330% * 10000
+Final Results: Minibatch[1-80]: errs = 9.680% * 10000; top5Errs = 0.330% * 10000
+Final Results: Minibatch[1-80]: Final Results: Minibatch[1-80]: errs = 9.680% * 10000; top5Errs = 0.330% * 10000
+errs = 9.680% * 10000; top5Errs = 0.330% * 10000
+
+
+
+
+COMPLETED.
+COMPLETED.
+COMPLETED.
+COMPLETED.

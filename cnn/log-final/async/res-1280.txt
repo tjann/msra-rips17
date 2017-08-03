@@ -1,0 +1,929 @@
+CNTK 2.0 (HEAD ade8bc, May 31 2017 17:15:49) on Multiversohk at 2017/07/13 09:50:16
+
+cntk  configFile=cnn-new-asgd.cntk  makeMode=false  syncPeriodPerWorker=1280
+CNTK 2.0 (HEAD ade8bc, May 31 2017 17:15:49) on Multiversohk at 2017/07/13 09:50:16
+
+cntk  configFile=cnn-new-asgd.cntk  makeMode=false  syncPeriodPerWorker=1280
+CNTK 2.0 (HEAD ade8bc, May 31 2017 17:15:49) on Multiversohk at 2017/07/13 09:50:16
+
+cntk  configFile=cnn-new-asgd.cntk  makeMode=false  syncPeriodPerWorker=1280
+CNTK 2.0 (HEAD ade8bc, May 31 2017 17:15:49) on Multiversohk at 2017/07/13 09:50:16
+
+cntk  configFile=cnn-new-asgd.cntk  makeMode=false  syncPeriodPerWorker=1280
+--------------------------------------------------------------------------
+[[24949,1],0]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: Multiversohk
+
+Another transport will be used instead, although this may result in
+lower performance.
+--------------------------------------------------------------------------
+ping [requestnodes (before change)]: 4 nodes pinging each other
+ping [requestnodes (before change)]: 4 nodes pinging each other
+ping [requestnodes (before change)]: 4 nodes pinging each other
+ping [requestnodes (before change)]: 4 nodes pinging each other
+ping [requestnodes (after change)]: 4 nodes pinging each other
+ping [requestnodes (after change)]: 4 nodes pinging each other
+ping [requestnodes (after change)]: 4 nodes pinging each other
+ping [requestnodes (after change)]: 4 nodes pinging each other
+requestnodes [MPIWrapperMpi]: using 4 out of 4 MPI nodes on a single host (4 requested); we (3) are in (participating)
+ping [mpihelper]: 4 nodes pinging each other
+requestnodes [MPIWrapperMpi]: using 4 out of 4 MPI nodes on a single host (4 requested); we (1) are in (participating)
+ping [mpihelper]: 4 nodes pinging each other
+requestnodes [MPIWrapperMpi]: using 4 out of 4 MPI nodes on a single host (4 requested); we (0) are in (participating)
+ping [mpihelper]: 4 nodes pinging each other
+requestnodes [MPIWrapperMpi]: using 4 out of 4 MPI nodes on a single host (4 requested); we (2) are in (participating)
+ping [mpihelper]: 4 nodes pinging each other
+-------------------------------------------------------------------
+Build info: 
+
+		Built time: May 31 2017 17:14:11
+		Last modified date: Fri May 26 22:32:46 2017
+		Build type: release
+		Build target: GPU
+		With 1bit-SGD: yes
+		With ASGD: yes
+		Math lib: mkl
+		CUDA_PATH: /usr/local/cuda-8.0
+		CUB_PATH: /usr/local/cub-1.4.1
+		CUDNN_PATH: /usr/local/cudnn-5.1
+		Build Branch: HEAD
+		Build SHA1: ade8bc05d30e61160da729aee078e22f8bd4fced
+		Built by Source/CNTK/buildinfo.h$$0 on 8df6191122a5
+		Build Path: /home/philly/jenkins/workspace/CNTK-Build-Linux
+		MPI distribution: Open MPI
+		MPI version: 1.10.3
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+Build info: 
+
+		Built time: May 31 2017 17:14:11
+		Last modified date: Fri May 26 22:32:46 2017
+		Build type: release
+		Build target: GPU
+		With 1bit-SGD: yes
+		With ASGD: yes
+		Math lib: mkl
+		CUDA_PATH: /usr/local/cuda-8.0
+		CUB_PATH: /usr/local/cub-1.4.1
+		CUDNN_PATH: /usr/local/cudnn-5.1
+		Build Branch: HEAD
+		Build SHA1: ade8bc05d30e61160da729aee078e22f8bd4fced
+		Built by Source/CNTK/buildinfo.h$$0 on 8df6191122a5
+		Build Path: /home/philly/jenkins/workspace/CNTK-Build-Linux
+		MPI distribution: Open MPI
+		MPI version: 1.10.3
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+Build info: 
+
+		Built time: May 31 2017 17:14:11
+		Last modified date: Fri May 26 22:32:46 2017
+		Build type: release
+		Build target: GPU
+		With 1bit-SGD: yes
+		With ASGD: yes
+		Math lib: mkl
+		CUDA_PATH: /usr/local/cuda-8.0
+		CUB_PATH: /usr/local/cub-1.4.1
+		CUDNN_PATH: /usr/local/cudnn-5.1
+		Build Branch: HEAD
+		Build SHA1: ade8bc05d30e61160da729aee078e22f8bd4fced
+		Built by Source/CNTK/buildinfo.h$$0 on 8df6191122a5
+		Build Path: /home/philly/jenkins/workspace/CNTK-Build-Linux
+		MPI distribution: Open MPI
+		MPI version: 1.10.3
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+Build info: 
+
+		Built time: May 31 2017 17:14:11
+		Last modified date: Fri May 26 22:32:46 2017
+		Build type: release
+		Build target: GPU
+		With 1bit-SGD: yes
+		With ASGD: yes
+		Math lib: mkl
+		CUDA_PATH: /usr/local/cuda-8.0
+		CUB_PATH: /usr/local/cub-1.4.1
+		CUDNN_PATH: /usr/local/cudnn-5.1
+		Build Branch: HEAD
+		Build SHA1: ade8bc05d30e61160da729aee078e22f8bd4fced
+		Built by Source/CNTK/buildinfo.h$$0 on 8df6191122a5
+		Build Path: /home/philly/jenkins/workspace/CNTK-Build-Linux
+		MPI distribution: Open MPI
+		MPI version: 1.10.3
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+GPU info:
+
+		Device[0]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 11437 MB
+		Device[1]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+		Device[2]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+		Device[3]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+-------------------------------------------------------------------
+
+##############################################################################
+#                                                                            #
+# TrainConvNet command (train action)                                        #
+#                                                                            #
+##############################################################################
+
+-------------------------------------------------------------------
+GPU info:
+
+		Device[0]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 11437 MB
+		Device[1]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+		Device[2]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+		Device[3]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+-------------------------------------------------------------------
+
+##############################################################################
+#                                                                            #
+# TrainConvNet command (train action)                                        #
+#                                                                            #
+##############################################################################
+
+-------------------------------------------------------------------
+GPU info:
+
+		Device[0]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 11437 MB
+		Device[1]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+		Device[2]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+		Device[3]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+-------------------------------------------------------------------
+
+##############################################################################
+#                                                                            #
+# TrainConvNet command (train action)                                        #
+#                                                                            #
+##############################################################################
+
+-------------------------------------------------------------------
+GPU info:
+
+		Device[0]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 11436 MB
+		Device[1]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+		Device[2]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+		Device[3]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+-------------------------------------------------------------------
+
+##############################################################################
+#                                                                            #
+# TrainConvNet command (train action)                                        #
+#                                                                            #
+##############################################################################
+
+Node 'model.arrayOfFunctions[1].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 3 x 16].
+Node 'model.arrayOfFunctions[1].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'model.arrayOfFunctions[1].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'model.arrayOfFunctions[1].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'model.arrayOfFunctions[1].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 16].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 16].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 16].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 16].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 16].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 16].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 32].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 32 x 32].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.s.arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [1 x 1 x 16 x 32].
+Node 'z.x.x.x.x.x.s.arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.s.arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.s.arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.s.arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 32 x 32].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 32 x 32].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 32 x 32].
+Node 'z.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 32 x 32].
+Node 'z.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 32 x 64].
+Node '_z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 64 x 64].
+Node '_z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.s.arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [1 x 1 x 32 x 64].
+Node 'z.x.x.x.s.arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.s.arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.s.arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.s.arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 64 x 64].
+Node 'z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 64 x 64].
+Node 'z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 64 x 64].
+Node 'z.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 64 x 64].
+Node 'z.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'model.arrayOfFunctions[8].W' (LearnableParameter operation) operation: Tensor shape was inferred as [10 x 1 x 1 x 64].
+Node 'model.arrayOfFunctions[1].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 3 x 16].
+Node 'model.arrayOfFunctions[1].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'model.arrayOfFunctions[1].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'model.arrayOfFunctions[1].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'model.arrayOfFunctions[1].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 16].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 16].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 16].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 16].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 16].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 16].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 32].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 32 x 32].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.s.arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [1 x 1 x 16 x 32].
+Node 'z.x.x.x.x.x.s.arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.s.arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.s.arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.s.arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 32 x 32].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 32 x 32].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 32 x 32].
+Node 'z.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 32 x 32].
+Node 'z.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 32 x 64].
+Node '_z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 64 x 64].
+Node '_z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.s.arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [1 x 1 x 32 x 64].
+Node 'z.x.x.x.s.arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.s.arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.s.arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.s.arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 64 x 64].
+Node 'z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 64 x 64].
+Node 'z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 64 x 64].
+Node 'z.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 64 x 64].
+Node 'z.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'model.arrayOfFunctions[8].W' (LearnableParameter operation) operation: Tensor shape was inferred as [10 x 1 x 1 x 64].
+[Multiversohk:100359] 3 more processes have sent help message help-mpi-btl-base.txt / btl:no-nics
+[Multiversohk:100359] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+Node 'model.arrayOfFunctions[1].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 3 x 16].
+Node 'model.arrayOfFunctions[1].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 3 x 16].
+Node 'model.arrayOfFunctions[1].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'model.arrayOfFunctions[1].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'model.arrayOfFunctions[1].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'model.arrayOfFunctions[1].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'model.arrayOfFunctions[1].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'model.arrayOfFunctions[1].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'model.arrayOfFunctions[1].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'model.arrayOfFunctions[1].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 16].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 16].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 16].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 16].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 16].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 16].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 16].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 16].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 16].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 16].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 16].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 16].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 32].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 32].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 32 x 32].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.s.arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [1 x 1 x 16 x 32].
+Node 'z.x.x.x.x.x.s.arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.s.arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.s.arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.s.arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 32 x 32].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 32 x 32].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 32 x 32].
+Node 'z.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayNode '_z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 32 x 32].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.s.arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [1 x 1 x 16 x 32].
+Node 'z.x.x.x.x.x.s.arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.s.arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.s.arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.s.arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 32 x 32].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 32 x 32].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 32 x 32].
+Node 'z.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 32 x 32].
+Node 'z.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+OfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 32 x 32].
+Node 'z.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 32 x 64].
+Node '_z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 32 x 64].
+Node '_z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 64 x 64].
+Node '_z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 64 x 64].
+Node '_z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.s.arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [1 x 1 x 32 x 64].
+Node 'z.x.x.x.s.arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.s.arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.s.arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.s.arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 64 x 64].
+Node '_z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node '_z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.s.arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [1 x 1 x 32 x 64].
+Node 'z.x.x.x.s.arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.s.arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.s.arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.s.arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 64 x 64].
+Node 'z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 64 x 64].
+Node 'z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 64 x 64].
+Node 'z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 64 x 64].
+Node 'z.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 64 x 64].
+Node 'z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 64 x 64].
+Node 'model.arrayOfFunctions[8].W' (LearnableParameter operation) operation: Tensor shape was inferred as [10 x 1 x 1 x 64].
+Node 'z.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 64 x 64].
+Node 'z.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'z.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
+Node 'model.arrayOfFunctions[8].W' (LearnableParameter operation) operation: Tensor shape was inferred as [10 x 1 x 1 x 64].
+
+Model has 209 nodes. Using GPU 1.
+
+Training criterion:   ce = CrossEntropyWithSoftmax
+Evaluation criterion: errs = ClassificationError
+
+Training 272474 parameters in 65 parameter tensors.
+
+
+Model has 209 nodes. Using GPU 2.
+
+Training criterion:   ce = CrossEntropyWithSoftmax
+Evaluation criterion: errs = ClassificationError
+
+Training 272474 parameters in 65 parameter tensors.
+
+
+Model has 209 nodes. Using GPU 0.
+
+Training criterion:   ce = CrossEntropyWithSoftmax
+Evaluation criterion: errs = ClassificationError
+
+Training 272474 parameters in 65 parameter tensors.
+
+
+Model has 209 nodes. Using GPU 3.
+
+Training criterion:   ce = CrossEntropyWithSoftmax
+Evaluation criterion: errs = ClassificationError
+
+Training 272474 parameters in 65 parameter tensors.
+
+[INFO] [2017-07-13 09:50:23] [INFO] [2017-07-13 09:50:23] multiverso MPI-Net is initialized under MPI_THREAD_SERIALIZED mode.
+multiverso MPI-Net is initialized under MPI_THREAD_SERIALIZED mode.
+[INFO] [2017-07-13 09:50:23] multiverso MPI-Net is initialized under MPI_THREAD_SERIALIZED mode.
+[INFO] [2017-07-13 09:50:23] multiverso MPI-Net is initialized under MPI_THREAD_SERIALIZED mode.
+[INFO] [2017-07-13 09:50:23] All nodes registered. System contains 4 nodes. num_worker = 4, num_server = 4
+[INFO] [2017-07-13 09:50:23] Create a async server
+[INFO] [2017-07-13 09:50:23] [INFO] [2017-07-13 09:50:23] Create a async server
+[INFO] [2017-07-13 09:50:23] Create a async server
+Create a async server
+[INFO] [2017-07-13 09:50:23] Rank 2: Multiverso start successfully
+[INFO] [2017-07-13 09:50:23] Rank 1: Multiverso start successfully
+[INFO] [2017-07-13 09:50:23] Rank 3: Multiverso start successfully
+[INFO] [2017-07-13 09:50:23] Rank 0: Multiverso start successfully
+multiverso initial model loaded.
+multiverso initial model loaded.
+multiverso initial model loaded.
+multiverso initial model loaded.
+Finished Epoch[ 1 of 160]: [Training] ce = 2.03799203 * 12500; errs = 74.992% * 12500; totalSamplesSeen = 12500; learningRatePerSample = 0.0078125; epochTime=16.1476s
+Finished Epoch[ 1 of 160]: [Training] ce = 1.97611438 * 12500; errs = 72.960% * 12500; totalSamplesSeen = 12500; learningRatePerSample = 0.0078125; epochTime=17.322s
+Finished Epoch[ 1 of 160]: [Training] ce = 1.95273063 * 12500; errs = 71.976% * 12500; totalSamplesSeen = 12500; learningRatePerSample = 0.0078125; epochTime=20.1792s
+Finished Epoch[ 1 of 160]: [Training] ce = 1.96679016 * 12500; errs = 72.816% * 12500; totalSamplesSeen = 12500; learningRatePerSample = 0.0078125; epochTime=21.309s
+Finished Epoch[ 2 of 160]: [Training] ce = 1.66456781 * 12500; errs = 61.648% * 12500; totalSamplesSeen = 25000; learningRatePerSample = 0.0078125; epochTime=10.4173s
+Finished Epoch[ 2 of 160]: [Training] ce = 1.64786125 * 12500; errs = 61.080% * 12500; totalSamplesSeen = 25000; learningRatePerSample = 0.0078125; epochTime=10.5562s
+Finished Epoch[ 2 of 160]: [Training] ce = 1.61897500 * 12500; errs = 60.504% * 12500; totalSamplesSeen = 25000; learningRatePerSample = 0.0078125; epochTime=11.6174s
+Finished Epoch[ 2 of 160]: [Training] ce = 1.61174781 * 12500; errs = 59.152% * 12500; totalSamplesSeen = 25000; learningRatePerSample = 0.0078125; epochTime=13.3515s
+Finished Epoch[ 3 of 160]: [Training] ce = 1.49576891 * 12500; errs = 54.808% * 12500; totalSamplesSeen = 37500; learningRatePerSample = 0.0078125; epochTime=10.2456s
+Finished Epoch[ 3 of 160]: [Training] ce = 1.50169109 * 12500; errs = 54.984% * 12500; totalSamplesSeen = 37500; learningRatePerSample = 0.0078125; epochTime=10.52s
+Finished Epoch[ 3 of 160]: [Training] ce = 1.48893266 * 12500; errs = 54.648% * 12500; totalSamplesSeen = 37500; learningRatePerSample = 0.0078125; epochTime=11.2035s
+Finished Epoch[ 3 of 160]: [Training] ce = 1.48715484 * 12500; errs = 54.168% * 12500; totalSamplesSeen = 37500; learningRatePerSample = 0.0078125; epochTime=13.3476s
+Finished Epoch[ 4 of 160]: [Training] ce = 1.44207547 * 12500; errs = 52.184% * 12500; totalSamplesSeen = 50000; learningRatePerSample = 0.0078125; epochTime=10.4604s
+Finished Epoch[ 4 of 160]: [Training] ce = 1.43501766 * 12500; errs = 51.768% * 12500; totalSamplesSeen = 50000; learningRatePerSample = 0.0078125; epochTime=10.9681s
+Finished Epoch[ 4 of 160]: [Training] ce = 1.43501094 * 12500; errs = 51.664% * 12500; totalSamplesSeen = 50000; learningRatePerSample = 0.0078125; epochTime=11.9232s
+Finished Epoch[ 4 of 160]: [Training] ce = 1.44318937 * 12500; errs = 51.624% * 12500; totalSamplesSeen = 50000; learningRatePerSample = 0.0078125; epochTime=13.3526s
+Finished Epoch[ 5 of 160]: [Training] ce = 1.45263375 * 12500; errs = 51.712% * 12500; totalSamplesSeen = 62500; learningRatePerSample = 0.0078125; epochTime=10.6821s
+Finished Epoch[ 5 of 160]: [Training] ce = 1.46463109 * 12500; errs = 51.600% * 12500; totalSamplesSeen = 62500; learningRatePerSample = 0.0078125; epochTime=11.2147s
+Finished Epoch[ 5 of 160]: [Training] ce = 1.44530531 * 12500; errs = 51.488% * 12500; totalSamplesSeen = 62500; learningRatePerSample = 0.0078125; epochTime=11.6879s
+Finished Epoch[ 5 of 160]: [Training] ce = 1.43893578 * 12500; errs = 51.048% * 12500; totalSamplesSeen = 62500; learningRatePerSample = 0.0078125; epochTime=13.3769s
+Finished Epoch[ 6 of 160]: [Training] ce = 1.48553875 * 12500; errs = 51.840% * 12500; totalSamplesSeen = 75000; learningRatePerSample = 0.0078125; epochTime=10.5753s
+Finished Epoch[ 6 of 160]: [Training] ce = 1.50167578 * 12500; errs = 52.744% * 12500; totalSamplesSeen = 75000; learningRatePerSample = 0.0078125; epochTime=10.7095s
+Finished Epoch[ 6 of 160]: [Training] ce = 1.53144828 * 12500; errs = 53.664% * 12500; totalSamplesSeen = 75000; learningRatePerSample = 0.0078125; epochTime=11.9759s
+Finished Epoch[ 6 of 160]: [Training] ce = 1.48093047 * 12500; errs = 51.832% * 12500; totalSamplesSeen = 75000; learningRatePerSample = 0.0078125; epochTime=14.2029s
+Finished Epoch[ 7 of 160]: [Training] ce = 1.41253375 * 12500; errs = 49.920% * 12500; totalSamplesSeen = 87500; learningRatePerSample = 0.0078125; epochTime=10.3196s
+Finished Epoch[ 7 of 160]: [Training] ce = 1.42920438 * 12500; errs = 50.224% * 12500; totalSamplesSeen = 87500; learningRatePerSample = 0.0078125; epochTime=10.4074s
+Finished Epoch[ 7 of 160]: [Training] ce = 1.44762234 * 12500; errs = 50.304% * 12500; totalSamplesSeen = 87500; learningRatePerSample = 0.0078125; epochTime=11.3498s
+Finished Epoch[ 7 of 160]: [Training] ce = 1.41645500 * 12500; errs = 49.456% * 12500; totalSamplesSeen = 87500; learningRatePerSample = 0.0078125; epochTime=13.3624s
+Finished Epoch[ 8 of 160]: [Training] ce = 1.37061500 * 12500; errs = 47.272% * 12500; totalSamplesSeen = 100000; learningRatePerSample = 0.0078125; epochTime=10.322s
+Finished Epoch[ 8 of 160]: [Training] ce = 1.38678609 * 12500; errs = 48.512% * 12500; totalSamplesSeen = 100000; learningRatePerSample = 0.0078125; epochTime=10.5258s
+Finished Epoch[ 8 of 160]: [Training] ce = 1.40319328 * 12500; errs = 48.840% * 12500; totalSamplesSeen = 100000; learningRatePerSample = 0.0078125; epochTime=11.3248s
+Finished Epoch[ 8 of 160]: [Training] ce = 1.41410078 * 12500; errs = 49.472% * 12500; totalSamplesSeen = 100000; learningRatePerSample = 0.0078125; epochTime=13.0345s
+Finished Epoch[ 9 of 160]: [Training] ce = 1.41987187 * 12500; errs = 49.936% * 12500; totalSamplesSeen = 112500; learningRatePerSample = 0.0078125; epochTime=10.4287s
+Finished Epoch[ 9 of 160]: [Training] ce = 1.42414687 * 12500; errs = 49.384% * 12500; totalSamplesSeen = 112500; learningRatePerSample = 0.0078125; epochTime=10.667s
+Finished Epoch[ 9 of 160]: [Training] ce = 1.44813734 * 12500; errs = 50.416% * 12500; totalSamplesSeen = 112500; learningRatePerSample = 0.0078125; epochTime=10.9453s
+Finished Epoch[ 9 of 160]: [Training] ce = 1.41164703 * 12500; errs = 49.512% * 12500; totalSamplesSeen = 112500; learningRatePerSample = 0.0078125; epochTime=13.3055s
+Finished Epoch[10 of 160]: [Training] ce = 1.39859344 * 12500; errs = 48.632% * 12500; totalSamplesSeen = 125000; learningRatePerSample = 0.0078125; epochTime=10.1565s
+Finished Epoch[10 of 160]: [Training] ce = 1.42261188 * 12500; errs = 49.216% * 12500; totalSamplesSeen = 125000; learningRatePerSample = 0.0078125; epochTime=10.253s
+Finished Epoch[10 of 160]: [Training] ce = 1.41329594 * 12500; errs = 49.080% * 12500; totalSamplesSeen = 125000; learningRatePerSample = 0.0078125; epochTime=11.2049s
+Finished Epoch[10 of 160]: [Training] ce = 1.42447844 * 12500; errs = 49.752% * 12500; totalSamplesSeen = 125000; learningRatePerSample = 0.0078125; epochTime=13.6613s
+Finished Epoch[11 of 160]: [Training] ce = 1.33008844 * 12500; errs = 47.624% * 12500; totalSamplesSeen = 137500; learningRatePerSample = 0.0078125; epochTime=10.5371s
+Finished Epoch[11 of 160]: [Training] ce = 1.32759828 * 12500; errs = 47.016% * 12500; totalSamplesSeen = 137500; learningRatePerSample = 0.0078125; epochTime=10.6979s
+Finished Epoch[11 of 160]: [Training] ce = 1.36228625 * 12500; errs = 47.976% * 12500; totalSamplesSeen = 137500; learningRatePerSample = 0.0078125; epochTime=11.4157s
+Finished Epoch[11 of 160]: [Training] ce = 1.33414609 * 12500; errs = 47.360% * 12500; totalSamplesSeen = 137500; learningRatePerSample = 0.0078125; epochTime=13.2336s
+Finished Epoch[12 of 160]: [Training] ce = 1.28342953 * 12500; errs = 45.304% * 12500; totalSamplesSeen = 150000; learningRatePerSample = 0.0078125; epochTime=11.0135s
+Finished Epoch[12 of 160]: [Training] ce = 1.31256969 * 12500; errs = 45.520% * 12500; totalSamplesSeen = 150000; learningRatePerSample = 0.0078125; epochTime=11.3235s
+Finished Epoch[12 of 160]: [Training] ce = 1.26158273 * 12500; errs = 44.616% * 12500; totalSamplesSeen = 150000; learningRatePerSample = 0.0078125; epochTime=11.6873s
+Finished Epoch[12 of 160]: [Training] ce = 1.26507523 * 12500; errs = 44.720% * 12500; totalSamplesSeen = 150000; learningRatePerSample = 0.0078125; epochTime=13.4912s
+Finished Epoch[13 of 160]: [Training] ce = 1.24917141 * 12500; errs = 44.528% * 12500; totalSamplesSeen = 162500; learningRatePerSample = 0.0078125; epochTime=10.3299s
+Finished Epoch[13 of 160]: [Training] ce = 1.24391508 * 12500; errs = 43.408% * 12500; totalSamplesSeen = 162500; learningRatePerSample = 0.0078125; epochTime=10.6137s
+Finished Epoch[13 of 160]: [Training] ce = 1.22104750 * 12500; errs = 43.576% * 12500; totalSamplesSeen = 162500; learningRatePerSample = 0.0078125; epochTime=10.6627s
+Finished Epoch[13 of 160]: [Training] ce = 1.26262016 * 12500; errs = 44.824% * 12500; totalSamplesSeen = 162500; learningRatePerSample = 0.0078125; epochTime=13.1015s
+Finished Epoch[14 of 160]: [Training] ce = 1.23253328 * 12500; errs = 43.520% * 12500; totalSamplesSeen = 175000; learningRatePerSample = 0.0078125; epochTime=10.2056s
+Finished Epoch[14 of 160]: [Training] ce = 1.25794461 * 12500; errs = 44.592% * 12500; totalSamplesSeen = 175000; learningRatePerSample = 0.0078125; epochTime=10.4671s
+Finished Epoch[14 of 160]: [Training] ce = 1.27220164 * 12500; errs = 44.704% * 12500; totalSamplesSeen = 175000; learningRatePerSample = 0.0078125; epochTime=11.4443s
+Finished Epoch[14 of 160]: [Training] ce = 1.27919609 * 12500; errs = 44.712% * 12500; totalSamplesSeen = 175000; learningRatePerSample = 0.0078125; epochTime=13.2938s
+Finished Epoch[15 of 160]: [Training] ce = 1.25935734 * 12500; errs = 43.720% * 12500; totalSamplesSeen = 187500; learningRatePerSample = 0.0078125; epochTime=10.3623s
+Finished Epoch[15 of 160]: [Training] ce = 1.25129766 * 12500; errs = 43.952% * 12500; totalSamplesSeen = 187500; learningRatePerSample = 0.0078125; epochTime=10.5122s
+Finished Epoch[15 of 160]: [Training] ce = 1.27042984 * 12500; errs = 44.656% * 12500; totalSamplesSeen = 187500; learningRatePerSample = 0.0078125; epochTime=11.5196s
+Finished Epoch[15 of 160]: [Training] ce = 1.28493617 * 12500; errs = 44.568% * 12500; totalSamplesSeen = 187500; learningRatePerSample = 0.0078125; epochTime=13.887s
+Finished Epoch[16 of 160]: [Training] ce = 1.22283688 * 12500; errs = 43.408% * 12500; totalSamplesSeen = 200000; learningRatePerSample = 0.0078125; epochTime=10.9079s
+Finished Epoch[16 of 160]: [Training] ce = 1.20848016 * 12500; errs = 42.240% * 12500; totalSamplesSeen = 200000; learningRatePerSample = 0.0078125; epochTime=11.0225s
+Finished Epoch[16 of 160]: [Training] ce = 1.22159336 * 12500; errs = 42.928% * 12500; totalSamplesSeen = 200000; learningRatePerSample = 0.0078125; epochTime=11.9668s
+Finished Epoch[16 of 160]: [Training] ce = 1.23097008 * 12500; errs = 42.880% * 12500; totalSamplesSeen = 200000; learningRatePerSample = 0.0078125; epochTime=13.5507s
+Finished Epoch[17 of 160]: [Training] ce = 1.19087711 * 12500; errs = 41.928% * 12500; totalSamplesSeen = 212500; learningRatePerSample = 0.0078125; epochTime=10.3605s
+Finished Epoch[17 of 160]: [Training] ce = 1.19652336 * 12500; errs = 42.216% * 12500; totalSamplesSeen = 212500; learningRatePerSample = 0.0078125; epochTime=11.1405s
+Finished Epoch[17 of 160]: [Training] ce = 1.18759891 * 12500; errs = 41.488% * 12500; totalSamplesSeen = 212500; learningRatePerSample = 0.0078125; epochTime=11.8265s
+Finished Epoch[17 of 160]: [Training] ce = 1.21233109 * 12500; errs = 42.200% * 12500; totalSamplesSeen = 212500; learningRatePerSample = 0.0078125; epochTime=13.3736s
+Finished Epoch[18 of 160]: [Training] ce = 1.14871594 * 12500; errs = 40.552% * 12500; totalSamplesSeen = 225000; learningRatePerSample = 0.0078125; epochTime=10.2469s
+Finished Epoch[18 of 160]: [Training] ce = 1.15002695 * 12500; errs = 40.256% * 12500; totalSamplesSeen = 225000; learningRatePerSample = 0.0078125; epochTime=10.3653s
+Finished Epoch[18 of 160]: [Training] ce = 1.17131531 * 12500; errs = 40.408% * 12500; totalSamplesSeen = 225000; learningRatePerSample = 0.0078125; epochTime=11.4268s
+Finished Epoch[18 of 160]: [Training] ce = 1.19582078 * 12500; errs = 41.048% * 12500; totalSamplesSeen = 225000; learningRatePerSample = 0.0078125; epochTime=13.6634s
+Finished Epoch[19 of 160]: [Training] ce = 1.17246383 * 12500; errs = 40.888% * 12500; totalSamplesSeen = 237500; learningRatePerSample = 0.0078125; epochTime=10.5512s
+Finished Epoch[19 of 160]: [Training] ce = 1.16942711 * 12500; errs = 40.672% * 12500; totalSamplesSeen = 237500; learningRatePerSample = 0.0078125; epochTime=10.6064s
+Finished Epoch[19 of 160]: [Training] ce = 1.16965656 * 12500; errs = 40.824% * 12500; totalSamplesSeen = 237500; learningRatePerSample = 0.0078125; epochTime=11.2074s
+Finished Epoch[19 of 160]: [Training] ce = 1.17053984 * 12500; errs = 40.648% * 12500; totalSamplesSeen = 237500; learningRatePerSample = 0.0078125; epochTime=13.5234s
+Finished Epoch[20 of 160]: [Training] ce = 1.15679641 * 12500; errs = 40.248% * 12500; totalSamplesSeen = 250000; learningRatePerSample = 0.0078125; epochTime=10.5801s
+Finished Epoch[20 of 160]: [Training] ce = 1.15574711 * 12500; errs = 40.008% * 12500; totalSamplesSeen = 250000; learningRatePerSample = 0.0078125; epochTime=10.931s
+Finished Epoch[20 of 160]: [Training] ce = 1.14682289 * 12500; errs = 40.096% * 12500; totalSamplesSeen = 250000; learningRatePerSample = 0.0078125; epochTime=11.6582s
+Finished Epoch[20 of 160]: [Training] ce = 1.14158977 * 12500; errs = 39.824% * 12500; totalSamplesSeen = 250000; learningRatePerSample = 0.0078125; epochTime=13.6746s
+Finished Epoch[21 of 160]: [Training] ce = 1.12277187 * 12500; errs = 39.224% * 12500; totalSamplesSeen = 262500; learningRatePerSample = 0.0078125; epochTime=10.2187s
+Finished Epoch[21 of 160]: [Training] ce = 1.11643031 * 12500; errs = 39.232% * 12500; totalSamplesSeen = 262500; learningRatePerSample = 0.0078125; epochTime=10.4814s
+Finished Epoch[21 of 160]: [Training] ce = 1.12003563 * 12500; errs = 38.960% * 12500; totalSamplesSeen = 262500; learningRatePerSample = 0.0078125; epochTime=11.8168s
+Finished Epoch[21 of 160]: [Training] ce = 1.09896000 * 12500; errs = 38.648% * 12500; totalSamplesSeen = 262500; learningRatePerSample = 0.0078125; epochTime=13.2118s
+Finished Epoch[22 of 160]: [Training] ce = 1.08398109 * 12500; errs = 37.688% * 12500; totalSamplesSeen = 275000; learningRatePerSample = 0.0078125; epochTime=10.2882s
+Finished Epoch[22 of 160]: [Training] ce = 1.07742461 * 12500; errs = 37.264% * 12500; totalSamplesSeen = 275000; learningRatePerSample = 0.0078125; epochTime=10.3678s
+Finished Epoch[22 of 160]: [Training] ce = 1.09567453 * 12500; errs = 38.136% * 12500; totalSamplesSeen = 275000; learningRatePerSample = 0.0078125; epochTime=11.5053s
+Finished Epoch[22 of 160]: [Training] ce = 1.10204086 * 12500; errs = 38.432% * 12500; totalSamplesSeen = 275000; learningRatePerSample = 0.0078125; epochTime=13.5213s
+Finished Epoch[23 of 160]: [Training] ce = 1.07520500 * 12500; errs = 37.520% * 12500; totalSamplesSeen = 287500; learningRatePerSample = 0.0078125; epochTime=10.2699s
+Finished Epoch[23 of 160]: [Training] ce = 1.08768656 * 12500; errs = 37.264% * 12500; totalSamplesSeen = 287500; learningRatePerSample = 0.0078125; epochTime=10.8429s
+Finished Epoch[23 of 160]: [Training] ce = 1.08213820 * 12500; errs = 37.744% * 12500; totalSamplesSeen = 287500; learningRatePerSample = 0.0078125; epochTime=11.673s
+Finished Epoch[23 of 160]: [Training] ce = 1.08981445 * 12500; errs = 37.752% * 12500; totalSamplesSeen = 287500; learningRatePerSample = 0.0078125; epochTime=13.4177s
+Finished Epoch[24 of 160]: [Training] ce = 1.06783063 * 12500; errs = 36.848% * 12500; totalSamplesSeen = 300000; learningRatePerSample = 0.0078125; epochTime=10.4096s
+Finished Epoch[24 of 160]: [Training] ce = 1.08299367 * 12500; errs = 37.152% * 12500; totalSamplesSeen = 300000; learningRatePerSample = 0.0078125; epochTime=10.7703s
+Finished Epoch[24 of 160]: [Training] ce = 1.06559000 * 12500; errs = 36.760% * 12500; totalSamplesSeen = 300000; learningRatePerSample = 0.0078125; epochTime=11.6954s
+Finished Epoch[24 of 160]: [Training] ce = 1.06263000 * 12500; errs = 36.728% * 12500; totalSamplesSeen = 300000; learningRatePerSample = 0.0078125; epochTime=13.6008s
+Finished Epoch[25 of 160]: [Training] ce = 1.01407273 * 12500; errs = 34.920% * 12500; totalSamplesSeen = 312500; learningRatePerSample = 0.0078125; epochTime=10.3714s
+Finished Epoch[25 of 160]: [Training] ce = 1.00779742 * 12500; errs = 35.152% * 12500; totalSamplesSeen = 312500; learningRatePerSample = 0.0078125; epochTime=10.5089s
+Finished Epoch[25 of 160]: [Training] ce = 1.07396289 * 12500; errs = 36.760% * 12500; totalSamplesSeen = 312500; learningRatePerSample = 0.0078125; epochTime=11.9773s
+Finished Epoch[25 of 160]: [Training] ce = 1.07511672 * 12500; errs = 36.448% * 12500; totalSamplesSeen = 312500; learningRatePerSample = 0.0078125; epochTime=13.6588s
+Finished Epoch[26 of 160]: [Training] ce = 1.18461586 * 12500; errs = 37.840% * 12500; totalSamplesSeen = 325000; learningRatePerSample = 0.0078125; epochTime=10.2933s
+Finished Epoch[26 of 160]: [Training] ce = 1.20401992 * 12500; errs = 38.288% * 12500; totalSamplesSeen = 325000; learningRatePerSample = 0.0078125; epochTime=10.8051s
+Finished Epoch[26 of 160]: [Training] ce = 1.25659977 * 12500; errs = 39.904% * 12500; totalSamplesSeen = 325000; learningRatePerSample = 0.0078125; epochTime=11.209s
+Finished Epoch[26 of 160]: [Training] ce = 1.32807516 * 12500; errs = 40.672% * 12500; totalSamplesSeen = 325000; learningRatePerSample = 0.0078125; epochTime=13.2031s
+Finished Epoch[27 of 160]: [Training] ce = 2.59281078 * 12500; errs = 75.288% * 12500; totalSamplesSeen = 337500; learningRatePerSample = 0.0078125; epochTime=10.0929s
+Finished Epoch[27 of 160]: [Training] ce = 2.62663563 * 12500; errs = 75.376% * 12500; totalSamplesSeen = 337500; learningRatePerSample = 0.0078125; epochTime=10.2259s
+Finished Epoch[27 of 160]: [Training] ce = 2.72857313 * 12500; errs = 76.680% * 12500; totalSamplesSeen = 337500; learningRatePerSample = 0.0078125; epochTime=11.2183s
+Finished Epoch[27 of 160]: [Training] ce = 2.78870719 * 12500; errs = 76.912% * 12500; totalSamplesSeen = 337500; learningRatePerSample = 0.0078125; epochTime=12.7647s
+Finished Epoch[28 of 160]: [Training] ce = 2.58375500 * 12500; errs = 79.064% * 12500; totalSamplesSeen = 350000; learningRatePerSample = 0.0078125; epochTime=10.4051s
+Finished Epoch[28 of 160]: [Training] ce = 2.55822734 * 12500; errs = 78.456% * 12500; totalSamplesSeen = 350000; learningRatePerSample = 0.0078125; epochTime=10.6152s
+Finished Epoch[28 of 160]: [Training] ce = 2.63094469 * 12500; errs = 79.384% * 12500; totalSamplesSeen = 350000; learningRatePerSample = 0.0078125; epochTime=11.6216s
+Finished Epoch[28 of 160]: [Training] ce = 2.66758937 * 12500; errs = 80.464% * 12500; totalSamplesSeen = 350000; learningRatePerSample = 0.0078125; epochTime=13.9331s
+Finished Epoch[29 of 160]: [Training] ce = 2.59466547 * 12500; errs = 85.672% * 12500; totalSamplesSeen = 362500; learningRatePerSample = 0.0078125; epochTime=10.3848s
+Finished Epoch[29 of 160]: [Training] ce = 2.65354000 * 12500; errs = 84.880% * 12500; totalSamplesSeen = 362500; learningRatePerSample = 0.0078125; epochTime=10.4915s
+Finished Epoch[29 of 160]: [Training] ce = 2.68607063 * 12500; errs = 85.160% * 12500; totalSamplesSeen = 362500; learningRatePerSample = 0.0078125; epochTime=11.5721s
+Finished Epoch[29 of 160]: [Training] ce = 2.68925188 * 12500; errs = 83.936% * 12500; totalSamplesSeen = 362500; learningRatePerSample = 0.0078125; epochTime=13.8016s
+Finished Epoch[30 of 160]: [Training] ce = 2.90526531 * 12500; errs = 82.696% * 12500; totalSamplesSeen = 375000; learningRatePerSample = 0.0078125; epochTime=10.2005s
+Finished Epoch[30 of 160]: [Training] ce = 2.90459531 * 12500; errs = 82.600% * 12500; totalSamplesSeen = 375000; learningRatePerSample = 0.0078125; epochTime=10.3303s
+Finished Epoch[30 of 160]: [Training] ce = 3.02124062 * 12500; errs = 83.400% * 12500; totalSamplesSeen = 375000; learningRatePerSample = 0.0078125; epochTime=11.3722s
+Finished Epoch[30 of 160]: [Training] ce = 2.93588156 * 12500; errs = 83.352% * 12500; totalSamplesSeen = 375000; learningRatePerSample = 0.0078125; epochTime=13.4924s
+Finished Epoch[31 of 160]: [Training] ce = 2.98001250 * 12500; errs = 83.536% * 12500; totalSamplesSeen = 387500; learningRatePerSample = 0.0078125; epochTime=10.0733s
+Finished Epoch[31 of 160]: [Training] ce = 3.05615813 * 12500; errs = 84.800% * 12500; totalSamplesSeen = 387500; learningRatePerSample = 0.0078125; epochTime=10.4451s
+Finished Epoch[31 of 160]: [Training] ce = 2.94609781 * 12500; errs = 84.328% * 12500; totalSamplesSeen = 387500; learningRatePerSample = 0.0078125; epochTime=10.9589s
+Finished Epoch[31 of 160]: [Training] ce = 2.99742250 * 12500; errs = 85.320% * 12500; totalSamplesSeen = 387500; learningRatePerSample = 0.0078125; epochTime=13.1775s
+Finished Epoch[32 of 160]: [Training] ce = 3.01304281 * 12500; errs = 88.048% * 12500; totalSamplesSeen = 400000; learningRatePerSample = 0.0078125; epochTime=10.2886s
+Finished Epoch[32 of 160]: [Training] ce = 3.04346469 * 12500; errs = 88.080% * 12500; totalSamplesSeen = 400000; learningRatePerSample = 0.0078125; epochTime=10.3152s
+Finished Epoch[32 of 160]: [Training] ce = 3.10613000 * 12500; errs = 87.568% * 12500; totalSamplesSeen = 400000; learningRatePerSample = 0.0078125; epochTime=11.5574s
+Finished Epoch[32 of 160]: [Training] ce = 3.07349281 * 12500; errs = 88.360% * 12500; totalSamplesSeen = 400000; learningRatePerSample = 0.0078125; epochTime=12.9182s
+Finished Epoch[33 of 160]: [Training] ce = 3.21288875 * 12500; errs = 86.000% * 12500; totalSamplesSeen = 412500; learningRatePerSample = 0.0078125; epochTime=9.75939s
+Finished Epoch[33 of 160]: [Training] ce = 3.21966656 * 12500; errs = 86.088% * 12500; totalSamplesSeen = 412500; learningRatePerSample = 0.0078125; epochTime=9.77897s
+Finished Epoch[33 of 160]: [Training] ce = 3.22958656 * 12500; errs = 84.800% * 12500; totalSamplesSeen = 412500; learningRatePerSample = 0.0078125; epochTime=10.8793s
+Finished Epoch[33 of 160]: [Training] ce = 3.26456437 * 12500; errs = 85.200% * 12500; totalSamplesSeen = 412500; learningRatePerSample = 0.0078125; epochTime=12.8611s
+Finished Epoch[34 of 160]: [Training] ce = 2.94762563 * 12500; errs = 86.104% * 12500; totalSamplesSeen = 425000; learningRatePerSample = 0.0078125; epochTime=10.3752s
+Finished Epoch[34 of 160]: [Training] ce = 2.96119437 * 12500; errs = 86.744% * 12500; totalSamplesSeen = 425000; learningRatePerSample = 0.0078125; epochTime=10.5184s
+Finished Epoch[34 of 160]: [Training] ce = 2.94631125 * 12500; errs = 86.608% * 12500; totalSamplesSeen = 425000; learningRatePerSample = 0.0078125; epochTime=11.709s
+Finished Epoch[34 of 160]: [Training] ce = 2.87113344 * 12500; errs = 86.272% * 12500; totalSamplesSeen = 425000; learningRatePerSample = 0.0078125; epochTime=13.2685s
+Finished Epoch[35 of 160]: [Training] ce = 2.78411969 * 12500; errs = 85.216% * 12500; totalSamplesSeen = 437500; learningRatePerSample = 0.0078125; epochTime=10.1677s
+Finished Epoch[35 of 160]: [Training] ce = 2.80564063 * 12500; errs = 85.152% * 12500; totalSamplesSeen = 437500; learningRatePerSample = 0.0078125; epochTime=10.6988s
+Finished Epoch[35 of 160]: [Training] ce = 2.85281000 * 12500; errs = 86.088% * 12500; totalSamplesSeen = 437500; learningRatePerSample = 0.0078125; epochTime=11.2167s
+Finished Epoch[35 of 160]: [Training] ce = 2.90566031 * 12500; errs = 86.016% * 12500; totalSamplesSeen = 437500; learningRatePerSample = 0.0078125; epochTime=13.4598s
+Finished Epoch[36 of 160]: [Training] ce = 3.08494281 * 12500; errs = 85.696% * 12500; totalSamplesSeen = 450000; learningRatePerSample = 0.0078125; epochTime=10.5243s
+Finished Epoch[36 of 160]: [Training] ce = 3.13351844 * 12500; errs = 86.856% * 12500; totalSamplesSeen = 450000; learningRatePerSample = 0.0078125; epochTime=10.642s
+Finished Epoch[36 of 160]: [Training] ce = 3.14505156 * 12500; errs = 86.096% * 12500; totalSamplesSeen = 450000; learningRatePerSample = 0.0078125; epochTime=11.1324s
+Finished Epoch[36 of 160]: [Training] ce = 3.34275156 * 12500; errs = 86.432% * 12500; totalSamplesSeen = 450000; learningRatePerSample = 0.0078125; epochTime=13.1494s
+Finished Epoch[37 of 160]: [Training] ce = 3.44225719 * 12500; errs = 87.656% * 12500; totalSamplesSeen = 462500; learningRatePerSample = 0.0078125; epochTime=9.95952s
+Finished Epoch[37 of 160]: [Training] ce = 3.48373500 * 12500; errs = 88.000% * 12500; totalSamplesSeen = 462500; learningRatePerSample = 0.0078125; epochTime=9.98915s
+Finished Epoch[37 of 160]: [Training] ce = 3.59138375 * 12500; errs = 88.464% * 12500; totalSamplesSeen = 462500; learningRatePerSample = 0.0078125; epochTime=10.9331s
+Finished Epoch[37 of 160]: [Training] ce = 3.52847125 * 12500; errs = 87.136% * 12500; totalSamplesSeen = 462500; learningRatePerSample = 0.0078125; epochTime=12.968s
+Finished Epoch[38 of 160]: [Training] ce = 3.46489344 * 12500; errs = 87.752% * 12500; totalSamplesSeen = 475000; learningRatePerSample = 0.0078125; epochTime=10.3484s
+Finished Epoch[38 of 160]: [Training] ce = 3.52359344 * 12500; errs = 87.816% * 12500; totalSamplesSeen = 475000; learningRatePerSample = 0.0078125; epochTime=10.3452s
+Finished Epoch[38 of 160]: [Training] ce = 3.57495031 * 12500; errs = 87.592% * 12500; totalSamplesSeen = 475000; learningRatePerSample = 0.0078125; epochTime=11.3098s
+Finished Epoch[38 of 160]: [Training] ce = 3.50934812 * 12500; errs = 86.616% * 12500; totalSamplesSeen = 475000; learningRatePerSample = 0.0078125; epochTime=13.61s
+Finished Epoch[39 of 160]: [Training] ce = 3.47944906 * 12500; errs = 89.352% * 12500; totalSamplesSeen = 487500; learningRatePerSample = 0.0078125; epochTime=10.3021s
+Finished Epoch[39 of 160]: [Training] ce = 3.38100406 * 12500; errs = 88.896% * 12500; totalSamplesSeen = 487500; learningRatePerSample = 0.0078125; epochTime=10.3238s
+Finished Epoch[39 of 160]: [Training] ce = 3.46946437 * 12500; errs = 88.520% * 12500; totalSamplesSeen = 487500; learningRatePerSample = 0.0078125; epochTime=11.5427s
+Finished Epoch[39 of 160]: [Training] ce = 3.37223031 * 12500; errs = 89.232% * 12500; totalSamplesSeen = 487500; learningRatePerSample = 0.0078125; epochTime=13.0524s
+Finished Epoch[40 of 160]: [Training] ce = 3.58152688 * 12500; errs = 89.960% * 12500; totalSamplesSeen = 500000; learningRatePerSample = 0.0078125; epochTime=10.3471s
+Finished Epoch[40 of 160]: [Training] ce = 3.56129219 * 12500; errs = 89.592% * 12500; totalSamplesSeen = 500000; learningRatePerSample = 0.0078125; epochTime=10.9013s
+Finished Epoch[40 of 160]: [Training] ce = 3.47826312 * 12500; errs = 89.928% * 12500; totalSamplesSeen = 500000; learningRatePerSample = 0.0078125; epochTime=12.8927s
+Finished Epoch[40 of 160]: [Training] ce = 3.35924437 * 12500; errs = 89.944% * 12500; totalSamplesSeen = 500000; learningRatePerSample = 0.0078125; epochTime=14.0913s
+Finished Epoch[41 of 160]: [Training] ce = 3.36230219 * 12500; errs = 90.376% * 12500; totalSamplesSeen = 512500; learningRatePerSample = 0.0078125; epochTime=10.3944s
+Finished Epoch[41 of 160]: [Training] ce = 3.36958406 * 12500; errs = 90.112% * 12500; totalSamplesSeen = 512500; learningRatePerSample = 0.0078125; epochTime=10.7925s
+Finished Epoch[41 of 160]: [Training] ce = 3.34259531 * 12500; errs = 89.960% * 12500; totalSamplesSeen = 512500; learningRatePerSample = 0.0078125; epochTime=11.1199s
+Finished Epoch[41 of 160]: [Training] ce = 3.36126375 * 12500; errs = 89.752% * 12500; totalSamplesSeen = 512500; learningRatePerSample = 0.0078125; epochTime=13.0103s
+Finished Epoch[42 of 160]: [Training] ce = 3.79653406 * 12500; errs = 90.216% * 12500; totalSamplesSeen = 525000; learningRatePerSample = 0.0078125; epochTime=10.4547s
+Finished Epoch[42 of 160]: [Training] ce = 3.75458281 * 12500; errs = 90.096% * 12500; totalSamplesSeen = 525000; learningRatePerSample = 0.0078125; epochTime=10.5538s
+Finished Epoch[42 of 160]: [Training] ce = 3.82294094 * 12500; errs = 90.056% * 12500; totalSamplesSeen = 525000; learningRatePerSample = 0.0078125; epochTime=11.0418s
+Finished Epoch[42 of 160]: [Training] ce = 3.80909531 * 12500; errs = 90.488% * 12500; totalSamplesSeen = 525000; learningRatePerSample = 0.0078125; epochTime=13.2907s
+Finished Epoch[43 of 160]: [Training] ce = 3.68674500 * 12500; errs = 89.752% * 12500; totalSamplesSeen = 537500; learningRatePerSample = 0.0078125; epochTime=9.72218s
+Finished Epoch[43 of 160]: [Training] ce = 3.74647844 * 12500; errs = 90.448% * 12500; totalSamplesSeen = 537500; learningRatePerSample = 0.0078125; epochTime=10.2585s
+Finished Epoch[43 of 160]: [Training] ce = 3.74497562 * 12500; errs = 89.848% * 12500; totalSamplesSeen = 537500; learningRatePerSample = 0.0078125; epochTime=11.4239s
+Finished Epoch[43 of 160]: [Training] ce = 3.81572125 * 12500; errs = 90.280% * 12500; totalSamplesSeen = 537500; learningRatePerSample = 0.0078125; epochTime=13.3858s
+Finished Epoch[44 of 160]: [Training] ce = 3.78811688 * 12500; errs = 89.832% * 12500; totalSamplesSeen = 550000; learningRatePerSample = 0.0078125; epochTime=10.5448s
+Finished Epoch[44 of 160]: [Training] ce = 3.78182656 * 12500; errs = 89.800% * 12500; totalSamplesSeen = 550000; learningRatePerSample = 0.0078125; epochTime=10.6s
+Finished Epoch[44 of 160]: [Training] ce = 3.76132219 * 12500; errs = 89.720% * 12500; totalSamplesSeen = 550000; learningRatePerSample = 0.0078125; epochTime=11.2526s
+Finished Epoch[44 of 160]: [Training] ce = 3.78486219 * 12500; errs = 89.704% * 12500; totalSamplesSeen = 550000; learningRatePerSample = 0.0078125; epochTime=13.3538s
+Finished Epoch[45 of 160]: [Training] ce = 3.86635594 * 12500; errs = 90.072% * 12500; totalSamplesSeen = 562500; learningRatePerSample = 0.0078125; epochTime=10.2923s
+Finished Epoch[45 of 160]: [Training] ce = 3.86438219 * 12500; errs = 89.712% * 12500; totalSamplesSeen = 562500; learningRatePerSample = 0.0078125; epochTime=10.423s
+Finished Epoch[45 of 160]: [Training] ce = 3.89825875 * 12500; errs = 90.232% * 12500; totalSamplesSeen = 562500; learningRatePerSample = 0.0078125; epochTime=11.12s
+Finished Epoch[45 of 160]: [Training] ce = 3.88750563 * 12500; errs = 90.200% * 12500; totalSamplesSeen = 562500; learningRatePerSample = 0.0078125; epochTime=12.7937s
+Finished Epoch[46 of 160]: [Training] ce = 4.01659187 * 12500; errs = 89.752% * 12500; totalSamplesSeen = 575000; learningRatePerSample = 0.0078125; epochTime=10.3302s
+Finished Epoch[46 of 160]: [Training] ce = 4.06799063 * 12500; errs = 90.440% * 12500; totalSamplesSeen = 575000; learningRatePerSample = 0.0078125; epochTime=10.39s
+Finished Epoch[46 of 160]: [Training] ce = 4.10197656 * 12500; errs = 90.152% * 12500; totalSamplesSeen = 575000; learningRatePerSample = 0.0078125; epochTime=11.5037s
+Finished Epoch[46 of 160]: [Training] ce = 3.92407344 * 12500; errs = 89.584% * 12500; totalSamplesSeen = 575000; learningRatePerSample = 0.0078125; epochTime=13.1756s
+Finished Epoch[47 of 160]: [Training] ce = 3.59211625 * 12500; errs = 89.552% * 12500; totalSamplesSeen = 587500; learningRatePerSample = 0.0078125; epochTime=10.1647s
+Finished Epoch[47 of 160]: [Training] ce = 3.57689250 * 12500; errs = 89.432% * 12500; totalSamplesSeen = 587500; learningRatePerSample = 0.0078125; epochTime=10.4005s
+Finished Epoch[47 of 160]: [Training] ce = 3.55726562 * 12500; errs = 90.136% * 12500; totalSamplesSeen = 587500; learningRatePerSample = 0.0078125; epochTime=11.2504s
+Finished Epoch[47 of 160]: [Training] ce = 3.46656781 * 12500; errs = 89.936% * 12500; totalSamplesSeen = 587500; learningRatePerSample = 0.0078125; epochTime=13.4304s
+Finished Epoch[48 of 160]: [Training] ce = 3.60042219 * 12500; errs = 89.528% * 12500; totalSamplesSeen = 600000; learningRatePerSample = 0.0078125; epochTime=10.0677s
+Finished Epoch[48 of 160]: [Training] ce = 3.64393844 * 12500; errs = 89.776% * 12500; totalSamplesSeen = 600000; learningRatePerSample = 0.0078125; epochTime=10.4893s
+Finished Epoch[48 of 160]: [Training] ce = 3.54600687 * 12500; errs = 89.640% * 12500; totalSamplesSeen = 600000; learningRatePerSample = 0.0078125; epochTime=11.224s
+Finished Epoch[48 of 160]: [Training] ce = 3.45265125 * 12500; errs = 90.144% * 12500; totalSamplesSeen = 600000; learningRatePerSample = 0.0078125; epochTime=12.7661s
+Finished Epoch[49 of 160]: [Training] ce = 3.24756844 * 12500; errs = 90.008% * 12500; totalSamplesSeen = 612500; learningRatePerSample = 0.0078125; epochTime=10.1552s
+Finished Epoch[49 of 160]: [Training] ce = 3.30485062 * 12500; errs = 90.088% * 12500; totalSamplesSeen = 612500; learningRatePerSample = 0.0078125; epochTime=10.399s
+Finished Epoch[49 of 160]: [Training] ce = 3.38978906 * 12500; errs = 89.848% * 12500; totalSamplesSeen = 612500; learningRatePerSample = 0.0078125; epochTime=11.0454s
+Finished Epoch[49 of 160]: [Training] ce = 3.46695750 * 12500; errs = 89.784% * 12500; totalSamplesSeen = 612500; learningRatePerSample = 0.0078125; epochTime=12.8123s
+Finished Epoch[50 of 160]: [Training] ce = 3.65031625 * 12500; errs = 90.024% * 12500; totalSamplesSeen = 625000; learningRatePerSample = 0.0078125; epochTime=10.2006s
+Finished Epoch[50 of 160]: [Training] ce = 3.65625781 * 12500; errs = 89.904% * 12500; totalSamplesSeen = 625000; learningRatePerSample = 0.0078125; epochTime=10.389s
+Finished Epoch[50 of 160]: [Training] ce = 3.71734000 * 12500; errs = 89.984% * 12500; totalSamplesSeen = 625000; learningRatePerSample = 0.0078125; epochTime=11.0851s
+Finished Epoch[50 of 160]: [Training] ce = 3.77708312 * 12500; errs = 89.840% * 12500; totalSamplesSeen = 625000; learningRatePerSample = 0.0078125; epochTime=12.8072s
+Finished Epoch[51 of 160]: [Training] ce = 3.73058281 * 12500; errs = 90.208% * 12500; totalSamplesSeen = 637500; learningRatePerSample = 0.0078125; epochTime=9.9227s
+Finished Epoch[51 of 160]: [Training] ce = 3.67452531 * 12500; errs = 89.744% * 12500; totalSamplesSeen = 637500; learningRatePerSample = 0.0078125; epochTime=10.1331s
+Finished Epoch[51 of 160]: [Training] ce = 3.73571656 * 12500; errs = 90.216% * 12500; totalSamplesSeen = 637500; learningRatePerSample = 0.0078125; epochTime=10.8777s
+Finished Epoch[51 of 160]: [Training] ce = 3.72228875 * 12500; errs = 89.968% * 12500; totalSamplesSeen = 637500; learningRatePerSample = 0.0078125; epochTime=12.8021s
+Finished Epoch[52 of 160]: [Training] ce = 4.18361125 * 12500; errs = 89.864% * 12500; totalSamplesSeen = 650000; learningRatePerSample = 0.0078125; epochTime=10.5438s
+Finished Epoch[52 of 160]: [Training] ce = 4.25573781 * 12500; errs = 89.504% * 12500; totalSamplesSeen = 650000; learningRatePerSample = 0.0078125; epochTime=10.9001s
+Finished Epoch[52 of 160]: [Training] ce = 4.01688438 * 12500; errs = 90.160% * 12500; totalSamplesSeen = 650000; learningRatePerSample = 0.0078125; epochTime=10.9216s
+Finished Epoch[52 of 160]: [Training] ce = 4.25024562 * 12500; errs = 90.072% * 12500; totalSamplesSeen = 650000; learningRatePerSample = 0.0078125; epochTime=12.9392s
+Finished Epoch[53 of 160]: [Training] ce = 6.14188375 * 12500; errs = 89.576% * 12500; totalSamplesSeen = 662500; learningRatePerSample = 0.0078125; epochTime=10.5922s
+Finished Epoch[53 of 160]: [Training] ce = 6.38534563 * 12500; errs = 89.432% * 12500; totalSamplesSeen = 662500; learningRatePerSample = 0.0078125; epochTime=10.8334s
+Finished Epoch[53 of 160]: [Training] ce = 6.24473375 * 12500; errs = 90.136% * 12500; totalSamplesSeen = 662500; learningRatePerSample = 0.0078125; epochTime=11.3689s
+Finished Epoch[53 of 160]: [Training] ce = 6.20311937 * 12500; errs = 90.184% * 12500; totalSamplesSeen = 662500; learningRatePerSample = 0.0078125; epochTime=12.9883s
+Finished Epoch[54 of 160]: [Training] ce = 6.73467375 * 12500; errs = 89.728% * 12500; totalSamplesSeen = 675000; learningRatePerSample = 0.0078125; epochTime=10.2462s
+Finished Epoch[54 of 160]: [Training] ce = 6.90524750 * 12500; errs = 90.016% * 12500; totalSamplesSeen = 675000; learningRatePerSample = 0.0078125; epochTime=10.3019s
+Finished Epoch[54 of 160]: [Training] ce = 6.60125000 * 12500; errs = 90.096% * 12500; totalSamplesSeen = 675000; learningRatePerSample = 0.0078125; epochTime=11.3261s
+Finished Epoch[54 of 160]: [Training] ce = 6.90389875 * 12500; errs = 90.080% * 12500; totalSamplesSeen = 675000; learningRatePerSample = 0.0078125; epochTime=13.2643s
+Finished Epoch[55 of 160]: [Training] ce = 6.77368125 * 12500; errs = 90.000% * 12500; totalSamplesSeen = 687500; learningRatePerSample = 0.0078125; epochTime=10.0885s
+Finished Epoch[55 of 160]: [Training] ce = 6.70173250 * 12500; errs = 89.528% * 12500; totalSamplesSeen = 687500; learningRatePerSample = 0.0078125; epochTime=10.1697s
+Finished Epoch[55 of 160]: [Training] ce = 7.14500375 * 12500; errs = 89.904% * 12500; totalSamplesSeen = 687500; learningRatePerSample = 0.0078125; epochTime=11.1473s
+Finished Epoch[55 of 160]: [Training] ce = 7.44387312 * 12500; errs = 89.856% * 12500; totalSamplesSeen = 687500; learningRatePerSample = 0.0078125; epochTime=12.8433s
+Finished Epoch[56 of 160]: [Training] ce = 6.78375312 * 12500; errs = 90.152% * 12500; totalSamplesSeen = 700000; learningRatePerSample = 0.0078125; epochTime=10.6128s
+Finished Epoch[56 of 160]: [Training] ce = 6.81325875 * 12500; errs = 90.024% * 12500; totalSamplesSeen = 700000; learningRatePerSample = 0.0078125; epochTime=10.7245s
+Finished Epoch[56 of 160]: [Training] ce = 7.02886625 * 12500; errs = 89.944% * 12500; totalSamplesSeen = 700000; learningRatePerSample = 0.0078125; epochTime=11.7309s
+Finished Epoch[56 of 160]: [Training] ce = 7.25236188 * 12500; errs = 90.304% * 12500; totalSamplesSeen = 700000; learningRatePerSample = 0.0078125; epochTime=13.662s
+Finished Epoch[57 of 160]: [Training] ce = 7.16023375 * 12500; errs = 89.776% * 12500; totalSamplesSeen = 712500; learningRatePerSample = 0.0078125; epochTime=10.3374s
+Finished Epoch[57 of 160]: [Training] ce = 7.27085437 * 12500; errs = 90.112% * 12500; totalSamplesSeen = 712500; learningRatePerSample = 0.0078125; epochTime=10.3708s
+Finished Epoch[57 of 160]: [Training] ce = 7.31063625 * 12500; errs = 90.168% * 12500; totalSamplesSeen = 712500; learningRatePerSample = 0.0078125; epochTime=11.0789s
+Finished Epoch[57 of 160]: [Training] ce = 7.58799250 * 12500; errs = 89.920% * 12500; totalSamplesSeen = 712500; learningRatePerSample = 0.0078125; epochTime=13.2208s
+Finished Epoch[58 of 160]: [Training] ce = 7.69663063 * 12500; errs = 90.040% * 12500; totalSamplesSeen = 725000; learningRatePerSample = 0.0078125; epochTime=10.0393s
+Finished Epoch[58 of 160]: [Training] ce = 7.66152687 * 12500; errs = 89.952% * 12500; totalSamplesSeen = 725000; learningRatePerSample = 0.0078125; epochTime=10.1754s
+Finished Epoch[58 of 160]: [Training] ce = 7.98364937 * 12500; errs = 90.352% * 12500; totalSamplesSeen = 725000; learningRatePerSample = 0.0078125; epochTime=10.7795s
+Finished Epoch[58 of 160]: [Training] ce = 8.11823375 * 12500; errs = 89.984% * 12500; totalSamplesSeen = 725000; learningRatePerSample = 0.0078125; epochTime=12.7591s
+Finished Epoch[59 of 160]: [Training] ce = 8.63873938 * 12500; errs = 90.056% * 12500; totalSamplesSeen = 737500; learningRatePerSample = 0.0078125; epochTime=10.2554s
+Finished Epoch[59 of 160]: [Training] ce = 8.71452937 * 12500; errs = 90.072% * 12500; totalSamplesSeen = 737500; learningRatePerSample = 0.0078125; epochTime=10.2655s
+Finished Epoch[59 of 160]: [Training] ce = 8.86935438 * 12500; errs = 90.208% * 12500; totalSamplesSeen = 737500; learningRatePerSample = 0.0078125; epochTime=10.8068s
+Finished Epoch[59 of 160]: [Training] ce = 8.70352062 * 12500; errs = 89.432% * 12500; totalSamplesSeen = 737500; learningRatePerSample = 0.0078125; epochTime=12.9068s
+Finished Epoch[60 of 160]: [Training] ce = 8.15971937 * 12500; errs = 89.680% * 12500; totalSamplesSeen = 750000; learningRatePerSample = 0.0078125; epochTime=10.3765s
+Finished Epoch[60 of 160]: [Training] ce = 8.27827438 * 12500; errs = 90.448% * 12500; totalSamplesSeen = 750000; learningRatePerSample = 0.0078125; epochTime=10.6576s
+Finished Epoch[60 of 160]: [Training] ce = 8.27929813 * 12500; errs = 89.784% * 12500; totalSamplesSeen = 750000; learningRatePerSample = 0.0078125; epochTime=11.2436s
+Finished Epoch[60 of 160]: [Training] ce = 8.18753250 * 12500; errs = 90.216% * 12500; totalSamplesSeen = 750000; learningRatePerSample = 0.0078125; epochTime=13.1536s
+Finished Epoch[61 of 160]: [Training] ce = 7.55612000 * 12500; errs = 90.408% * 12500; totalSamplesSeen = 762500; learningRatePerSample = 0.0078125; epochTime=9.89403s
+Finished Epoch[61 of 160]: [Training] ce = 7.58765125 * 12500; errs = 90.424% * 12500; totalSamplesSeen = 762500; learningRatePerSample = 0.0078125; epochTime=10.2346s
+Finished Epoch[61 of 160]: [Training] ce = 7.46459813 * 12500; errs = 89.448% * 12500; totalSamplesSeen = 762500; learningRatePerSample = 0.0078125; epochTime=11.8324s
+Finished Epoch[61 of 160]: [Training] ce = 7.32014750 * 12500; errs = 89.904% * 12500; totalSamplesSeen = 762500; learningRatePerSample = 0.0078125; epochTime=13.8378s
+Finished Epoch[62 of 160]: [Training] ce = 7.95428500 * 12500; errs = 90.144% * 12500; totalSamplesSeen = 775000; learningRatePerSample = 0.0078125; epochTime=10.2208s
+Finished Epoch[62 of 160]: [Training] ce = 8.20451625 * 12500; errs = 89.688% * 12500; totalSamplesSeen = 775000; learningRatePerSample = 0.0078125; epochTime=10.5204s
+Finished Epoch[62 of 160]: [Training] ce = 7.83872813 * 12500; errs = 89.976% * 12500; totalSamplesSeen = 775000; learningRatePerSample = 0.0078125; epochTime=10.9915s
+Finished Epoch[62 of 160]: [Training] ce = 7.85834125 * 12500; errs = 89.944% * 12500; totalSamplesSeen = 775000; learningRatePerSample = 0.0078125; epochTime=13.2534s
+Finished Epoch[63 of 160]: [Training] ce = 8.33471625 * 12500; errs = 90.008% * 12500; totalSamplesSeen = 787500; learningRatePerSample = 0.0078125; epochTime=10.1086s
+Finished Epoch[63 of 160]: [Training] ce = 8.49138562 * 12500; errs = 90.048% * 12500; totalSamplesSeen = 787500; learningRatePerSample = 0.0078125; epochTime=10.2599s
+Finished Epoch[63 of 160]: [Training] ce = 8.46822500 * 12500; errs = 90.088% * 12500; totalSamplesSeen = 787500; learningRatePerSample = 0.0078125; epochTime=11.0837s
+Finished Epoch[63 of 160]: [Training] ce = 7.84093563 * 12500; errs = 90.104% * 12500; totalSamplesSeen = 787500; learningRatePerSample = 0.0078125; epochTime=13.4117s
+Finished Epoch[64 of 160]: [Training] ce = 6.88599875 * 12500; errs = 89.568% * 12500; totalSamplesSeen = 800000; learningRatePerSample = 0.0078125; epochTime=10.33s
+Finished Epoch[64 of 160]: [Training] ce = 6.70926250 * 12500; errs = 90.128% * 12500; totalSamplesSeen = 800000; learningRatePerSample = 0.0078125; epochTime=10.4708s
+Finished Epoch[64 of 160]: [Training] ce = 6.56456813 * 12500; errs = 89.720% * 12500; totalSamplesSeen = 800000; learningRatePerSample = 0.0078125; epochTime=11.3294s
+Finished Epoch[64 of 160]: [Training] ce = 6.51656687 * 12500; errs = 89.800% * 12500; totalSamplesSeen = 800000; learningRatePerSample = 0.0078125; epochTime=13.5197s
+Finished Epoch[65 of 160]: [Training] ce = 7.42437438 * 12500; errs = 90.136% * 12500; totalSamplesSeen = 812500; learningRatePerSample = 0.0078125; epochTime=10.0651s
+Finished Epoch[65 of 160]: [Training] ce = 7.32268938 * 12500; errs = 90.408% * 12500; totalSamplesSeen = 812500; learningRatePerSample = 0.0078125; epochTime=10.2009s
+Finished Epoch[65 of 160]: [Training] ce = 7.23122875 * 12500; errs = 90.152% * 12500; totalSamplesSeen = 812500; learningRatePerSample = 0.0078125; epochTime=11.3158s
+Finished Epoch[65 of 160]: [Training] ce = 7.01916125 * 12500; errs = 90.288% * 12500; totalSamplesSeen = 812500; learningRatePerSample = 0.0078125; epochTime=13.2821s
+Finished Epoch[66 of 160]: [Training] ce = 7.74077750 * 12500; errs = 90.344% * 12500; totalSamplesSeen = 825000; learningRatePerSample = 0.0078125; epochTime=10.2762s
+Finished Epoch[66 of 160]: [Training] ce = 7.63272375 * 12500; errs = 90.072% * 12500; totalSamplesSeen = 825000; learningRatePerSample = 0.0078125; epochTime=10.4649s
+Finished Epoch[66 of 160]: [Training] ce = 7.47638063 * 12500; errs = 89.792% * 12500; totalSamplesSeen = 825000; learningRatePerSample = 0.0078125; epochTime=10.9368s
+Finished Epoch[66 of 160]: [Training] ce = 7.43112562 * 12500; errs = 90.192% * 12500; totalSamplesSeen = 825000; learningRatePerSample = 0.0078125; epochTime=13.3519s
+Finished Epoch[67 of 160]: [Training] ce = 7.96461062 * 12500; errs = 90.040% * 12500; totalSamplesSeen = 837500; learningRatePerSample = 0.0078125; epochTime=10.419s
+Finished Epoch[67 of 160]: [Training] ce = 8.21105437 * 12500; errs = 89.984% * 12500; totalSamplesSeen = 837500; learningRatePerSample = 0.0078125; epochTime=10.4515s
+Finished Epoch[67 of 160]: [Training] ce = 8.04351000 * 12500; errs = 90.136% * 12500; totalSamplesSeen = 837500; learningRatePerSample = 0.0078125; epochTime=11.2837s
+Finished Epoch[67 of 160]: [Training] ce = 7.86132125 * 12500; errs = 90.432% * 12500; totalSamplesSeen = 837500; learningRatePerSample = 0.0078125; epochTime=13.3445s
+Finished Epoch[68 of 160]: [Training] ce = 8.07657437 * 12500; errs = 90.104% * 12500; totalSamplesSeen = 850000; learningRatePerSample = 0.0078125; epochTime=10.4053s
+Finished Epoch[68 of 160]: [Training] ce = 8.05259688 * 12500; errs = 90.344% * 12500; totalSamplesSeen = 850000; learningRatePerSample = 0.0078125; epochTime=10.9598s
+Finished Epoch[68 of 160]: [Training] ce = 8.18706312 * 12500; errs = 90.040% * 12500; totalSamplesSeen = 850000; learningRatePerSample = 0.0078125; epochTime=12.0436s
+Finished Epoch[68 of 160]: [Training] ce = 7.86319250 * 12500; errs = 90.064% * 12500; totalSamplesSeen = 850000; learningRatePerSample = 0.0078125; epochTime=14.4065s
+Finished Epoch[69 of 160]: [Training] ce = 7.67277500 * 12500; errs = 88.720% * 12500; totalSamplesSeen = 862500; learningRatePerSample = 0.0078125; epochTime=10.2048s
+Finished Epoch[69 of 160]: [Training] ce = 7.65103937 * 12500; errs = 89.008% * 12500; totalSamplesSeen = 862500; learningRatePerSample = 0.0078125; epochTime=10.3912s
+Finished Epoch[69 of 160]: [Training] ce = 7.79451875 * 12500; errs = 89.080% * 12500; totalSamplesSeen = 862500; learningRatePerSample = 0.0078125; epochTime=11.3512s
+Finished Epoch[69 of 160]: [Training] ce = 7.56106750 * 12500; errs = 87.800% * 12500; totalSamplesSeen = 862500; learningRatePerSample = 0.0078125; epochTime=13.2943s
