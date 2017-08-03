@@ -14,7 +14,7 @@ num_sf = 3
 file_names100 = ['sync100a.txt', 'sync100b.txt', 'sync100c.txt', 'sync100d.txt', 'sync100e.txt']
 file_names1000 = ['sync1000a.txt', 'sync1000b.txt', 'sync1000c.txt', 'sync1000d.txt', 'sync1000e.txt']
 file_names10000 = ['sync10000a.txt', 'sync10000b.txt', 'sync10000c.txt', 'sync1000d.txt', 'sync1000e.txt']
-num_epoch = 149 # I think # num_samples for logreg
+num_epoch = 149  # num_samples for logreg
 num_workers = 8
 #############################################################
 #############################################################
@@ -75,9 +75,9 @@ fig, ax = plt.subplots()
 # PLOT SAMPLES SEEN X TRAIN LOSS GRAPH
 for i in range(num_sf):
     x = list(range(100032, 14963129, 100032))
-    x = x[:30]
+    # x = x[:30]
     y = list(error_lists[i])
-    y = y[:30]
+    # y = y[:30]
     # ax.plot(list(range(100032, 14963129, 100032)), list(error_lists[i]), color=color_list[i], label=label_list[i])
     ax.plot(x, y, color=color_list[i], label=label_list[i])
 ax.legend(loc='upper right')
