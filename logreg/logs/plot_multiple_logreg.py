@@ -6,17 +6,21 @@ mpl.use('Agg')
 import matplotlib.pyplot as plt
 import numpy as np
 
-ERROR_GRAPH_OUTPUT_PATH = '../error_graphs'
-TIME_GRAPH_OUTPUT_PATH = '../time_graphs'
 
-# file_names = ['async10000a.txt', 'async10000b.txt', 'async10000c.txt', 'async10000d.txt', 'async10000e.txt']
+#############################################################
+###################### VARIABLE INPUTS ######################
+synchro = 'async'
 num_sf = 3
-file_names100 = ['async100a.txt', 'async100b.txt', 'async100c.txt']
-file_names1000 = ['async1000a.txt', 'async1000b.txt', 'async1000c.txt']
-file_names10000 = ['async10000a.txt', 'async10000b.txt', 'async10000c.txt']
-num_epoch = 149 # I think # num_samples for logreg
+file_names100 = ['async100a.txt', 'async100b.txt', 'async100c.txt', 'async100d.txt', 'async100e.txt']
+file_names1000 = ['async1000a.txt', 'async1000b.txt', 'async1000c.txt', 'async1000d.txt', 'async1000e.txt']
+file_names10000 = ['async10000a.txt', 'async10000b.txt', 'async10000c.txt', 'async1000d.txt', 'async1000e.txt']
+num_epoch = 149  # num_samples for logreg
 num_workers = 8
-num_trials = 5
+#############################################################
+#############################################################
+
+
+GRAPH_OUTPUT_PATH = '../' + synchro + '_graphs'
 
 def parse_output_file(file_name):
     with open('../logs/' + file_name, 'r') as f:
@@ -70,17 +74,23 @@ avg_list = ['Avg 100', 'Avg 1000', 'Avg 10000']
 fig, ax = plt.subplots()
 # PLOT SAMPLES SEEN X TRAIN LOSS GRAPH
 for i in range(num_sf):
-    ax.plot(list(range(1, len(list(error_lists[i])) + 1)), list(error_lists[i]), color=color_list[i], label=label_list[i])
+    x = list(range(100032, 14963129, 100032))
+#    x = x[:30]
+    y = list(error_lists[i])
+#    y = y[:30]
+    # ax.plot(list(range(100032, 14963129, 100032)), list(error_lists[i]), color=color_list[i], label=label_list[i])
+    ax.plot(x, y, color=color_list[i], label=label_list[i])
 ax.legend(loc='upper right')
-plt.title('Train Loss of Logistic Regression on KDD Cup 2012 Data (Async)')
+plt.title('Train Loss of Logistic Regression on KDD Cup 2012 Data (' + synchro + ')')
 plt.xlabel("Number of Samples Seen")
 plt.ylabel("Train Loss")
-plt.savefig(ERROR_GRAPH_OUTPUT_PATH + '/async_error_graph_sf100,1000,10000.pdf')
+plt.savefig(GRAPH_OUTPUT_PATH + '/error_graph_sf100,1000,10000.pdf')
 
 
 # PLOT SAMPLES SEEN X TIME GRAPH
+fig, ax = plt.subplots()
 for i in range(num_sf):
-    ax.plot(list(range(1, len(list(time_lists[i][1:])) + 1)), list(time_lists[i][1:]), color=color_list[i], label=label_list[i])
+    ax.plot(list(range(100032, 14963129, 100032)), list(time_lists[i]), color=color_list[i], label=label_list[i])
 ax.legend(loc='upper right')
 # add average time
 avg_text = ''
@@ -90,10 +100,10 @@ plt.text(0.2, 0.9, avg_text,
      horizontalalignment='center',
      verticalalignment='center',
      transform = ax.transAxes)
-plt.title('Time Per Samples Set Logistic Regression on KDD Cup 2012 Data (Async)')
+plt.title('Time Per Samples Set Logistic Regression on KDD Cup 2012 Data (' + synchro + ')')
 plt.xlabel("Number of Samples Seen")
-plt.ylabel("Time in Seconds")
-plt.savefig(TIME_GRAPH_OUTPUT_PATH + '/async_time_graph_sf100,1000,10000.pdf')
+plt.ylabel("Compute Time in Seconds")
+plt.savefig(GRAPH_OUTPUT_PATH + '/time_graph_sf100,1000,10000.pdf')
 
 # PLOT TIME x TRAIN LOSS
 fig, ax = plt.subplots()
@@ -109,10 +119,10 @@ for i in range(num_sf):
 for i in range(num_sf):
     ax.plot(list(accum_time[i]), list(error_lists[i]), color=color_list[i], label=label_list[i])
 ax.legend(loc='upper right')
-plt.title('Train Loss by Time of Logistic Regression on KDD Cup 2012 Data (Async)')
-plt.xlabel("Time")
+plt.title('Train Loss by Time of Logistic Regression on KDD Cup 2012 Data (' + synchro + ')')
+plt.xlabel("Time (seconds)")
 plt.ylabel("Train Loss")
-plt.savefig(ERROR_GRAPH_OUTPUT_PATH + '/async_error_by_time_graph_sf100,1000,10000.pdf')
+plt.savefig(GRAPH_OUTPUT_PATH + '/error_by_time_graph_sf100,1000,10000.pdf')
 """
 # PLOT TIME GRAPH
 fig, ax = plt.subplots()
