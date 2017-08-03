@@ -74,7 +74,12 @@ avg_list = ['Avg 100', 'Avg 1000', 'Avg 10000']
 fig, ax = plt.subplots()
 # PLOT SAMPLES SEEN X TRAIN LOSS GRAPH
 for i in range(num_sf):
-    ax.plot(list(range(100032, 14963129, 100032)), list(error_lists[i]), color=color_list[i], label=label_list[i])
+    x = list(range(100032, 14963129, 100032))
+    x = x[:30]
+    y = list(error_lists[i])
+    y = y[:30]
+    # ax.plot(list(range(100032, 14963129, 100032)), list(error_lists[i]), color=color_list[i], label=label_list[i])
+    ax.plot(x, y, color=color_list[i], label=label_list[i])
 ax.legend(loc='upper right')
 plt.title('Train Loss of Logistic Regression on KDD Cup 2012 Data (' + synchro + ')')
 plt.xlabel("Number of Samples Seen")
