@@ -83,9 +83,9 @@ for i in range(num_sf):
     # ax.plot(list(range(100032, 14963129, 100032)), list(error_lists[i]), color=color_list[i], label=label_list[i])
     ax.plot(x, y, color=color_list[i], label=label_list[i])
 ax.legend(loc='upper right')
-plt.title('Train Loss of Logistic Regression on KDD Cup 2012 Data (' + synchro + ')')
-plt.xlabel("Number of Samples Seen")
-plt.ylabel("Train Loss")
+#plt.title('Train Loss of Logistic Regression on KDD Cup 2012 Data (' + synchro + ')')
+plt.xlabel("Number of Samples Seen", fontsize=80)
+plt.ylabel("Train Loss", fontsize=80)
 plt.savefig(GRAPH_OUTPUT_PATH + '/error_graph_sf100,1000,10000.pdf')
 
 
@@ -102,9 +102,9 @@ plt.text(0.2, 0.9, avg_text,
      horizontalalignment='center',
      verticalalignment='center',
      transform = ax.transAxes)
-plt.title('Time Per Samples Set Logistic Regression on KDD Cup 2012 Data (' + synchro + ')')
-plt.xlabel("Number of Samples Seen")
-plt.ylabel("Compute Time in Seconds")
+#plt.title('Time Per Samples Set Logistic Regression on KDD Cup 2012 Data (' + synchro + ')')
+plt.xlabel("Number of Samples Seen", fontsize=80)
+plt.ylabel("Compute Time in Seconds", fontsize=80)
 plt.savefig(GRAPH_OUTPUT_PATH + '/time_graph_sf100,1000,10000.pdf')
 
 # PLOT TIME x TRAIN LOSS
@@ -121,9 +121,9 @@ for i in range(num_sf):
 for i in range(num_sf):
     ax.plot(list(accum_time[i]), list(error_lists[i]), color=color_list[i], label=label_list[i])
 ax.legend(loc='upper right')
-plt.title('Train Loss by Time of Logistic Regression on KDD Cup 2012 Data (' + synchro + ')')
-plt.xlabel("Time (seconds)")
-plt.ylabel("Train Loss")
+#plt.title('Train Loss by Time of Logistic Regression on KDD Cup 2012 Data (' + synchro + ')')
+plt.xlabel("Time (s)", fontsize=80)
+plt.ylabel("Train Loss", fontsize=80)
 plt.savefig(GRAPH_OUTPUT_PATH + '/error_by_time_graph_sf100,1000,10000.pdf')
 """
 # PLOT TIME GRAPH
