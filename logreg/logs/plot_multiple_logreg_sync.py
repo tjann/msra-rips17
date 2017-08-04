@@ -17,7 +17,7 @@ file_names10000 = ['sync10000a.txt', 'sync10000b.txt', 'sync10000c.txt', 'sync10
 
 num_epoch = 149  # num_samples for logreg
 num_workers = 8
-prefix = ''
+prefix = 'zoom'
 #############################################################
 #############################################################
 
@@ -39,10 +39,10 @@ def parse_output_file(file_name):
     for line in (list_of_epoch_information):
         worker = int(re.search(r'.+Worker (\d+)', line).group(1))
         error = float(re.search(r'.+train loss (0\.\d+)', line).group(1))
+        print(file_name)
         time = float(re.search(r'.+average computation time (\d+\.\d+)', line).group(1))
         rowsOfErrors[worker].append(error)
         rowsOfTimes[worker].append(time)
-    
     avgWorkerErrors = np.average(rowsOfErrors, axis=0)
     avgWorkerTimes = np.average(rowsOfTimes, axis=0)
     return avgWorkerErrors, avgWorkerTimes
@@ -76,7 +76,7 @@ avg_list = ['Avg 100', 'Avg 1000', 'Avg 10000']
 fig, ax = plt.subplots()
 # PLOT SAMPLES SEEN X TRAIN LOSS GRAPH
 for i in range(num_sf):
-    x = list(range(1004800, 14963129, 1004800))
+    x = list(range(100032, 14963129, 100032))
 #    x = x[:200]
     y = list(error_lists[i])
 #    y = y[:200]
@@ -92,7 +92,7 @@ plt.savefig(GRAPH_OUTPUT_PATH + 'error_graph_sf100,1000,10000.pdf')
 # PLOT SAMPLES SEEN X TIME GRAPH
 fig, ax = plt.subplots()
 for i in range(num_sf):
-    ax.plot(list(range(1004800, 14963129, 1004800)), list(time_lists[i]), color=color_list[i], label=label_list[i])
+    ax.plot(list(range(100032, 14963129, 100032)), list(time_lists[i]), color=color_list[i], label=label_list[i])
 ax.legend(loc='upper right')
 # add average time
 avg_text = ''
