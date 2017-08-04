@@ -9,18 +9,20 @@ import numpy as np
 
 #############################################################
 ###################### VARIABLE INPUTS ######################
-synchro = 'async'
+synchro = 'sync'
 num_sf = 3
-file_names100 = ['async100a.txt', 'async100b.txt', 'async100c.txt', 'async100d.txt', 'async100e.txt']
-file_names1000 = ['async1000a.txt', 'async1000b.txt', 'async1000c.txt', 'async1000d.txt', 'async1000e.txt']
-file_names10000 = ['async10000a.txt', 'async10000b.txt', 'async10000c.txt', 'async1000d.txt', 'async1000e.txt']
+file_names100 = ['sync100a.txt', 'sync100b.txt', 'sync100c.txt', 'sync100d.txt', 'sync100e.txt']
+file_names1000 = ['sync1000a.txt', 'sync1000b.txt', 'sync1000c.txt', 'sync1000d.txt', 'sync1000e.txt']
+file_names10000 = ['sync10000a.txt', 'sync10000b.txt', 'sync10000c.txt', 'sync10000d.txt', 'sync10000e.txt']
+
 num_epoch = 149  # num_samples for logreg
 num_workers = 8
+prefix = 'zoom'
 #############################################################
 #############################################################
 
 
-GRAPH_OUTPUT_PATH = '../' + synchro + '_graphs'
+GRAPH_OUTPUT_PATH = '../' + synchro + '_graphs/' + prefix
 
 def parse_output_file(file_name):
     with open('../logs/' + file_name, 'r') as f:
@@ -37,10 +39,10 @@ def parse_output_file(file_name):
     for line in (list_of_epoch_information):
         worker = int(re.search(r'.+Worker (\d+)', line).group(1))
         error = float(re.search(r'.+train loss (0\.\d+)', line).group(1))
+        print(file_name)
         time = float(re.search(r'.+average computation time (\d+\.\d+)', line).group(1))
         rowsOfErrors[worker].append(error)
         rowsOfTimes[worker].append(time)
-    
     avgWorkerErrors = np.average(rowsOfErrors, axis=0)
     avgWorkerTimes = np.average(rowsOfTimes, axis=0)
     return avgWorkerErrors, avgWorkerTimes
@@ -75,16 +77,16 @@ fig, ax = plt.subplots()
 # PLOT SAMPLES SEEN X TRAIN LOSS GRAPH
 for i in range(num_sf):
     x = list(range(100032, 14963129, 100032))
-#    x = x[:30]
+#    x = x[:200]
     y = list(error_lists[i])
-#    y = y[:30]
+#    y = y[:200]
     # ax.plot(list(range(100032, 14963129, 100032)), list(error_lists[i]), color=color_list[i], label=label_list[i])
     ax.plot(x, y, color=color_list[i], label=label_list[i])
 ax.legend(loc='upper right')
 plt.title('Train Loss of Logistic Regression on KDD Cup 2012 Data (' + synchro + ')')
 plt.xlabel("Number of Samples Seen")
 plt.ylabel("Train Loss")
-plt.savefig(GRAPH_OUTPUT_PATH + '/error_graph_sf100,1000,10000.pdf')
+plt.savefig(GRAPH_OUTPUT_PATH + 'error_graph_sf100,1000,10000.pdf')
 
 
 # PLOT SAMPLES SEEN X TIME GRAPH
@@ -103,7 +105,7 @@ plt.text(0.2, 0.9, avg_text,
 plt.title('Time Per Samples Set Logistic Regression on KDD Cup 2012 Data (' + synchro + ')')
 plt.xlabel("Number of Samples Seen")
 plt.ylabel("Compute Time in Seconds")
-plt.savefig(GRAPH_OUTPUT_PATH + '/time_graph_sf100,1000,10000.pdf')
+plt.savefig(GRAPH_OUTPUT_PATH + 'time_graph_sf100,1000,10000.pdf')
 
 # PLOT TIME x TRAIN LOSS
 fig, ax = plt.subplots()
@@ -122,7 +124,7 @@ ax.legend(loc='upper right')
 plt.title('Train Loss by Time of Logistic Regression on KDD Cup 2012 Data (' + synchro + ')')
 plt.xlabel("Time (seconds)")
 plt.ylabel("Train Loss")
-plt.savefig(GRAPH_OUTPUT_PATH + '/error_by_time_graph_sf100,1000,10000.pdf')
+plt.savefig(GRAPH_OUTPUT_PATH + 'error_by_time_graph_sf100,1000,10000.pdf')
 """
 # PLOT TIME GRAPH
 fig, ax = plt.subplots()
