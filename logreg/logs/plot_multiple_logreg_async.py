@@ -68,7 +68,7 @@ def err_and_time_for_all_sf():
 
 error_lists, time_lists = err_and_time_for_all_sf()
 color_list = ['red', 'green', 'blue', 'magenta', 'black']
-label_list = ['Sync period: 100', 'Sync period: 1000', 'Sync period: 10000']
+label_list = ['Communication period: 100', 'Communication period: 1000', 'Communication period: 10000']
 avg_list = ['Avg 100', 'Avg 1000', 'Avg 10000']
 
 
@@ -104,7 +104,7 @@ plt.text(0.2, 0.9, avg_text,
      transform = ax.transAxes)
 #plt.title('Time Per Samples Set Logistic Regression on KDD Cup 2012 Data (' + synchro + ')')
 plt.xlabel("Number of Samples Seen", fontsize=18)
-plt.ylabel("Compute Time in Seconds", fontsize=18)
+plt.ylabel("Compute Time (s)", fontsize=18)
 plt.savefig(GRAPH_OUTPUT_PATH + '/time_graph_sf100,1000,10000.pdf')
 
 # PLOT TIME x TRAIN LOSS
