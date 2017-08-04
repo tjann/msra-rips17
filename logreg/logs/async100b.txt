@@ -1,0 +1,1325 @@
+[INFO] [2017-08-02 08:50:45] updater type sgd
+[INFO] [2017-08-02 08:50:45] Objective type softmax
+[INFO] [2017-08-02 08:50:45] Regular type L2
+[INFO] [2017-08-02 08:50:45] Init local model, size [2, 54686453]
+[INFO] [2017-08-02 08:50:45] updater type sgd
+[INFO] [2017-08-02 08:50:45] Objective type softmax
+[INFO] [2017-08-02 08:50:45] Regular type L2
+[INFO] [2017-08-02 08:50:45] Init local model, size [2, 54686453]
+[INFO] [2017-08-02 08:50:45] updater type sgd
+[INFO] [2017-08-02 08:50:45] Objective type softmax
+[INFO] [2017-08-02 08:50:45] Regular type L2
+[INFO] [2017-08-02 08:50:45] Init local model, size [2, 54686453]
+[INFO] [2017-08-02 08:50:45] updater type sgd
+[INFO] [2017-08-02 08:50:45] Objective type softmax
+[INFO] [2017-08-02 08:50:45] Regular type L2
+[INFO] [2017-08-02 08:50:45] Init local model, size [2, 54686453]
+[INFO] [2017-08-02 08:50:45] updater type sgd
+[INFO] [2017-08-02 08:50:45] Objective type softmax
+[INFO] [2017-08-02 08:50:45] Regular type L2
+[INFO] [2017-08-02 08:50:45] Init local model, size [2, 54686453]
+[INFO] [2017-08-02 08:50:45] updater type sgd
+[INFO] [2017-08-02 08:50:45] Objective type softmax
+[INFO] [2017-08-02 08:50:45] Regular type L2
+[INFO] [2017-08-02 08:50:45] Init local model, size [2, 54686453]
+[INFO] [2017-08-02 08:50:45] updater type sgd
+[INFO] [2017-08-02 08:50:45] Objective type softmax
+[INFO] [2017-08-02 08:50:45] Regular type L2
+[INFO] [2017-08-02 08:50:45] Init local model, size [2, 54686453]
+[INFO] [2017-08-02 08:50:45] updater type sgd
+[INFO] [2017-08-02 08:50:45] Objective type softmax
+[INFO] [2017-08-02 08:50:45] Regular type L2
+[INFO] [2017-08-02 08:50:45] Init local model, size [2, 54686453]
+--------------------------------------------------------------------------
+[[53093,1],0]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: multiversohkcpu01
+
+Another transport will be used instead, although this may result in
+lower performance.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+[[53093,1],2]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: multiversohkcpu03
+
+Another transport will be used instead, although this may result in
+lower performance.
+--------------------------------------------------------------------------
+[INFO] [2017-08-02 08:50:45] multiverso MPI-Net is initialized under MPI_THREAD_SERIALIZED mode.
+[INFO] [2017-08-02 08:50:45] multiverso MPI-Net is initialized under MPI_THREAD_SERIALIZED mode.
+[INFO] [2017-08-02 08:50:45] multiverso MPI-Net is initialized under MPI_THREAD_SERIALIZED mode.
+[INFO] [2017-08-02 08:50:45] multiverso MPI-Net is initialized under MPI_THREAD_SERIALIZED mode.
+[INFO] [2017-08-02 08:50:45] multiverso MPI-Net is initialized under MPI_THREAD_SERIALIZED mode.
+[INFO] [2017-08-02 08:50:45] multiverso MPI-Net is initialized under MPI_THREAD_SERIALIZED mode.
+[INFO] [2017-08-02 08:50:45] multiverso MPI-Net is initialized under MPI_THREAD_SERIALIZED mode.
+[INFO] [2017-08-02 08:50:45] multiverso MPI-Net is initialized under MPI_THREAD_SERIALIZED mode.
+[INFO] [2017-08-02 08:50:45] All nodes registered. System contains 8 nodes. num_worker = 8, num_server = 8
+[INFO] [2017-08-02 08:50:45] Create a async server
+[INFO] [2017-08-02 08:50:45] Create a async server
+[INFO] [2017-08-02 08:50:45] Create a async server
+[INFO] [2017-08-02 08:50:45] Create a async server
+[INFO] [2017-08-02 08:50:45] Create a async server
+[INFO] [2017-08-02 08:50:45] Create a async server
+[INFO] [2017-08-02 08:50:45] Create a async server
+[INFO] [2017-08-02 08:50:45] Create a async server
+[INFO] [2017-08-02 08:50:45] Rank 0: Multiverso start successfully
+[INFO] [2017-08-02 08:50:45] Rank 6: Multiverso start successfully
+[INFO] [2017-08-02 08:50:45] Rank 5: Multiverso start successfully
+[INFO] [2017-08-02 08:50:45] Rank 1: Multiverso start successfully
+[INFO] [2017-08-02 08:50:45] Rank 2: Multiverso start successfully
+[INFO] [2017-08-02 08:50:45] Rank 7: Multiverso start successfully
+[INFO] [2017-08-02 08:50:45] Rank 3: Multiverso start successfully
+[INFO] [2017-08-02 08:50:45] Rank 4: Multiverso start successfully
+[INFO] [2017-08-02 08:50:45] SparseServer 1 create table with 13671613 elements,       offset 13671613
+[INFO] [2017-08-02 08:50:45] SparseWorker 1 create SparseTable with 109372906 elements
+[INFO] [2017-08-02 08:50:45] SparseServer 5 create table with 13671613 elements,       offset 68358065
+[INFO] [2017-08-02 08:50:45] SparseWorker 5 create SparseTable with 109372906 elements
+[INFO] [2017-08-02 08:50:45] SparseServer 2 create table with 13671613 elements,       offset 27343226
+[INFO] [2017-08-02 08:50:45] SparseWorker 2 create SparseTable with 109372906 elements
+[INFO] [2017-08-02 08:50:45] SparseServer 6 create table with 13671613 elements,       offset 82029678
+[INFO] [2017-08-02 08:50:45] SparseWorker 6 create SparseTable with 109372906 elements
+[INFO] [2017-08-02 08:50:45] SparseServer 3 create table with 13671613 elements,       offset 41014839
+[INFO] [2017-08-02 08:50:45] SparseWorker 3 create SparseTable with 109372906 elements
+[INFO] [2017-08-02 08:50:45] SparseServer 7 create table with 13671615 elements,       offset 95701291
+[INFO] [2017-08-02 08:50:45] SparseWorker 7 create SparseTable with 109372906 elements
+[INFO] [2017-08-02 08:50:45] SparseServer 4 create table with 13671613 elements,       offset 54686452
+[INFO] [2017-08-02 08:50:45] SparseWorker 4 create SparseTable with 109372906 elements
+[INFO] [2017-08-02 08:50:45] Init ps model, size [2, 54686453]
+[INFO] [2017-08-02 08:50:45] ps model with sync frequency 100
+[INFO] [2017-08-02 08:50:45] Train with file /home/hkust/rips/divkdd12.tr
+[INFO] [2017-08-02 08:50:45] SparseServer 0 create table with 13671613 elements,       offset 0
+[INFO] [2017-08-02 08:50:45] SparseWorker 0 create SparseTable with 109372906 elements
+[INFO] [2017-08-02 08:50:45] Init ps model, size [2, 54686453]
+[INFO] [2017-08-02 08:50:45] ps model with sync frequency 100
+[INFO] [2017-08-02 08:50:45] Train with file /home/hkust/rips/divkdd12.tr
+[INFO] [2017-08-02 08:50:45] Init ps model, size [2, 54686453]
+[INFO] [2017-08-02 08:50:45] ps model with sync frequency 100
+[INFO] [2017-08-02 08:50:45] Train with file /home/hkust/rips/divkdd12.tr
+[INFO] [2017-08-02 08:50:45] Init ps model, size [2, 54686453]
+[INFO] [2017-08-02 08:50:45] ps model with sync frequency 100
+[INFO] [2017-08-02 08:50:45] Train with file /home/hkust/rips/divkdd12.tr
+[INFO] [2017-08-02 08:50:45] Init ps model, size [2, 54686453]
+[INFO] [2017-08-02 08:50:45] ps model with sync frequency 100
+[INFO] [2017-08-02 08:50:45] Train with file /home/hkust/rips/divkdd12.tr
+[INFO] [2017-08-02 08:50:45] Init ps model, size [2, 54686453]
+[INFO] [2017-08-02 08:50:45] ps model with sync frequency 100
+[INFO] [2017-08-02 08:50:45] Train with file /home/hkust/rips/divkdd12.tr
+[INFO] [2017-08-02 08:50:45] Init ps model, size [2, 54686453]
+[INFO] [2017-08-02 08:50:45] ps model with sync frequency 100
+[INFO] [2017-08-02 08:50:45] Train with file /home/hkust/rips/divkdd12.tr
+[INFO] [2017-08-02 08:50:45] Init ps model, size [2, 54686453]
+[INFO] [2017-08-02 08:50:45] ps model with sync frequency 100
+[INFO] [2017-08-02 08:50:45] Train with file /home/hkust/rips/divkdd12.tr
+[INFO] [2017-08-02 08:50:50] Epoch 0. Worker 5 set 1: Sample seen 100032, train loss 0.561507, average computation time 10.276
+[INFO] [2017-08-02 08:50:50] Epoch 0. Worker 6 set 1: Sample seen 100032, train loss 0.557001, average computation time 10.300
+[INFO] [2017-08-02 08:50:50] Epoch 0. Worker 2 set 1: Sample seen 100032, train loss 0.545830, average computation time 10.394
+[INFO] [2017-08-02 08:50:50] Epoch 0. Worker 1 set 1: Sample seen 100032, train loss 0.531932, average computation time 10.285
+[INFO] [2017-08-02 08:50:50] Epoch 0. Worker 3 set 1: Sample seen 100032, train loss 0.527627, average computation time 10.314
+[INFO] [2017-08-02 08:50:50] Epoch 0. Worker 7 set 1: Sample seen 100032, train loss 0.494025, average computation time 10.313
+[INFO] [2017-08-02 08:50:51] Epoch 0. Worker 0 set 1: Sample seen 100032, train loss 0.469191, average computation time 10.444
+[INFO] [2017-08-02 08:50:51] Epoch 0. Worker 5 set 2: Sample seen 200064, train loss 0.367700, average computation time 10.288
+[INFO] [2017-08-02 08:50:51] Epoch 0. Worker 2 set 2: Sample seen 200064, train loss 0.363943, average computation time 10.346
+[INFO] [2017-08-02 08:50:51] Epoch 0. Worker 6 set 2: Sample seen 200064, train loss 0.364927, average computation time 10.303
+[INFO] [2017-08-02 08:50:51] Epoch 0. Worker 1 set 2: Sample seen 200064, train loss 0.359346, average computation time 10.287
+[INFO] [2017-08-02 08:50:51] Epoch 0. Worker 4 set 1: Sample seen 100032, train loss 0.388679, average computation time 10.397
+[INFO] [2017-08-02 08:50:51] Epoch 0. Worker 3 set 2: Sample seen 200064, train loss 0.351985, average computation time 10.309
+[INFO] [2017-08-02 08:50:51] Epoch 0. Worker 7 set 2: Sample seen 200064, train loss 0.342229, average computation time 10.305
+[INFO] [2017-08-02 08:50:52] Epoch 0. Worker 0 set 2: Sample seen 200064, train loss 0.325323, average computation time 10.403
+[INFO] [2017-08-02 08:50:52] Epoch 0. Worker 5 set 3: Sample seen 300096, train loss 0.300214, average computation time 10.284
+[INFO] [2017-08-02 08:50:52] Epoch 0. Worker 6 set 3: Sample seen 300096, train loss 0.298446, average computation time 10.304
+[INFO] [2017-08-02 08:50:52] Epoch 0. Worker 2 set 3: Sample seen 300096, train loss 0.297197, average computation time 10.328
+[INFO] [2017-08-02 08:50:52] Epoch 0. Worker 1 set 3: Sample seen 300096, train loss 0.295585, average computation time 10.397
+[INFO] [2017-08-02 08:50:52] Epoch 0. Worker 4 set 2: Sample seen 200064, train loss 0.298960, average computation time 10.387
+[INFO] [2017-08-02 08:50:52] Epoch 0. Worker 3 set 3: Sample seen 300096, train loss 0.293200, average computation time 10.312
+[INFO] [2017-08-02 08:50:52] Epoch 0. Worker 7 set 3: Sample seen 300096, train loss 0.288003, average computation time 10.304
+[INFO] [2017-08-02 08:50:53] Epoch 0. Worker 0 set 3: Sample seen 300096, train loss 0.282572, average computation time 10.388
+[INFO] [2017-08-02 08:50:53] Epoch 0. Worker 5 set 4: Sample seen 400128, train loss 0.276163, average computation time 10.283
+[INFO] [2017-08-02 08:50:53] Epoch 0. Worker 6 set 4: Sample seen 400128, train loss 0.274794, average computation time 10.304
+[INFO] [2017-08-02 08:50:53] Epoch 0. Worker 2 set 4: Sample seen 400128, train loss 0.274411, average computation time 10.319
+[INFO] [2017-08-02 08:50:53] Epoch 0. Worker 1 set 4: Sample seen 400128, train loss 0.273127, average computation time 10.371
+[INFO] [2017-08-02 08:50:53] Epoch 0. Worker 3 set 4: Sample seen 400128, train loss 0.273218, average computation time 10.244
+[INFO] [2017-08-02 08:50:53] Epoch 0. Worker 4 set 3: Sample seen 300096, train loss 0.274014, average computation time 10.386
+[INFO] [2017-08-02 08:50:54] Epoch 0. Worker 7 set 4: Sample seen 400128, train loss 0.270424, average computation time 10.302
+[INFO] [2017-08-02 08:50:54] Epoch 0. Worker 0 set 4: Sample seen 400128, train loss 0.269201, average computation time 10.381
+[INFO] [2017-08-02 08:50:54] Epoch 0. Worker 5 set 5: Sample seen 500160, train loss 0.268031, average computation time 10.288
+[INFO] [2017-08-02 08:50:54] Epoch 0. Worker 2 set 5: Sample seen 500160, train loss 0.270411, average computation time 10.315
+[INFO] [2017-08-02 08:50:54] Epoch 0. Worker 6 set 5: Sample seen 500160, train loss 0.268114, average computation time 10.304
+[INFO] [2017-08-02 08:50:54] Epoch 0. Worker 1 set 5: Sample seen 500160, train loss 0.268491, average computation time 10.355
+[INFO] [2017-08-02 08:50:54] Epoch 0. Worker 3 set 5: Sample seen 500160, train loss 0.267858, average computation time 10.258
+[INFO] [2017-08-02 08:50:54] Epoch 0. Worker 4 set 4: Sample seen 400128, train loss 0.268607, average computation time 10.384
+[INFO] [2017-08-02 08:50:55] Epoch 0. Worker 7 set 5: Sample seen 500160, train loss 0.269374, average computation time 10.311
+[INFO] [2017-08-02 08:50:55] Epoch 0. Worker 0 set 5: Sample seen 500160, train loss 0.267470, average computation time 10.390
+[INFO] [2017-08-02 08:50:55] Epoch 0. Worker 5 set 6: Sample seen 600192, train loss 0.265512, average computation time 10.290
+[INFO] [2017-08-02 08:50:55] Epoch 0. Worker 2 set 6: Sample seen 600192, train loss 0.267866, average computation time 10.312
+[INFO] [2017-08-02 08:50:55] Epoch 0. Worker 6 set 6: Sample seen 600192, train loss 0.267666, average computation time 10.305
+[INFO] [2017-08-02 08:50:55] Epoch 0. Worker 3 set 6: Sample seen 600192, train loss 0.267256, average computation time 10.267
+[INFO] [2017-08-02 08:50:55] Epoch 0. Worker 1 set 6: Sample seen 600192, train loss 0.268744, average computation time 10.346
+[INFO] [2017-08-02 08:50:56] Epoch 0. Worker 4 set 5: Sample seen 500160, train loss 0.267331, average computation time 10.452
+[INFO] [2017-08-02 08:50:56] Epoch 0. Worker 7 set 6: Sample seen 600192, train loss 0.268595, average computation time 10.310
+[INFO] [2017-08-02 08:50:56] Epoch 0. Worker 0 set 6: Sample seen 600192, train loss 0.266080, average computation time 10.385
+[INFO] [2017-08-02 08:50:56] Epoch 0. Worker 5 set 7: Sample seen 700224, train loss 0.265857, average computation time 10.292
+[INFO] [2017-08-02 08:50:57] Epoch 0. Worker 2 set 7: Sample seen 700224, train loss 0.265248, average computation time 10.310
+[INFO] [2017-08-02 08:50:56] Epoch 0. Worker 6 set 7: Sample seen 700224, train loss 0.267718, average computation time 10.305
+[INFO] [2017-08-02 08:50:56] Epoch 0. Worker 3 set 7: Sample seen 700224, train loss 0.268760, average computation time 10.273
+[INFO] [2017-08-02 08:50:57] Epoch 0. Worker 1 set 7: Sample seen 700224, train loss 0.267720, average computation time 10.339
+[INFO] [2017-08-02 08:50:57] Epoch 0. Worker 4 set 6: Sample seen 600192, train loss 0.268524, average computation time 10.441
+[INFO] [2017-08-02 08:50:57] Epoch 0. Worker 7 set 7: Sample seen 700224, train loss 0.268185, average computation time 10.308
+[INFO] [2017-08-02 08:50:57] Epoch 0. Worker 0 set 7: Sample seen 700224, train loss 0.268342, average computation time 10.380
+[INFO] [2017-08-02 08:50:58] Epoch 0. Worker 5 set 8: Sample seen 800256, train loss 0.269424, average computation time 10.293
+[INFO] [2017-08-02 08:50:57] Epoch 0. Worker 6 set 8: Sample seen 800256, train loss 0.268234, average computation time 10.305
+[INFO] [2017-08-02 08:50:58] Epoch 0. Worker 2 set 8: Sample seen 800256, train loss 0.268358, average computation time 10.308
+[INFO] [2017-08-02 08:50:58] Epoch 0. Worker 3 set 8: Sample seen 800256, train loss 0.267631, average computation time 10.277
+[INFO] [2017-08-02 08:50:58] Epoch 0. Worker 1 set 8: Sample seen 800256, train loss 0.266342, average computation time 10.335
+[INFO] [2017-08-02 08:50:58] Epoch 0. Worker 4 set 7: Sample seen 700224, train loss 0.268102, average computation time 10.436
+[INFO] [2017-08-02 08:50:58] Epoch 0. Worker 7 set 8: Sample seen 800256, train loss 0.268839, average computation time 10.308
+[INFO] [2017-08-02 08:50:59] Epoch 0. Worker 0 set 8: Sample seen 800256, train loss 0.268800, average computation time 10.376
+[INFO] [2017-08-02 08:50:59] Epoch 0. Worker 5 set 9: Sample seen 900288, train loss 0.267318, average computation time 10.295
+[INFO] [2017-08-02 08:50:58] Epoch 0. Worker 6 set 9: Sample seen 900288, train loss 0.267417, average computation time 10.305
+[INFO] [2017-08-02 08:50:59] Epoch 0. Worker 2 set 9: Sample seen 900288, train loss 0.268210, average computation time 10.306
+[INFO] [2017-08-02 08:50:59] Epoch 0. Worker 1 set 9: Sample seen 900288, train loss 0.267722, average computation time 10.331
+[INFO] [2017-08-02 08:50:59] Epoch 0. Worker 3 set 9: Sample seen 900288, train loss 0.269090, average computation time 10.280
+[INFO] [2017-08-02 08:50:59] Epoch 0. Worker 4 set 8: Sample seen 800256, train loss 0.266028, average computation time 10.430
+[INFO] [2017-08-02 08:51:00] Epoch 0. Worker 7 set 9: Sample seen 900288, train loss 0.266221, average computation time 10.308
+[INFO] [2017-08-02 08:51:00] Epoch 0. Worker 5 set 10: Sample seen 1000320, train loss 0.266458, average computation time 10.296
+[INFO] [2017-08-02 08:51:00] Epoch 0. Worker 6 set 10: Sample seen 1000320, train loss 0.266728, average computation time 10.305
+[INFO] [2017-08-02 08:51:00] Epoch 0. Worker 1 set 10: Sample seen 1000320, train loss 0.266577, average computation time 10.328
+[INFO] [2017-08-02 08:51:00] Epoch 0. Worker 0 set 9: Sample seen 900288, train loss 0.269004, average computation time 10.382
+[INFO] [2017-08-02 08:51:00] Epoch 0. Worker 2 set 10: Sample seen 1000320, train loss 0.267643, average computation time 10.314
+[INFO] [2017-08-02 08:51:00] Epoch 0. Worker 3 set 10: Sample seen 1000320, train loss 0.267686, average computation time 10.283
+[INFO] [2017-08-02 08:51:00] Epoch 0. Worker 4 set 9: Sample seen 900288, train loss 0.267072, average computation time 10.425
+[INFO] [2017-08-02 08:51:01] Epoch 0. Worker 5 set 11: Sample seen 1100352, train loss 0.267504, average computation time 10.296
+[INFO] [2017-08-02 08:51:01] Epoch 0. Worker 1 set 11: Sample seen 1100352, train loss 0.267155, average computation time 10.324
+[INFO] [2017-08-02 08:51:01] Epoch 0. Worker 6 set 11: Sample seen 1100352, train loss 0.267466, average computation time 10.305
+[INFO] [2017-08-02 08:51:01] Epoch 0. Worker 7 set 10: Sample seen 1000320, train loss 0.267458, average computation time 10.308
+[INFO] [2017-08-02 08:51:01] Epoch 0. Worker 2 set 11: Sample seen 1100352, train loss 0.267078, average computation time 10.312
+[INFO] [2017-08-02 08:51:01] Epoch 0. Worker 3 set 11: Sample seen 1100352, train loss 0.266369, average computation time 10.285
+[INFO] [2017-08-02 08:51:01] Epoch 0. Worker 0 set 10: Sample seen 1000320, train loss 0.265375, average computation time 10.384
+[INFO] [2017-08-02 08:51:02] Epoch 0. Worker 5 set 12: Sample seen 1200384, train loss 0.266254, average computation time 10.295
+[INFO] [2017-08-02 08:51:02] Epoch 0. Worker 4 set 10: Sample seen 1000320, train loss 0.266504, average computation time 10.420
+[INFO] [2017-08-02 08:51:02] Epoch 0. Worker 1 set 12: Sample seen 1200384, train loss 0.267407, average computation time 10.349
+[INFO] [2017-08-02 08:51:02] Epoch 0. Worker 6 set 12: Sample seen 1200384, train loss 0.266732, average computation time 10.305
+[INFO] [2017-08-02 08:51:02] Epoch 0. Worker 2 set 12: Sample seen 1200384, train loss 0.266454, average computation time 10.310
+[INFO] [2017-08-02 08:51:02] Epoch 0. Worker 7 set 11: Sample seen 1100352, train loss 0.267605, average computation time 10.307
+[INFO] [2017-08-02 08:51:02] Epoch 0. Worker 3 set 12: Sample seen 1200384, train loss 0.265128, average computation time 10.287
+[INFO] [2017-08-02 08:51:03] Epoch 0. Worker 0 set 11: Sample seen 1100352, train loss 0.267441, average computation time 10.381
+[INFO] [2017-08-02 08:51:03] Epoch 0. Worker 5 set 13: Sample seen 1300416, train loss 0.267618, average computation time 10.295
+[INFO] [2017-08-02 08:51:03] Epoch 0. Worker 6 set 13: Sample seen 1300416, train loss 0.267659, average computation time 10.305
+[INFO] [2017-08-02 08:51:03] Epoch 0. Worker 1 set 13: Sample seen 1300416, train loss 0.267464, average computation time 10.346
+[INFO] [2017-08-02 08:51:03] Epoch 0. Worker 4 set 11: Sample seen 1100352, train loss 0.269187, average computation time 10.416
+[INFO] [2017-08-02 08:51:03] Epoch 0. Worker 2 set 13: Sample seen 1300416, train loss 0.267288, average computation time 10.309
+[INFO] [2017-08-02 08:51:03] Epoch 0. Worker 3 set 13: Sample seen 1300416, train loss 0.268442, average computation time 10.268
+[INFO] [2017-08-02 08:51:03] Epoch 0. Worker 7 set 12: Sample seen 1200384, train loss 0.266958, average computation time 10.306
+[INFO] [2017-08-02 08:51:04] Epoch 0. Worker 0 set 12: Sample seen 1200384, train loss 0.268214, average computation time 10.378
+[INFO] [2017-08-02 08:51:04] Epoch 0. Worker 5 set 14: Sample seen 1400448, train loss 0.266214, average computation time 10.301
+[INFO] [2017-08-02 08:51:04] Epoch 0. Worker 6 set 14: Sample seen 1400448, train loss 0.268295, average computation time 10.305
+[INFO] [2017-08-02 08:51:04] Epoch 0. Worker 1 set 14: Sample seen 1400448, train loss 0.266854, average computation time 10.344
+[INFO] [2017-08-02 08:51:04] Epoch 0. Worker 4 set 12: Sample seen 1200384, train loss 0.267459, average computation time 10.412
+[INFO] [2017-08-02 08:51:04] Epoch 0. Worker 2 set 14: Sample seen 1400448, train loss 0.266588, average computation time 10.308
+[INFO] [2017-08-02 08:51:04] Epoch 0. Worker 3 set 14: Sample seen 1400448, train loss 0.267268, average computation time 10.270
+[INFO] [2017-08-02 08:51:05] Epoch 0. Worker 7 set 13: Sample seen 1300416, train loss 0.268611, average computation time 10.306
+[INFO] [2017-08-02 08:51:05] Epoch 0. Worker 5 set 15: Sample seen 1500480, train loss 0.267567, average computation time 10.300
+[INFO] [2017-08-02 08:51:05] Epoch 0. Worker 0 set 13: Sample seen 1300416, train loss 0.269276, average computation time 10.376
+[INFO] [2017-08-02 08:51:05] Epoch 0. Worker 1 set 15: Sample seen 1500480, train loss 0.266455, average computation time 10.342
+[INFO] [2017-08-02 08:51:05] Epoch 0. Worker 6 set 15: Sample seen 1500480, train loss 0.269020, average computation time 10.306
+[INFO] [2017-08-02 08:51:05] Epoch 0. Worker 4 set 13: Sample seen 1300416, train loss 0.267950, average computation time 10.435
+[INFO] [2017-08-02 08:51:06] Epoch 0. Worker 2 set 15: Sample seen 1500480, train loss 0.266810, average computation time 10.313
+[INFO] [2017-08-02 08:51:05] Epoch 0. Worker 3 set 15: Sample seen 1500480, train loss 0.267862, average computation time 10.272
+[INFO] [2017-08-02 08:51:06] Epoch 0. Worker 7 set 14: Sample seen 1400448, train loss 0.267257, average computation time 10.306
+[INFO] [2017-08-02 08:51:06] Epoch 0. Worker 5 set 16: Sample seen 1600512, train loss 0.267523, average computation time 10.300
+[INFO] [2017-08-02 08:51:06] Epoch 0. Worker 1 set 16: Sample seen 1600512, train loss 0.267639, average computation time 10.340
+[INFO] [2017-08-02 08:51:06] Epoch 0. Worker 0 set 14: Sample seen 1400448, train loss 0.267797, average computation time 10.375
+[INFO] [2017-08-02 08:51:06] Epoch 0. Worker 6 set 16: Sample seen 1600512, train loss 0.266831, average computation time 10.306
+[INFO] [2017-08-02 08:51:07] Epoch 0. Worker 2 set 16: Sample seen 1600512, train loss 0.267221, average computation time 10.311
+[INFO] [2017-08-02 08:51:07] Epoch 0. Worker 4 set 14: Sample seen 1400448, train loss 0.268386, average computation time 10.428
+[INFO] [2017-08-02 08:51:07] Epoch 0. Worker 3 set 16: Sample seen 1600512, train loss 0.266108, average computation time 10.273
+[INFO] [2017-08-02 08:51:07] Epoch 0. Worker 7 set 15: Sample seen 1500480, train loss 0.268684, average computation time 10.305
+[INFO] [2017-08-02 08:51:07] Epoch 0. Worker 5 set 17: Sample seen 1700544, train loss 0.267041, average computation time 10.299
+[INFO] [2017-08-02 08:51:07] Epoch 0. Worker 1 set 17: Sample seen 1700544, train loss 0.266447, average computation time 10.338
+[INFO] [2017-08-02 08:51:07] Epoch 0. Worker 6 set 17: Sample seen 1700544, train loss 0.268292, average computation time 10.306
+[INFO] [2017-08-02 08:51:08] Epoch 0. Worker 0 set 15: Sample seen 1500480, train loss 0.268054, average computation time 10.372
+[INFO] [2017-08-02 08:51:08] Epoch 0. Worker 2 set 17: Sample seen 1700544, train loss 0.267261, average computation time 10.310
+[INFO] [2017-08-02 08:51:08] Epoch 0. Worker 3 set 17: Sample seen 1700544, train loss 0.266234, average computation time 10.275
+[INFO] [2017-08-02 08:51:08] Epoch 0. Worker 4 set 15: Sample seen 1500480, train loss 0.267256, average computation time 10.424
+[INFO] [2017-08-02 08:51:08] Epoch 0. Worker 7 set 16: Sample seen 1600512, train loss 0.266112, average computation time 10.305
+[INFO] [2017-08-02 08:51:08] Epoch 0. Worker 5 set 18: Sample seen 1800576, train loss 0.267634, average computation time 10.299
+[INFO] [2017-08-02 08:51:08] Epoch 0. Worker 1 set 18: Sample seen 1800576, train loss 0.268608, average computation time 10.337
+[INFO] [2017-08-02 08:51:08] Epoch 0. Worker 6 set 18: Sample seen 1800576, train loss 0.267827, average computation time 10.306
+[INFO] [2017-08-02 08:51:09] Epoch 0. Worker 0 set 16: Sample seen 1600512, train loss 0.269059, average computation time 10.369
+[INFO] [2017-08-02 08:51:09] Epoch 0. Worker 2 set 18: Sample seen 1800576, train loss 0.268043, average computation time 10.310
+[INFO] [2017-08-02 08:51:09] Epoch 0. Worker 3 set 18: Sample seen 1800576, train loss 0.267651, average computation time 10.276
+[INFO] [2017-08-02 08:51:09] Epoch 0. Worker 5 set 19: Sample seen 1900608, train loss 0.268486, average computation time 10.303
+[INFO] [2017-08-02 08:51:09] Epoch 0. Worker 7 set 17: Sample seen 1700544, train loss 0.267344, average computation time 10.305
+[INFO] [2017-08-02 08:51:09] Epoch 0. Worker 1 set 19: Sample seen 1900608, train loss 0.266923, average computation time 10.336
+[INFO] [2017-08-02 08:51:09] Epoch 0. Worker 4 set 16: Sample seen 1600512, train loss 0.268002, average computation time 10.422
+[INFO] [2017-08-02 08:51:09] Epoch 0. Worker 6 set 19: Sample seen 1900608, train loss 0.266408, average computation time 10.307
+[INFO] [2017-08-02 08:51:10] Epoch 0. Worker 0 set 17: Sample seen 1700544, train loss 0.265852, average computation time 10.372
+[INFO] [2017-08-02 08:51:10] Epoch 0. Worker 2 set 19: Sample seen 1900608, train loss 0.266925, average computation time 10.309
+[INFO] [2017-08-02 08:51:10] Epoch 0. Worker 3 set 19: Sample seen 1900608, train loss 0.267657, average computation time 10.277
+[INFO] [2017-08-02 08:51:11] Epoch 0. Worker 5 set 20: Sample seen 2000640, train loss 0.267756, average computation time 10.303
+[INFO] [2017-08-02 08:51:10] Epoch 0. Worker 1 set 20: Sample seen 2000640, train loss 0.268169, average computation time 10.335
+[INFO] [2017-08-02 08:51:11] Epoch 0. Worker 7 set 18: Sample seen 1800576, train loss 0.266846, average computation time 10.305
+[INFO] [2017-08-02 08:51:11] Epoch 0. Worker 6 set 20: Sample seen 2000640, train loss 0.267803, average computation time 10.306
+[INFO] [2017-08-02 08:51:11] Epoch 0. Worker 4 set 17: Sample seen 1700544, train loss 0.266947, average computation time 10.420
+[INFO] [2017-08-02 08:51:11] Epoch 0. Worker 0 set 18: Sample seen 1800576, train loss 0.267840, average computation time 10.370
+[INFO] [2017-08-02 08:51:11] Epoch 0. Worker 2 set 20: Sample seen 2000640, train loss 0.266883, average computation time 10.308
+[INFO] [2017-08-02 08:51:11] Epoch 0. Worker 3 set 20: Sample seen 2000640, train loss 0.266775, average computation time 10.278
+[INFO] [2017-08-02 08:51:12] Epoch 0. Worker 5 set 21: Sample seen 2100672, train loss 0.268973, average computation time 10.302
+[INFO] [2017-08-02 08:51:12] Epoch 0. Worker 1 set 21: Sample seen 2100672, train loss 0.267373, average computation time 10.334
+[INFO] [2017-08-02 08:51:12] Epoch 0. Worker 7 set 19: Sample seen 1900608, train loss 0.269324, average computation time 10.305
+[INFO] [2017-08-02 08:51:12] Epoch 0. Worker 6 set 21: Sample seen 2100672, train loss 0.267961, average computation time 10.307
+[INFO] [2017-08-02 08:51:12] Epoch 0. Worker 4 set 18: Sample seen 1800576, train loss 0.267477, average computation time 10.417
+[INFO] [2017-08-02 08:51:12] Epoch 0. Worker 2 set 21: Sample seen 2100672, train loss 0.268201, average computation time 10.307
+[INFO] [2017-08-02 08:51:12] Epoch 0. Worker 0 set 19: Sample seen 1900608, train loss 0.266253, average computation time 10.369
+[INFO] [2017-08-02 08:51:13] Epoch 0. Worker 3 set 21: Sample seen 2100672, train loss 0.267869, average computation time 10.291
+[INFO] [2017-08-02 08:51:13] Epoch 0. Worker 5 set 22: Sample seen 2200704, train loss 0.266624, average computation time 10.302
+[INFO] [2017-08-02 08:51:13] Epoch 0. Worker 1 set 22: Sample seen 2200704, train loss 0.266811, average computation time 10.318
+[INFO] [2017-08-02 08:51:13] Epoch 0. Worker 6 set 22: Sample seen 2200704, train loss 0.266646, average computation time 10.307
+[INFO] [2017-08-02 08:51:13] Epoch 0. Worker 7 set 20: Sample seen 2000640, train loss 0.267052, average computation time 10.305
+[INFO] [2017-08-02 08:51:13] Epoch 0. Worker 2 set 22: Sample seen 2200704, train loss 0.268156, average computation time 10.307
+[INFO] [2017-08-02 08:51:14] Epoch 0. Worker 0 set 20: Sample seen 2000640, train loss 0.268863, average computation time 10.368
+[INFO] [2017-08-02 08:51:13] Epoch 0. Worker 4 set 19: Sample seen 1900608, train loss 0.267454, average computation time 10.414
+[INFO] [2017-08-02 08:51:13] Epoch 0. Worker 3 set 22: Sample seen 2200704, train loss 0.266789, average computation time 10.292
+[INFO] [2017-08-02 08:51:14] Epoch 0. Worker 5 set 23: Sample seen 2300736, train loss 0.266556, average computation time 10.305
+[INFO] [2017-08-02 08:51:14] Epoch 0. Worker 6 set 23: Sample seen 2300736, train loss 0.268147, average computation time 10.307
+[INFO] [2017-08-02 08:51:14] Epoch 0. Worker 7 set 21: Sample seen 2100672, train loss 0.267495, average computation time 10.305
+[INFO] [2017-08-02 08:51:14] Epoch 0. Worker 2 set 23: Sample seen 2300736, train loss 0.267482, average computation time 10.306
+[INFO] [2017-08-02 08:51:15] Epoch 0. Worker 5 set 24: Sample seen 2400768, train loss 0.268361, average computation time 10.305
+[INFO] [2017-08-02 08:51:15] Epoch 0. Worker 3 set 23: Sample seen 2300736, train loss 0.265295, average computation time 10.292
+[INFO] [2017-08-02 08:51:15] Epoch 0. Worker 0 set 21: Sample seen 2100672, train loss 0.268049, average computation time 10.370
+[INFO] [2017-08-02 08:51:15] Epoch 0. Worker 1 set 23: Sample seen 2300736, train loss 0.267549, average computation time 10.318
+[INFO] [2017-08-02 08:51:15] Epoch 0. Worker 4 set 20: Sample seen 2000640, train loss 0.267447, average computation time 10.428
+[INFO] [2017-08-02 08:51:15] Epoch 0. Worker 6 set 24: Sample seen 2400768, train loss 0.267528, average computation time 10.307
+[INFO] [2017-08-02 08:51:15] Epoch 0. Worker 7 set 22: Sample seen 2200704, train loss 0.267959, average computation time 10.307
+[INFO] [2017-08-02 08:51:16] Epoch 0. Worker 2 set 24: Sample seen 2400768, train loss 0.267829, average computation time 10.306
+[INFO] [2017-08-02 08:51:16] Epoch 0. Worker 1 set 24: Sample seen 2400768, train loss 0.267491, average computation time 10.318
+[INFO] [2017-08-02 08:51:16] Epoch 0. Worker 3 set 24: Sample seen 2400768, train loss 0.266114, average computation time 10.292
+[INFO] [2017-08-02 08:51:16] Epoch 0. Worker 0 set 22: Sample seen 2200704, train loss 0.267102, average computation time 10.370
+[INFO] [2017-08-02 08:51:16] Epoch 0. Worker 6 set 25: Sample seen 2500800, train loss 0.268282, average computation time 10.307
+[INFO] [2017-08-02 08:51:16] Epoch 0. Worker 4 set 21: Sample seen 2100672, train loss 0.267433, average computation time 10.425
+[INFO] [2017-08-02 08:51:17] Epoch 0. Worker 7 set 23: Sample seen 2300736, train loss 0.268331, average computation time 10.307
+[INFO] [2017-08-02 08:51:17] Epoch 0. Worker 2 set 25: Sample seen 2500800, train loss 0.265851, average computation time 10.306
+[INFO] [2017-08-02 08:51:17] Epoch 0. Worker 1 set 25: Sample seen 2500800, train loss 0.267563, average computation time 10.331
+[INFO] [2017-08-02 08:51:17] Epoch 0. Worker 5 set 25: Sample seen 2500800, train loss 0.266973, average computation time 10.305
+[INFO] [2017-08-02 08:51:17] Epoch 0. Worker 3 set 25: Sample seen 2500800, train loss 0.267652, average computation time 10.292
+[INFO] [2017-08-02 08:51:17] Epoch 0. Worker 0 set 23: Sample seen 2300736, train loss 0.268429, average computation time 10.368
+[INFO] [2017-08-02 08:51:17] Epoch 0. Worker 6 set 26: Sample seen 2600832, train loss 0.265561, average computation time 10.308
+[INFO] [2017-08-02 08:51:17] Epoch 0. Worker 4 set 22: Sample seen 2200704, train loss 0.266853, average computation time 10.422
+[INFO] [2017-08-02 08:51:18] Epoch 0. Worker 7 set 24: Sample seen 2400768, train loss 0.267143, average computation time 10.308
+[INFO] [2017-08-02 08:51:18] Epoch 0. Worker 2 set 26: Sample seen 2600832, train loss 0.265690, average computation time 10.305
+[INFO] [2017-08-02 08:51:18] Epoch 0. Worker 5 set 26: Sample seen 2600832, train loss 0.268222, average computation time 10.304
+[INFO] [2017-08-02 08:51:18] Epoch 0. Worker 1 set 26: Sample seen 2600832, train loss 0.266854, average computation time 10.330
+[INFO] [2017-08-02 08:51:18] Epoch 0. Worker 3 set 26: Sample seen 2600832, train loss 0.267155, average computation time 10.292
+[INFO] [2017-08-02 08:51:18] Epoch 0. Worker 6 set 27: Sample seen 2700864, train loss 0.267782, average computation time 10.308
+[INFO] [2017-08-02 08:51:19] Epoch 0. Worker 0 set 24: Sample seen 2400768, train loss 0.267872, average computation time 10.368
+[INFO] [2017-08-02 08:51:19] Epoch 0. Worker 5 set 27: Sample seen 2700864, train loss 0.267584, average computation time 10.307
+[INFO] [2017-08-02 08:51:19] Epoch 0. Worker 7 set 25: Sample seen 2500800, train loss 0.266089, average computation time 10.308
+[INFO] [2017-08-02 08:51:19] Epoch 0. Worker 2 set 27: Sample seen 2700864, train loss 0.266639, average computation time 10.305
+[INFO] [2017-08-02 08:51:19] Epoch 0. Worker 4 set 23: Sample seen 2300736, train loss 0.267951, average computation time 10.420
+[INFO] [2017-08-02 08:51:19] Epoch 0. Worker 1 set 27: Sample seen 2700864, train loss 0.267589, average computation time 10.330
+[INFO] [2017-08-02 08:51:19] Epoch 0. Worker 3 set 27: Sample seen 2700864, train loss 0.268209, average computation time 10.292
+[INFO] [2017-08-02 08:51:19] Epoch 0. Worker 6 set 28: Sample seen 2800896, train loss 0.268369, average computation time 10.308
+[INFO] [2017-08-02 08:51:20] Epoch 0. Worker 0 set 25: Sample seen 2500800, train loss 0.266312, average computation time 10.368
+[INFO] [2017-08-02 08:51:20] Epoch 0. Worker 5 set 28: Sample seen 2800896, train loss 0.268159, average computation time 10.307
+[INFO] [2017-08-02 08:51:20] Epoch 0. Worker 2 set 28: Sample seen 2800896, train loss 0.269091, average computation time 10.305
+[INFO] [2017-08-02 08:51:20] Epoch 0. Worker 1 set 28: Sample seen 2800896, train loss 0.266668, average computation time 10.330
+[INFO] [2017-08-02 08:51:20] Epoch 0. Worker 7 set 26: Sample seen 2600832, train loss 0.266715, average computation time 10.310
+[INFO] [2017-08-02 08:51:20] Epoch 0. Worker 4 set 24: Sample seen 2400768, train loss 0.267599, average computation time 10.432
+[INFO] [2017-08-02 08:51:20] Epoch 0. Worker 3 set 28: Sample seen 2800896, train loss 0.268675, average computation time 10.293
+[INFO] [2017-08-02 08:51:21] Epoch 0. Worker 6 set 29: Sample seen 2900928, train loss 0.267258, average computation time 10.308
+[INFO] [2017-08-02 08:51:21] Epoch 0. Worker 0 set 26: Sample seen 2600832, train loss 0.268674, average computation time 10.371
+[INFO] [2017-08-02 08:51:21] Epoch 0. Worker 2 set 29: Sample seen 2900928, train loss 0.267867, average computation time 10.305
+[INFO] [2017-08-02 08:51:21] Epoch 0. Worker 5 set 29: Sample seen 2900928, train loss 0.267642, average computation time 10.307
+[INFO] [2017-08-02 08:51:21] Epoch 0. Worker 1 set 29: Sample seen 2900928, train loss 0.268577, average computation time 10.329
+[INFO] [2017-08-02 08:51:21] Epoch 0. Worker 7 set 27: Sample seen 2700864, train loss 0.269073, average computation time 10.310
+[INFO] [2017-08-02 08:51:21] Epoch 0. Worker 3 set 29: Sample seen 2900928, train loss 0.266738, average computation time 10.293
+[INFO] [2017-08-02 08:51:21] Epoch 0. Worker 4 set 25: Sample seen 2500800, train loss 0.267473, average computation time 10.430
+[INFO] [2017-08-02 08:51:22] Epoch 0. Worker 6 set 30: Sample seen 3000960, train loss 0.269133, average computation time 10.308
+[INFO] [2017-08-02 08:51:22] Epoch 0. Worker 0 set 27: Sample seen 2700864, train loss 0.266941, average computation time 10.370
+[INFO] [2017-08-02 08:51:22] Epoch 0. Worker 5 set 30: Sample seen 3000960, train loss 0.266951, average computation time 10.307
+[INFO] [2017-08-02 08:51:22] Epoch 0. Worker 1 set 30: Sample seen 3000960, train loss 0.266075, average computation time 10.318
+[INFO] [2017-08-02 08:51:22] Epoch 0. Worker 2 set 30: Sample seen 3000960, train loss 0.267025, average computation time 10.304
+[INFO] [2017-08-02 08:51:22] Epoch 0. Worker 7 set 28: Sample seen 2800896, train loss 0.265628, average computation time 10.310
+[INFO] [2017-08-02 08:51:23] Epoch 0. Worker 3 set 30: Sample seen 3000960, train loss 0.268358, average computation time 10.293
+[INFO] [2017-08-02 08:51:23] Epoch 0. Worker 4 set 26: Sample seen 2600832, train loss 0.267159, average computation time 10.428
+[INFO] [2017-08-02 08:51:23] Epoch 0. Worker 6 set 31: Sample seen 3100992, train loss 0.267726, average computation time 10.309
+[INFO] [2017-08-02 08:51:23] Epoch 0. Worker 0 set 28: Sample seen 2800896, train loss 0.267863, average computation time 10.369
+[INFO] [2017-08-02 08:51:23] Epoch 0. Worker 5 set 31: Sample seen 3100992, train loss 0.267160, average computation time 10.307
+[INFO] [2017-08-02 08:51:23] Epoch 0. Worker 2 set 31: Sample seen 3100992, train loss 0.266123, average computation time 10.304
+[INFO] [2017-08-02 08:51:23] Epoch 0. Worker 1 set 31: Sample seen 3100992, train loss 0.265787, average computation time 10.318
+[INFO] [2017-08-02 08:51:24] Epoch 0. Worker 7 set 29: Sample seen 2900928, train loss 0.267149, average computation time 10.310
+[INFO] [2017-08-02 08:51:24] Epoch 0. Worker 3 set 31: Sample seen 3100992, train loss 0.268931, average computation time 10.294
+[INFO] [2017-08-02 08:51:24] Epoch 0. Worker 6 set 32: Sample seen 3201024, train loss 0.267346, average computation time 10.309
+[INFO] [2017-08-02 08:51:24] Epoch 0. Worker 4 set 27: Sample seen 2700864, train loss 0.266753, average computation time 10.426
+[INFO] [2017-08-02 08:51:24] Epoch 0. Worker 0 set 29: Sample seen 2900928, train loss 0.266160, average computation time 10.369
+[INFO] [2017-08-02 08:51:24] Epoch 0. Worker 5 set 32: Sample seen 3201024, train loss 0.268328, average computation time 10.307
+[INFO] [2017-08-02 08:51:24] Epoch 0. Worker 1 set 32: Sample seen 3201024, train loss 0.267719, average computation time 10.318
+[INFO] [2017-08-02 08:51:24] Epoch 0. Worker 2 set 32: Sample seen 3201024, train loss 0.266781, average computation time 10.304
+[INFO] [2017-08-02 08:51:25] Epoch 0. Worker 7 set 30: Sample seen 3000960, train loss 0.269282, average computation time 10.311
+[INFO] [2017-08-02 08:51:25] Epoch 0. Worker 3 set 32: Sample seen 3201024, train loss 0.267751, average computation time 10.294
+[INFO] [2017-08-02 08:51:25] Epoch 0. Worker 6 set 33: Sample seen 3301056, train loss 0.268093, average computation time 10.309
+[INFO] [2017-08-02 08:51:25] Epoch 0. Worker 0 set 30: Sample seen 3000960, train loss 0.267745, average computation time 10.371
+[INFO] [2017-08-02 08:51:25] Epoch 0. Worker 1 set 33: Sample seen 3301056, train loss 0.269222, average computation time 10.318
+[INFO] [2017-08-02 08:51:25] Epoch 0. Worker 4 set 28: Sample seen 2800896, train loss 0.267130, average computation time 10.413
+[INFO] [2017-08-02 08:51:25] Epoch 0. Worker 5 set 33: Sample seen 3301056, train loss 0.266970, average computation time 10.307
+[INFO] [2017-08-02 08:51:26] Epoch 0. Worker 2 set 33: Sample seen 3301056, train loss 0.265225, average computation time 10.307
+[INFO] [2017-08-02 08:51:26] Epoch 0. Worker 3 set 33: Sample seen 3301056, train loss 0.267247, average computation time 10.294
+[INFO] [2017-08-02 08:51:26] Epoch 0. Worker 7 set 31: Sample seen 3100992, train loss 0.268218, average computation time 10.311
+[INFO] [2017-08-02 08:51:26] Epoch 0. Worker 6 set 34: Sample seen 3401088, train loss 0.269935, average computation time 10.309
+[INFO] [2017-08-02 08:51:26] Epoch 0. Worker 0 set 31: Sample seen 3100992, train loss 0.266057, average computation time 10.371
+[INFO] [2017-08-02 08:51:26] Epoch 0. Worker 1 set 34: Sample seen 3401088, train loss 0.266835, average computation time 10.318
+[INFO] [2017-08-02 08:51:27] Epoch 0. Worker 5 set 34: Sample seen 3401088, train loss 0.267982, average computation time 10.307
+[INFO] [2017-08-02 08:51:27] Epoch 0. Worker 2 set 34: Sample seen 3401088, train loss 0.266430, average computation time 10.306
+[INFO] [2017-08-02 08:51:26] Epoch 0. Worker 4 set 29: Sample seen 2900928, train loss 0.266645, average computation time 10.412
+[INFO] [2017-08-02 08:51:27] Epoch 0. Worker 3 set 34: Sample seen 3401088, train loss 0.268394, average computation time 10.294
+[INFO] [2017-08-02 08:51:27] Epoch 0. Worker 7 set 32: Sample seen 3201024, train loss 0.266125, average computation time 10.311
+[INFO] [2017-08-02 08:51:27] Epoch 0. Worker 6 set 35: Sample seen 3501120, train loss 0.267410, average computation time 10.309
+[INFO] [2017-08-02 08:51:27] Epoch 0. Worker 1 set 35: Sample seen 3501120, train loss 0.266616, average computation time 10.318
+[INFO] [2017-08-02 08:51:28] Epoch 0. Worker 0 set 32: Sample seen 3201024, train loss 0.266373, average computation time 10.370
+[INFO] [2017-08-02 08:51:28] Epoch 0. Worker 2 set 35: Sample seen 3501120, train loss 0.266135, average computation time 10.306
+[INFO] [2017-08-02 08:51:28] Epoch 0. Worker 5 set 35: Sample seen 3501120, train loss 0.267862, average computation time 10.307
+[INFO] [2017-08-02 08:51:28] Epoch 0. Worker 4 set 30: Sample seen 3000960, train loss 0.268711, average computation time 10.411
+[INFO] [2017-08-02 08:51:28] Epoch 0. Worker 3 set 35: Sample seen 3501120, train loss 0.266704, average computation time 10.294
+[INFO] [2017-08-02 08:51:28] Epoch 0. Worker 7 set 33: Sample seen 3301056, train loss 0.267549, average computation time 10.310
+[INFO] [2017-08-02 08:51:28] Epoch 0. Worker 6 set 36: Sample seen 3601152, train loss 0.268972, average computation time 10.309
+[INFO] [2017-08-02 08:51:28] Epoch 0. Worker 1 set 36: Sample seen 3601152, train loss 0.268036, average computation time 10.318
+[INFO] [2017-08-02 08:51:29] Epoch 0. Worker 2 set 36: Sample seen 3601152, train loss 0.267718, average computation time 10.306
+[INFO] [2017-08-02 08:51:29] Epoch 0. Worker 5 set 36: Sample seen 3601152, train loss 0.267191, average computation time 10.310
+[INFO] [2017-08-02 08:51:29] Epoch 0. Worker 0 set 33: Sample seen 3301056, train loss 0.268768, average computation time 10.369
+[INFO] [2017-08-02 08:51:29] Epoch 0. Worker 3 set 36: Sample seen 3601152, train loss 0.268801, average computation time 10.294
+[INFO] [2017-08-02 08:51:29] Epoch 0. Worker 4 set 31: Sample seen 3100992, train loss 0.266566, average computation time 10.410
+[INFO] [2017-08-02 08:51:29] Epoch 0. Worker 6 set 37: Sample seen 3701184, train loss 0.269543, average computation time 10.309
+[INFO] [2017-08-02 08:51:29] Epoch 0. Worker 1 set 37: Sample seen 3701184, train loss 0.267643, average computation time 10.318
+[INFO] [2017-08-02 08:51:30] Epoch 0. Worker 7 set 34: Sample seen 3401088, train loss 0.268084, average computation time 10.311
+[INFO] [2017-08-02 08:51:30] Epoch 0. Worker 2 set 37: Sample seen 3701184, train loss 0.266766, average computation time 10.306
+[INFO] [2017-08-02 08:51:30] Epoch 0. Worker 5 set 37: Sample seen 3701184, train loss 0.267456, average computation time 10.310
+[INFO] [2017-08-02 08:51:30] Epoch 0. Worker 0 set 34: Sample seen 3401088, train loss 0.267703, average computation time 10.371
+[INFO] [2017-08-02 08:51:30] Epoch 0. Worker 3 set 37: Sample seen 3701184, train loss 0.266235, average computation time 10.294
+[INFO] [2017-08-02 08:51:30] Epoch 0. Worker 6 set 38: Sample seen 3801216, train loss 0.266096, average computation time 10.309
+[INFO] [2017-08-02 08:51:30] Epoch 0. Worker 4 set 32: Sample seen 3201024, train loss 0.268648, average computation time 10.417
+[INFO] [2017-08-02 08:51:31] Epoch 0. Worker 1 set 38: Sample seen 3801216, train loss 0.267880, average computation time 10.318
+[INFO] [2017-08-02 08:51:31] Epoch 0. Worker 7 set 35: Sample seen 3501120, train loss 0.266202, average computation time 10.311
+[INFO] [2017-08-02 08:51:31] Epoch 0. Worker 2 set 38: Sample seen 3801216, train loss 0.267112, average computation time 10.306
+[INFO] [2017-08-02 08:51:31] Epoch 0. Worker 5 set 38: Sample seen 3801216, train loss 0.267125, average computation time 10.310
+[INFO] [2017-08-02 08:51:31] Epoch 0. Worker 0 set 35: Sample seen 3501120, train loss 0.265949, average computation time 10.371
+[INFO] [2017-08-02 08:51:31] Epoch 0. Worker 3 set 38: Sample seen 3801216, train loss 0.267193, average computation time 10.294
+[INFO] [2017-08-02 08:51:31] Epoch 0. Worker 6 set 39: Sample seen 3901248, train loss 0.266584, average computation time 10.309
+[INFO] [2017-08-02 08:51:32] Epoch 0. Worker 1 set 39: Sample seen 3901248, train loss 0.265135, average computation time 10.318
+[INFO] [2017-08-02 08:51:32] Epoch 0. Worker 2 set 39: Sample seen 3901248, train loss 0.267170, average computation time 10.306
+[INFO] [2017-08-02 08:51:32] Epoch 0. Worker 5 set 39: Sample seen 3901248, train loss 0.267183, average computation time 10.309
+[INFO] [2017-08-02 08:51:32] Epoch 0. Worker 4 set 33: Sample seen 3301056, train loss 0.267062, average computation time 10.415
+[INFO] [2017-08-02 08:51:32] Epoch 0. Worker 7 set 36: Sample seen 3601152, train loss 0.267713, average computation time 10.311
+[INFO] [2017-08-02 08:51:33] Epoch 0. Worker 3 set 39: Sample seen 3901248, train loss 0.268655, average computation time 10.301
+[INFO] [2017-08-02 08:51:33] Epoch 0. Worker 0 set 36: Sample seen 3601152, train loss 0.267045, average computation time 10.371
+[INFO] [2017-08-02 08:51:33] Epoch 0. Worker 6 set 40: Sample seen 4001280, train loss 0.268286, average computation time 10.309
+[INFO] [2017-08-02 08:51:33] Epoch 0. Worker 1 set 40: Sample seen 4001280, train loss 0.266390, average computation time 10.310
+[INFO] [2017-08-02 08:51:33] Epoch 0. Worker 2 set 40: Sample seen 4001280, train loss 0.268813, average computation time 10.306
+[INFO] [2017-08-02 08:51:33] Epoch 0. Worker 5 set 40: Sample seen 4001280, train loss 0.266197, average computation time 10.309
+[INFO] [2017-08-02 08:51:33] Epoch 0. Worker 7 set 37: Sample seen 3701184, train loss 0.267529, average computation time 10.310
+[INFO] [2017-08-02 08:51:33] Epoch 0. Worker 4 set 34: Sample seen 3401088, train loss 0.269089, average computation time 10.412
+[INFO] [2017-08-02 08:51:34] Epoch 0. Worker 3 set 40: Sample seen 4001280, train loss 0.268117, average computation time 10.301
+[INFO] [2017-08-02 08:51:34] Epoch 0. Worker 0 set 37: Sample seen 3701184, train loss 0.268884, average computation time 10.370
+[INFO] [2017-08-02 08:51:34] Epoch 0. Worker 6 set 41: Sample seen 4101312, train loss 0.267763, average computation time 10.309
+[INFO] [2017-08-02 08:51:34] Epoch 0. Worker 1 set 41: Sample seen 4101312, train loss 0.267376, average computation time 10.310
+[INFO] [2017-08-02 08:51:34] Epoch 0. Worker 2 set 41: Sample seen 4101312, train loss 0.268757, average computation time 10.306
+[INFO] [2017-08-02 08:51:34] Epoch 0. Worker 5 set 41: Sample seen 4101312, train loss 0.267321, average computation time 10.308
+[INFO] [2017-08-02 08:51:34] Epoch 0. Worker 7 set 38: Sample seen 3801216, train loss 0.266885, average computation time 10.310
+[INFO] [2017-08-02 08:51:34] Epoch 0. Worker 4 set 35: Sample seen 3501120, train loss 0.268480, average computation time 10.409
+[INFO] [2017-08-02 08:51:35] Epoch 0. Worker 3 set 41: Sample seen 4101312, train loss 0.267130, average computation time 10.300
+[INFO] [2017-08-02 08:51:35] Epoch 0. Worker 0 set 38: Sample seen 3801216, train loss 0.268618, average computation time 10.371
+[INFO] [2017-08-02 08:51:35] Epoch 0. Worker 6 set 42: Sample seen 4201344, train loss 0.268365, average computation time 10.309
+[INFO] [2017-08-02 08:51:35] Epoch 0. Worker 1 set 42: Sample seen 4201344, train loss 0.264826, average computation time 10.310
+[INFO] [2017-08-02 08:51:35] Epoch 0. Worker 2 set 42: Sample seen 4201344, train loss 0.270310, average computation time 10.308
+[INFO] [2017-08-02 08:51:35] Epoch 0. Worker 5 set 42: Sample seen 4201344, train loss 0.266710, average computation time 10.308
+[INFO] [2017-08-02 08:51:35] Epoch 0. Worker 7 set 39: Sample seen 3901248, train loss 0.267099, average computation time 10.311
+[INFO] [2017-08-02 08:51:36] Epoch 0. Worker 4 set 36: Sample seen 3601152, train loss 0.266869, average computation time 10.408
+[INFO] [2017-08-02 08:51:36] Epoch 0. Worker 3 set 42: Sample seen 4201344, train loss 0.267991, average computation time 10.300
+[INFO] [2017-08-02 08:51:36] Epoch 0. Worker 6 set 43: Sample seen 4301376, train loss 0.266897, average computation time 10.309
+[INFO] [2017-08-02 08:51:36] Epoch 0. Worker 0 set 39: Sample seen 3901248, train loss 0.269869, average computation time 10.371
+[INFO] [2017-08-02 08:51:36] Epoch 0. Worker 1 set 43: Sample seen 4301376, train loss 0.268189, average computation time 10.311
+[INFO] [2017-08-02 08:51:36] Epoch 0. Worker 2 set 43: Sample seen 4301376, train loss 0.268177, average computation time 10.308
+[INFO] [2017-08-02 08:51:36] Epoch 0. Worker 5 set 43: Sample seen 4301376, train loss 0.266541, average computation time 10.308
+[INFO] [2017-08-02 08:51:37] Epoch 0. Worker 7 set 40: Sample seen 4001280, train loss 0.266846, average computation time 10.311
+[INFO] [2017-08-02 08:51:37] Epoch 0. Worker 6 set 44: Sample seen 4401408, train loss 0.266577, average computation time 10.309
+[INFO] [2017-08-02 08:51:37] Epoch 0. Worker 3 set 43: Sample seen 4301376, train loss 0.267997, average computation time 10.300
+[INFO] [2017-08-02 08:51:37] Epoch 0. Worker 1 set 44: Sample seen 4401408, train loss 0.269265, average computation time 10.318
+[INFO] [2017-08-02 08:51:37] Epoch 0. Worker 4 set 37: Sample seen 3701184, train loss 0.268283, average computation time 10.406
+[INFO] [2017-08-02 08:51:37] Epoch 0. Worker 2 set 44: Sample seen 4401408, train loss 0.267708, average computation time 10.308
+[INFO] [2017-08-02 08:51:37] Epoch 0. Worker 0 set 40: Sample seen 4001280, train loss 0.267660, average computation time 10.370
+[INFO] [2017-08-02 08:51:37] Epoch 0. Worker 5 set 44: Sample seen 4401408, train loss 0.267841, average computation time 10.307
+[INFO] [2017-08-02 08:51:38] Epoch 0. Worker 7 set 41: Sample seen 4101312, train loss 0.268369, average computation time 10.311
+[INFO] [2017-08-02 08:51:38] Epoch 0. Worker 6 set 45: Sample seen 4501440, train loss 0.268705, average computation time 10.310
+[INFO] [2017-08-02 08:51:38] Epoch 0. Worker 3 set 44: Sample seen 4401408, train loss 0.267797, average computation time 10.294
+[INFO] [2017-08-02 08:51:38] Epoch 0. Worker 1 set 45: Sample seen 4501440, train loss 0.268577, average computation time 10.318
+[INFO] [2017-08-02 08:51:38] Epoch 0. Worker 2 set 45: Sample seen 4501440, train loss 0.267573, average computation time 10.308
+[INFO] [2017-08-02 08:51:38] Epoch 0. Worker 0 set 41: Sample seen 4101312, train loss 0.267472, average computation time 10.370
+[INFO] [2017-08-02 08:51:38] Epoch 0. Worker 4 set 38: Sample seen 3801216, train loss 0.267586, average computation time 10.405
+[INFO] [2017-08-02 08:51:39] Epoch 0. Worker 5 set 45: Sample seen 4501440, train loss 0.268057, average computation time 10.307
+[INFO] [2017-08-02 08:51:39] Epoch 0. Worker 7 set 42: Sample seen 4201344, train loss 0.268566, average computation time 10.311
+[INFO] [2017-08-02 08:51:39] Epoch 0. Worker 6 set 46: Sample seen 4601472, train loss 0.267139, average computation time 10.310
+[INFO] [2017-08-02 08:51:39] Epoch 0. Worker 1 set 46: Sample seen 4601472, train loss 0.267862, average computation time 10.318
+[INFO] [2017-08-02 08:51:39] Epoch 0. Worker 3 set 45: Sample seen 4501440, train loss 0.268714, average computation time 10.294
+[INFO] [2017-08-02 08:51:39] Epoch 0. Worker 2 set 46: Sample seen 4601472, train loss 0.267773, average computation time 10.307
+[INFO] [2017-08-02 08:51:40] Epoch 0. Worker 5 set 46: Sample seen 4601472, train loss 0.267349, average computation time 10.307
+[INFO] [2017-08-02 08:51:40] Epoch 0. Worker 4 set 39: Sample seen 3901248, train loss 0.267174, average computation time 10.404
+[INFO] [2017-08-02 08:51:40] Epoch 0. Worker 7 set 43: Sample seen 4301376, train loss 0.268086, average computation time 10.311
+[INFO] [2017-08-02 08:51:40] Epoch 0. Worker 6 set 47: Sample seen 4701504, train loss 0.268655, average computation time 10.310
+[INFO] [2017-08-02 08:51:40] Epoch 0. Worker 1 set 47: Sample seen 4701504, train loss 0.267457, average computation time 10.318
+[INFO] [2017-08-02 08:51:40] Epoch 0. Worker 3 set 46: Sample seen 4601472, train loss 0.267200, average computation time 10.294
+[INFO] [2017-08-02 08:51:41] Epoch 0. Worker 2 set 47: Sample seen 4701504, train loss 0.267475, average computation time 10.307
+[INFO] [2017-08-02 08:51:41] Epoch 0. Worker 0 set 42: Sample seen 4201344, train loss 0.266122, average computation time 10.371
+[INFO] [2017-08-02 08:51:41] Epoch 0. Worker 5 set 47: Sample seen 4701504, train loss 0.266315, average computation time 10.306
+[INFO] [2017-08-02 08:51:41] Epoch 0. Worker 7 set 44: Sample seen 4401408, train loss 0.268259, average computation time 10.311
+[INFO] [2017-08-02 08:51:41] Epoch 0. Worker 4 set 40: Sample seen 4001280, train loss 0.266486, average computation time 10.402
+[INFO] [2017-08-02 08:51:41] Epoch 0. Worker 6 set 48: Sample seen 4801536, train loss 0.265955, average computation time 10.310
+[INFO] [2017-08-02 08:51:41] Epoch 0. Worker 1 set 48: Sample seen 4801536, train loss 0.267880, average computation time 10.318
+[INFO] [2017-08-02 08:51:42] Epoch 0. Worker 2 set 48: Sample seen 4801536, train loss 0.267398, average computation time 10.307
+[INFO] [2017-08-02 08:51:41] Epoch 0. Worker 3 set 47: Sample seen 4701504, train loss 0.268124, average computation time 10.294
+[INFO] [2017-08-02 08:51:42] Epoch 0. Worker 0 set 43: Sample seen 4301376, train loss 0.267094, average computation time 10.371
+[INFO] [2017-08-02 08:51:42] Epoch 0. Worker 5 set 48: Sample seen 4801536, train loss 0.265936, average computation time 10.306
+[INFO] [2017-08-02 08:51:42] Epoch 0. Worker 7 set 45: Sample seen 4501440, train loss 0.265534, average computation time 10.311
+[INFO] [2017-08-02 08:51:42] Epoch 0. Worker 6 set 49: Sample seen 4901568, train loss 0.266584, average computation time 10.310
+[INFO] [2017-08-02 08:51:42] Epoch 0. Worker 1 set 49: Sample seen 4901568, train loss 0.267258, average computation time 10.318
+[INFO] [2017-08-02 08:51:42] Epoch 0. Worker 4 set 41: Sample seen 4101312, train loss 0.267607, average computation time 10.402
+[INFO] [2017-08-02 08:51:43] Epoch 0. Worker 2 set 49: Sample seen 4901568, train loss 0.269605, average computation time 10.307
+[INFO] [2017-08-02 08:51:43] Epoch 0. Worker 0 set 44: Sample seen 4401408, train loss 0.266462, average computation time 10.370
+[INFO] [2017-08-02 08:51:43] Epoch 0. Worker 3 set 48: Sample seen 4801536, train loss 0.267907, average computation time 10.294
+[INFO] [2017-08-02 08:51:43] Epoch 0. Worker 5 set 49: Sample seen 4901568, train loss 0.267151, average computation time 10.306
+[INFO] [2017-08-02 08:51:43] Epoch 0. Worker 7 set 46: Sample seen 4601472, train loss 0.269464, average computation time 10.311
+[INFO] [2017-08-02 08:51:44] Epoch 0. Worker 6 set 50: Sample seen 5001600, train loss 0.267506, average computation time 10.310
+[INFO] [2017-08-02 08:51:44] Epoch 0. Worker 2 set 50: Sample seen 5001600, train loss 0.266917, average computation time 10.307
+[INFO] [2017-08-02 08:51:44] Epoch 0. Worker 1 set 50: Sample seen 5001600, train loss 0.266583, average computation time 10.318
+[INFO] [2017-08-02 08:51:44] Epoch 0. Worker 3 set 49: Sample seen 4901568, train loss 0.269255, average computation time 10.294
+[INFO] [2017-08-02 08:51:44] Epoch 0. Worker 4 set 42: Sample seen 4201344, train loss 0.268458, average computation time 10.402
+[INFO] [2017-08-02 08:51:44] Epoch 0. Worker 0 set 45: Sample seen 4501440, train loss 0.267845, average computation time 10.370
+[INFO] [2017-08-02 08:51:44] Epoch 0. Worker 5 set 50: Sample seen 5001600, train loss 0.268570, average computation time 10.306
+[INFO] [2017-08-02 08:51:45] Epoch 0. Worker 7 set 47: Sample seen 4701504, train loss 0.266820, average computation time 10.312
+[INFO] [2017-08-02 08:51:45] Epoch 0. Worker 6 set 51: Sample seen 5101632, train loss 0.268246, average computation time 10.310
+[INFO] [2017-08-02 08:51:45] Epoch 0. Worker 2 set 51: Sample seen 5101632, train loss 0.266638, average computation time 10.309
+[INFO] [2017-08-02 08:51:45] Epoch 0. Worker 1 set 51: Sample seen 5101632, train loss 0.267964, average computation time 10.318
+[INFO] [2017-08-02 08:51:45] Epoch 0. Worker 3 set 50: Sample seen 5001600, train loss 0.267551, average computation time 10.294
+[INFO] [2017-08-02 08:51:45] Epoch 0. Worker 4 set 43: Sample seen 4301376, train loss 0.268118, average computation time 10.394
+[INFO] [2017-08-02 08:51:45] Epoch 0. Worker 5 set 51: Sample seen 5101632, train loss 0.267754, average computation time 10.305
+[INFO] [2017-08-02 08:51:46] Epoch 0. Worker 0 set 46: Sample seen 4601472, train loss 0.267200, average computation time 10.371
+[INFO] [2017-08-02 08:51:46] Epoch 0. Worker 6 set 52: Sample seen 5201664, train loss 0.268385, average computation time 10.310
+[INFO] [2017-08-02 08:51:46] Epoch 0. Worker 2 set 52: Sample seen 5201664, train loss 0.267396, average computation time 10.308
+[INFO] [2017-08-02 08:51:46] Epoch 0. Worker 7 set 48: Sample seen 4801536, train loss 0.267837, average computation time 10.312
+[INFO] [2017-08-02 08:51:46] Epoch 0. Worker 1 set 52: Sample seen 5201664, train loss 0.266647, average computation time 10.318
+[INFO] [2017-08-02 08:51:46] Epoch 0. Worker 3 set 51: Sample seen 5101632, train loss 0.269005, average computation time 10.294
+[INFO] [2017-08-02 08:51:46] Epoch 0. Worker 4 set 44: Sample seen 4401408, train loss 0.267001, average computation time 10.394
+[INFO] [2017-08-02 08:51:47] Epoch 0. Worker 5 set 52: Sample seen 5201664, train loss 0.267694, average computation time 10.305
+[INFO] [2017-08-02 08:51:47] Epoch 0. Worker 0 set 47: Sample seen 4701504, train loss 0.267495, average computation time 10.371
+[INFO] [2017-08-02 08:51:47] Epoch 0. Worker 6 set 53: Sample seen 5301696, train loss 0.267354, average computation time 10.310
+[INFO] [2017-08-02 08:51:47] Epoch 0. Worker 2 set 53: Sample seen 5301696, train loss 0.267376, average computation time 10.308
+[INFO] [2017-08-02 08:51:47] Epoch 0. Worker 7 set 49: Sample seen 4901568, train loss 0.267029, average computation time 10.312
+[INFO] [2017-08-02 08:51:47] Epoch 0. Worker 1 set 53: Sample seen 5301696, train loss 0.267382, average computation time 10.312
+[INFO] [2017-08-02 08:51:47] Epoch 0. Worker 3 set 52: Sample seen 5201664, train loss 0.268292, average computation time 10.294
+[INFO] [2017-08-02 08:51:48] Epoch 0. Worker 5 set 53: Sample seen 5301696, train loss 0.269331, average computation time 10.305
+[INFO] [2017-08-02 08:51:48] Epoch 0. Worker 0 set 48: Sample seen 4801536, train loss 0.267355, average computation time 10.371
+[INFO] [2017-08-02 08:51:48] Epoch 0. Worker 4 set 45: Sample seen 4501440, train loss 0.267055, average computation time 10.393
+[INFO] [2017-08-02 08:51:48] Epoch 0. Worker 2 set 54: Sample seen 5401728, train loss 0.267031, average computation time 10.308
+[INFO] [2017-08-02 08:51:48] Epoch 0. Worker 6 set 54: Sample seen 5401728, train loss 0.267367, average computation time 10.310
+[INFO] [2017-08-02 08:51:48] Epoch 0. Worker 7 set 50: Sample seen 5001600, train loss 0.266457, average computation time 10.311
+[INFO] [2017-08-02 08:51:48] Epoch 0. Worker 1 set 54: Sample seen 5401728, train loss 0.266008, average computation time 10.312
+[INFO] [2017-08-02 08:51:48] Epoch 0. Worker 3 set 53: Sample seen 5301696, train loss 0.267305, average computation time 10.289
+[INFO] [2017-08-02 08:51:49] Epoch 0. Worker 0 set 49: Sample seen 4901568, train loss 0.266808, average computation time 10.370
+[INFO] [2017-08-02 08:51:49] Epoch 0. Worker 5 set 54: Sample seen 5401728, train loss 0.266257, average computation time 10.306
+[INFO] [2017-08-02 08:51:49] Epoch 0. Worker 4 set 46: Sample seen 4601472, train loss 0.268550, average computation time 10.393
+[INFO] [2017-08-02 08:51:49] Epoch 0. Worker 6 set 55: Sample seen 5501760, train loss 0.268686, average computation time 10.310
+[INFO] [2017-08-02 08:51:49] Epoch 0. Worker 2 set 55: Sample seen 5501760, train loss 0.267747, average computation time 10.308
+[INFO] [2017-08-02 08:51:49] Epoch 0. Worker 1 set 55: Sample seen 5501760, train loss 0.267581, average computation time 10.312
+[INFO] [2017-08-02 08:51:49] Epoch 0. Worker 7 set 51: Sample seen 5101632, train loss 0.268293, average computation time 10.312
+[INFO] [2017-08-02 08:51:50] Epoch 0. Worker 3 set 54: Sample seen 5401728, train loss 0.268612, average computation time 10.289
+[INFO] [2017-08-02 08:51:50] Epoch 0. Worker 5 set 55: Sample seen 5501760, train loss 0.268193, average computation time 10.306
+[INFO] [2017-08-02 08:51:50] Epoch 0. Worker 0 set 50: Sample seen 5001600, train loss 0.267245, average computation time 10.369
+[INFO] [2017-08-02 08:51:50] Epoch 0. Worker 2 set 56: Sample seen 5601792, train loss 0.267003, average computation time 10.308
+[INFO] [2017-08-02 08:51:50] Epoch 0. Worker 6 set 56: Sample seen 5601792, train loss 0.266903, average computation time 10.310
+[INFO] [2017-08-02 08:51:50] Epoch 0. Worker 4 set 47: Sample seen 4701504, train loss 0.268310, average computation time 10.393
+[INFO] [2017-08-02 08:51:50] Epoch 0. Worker 1 set 56: Sample seen 5601792, train loss 0.267790, average computation time 10.312
+[INFO] [2017-08-02 08:51:51] Epoch 0. Worker 7 set 52: Sample seen 5201664, train loss 0.267750, average computation time 10.311
+[INFO] [2017-08-02 08:51:51] Epoch 0. Worker 3 set 55: Sample seen 5501760, train loss 0.267814, average computation time 10.289
+[INFO] [2017-08-02 08:51:51] Epoch 0. Worker 5 set 56: Sample seen 5601792, train loss 0.267017, average computation time 10.306
+[INFO] [2017-08-02 08:51:51] Epoch 0. Worker 0 set 51: Sample seen 5101632, train loss 0.267693, average computation time 10.369
+[INFO] [2017-08-02 08:51:51] Epoch 0. Worker 2 set 57: Sample seen 5701824, train loss 0.265792, average computation time 10.308
+[INFO] [2017-08-02 08:51:51] Epoch 0. Worker 6 set 57: Sample seen 5701824, train loss 0.266848, average computation time 10.310
+[INFO] [2017-08-02 08:51:51] Epoch 0. Worker 1 set 57: Sample seen 5701824, train loss 0.267931, average computation time 10.312
+[INFO] [2017-08-02 08:51:52] Epoch 0. Worker 4 set 48: Sample seen 4801536, train loss 0.267912, average computation time 10.391
+[INFO] [2017-08-02 08:51:52] Epoch 0. Worker 7 set 53: Sample seen 5301696, train loss 0.266979, average computation time 10.311
+[INFO] [2017-08-02 08:51:52] Epoch 0. Worker 3 set 56: Sample seen 5601792, train loss 0.268384, average computation time 10.290
+[INFO] [2017-08-02 08:51:52] Epoch 0. Worker 5 set 57: Sample seen 5701824, train loss 0.269046, average computation time 10.306
+[INFO] [2017-08-02 08:51:52] Epoch 0. Worker 2 set 58: Sample seen 5801856, train loss 0.267187, average computation time 10.308
+[INFO] [2017-08-02 08:51:52] Epoch 0. Worker 0 set 52: Sample seen 5201664, train loss 0.265902, average computation time 10.368
+[INFO] [2017-08-02 08:51:52] Epoch 0. Worker 6 set 58: Sample seen 5801856, train loss 0.267184, average computation time 10.310
+[INFO] [2017-08-02 08:51:53] Epoch 0. Worker 1 set 58: Sample seen 5801856, train loss 0.267110, average computation time 10.312
+[INFO] [2017-08-02 08:51:53] Epoch 0. Worker 4 set 49: Sample seen 4901568, train loss 0.266964, average computation time 10.391
+[INFO] [2017-08-02 08:51:53] Epoch 0. Worker 3 set 57: Sample seen 5701824, train loss 0.267036, average computation time 10.290
+[INFO] [2017-08-02 08:51:53] Epoch 0. Worker 7 set 54: Sample seen 5401728, train loss 0.267272, average computation time 10.311
+[INFO] [2017-08-02 08:51:53] Epoch 0. Worker 5 set 58: Sample seen 5801856, train loss 0.267121, average computation time 10.305
+[INFO] [2017-08-02 08:51:53] Epoch 0. Worker 2 set 59: Sample seen 5901888, train loss 0.265930, average computation time 10.308
+[INFO] [2017-08-02 08:51:53] Epoch 0. Worker 6 set 59: Sample seen 5901888, train loss 0.268648, average computation time 10.310
+[INFO] [2017-08-02 08:51:54] Epoch 0. Worker 0 set 53: Sample seen 5301696, train loss 0.268055, average computation time 10.367
+[INFO] [2017-08-02 08:51:54] Epoch 0. Worker 1 set 59: Sample seen 5901888, train loss 0.267430, average computation time 10.312
+[INFO] [2017-08-02 08:51:54] Epoch 0. Worker 3 set 58: Sample seen 5801856, train loss 0.267979, average computation time 10.290
+[INFO] [2017-08-02 08:51:54] Epoch 0. Worker 7 set 55: Sample seen 5501760, train loss 0.267561, average computation time 10.311
+[INFO] [2017-08-02 08:51:54] Epoch 0. Worker 4 set 50: Sample seen 5001600, train loss 0.267876, average computation time 10.390
+[INFO] [2017-08-02 08:51:55] Epoch 0. Worker 5 set 59: Sample seen 5901888, train loss 0.266839, average computation time 10.305
+[INFO] [2017-08-02 08:51:54] Epoch 0. Worker 2 set 60: Sample seen 6001920, train loss 0.268260, average computation time 10.308
+[INFO] [2017-08-02 08:51:54] Epoch 0. Worker 6 set 60: Sample seen 6001920, train loss 0.267272, average computation time 10.310
+[INFO] [2017-08-02 08:51:55] Epoch 0. Worker 1 set 60: Sample seen 6001920, train loss 0.267406, average computation time 10.312
+[INFO] [2017-08-02 08:51:55] Epoch 0. Worker 0 set 54: Sample seen 5401728, train loss 0.268260, average computation time 10.367
+[INFO] [2017-08-02 08:51:55] Epoch 0. Worker 3 set 59: Sample seen 5901888, train loss 0.266092, average computation time 10.290
+[INFO] [2017-08-02 08:51:55] Epoch 0. Worker 7 set 56: Sample seen 5601792, train loss 0.267097, average computation time 10.312
+[INFO] [2017-08-02 08:51:55] Epoch 0. Worker 4 set 51: Sample seen 5101632, train loss 0.269021, average computation time 10.390
+[INFO] [2017-08-02 08:51:56] Epoch 0. Worker 5 set 60: Sample seen 6001920, train loss 0.268577, average computation time 10.305
+[INFO] [2017-08-02 08:51:56] Epoch 0. Worker 2 set 61: Sample seen 6101952, train loss 0.268065, average computation time 10.308
+[INFO] [2017-08-02 08:51:56] Epoch 0. Worker 6 set 61: Sample seen 6101952, train loss 0.265602, average computation time 10.310
+[INFO] [2017-08-02 08:51:56] Epoch 0. Worker 1 set 61: Sample seen 6101952, train loss 0.267807, average computation time 10.313
+[INFO] [2017-08-02 08:51:56] Epoch 0. Worker 0 set 55: Sample seen 5501760, train loss 0.267342, average computation time 10.367
+[INFO] [2017-08-02 08:51:56] Epoch 0. Worker 3 set 60: Sample seen 6001920, train loss 0.267666, average computation time 10.290
+[INFO] [2017-08-02 08:51:57] Epoch 0. Worker 7 set 57: Sample seen 5701824, train loss 0.267524, average computation time 10.311
+[INFO] [2017-08-02 08:51:57] Epoch 0. Worker 2 set 62: Sample seen 6201984, train loss 0.267752, average computation time 10.308
+[INFO] [2017-08-02 08:51:57] Epoch 0. Worker 5 set 61: Sample seen 6101952, train loss 0.268003, average computation time 10.305
+[INFO] [2017-08-02 08:51:57] Epoch 0. Worker 6 set 62: Sample seen 6201984, train loss 0.267768, average computation time 10.310
+[INFO] [2017-08-02 08:51:57] Epoch 0. Worker 1 set 62: Sample seen 6201984, train loss 0.266751, average computation time 10.318
+[INFO] [2017-08-02 08:51:57] Epoch 0. Worker 4 set 52: Sample seen 5201664, train loss 0.265966, average computation time 10.391
+[INFO] [2017-08-02 08:51:57] Epoch 0. Worker 0 set 56: Sample seen 5601792, train loss 0.267368, average computation time 10.367
+[INFO] [2017-08-02 08:51:58] Epoch 0. Worker 3 set 61: Sample seen 6101952, train loss 0.267804, average computation time 10.294
+[INFO] [2017-08-02 08:51:58] Epoch 0. Worker 2 set 63: Sample seen 6302016, train loss 0.267477, average computation time 10.308
+[INFO] [2017-08-02 08:51:58] Epoch 0. Worker 5 set 62: Sample seen 6201984, train loss 0.266983, average computation time 10.305
+[INFO] [2017-08-02 08:51:58] Epoch 0. Worker 7 set 58: Sample seen 5801856, train loss 0.267939, average computation time 10.311
+[INFO] [2017-08-02 08:51:58] Epoch 0. Worker 6 set 63: Sample seen 6302016, train loss 0.268709, average computation time 10.310
+[INFO] [2017-08-02 08:51:58] Epoch 0. Worker 1 set 63: Sample seen 6302016, train loss 0.267393, average computation time 10.313
+[INFO] [2017-08-02 08:51:58] Epoch 0. Worker 4 set 53: Sample seen 5301696, train loss 0.267611, average computation time 10.390
+[INFO] [2017-08-02 08:51:58] Epoch 0. Worker 0 set 57: Sample seen 5701824, train loss 0.266620, average computation time 10.366
+[INFO] [2017-08-02 08:51:59] Epoch 0. Worker 3 set 62: Sample seen 6201984, train loss 0.265666, average computation time 10.294
+[INFO] [2017-08-02 08:51:59] Epoch 0. Worker 2 set 64: Sample seen 6402048, train loss 0.268549, average computation time 10.307
+[INFO] [2017-08-02 08:51:59] Epoch 0. Worker 5 set 63: Sample seen 6302016, train loss 0.265248, average computation time 10.305
+[INFO] [2017-08-02 08:51:59] Epoch 0. Worker 6 set 64: Sample seen 6402048, train loss 0.267644, average computation time 10.310
+[INFO] [2017-08-02 08:51:59] Epoch 0. Worker 7 set 59: Sample seen 5901888, train loss 0.266055, average computation time 10.311
+[INFO] [2017-08-02 08:51:59] Epoch 0. Worker 1 set 64: Sample seen 6402048, train loss 0.266280, average computation time 10.313
+[INFO] [2017-08-02 08:51:59] Epoch 0. Worker 4 set 54: Sample seen 5401728, train loss 0.267832, average computation time 10.391
+[INFO] [2017-08-02 08:52:00] Epoch 0. Worker 0 set 58: Sample seen 5801856, train loss 0.265914, average computation time 10.366
+[INFO] [2017-08-02 08:52:00] Epoch 0. Worker 3 set 63: Sample seen 6302016, train loss 0.266434, average computation time 10.294
+[INFO] [2017-08-02 08:52:00] Epoch 0. Worker 2 set 65: Sample seen 6502080, train loss 0.267172, average computation time 10.309
+[INFO] [2017-08-02 08:52:00] Epoch 0. Worker 6 set 65: Sample seen 6502080, train loss 0.268453, average computation time 10.310
+[INFO] [2017-08-02 08:52:00] Epoch 0. Worker 5 set 64: Sample seen 6402048, train loss 0.267219, average computation time 10.304
+[INFO] [2017-08-02 08:52:00] Epoch 0. Worker 7 set 60: Sample seen 6001920, train loss 0.266253, average computation time 10.311
+[INFO] [2017-08-02 08:52:00] Epoch 0. Worker 1 set 65: Sample seen 6502080, train loss 0.267758, average computation time 10.313
+[INFO] [2017-08-02 08:52:01] Epoch 0. Worker 4 set 55: Sample seen 5501760, train loss 0.266049, average computation time 10.397
+[INFO] [2017-08-02 08:52:01] Epoch 0. Worker 0 set 59: Sample seen 5901888, train loss 0.266196, average computation time 10.366
+[INFO] [2017-08-02 08:52:01] Epoch 0. Worker 2 set 66: Sample seen 6602112, train loss 0.266482, average computation time 10.309
+[INFO] [2017-08-02 08:52:01] Epoch 0. Worker 3 set 64: Sample seen 6402048, train loss 0.266257, average computation time 10.294
+[INFO] [2017-08-02 08:52:01] Epoch 0. Worker 6 set 66: Sample seen 6602112, train loss 0.266675, average computation time 10.310
+[INFO] [2017-08-02 08:52:01] Epoch 0. Worker 5 set 65: Sample seen 6502080, train loss 0.267669, average computation time 10.304
+[INFO] [2017-08-02 08:52:01] Epoch 0. Worker 7 set 61: Sample seen 6101952, train loss 0.266589, average computation time 10.311
+[INFO] [2017-08-02 08:52:01] Epoch 0. Worker 1 set 66: Sample seen 6602112, train loss 0.267352, average computation time 10.313
+[INFO] [2017-08-02 08:52:02] Epoch 0. Worker 2 set 67: Sample seen 6702144, train loss 0.265828, average computation time 10.308
+[INFO] [2017-08-02 08:52:02] Epoch 0. Worker 4 set 56: Sample seen 5601792, train loss 0.266201, average computation time 10.396
+[INFO] [2017-08-02 08:52:02] Epoch 0. Worker 3 set 65: Sample seen 6502080, train loss 0.267007, average computation time 10.294
+[INFO] [2017-08-02 08:52:02] Epoch 0. Worker 0 set 60: Sample seen 6001920, train loss 0.266300, average computation time 10.367
+[INFO] [2017-08-02 08:52:02] Epoch 0. Worker 6 set 67: Sample seen 6702144, train loss 0.268032, average computation time 10.310
+[INFO] [2017-08-02 08:52:02] Epoch 0. Worker 5 set 66: Sample seen 6602112, train loss 0.268460, average computation time 10.304
+[INFO] [2017-08-02 08:52:02] Epoch 0. Worker 1 set 67: Sample seen 6702144, train loss 0.268005, average computation time 10.308
+[INFO] [2017-08-02 08:52:03] Epoch 0. Worker 7 set 62: Sample seen 6201984, train loss 0.266965, average computation time 10.310
+[INFO] [2017-08-02 08:52:03] Epoch 0. Worker 2 set 68: Sample seen 6802176, train loss 0.266567, average computation time 10.308
+[INFO] [2017-08-02 08:52:03] Epoch 0. Worker 0 set 61: Sample seen 6101952, train loss 0.268095, average computation time 10.366
+[INFO] [2017-08-02 08:52:03] Epoch 0. Worker 6 set 68: Sample seen 6802176, train loss 0.268047, average computation time 10.310
+[INFO] [2017-08-02 08:52:03] Epoch 0. Worker 3 set 66: Sample seen 6602112, train loss 0.267306, average computation time 10.295
+[INFO] [2017-08-02 08:52:03] Epoch 0. Worker 4 set 57: Sample seen 5701824, train loss 0.266795, average computation time 10.396
+[INFO] [2017-08-02 08:52:03] Epoch 0. Worker 5 set 67: Sample seen 6702144, train loss 0.268039, average computation time 10.304
+[INFO] [2017-08-02 08:52:03] Epoch 0. Worker 1 set 68: Sample seen 6802176, train loss 0.265961, average computation time 10.309
+[INFO] [2017-08-02 08:52:04] Epoch 0. Worker 7 set 63: Sample seen 6302016, train loss 0.266758, average computation time 10.310
+[INFO] [2017-08-02 08:52:04] Epoch 0. Worker 2 set 69: Sample seen 6902208, train loss 0.267460, average computation time 10.308
+[INFO] [2017-08-02 08:52:04] Epoch 0. Worker 6 set 69: Sample seen 6902208, train loss 0.267677, average computation time 10.310
+[INFO] [2017-08-02 08:52:04] Epoch 0. Worker 3 set 67: Sample seen 6702144, train loss 0.268365, average computation time 10.295
+[INFO] [2017-08-02 08:52:05] Epoch 0. Worker 0 set 62: Sample seen 6201984, train loss 0.266542, average computation time 10.366
+[INFO] [2017-08-02 08:52:05] Epoch 0. Worker 5 set 68: Sample seen 6802176, train loss 0.267753, average computation time 10.304
+[INFO] [2017-08-02 08:52:04] Epoch 0. Worker 4 set 58: Sample seen 5801856, train loss 0.266584, average computation time 10.396
+[INFO] [2017-08-02 08:52:05] Epoch 0. Worker 1 set 69: Sample seen 6902208, train loss 0.267788, average computation time 10.309
+[INFO] [2017-08-02 08:52:05] Epoch 0. Worker 7 set 64: Sample seen 6402048, train loss 0.267457, average computation time 10.310
+[INFO] [2017-08-02 08:52:05] Epoch 0. Worker 2 set 70: Sample seen 7002240, train loss 0.268829, average computation time 10.309
+[INFO] [2017-08-02 08:52:05] Epoch 0. Worker 6 set 70: Sample seen 7002240, train loss 0.267160, average computation time 10.310
+[INFO] [2017-08-02 08:52:05] Epoch 0. Worker 3 set 68: Sample seen 6802176, train loss 0.268146, average computation time 10.295
+[INFO] [2017-08-02 08:52:06] Epoch 0. Worker 5 set 69: Sample seen 6902208, train loss 0.269091, average computation time 10.303
+[INFO] [2017-08-02 08:52:06] Epoch 0. Worker 1 set 70: Sample seen 7002240, train loss 0.268367, average computation time 10.309
+[INFO] [2017-08-02 08:52:06] Epoch 0. Worker 0 set 63: Sample seen 6302016, train loss 0.267551, average computation time 10.366
+[INFO] [2017-08-02 08:52:06] Epoch 0. Worker 4 set 59: Sample seen 5901888, train loss 0.267050, average computation time 10.396
+[INFO] [2017-08-02 08:52:06] Epoch 0. Worker 7 set 65: Sample seen 6502080, train loss 0.268920, average computation time 10.310
+[INFO] [2017-08-02 08:52:06] Epoch 0. Worker 2 set 71: Sample seen 7102272, train loss 0.266967, average computation time 10.309
+[INFO] [2017-08-02 08:52:06] Epoch 0. Worker 6 set 71: Sample seen 7102272, train loss 0.268760, average computation time 10.310
+[INFO] [2017-08-02 08:52:06] Epoch 0. Worker 3 set 69: Sample seen 6902208, train loss 0.268269, average computation time 10.295
+[INFO] [2017-08-02 08:52:07] Epoch 0. Worker 1 set 71: Sample seen 7102272, train loss 0.269687, average computation time 10.313
+[INFO] [2017-08-02 08:52:07] Epoch 0. Worker 5 set 70: Sample seen 7002240, train loss 0.267731, average computation time 10.303
+[INFO] [2017-08-02 08:52:07] Epoch 0. Worker 0 set 64: Sample seen 6402048, train loss 0.268414, average computation time 10.366
+[INFO] [2017-08-02 08:52:07] Epoch 0. Worker 4 set 60: Sample seen 6001920, train loss 0.265582, average computation time 10.396
+[INFO] [2017-08-02 08:52:07] Epoch 0. Worker 2 set 72: Sample seen 7202304, train loss 0.267566, average computation time 10.309
+[INFO] [2017-08-02 08:52:07] Epoch 0. Worker 7 set 66: Sample seen 6602112, train loss 0.267764, average computation time 10.310
+[INFO] [2017-08-02 08:52:07] Epoch 0. Worker 6 set 72: Sample seen 7202304, train loss 0.267271, average computation time 10.310
+[INFO] [2017-08-02 08:52:08] Epoch 0. Worker 3 set 70: Sample seen 7002240, train loss 0.266519, average computation time 10.294
+[INFO] [2017-08-02 08:52:08] Epoch 0. Worker 5 set 71: Sample seen 7102272, train loss 0.267806, average computation time 10.303
+[INFO] [2017-08-02 08:52:08] Epoch 0. Worker 1 set 72: Sample seen 7202304, train loss 0.267632, average computation time 10.313
+[INFO] [2017-08-02 08:52:08] Epoch 0. Worker 0 set 65: Sample seen 6502080, train loss 0.266990, average computation time 10.365
+[INFO] [2017-08-02 08:52:09] Epoch 0. Worker 2 set 73: Sample seen 7302336, train loss 0.266638, average computation time 10.309
+[INFO] [2017-08-02 08:52:08] Epoch 0. Worker 6 set 73: Sample seen 7302336, train loss 0.266496, average computation time 10.310
+[INFO] [2017-08-02 08:52:09] Epoch 0. Worker 7 set 67: Sample seen 6702144, train loss 0.269080, average computation time 10.310
+[INFO] [2017-08-02 08:52:09] Epoch 0. Worker 4 set 61: Sample seen 6101952, train loss 0.266350, average computation time 10.396
+[INFO] [2017-08-02 08:52:09] Epoch 0. Worker 3 set 71: Sample seen 7102272, train loss 0.267516, average computation time 10.295
+[INFO] [2017-08-02 08:52:09] Epoch 0. Worker 1 set 73: Sample seen 7302336, train loss 0.265961, average computation time 10.313
+[INFO] [2017-08-02 08:52:09] Epoch 0. Worker 5 set 72: Sample seen 7202304, train loss 0.266687, average computation time 10.303
+[INFO] [2017-08-02 08:52:09] Epoch 0. Worker 0 set 66: Sample seen 6602112, train loss 0.267854, average computation time 10.365
+[INFO] [2017-08-02 08:52:09] Epoch 0. Worker 6 set 74: Sample seen 7402368, train loss 0.267588, average computation time 10.311
+[INFO] [2017-08-02 08:52:10] Epoch 0. Worker 2 set 74: Sample seen 7402368, train loss 0.268325, average computation time 10.309
+[INFO] [2017-08-02 08:52:10] Epoch 0. Worker 7 set 68: Sample seen 6802176, train loss 0.267595, average computation time 10.311
+[INFO] [2017-08-02 08:52:10] Epoch 0. Worker 3 set 72: Sample seen 7202304, train loss 0.267804, average computation time 10.294
+[INFO] [2017-08-02 08:52:10] Epoch 0. Worker 4 set 62: Sample seen 6201984, train loss 0.266670, average computation time 10.401
+[INFO] [2017-08-02 08:52:10] Epoch 0. Worker 5 set 73: Sample seen 7302336, train loss 0.266209, average computation time 10.303
+[INFO] [2017-08-02 08:52:10] Epoch 0. Worker 1 set 74: Sample seen 7402368, train loss 0.266924, average computation time 10.313
+[INFO] [2017-08-02 08:52:10] Epoch 0. Worker 0 set 67: Sample seen 6702144, train loss 0.265574, average computation time 10.365
+[INFO] [2017-08-02 08:52:10] Epoch 0. Worker 6 set 75: Sample seen 7502400, train loss 0.267923, average computation time 10.311
+[INFO] [2017-08-02 08:52:11] Epoch 0. Worker 2 set 75: Sample seen 7502400, train loss 0.267297, average computation time 10.309
+[INFO] [2017-08-02 08:52:11] Epoch 0. Worker 7 set 69: Sample seen 6902208, train loss 0.267253, average computation time 10.310
+[INFO] [2017-08-02 08:52:11] Epoch 0. Worker 3 set 73: Sample seen 7302336, train loss 0.269369, average computation time 10.294
+[INFO] [2017-08-02 08:52:11] Epoch 0. Worker 4 set 63: Sample seen 6302016, train loss 0.268035, average computation time 10.401
+[INFO] [2017-08-02 08:52:11] Epoch 0. Worker 5 set 74: Sample seen 7402368, train loss 0.267084, average computation time 10.303
+[INFO] [2017-08-02 08:52:11] Epoch 0. Worker 1 set 75: Sample seen 7502400, train loss 0.268357, average computation time 10.313
+[INFO] [2017-08-02 08:52:11] Epoch 0. Worker 0 set 68: Sample seen 6802176, train loss 0.267393, average computation time 10.365
+[INFO] [2017-08-02 08:52:11] Epoch 0. Worker 6 set 76: Sample seen 7602432, train loss 0.266027, average computation time 10.311
+[INFO] [2017-08-02 08:52:12] Epoch 0. Worker 2 set 76: Sample seen 7602432, train loss 0.266578, average computation time 10.309
+[INFO] [2017-08-02 08:52:12] Epoch 0. Worker 7 set 70: Sample seen 7002240, train loss 0.267156, average computation time 10.310
+[INFO] [2017-08-02 08:52:12] Epoch 0. Worker 3 set 74: Sample seen 7402368, train loss 0.267017, average computation time 10.294
+[INFO] [2017-08-02 08:52:12] Epoch 0. Worker 4 set 64: Sample seen 6402048, train loss 0.267498, average computation time 10.400
+[INFO] [2017-08-02 08:52:12] Epoch 0. Worker 5 set 75: Sample seen 7502400, train loss 0.267249, average computation time 10.302
+[INFO] [2017-08-02 08:52:12] Epoch 0. Worker 1 set 76: Sample seen 7602432, train loss 0.266723, average computation time 10.313
+[INFO] [2017-08-02 08:52:13] Epoch 0. Worker 0 set 69: Sample seen 6902208, train loss 0.269050, average computation time 10.365
+[INFO] [2017-08-02 08:52:13] Epoch 0. Worker 6 set 77: Sample seen 7702464, train loss 0.268893, average computation time 10.311
+[INFO] [2017-08-02 08:52:13] Epoch 0. Worker 2 set 77: Sample seen 7702464, train loss 0.266063, average computation time 10.309
+[INFO] [2017-08-02 08:52:13] Epoch 0. Worker 7 set 71: Sample seen 7102272, train loss 0.268268, average computation time 10.310
+[INFO] [2017-08-02 08:52:13] Epoch 0. Worker 3 set 75: Sample seen 7502400, train loss 0.269181, average computation time 10.294
+[INFO] [2017-08-02 08:52:14] Epoch 0. Worker 5 set 76: Sample seen 7602432, train loss 0.267733, average computation time 10.302
+[INFO] [2017-08-02 08:52:13] Epoch 0. Worker 4 set 65: Sample seen 6502080, train loss 0.267352, average computation time 10.400
+[INFO] [2017-08-02 08:52:14] Epoch 0. Worker 1 set 77: Sample seen 7702464, train loss 0.266902, average computation time 10.313
+[INFO] [2017-08-02 08:52:14] Epoch 0. Worker 0 set 70: Sample seen 7002240, train loss 0.266231, average computation time 10.364
+[INFO] [2017-08-02 08:52:14] Epoch 0. Worker 6 set 78: Sample seen 7802496, train loss 0.267823, average computation time 10.311
+[INFO] [2017-08-02 08:52:14] Epoch 0. Worker 2 set 78: Sample seen 7802496, train loss 0.266774, average computation time 10.309
+[INFO] [2017-08-02 08:52:14] Epoch 0. Worker 3 set 76: Sample seen 7602432, train loss 0.267577, average computation time 10.294
+[INFO] [2017-08-02 08:52:14] Epoch 0. Worker 7 set 72: Sample seen 7202304, train loss 0.269100, average computation time 10.310
+[INFO] [2017-08-02 08:52:15] Epoch 0. Worker 5 set 77: Sample seen 7702464, train loss 0.266674, average computation time 10.302
+[INFO] [2017-08-02 08:52:15] Epoch 0. Worker 0 set 71: Sample seen 7102272, train loss 0.268540, average computation time 10.364
+[INFO] [2017-08-02 08:52:15] Epoch 0. Worker 1 set 78: Sample seen 7802496, train loss 0.267682, average computation time 10.312
+[INFO] [2017-08-02 08:52:15] Epoch 0. Worker 6 set 79: Sample seen 7902528, train loss 0.268451, average computation time 10.311
+[INFO] [2017-08-02 08:52:15] Epoch 0. Worker 2 set 79: Sample seen 7902528, train loss 0.267799, average computation time 10.310
+[INFO] [2017-08-02 08:52:15] Epoch 0. Worker 4 set 66: Sample seen 6602112, train loss 0.267709, average computation time 10.403
+[INFO] [2017-08-02 08:52:16] Epoch 0. Worker 3 set 77: Sample seen 7702464, train loss 0.268023, average computation time 10.294
+[INFO] [2017-08-02 08:52:16] Epoch 0. Worker 7 set 73: Sample seen 7302336, train loss 0.268035, average computation time 10.310
+[INFO] [2017-08-02 08:52:16] Epoch 0. Worker 5 set 78: Sample seen 7802496, train loss 0.266841, average computation time 10.302
+[INFO] [2017-08-02 08:52:16] Epoch 0. Worker 6 set 80: Sample seen 8002560, train loss 0.266895, average computation time 10.311
+[INFO] [2017-08-02 08:52:16] Epoch 0. Worker 1 set 79: Sample seen 7902528, train loss 0.268265, average computation time 10.312
+[INFO] [2017-08-02 08:52:16] Epoch 0. Worker 2 set 80: Sample seen 8002560, train loss 0.266550, average computation time 10.310
+[INFO] [2017-08-02 08:52:16] Epoch 0. Worker 0 set 72: Sample seen 7202304, train loss 0.267425, average computation time 10.364
+[INFO] [2017-08-02 08:52:16] Epoch 0. Worker 4 set 67: Sample seen 6702144, train loss 0.265829, average computation time 10.403
+[INFO] [2017-08-02 08:52:17] Epoch 0. Worker 3 set 78: Sample seen 7802496, train loss 0.268014, average computation time 10.294
+[INFO] [2017-08-02 08:52:17] Epoch 0. Worker 6 set 81: Sample seen 8102592, train loss 0.267796, average computation time 10.311
+[INFO] [2017-08-02 08:52:17] Epoch 0. Worker 7 set 74: Sample seen 7402368, train loss 0.267538, average computation time 10.310
+[INFO] [2017-08-02 08:52:17] Epoch 0. Worker 5 set 79: Sample seen 7902528, train loss 0.266502, average computation time 10.302
+[INFO] [2017-08-02 08:52:17] Epoch 0. Worker 1 set 80: Sample seen 8002560, train loss 0.266098, average computation time 10.312
+[INFO] [2017-08-02 08:52:17] Epoch 0. Worker 2 set 81: Sample seen 8102592, train loss 0.268459, average computation time 10.309
+[INFO] [2017-08-02 08:52:18] Epoch 0. Worker 0 set 73: Sample seen 7302336, train loss 0.266732, average computation time 10.364
+[INFO] [2017-08-02 08:52:18] Epoch 0. Worker 4 set 68: Sample seen 6802176, train loss 0.268407, average computation time 10.402
+[INFO] [2017-08-02 08:52:18] Epoch 0. Worker 3 set 79: Sample seen 7902528, train loss 0.266658, average computation time 10.294
+[INFO] [2017-08-02 08:52:18] Epoch 0. Worker 6 set 82: Sample seen 8202624, train loss 0.267524, average computation time 10.311
+[INFO] [2017-08-02 08:52:18] Epoch 0. Worker 5 set 80: Sample seen 8002560, train loss 0.266786, average computation time 10.302
+[INFO] [2017-08-02 08:52:18] Epoch 0. Worker 7 set 75: Sample seen 7502400, train loss 0.267948, average computation time 10.310
+[INFO] [2017-08-02 08:52:18] Epoch 0. Worker 1 set 81: Sample seen 8102592, train loss 0.266881, average computation time 10.312
+[INFO] [2017-08-02 08:52:18] Epoch 0. Worker 2 set 82: Sample seen 8202624, train loss 0.266304, average computation time 10.309
+[INFO] [2017-08-02 08:52:19] Epoch 0. Worker 0 set 74: Sample seen 7402368, train loss 0.269464, average computation time 10.364
+[INFO] [2017-08-02 08:52:19] Epoch 0. Worker 6 set 83: Sample seen 8302656, train loss 0.267016, average computation time 10.311
+[INFO] [2017-08-02 08:52:19] Epoch 0. Worker 3 set 80: Sample seen 8002560, train loss 0.268343, average computation time 10.294
+[INFO] [2017-08-02 08:52:19] Epoch 0. Worker 5 set 81: Sample seen 8102592, train loss 0.267018, average computation time 10.303
+[INFO] [2017-08-02 08:52:19] Epoch 0. Worker 4 set 69: Sample seen 6902208, train loss 0.270133, average computation time 10.401
+[INFO] [2017-08-02 08:52:19] Epoch 0. Worker 2 set 83: Sample seen 8302656, train loss 0.267706, average computation time 10.309
+[INFO] [2017-08-02 08:52:19] Epoch 0. Worker 7 set 76: Sample seen 7602432, train loss 0.266655, average computation time 10.310
+[INFO] [2017-08-02 08:52:19] Epoch 0. Worker 1 set 82: Sample seen 8202624, train loss 0.269442, average computation time 10.313
+[INFO] [2017-08-02 08:52:20] Epoch 0. Worker 0 set 75: Sample seen 7502400, train loss 0.267537, average computation time 10.364
+[INFO] [2017-08-02 08:52:20] Epoch 0. Worker 6 set 84: Sample seen 8402688, train loss 0.268679, average computation time 10.311
+[INFO] [2017-08-02 08:52:20] Epoch 0. Worker 3 set 81: Sample seen 8102592, train loss 0.267327, average computation time 10.295
+[INFO] [2017-08-02 08:52:20] Epoch 0. Worker 5 set 82: Sample seen 8202624, train loss 0.268942, average computation time 10.303
+[INFO] [2017-08-02 08:52:21] Epoch 0. Worker 2 set 84: Sample seen 8402688, train loss 0.267027, average computation time 10.310
+[INFO] [2017-08-02 08:52:20] Epoch 0. Worker 7 set 77: Sample seen 7702464, train loss 0.268176, average computation time 10.310
+[INFO] [2017-08-02 08:52:20] Epoch 0. Worker 4 set 70: Sample seen 7002240, train loss 0.268782, average computation time 10.400
+[INFO] [2017-08-02 08:52:20] Epoch 0. Worker 1 set 83: Sample seen 8302656, train loss 0.268222, average computation time 10.313
+[INFO] [2017-08-02 08:52:21] Epoch 0. Worker 0 set 76: Sample seen 7602432, train loss 0.268047, average computation time 10.364
+[INFO] [2017-08-02 08:52:21] Epoch 0. Worker 6 set 85: Sample seen 8502720, train loss 0.267638, average computation time 10.311
+[INFO] [2017-08-02 08:52:21] Epoch 0. Worker 3 set 82: Sample seen 8202624, train loss 0.267517, average computation time 10.295
+[INFO] [2017-08-02 08:52:22] Epoch 0. Worker 5 set 83: Sample seen 8302656, train loss 0.266101, average computation time 10.303
+[INFO] [2017-08-02 08:52:22] Epoch 0. Worker 2 set 85: Sample seen 8502720, train loss 0.266891, average computation time 10.310
+[INFO] [2017-08-02 08:52:22] Epoch 0. Worker 7 set 78: Sample seen 7802496, train loss 0.266605, average computation time 10.310
+[INFO] [2017-08-02 08:52:22] Epoch 0. Worker 1 set 84: Sample seen 8402688, train loss 0.267530, average computation time 10.314
+[INFO] [2017-08-02 08:52:22] Epoch 0. Worker 4 set 71: Sample seen 7102272, train loss 0.265099, average computation time 10.399
+[INFO] [2017-08-02 08:52:22] Epoch 0. Worker 6 set 86: Sample seen 8602752, train loss 0.268036, average computation time 10.311
+[INFO] [2017-08-02 08:52:22] Epoch 0. Worker 0 set 77: Sample seen 7702464, train loss 0.269149, average computation time 10.364
+[INFO] [2017-08-02 08:52:23] Epoch 0. Worker 3 set 83: Sample seen 8302656, train loss 0.267541, average computation time 10.295
+[INFO] [2017-08-02 08:52:23] Epoch 0. Worker 2 set 86: Sample seen 8602752, train loss 0.267422, average computation time 10.310
+[INFO] [2017-08-02 08:52:23] Epoch 0. Worker 5 set 84: Sample seen 8402688, train loss 0.266827, average computation time 10.302
+[INFO] [2017-08-02 08:52:23] Epoch 0. Worker 1 set 85: Sample seen 8502720, train loss 0.266136, average computation time 10.311
+[INFO] [2017-08-02 08:52:23] Epoch 0. Worker 7 set 79: Sample seen 7902528, train loss 0.267001, average computation time 10.310
+[INFO] [2017-08-02 08:52:23] Epoch 0. Worker 6 set 87: Sample seen 8702784, train loss 0.270435, average computation time 10.311
+[INFO] [2017-08-02 08:52:23] Epoch 0. Worker 4 set 72: Sample seen 7202304, train loss 0.267319, average computation time 10.399
+[INFO] [2017-08-02 08:52:24] Epoch 0. Worker 0 set 78: Sample seen 7802496, train loss 0.268735, average computation time 10.364
+[INFO] [2017-08-02 08:52:24] Epoch 0. Worker 2 set 87: Sample seen 8702784, train loss 0.267680, average computation time 10.310
+[INFO] [2017-08-02 08:52:23] Epoch 0. Worker 3 set 84: Sample seen 8402688, train loss 0.266501, average computation time 10.295
+[INFO] [2017-08-02 08:52:24] Epoch 0. Worker 5 set 85: Sample seen 8502720, train loss 0.268301, average computation time 10.303
+[INFO] [2017-08-02 08:52:24] Epoch 0. Worker 1 set 86: Sample seen 8602752, train loss 0.266857, average computation time 10.312
+[INFO] [2017-08-02 08:52:24] Epoch 0. Worker 7 set 80: Sample seen 8002560, train loss 0.267086, average computation time 10.310
+[INFO] [2017-08-02 08:52:24] Epoch 0. Worker 6 set 88: Sample seen 8802816, train loss 0.266842, average computation time 10.311
+[INFO] [2017-08-02 08:52:25] Epoch 0. Worker 2 set 88: Sample seen 8802816, train loss 0.266371, average computation time 10.310
+[INFO] [2017-08-02 08:52:25] Epoch 0. Worker 3 set 85: Sample seen 8502720, train loss 0.267257, average computation time 10.295
+[INFO] [2017-08-02 08:52:25] Epoch 0. Worker 0 set 79: Sample seen 7902528, train loss 0.268596, average computation time 10.363
+[INFO] [2017-08-02 08:52:25] Epoch 0. Worker 5 set 86: Sample seen 8602752, train loss 0.267337, average computation time 10.303
+[INFO] [2017-08-02 08:52:25] Epoch 0. Worker 4 set 73: Sample seen 7302336, train loss 0.267691, average computation time 10.398
+[INFO] [2017-08-02 08:52:25] Epoch 0. Worker 1 set 87: Sample seen 8702784, train loss 0.267603, average computation time 10.312
+[INFO] [2017-08-02 08:52:25] Epoch 0. Worker 7 set 81: Sample seen 8102592, train loss 0.266897, average computation time 10.311
+[INFO] [2017-08-02 08:52:25] Epoch 0. Worker 6 set 89: Sample seen 8902848, train loss 0.266582, average computation time 10.311
+[INFO] [2017-08-02 08:52:26] Epoch 0. Worker 2 set 89: Sample seen 8902848, train loss 0.269502, average computation time 10.310
+[INFO] [2017-08-02 08:52:26] Epoch 0. Worker 3 set 86: Sample seen 8602752, train loss 0.268691, average computation time 10.295
+[INFO] [2017-08-02 08:52:26] Epoch 0. Worker 5 set 87: Sample seen 8702784, train loss 0.266668, average computation time 10.303
+[INFO] [2017-08-02 08:52:26] Epoch 0. Worker 0 set 80: Sample seen 8002560, train loss 0.267802, average computation time 10.363
+[INFO] [2017-08-02 08:52:26] Epoch 0. Worker 1 set 88: Sample seen 8802816, train loss 0.266063, average computation time 10.313
+[INFO] [2017-08-02 08:52:26] Epoch 0. Worker 7 set 82: Sample seen 8202624, train loss 0.266842, average computation time 10.311
+[INFO] [2017-08-02 08:52:26] Epoch 0. Worker 6 set 90: Sample seen 9002880, train loss 0.266461, average computation time 10.311
+[INFO] [2017-08-02 08:52:27] Epoch 0. Worker 2 set 90: Sample seen 9002880, train loss 0.268259, average computation time 10.310
+[INFO] [2017-08-02 08:52:27] Epoch 0. Worker 3 set 87: Sample seen 8702784, train loss 0.267225, average computation time 10.295
+[INFO] [2017-08-02 08:52:27] Epoch 0. Worker 5 set 88: Sample seen 8802816, train loss 0.268551, average computation time 10.303
+[INFO] [2017-08-02 08:52:27] Epoch 0. Worker 0 set 81: Sample seen 8102592, train loss 0.266375, average computation time 10.363
+[INFO] [2017-08-02 08:52:27] Epoch 0. Worker 1 set 89: Sample seen 8902848, train loss 0.268585, average computation time 10.317
+[INFO] [2017-08-02 08:52:27] Epoch 0. Worker 6 set 91: Sample seen 9102912, train loss 0.268159, average computation time 10.311
+[INFO] [2017-08-02 08:52:27] Epoch 0. Worker 4 set 74: Sample seen 7402368, train loss 0.267129, average computation time 10.397
+[INFO] [2017-08-02 08:52:28] Epoch 0. Worker 7 set 83: Sample seen 8302656, train loss 0.268209, average computation time 10.311
+[INFO] [2017-08-02 08:52:28] Epoch 0. Worker 2 set 91: Sample seen 9102912, train loss 0.267371, average computation time 10.310
+[INFO] [2017-08-02 08:52:28] Epoch 0. Worker 5 set 89: Sample seen 8902848, train loss 0.269262, average computation time 10.303
+[INFO] [2017-08-02 08:52:28] Epoch 0. Worker 3 set 88: Sample seen 8802816, train loss 0.266286, average computation time 10.298
+[INFO] [2017-08-02 08:52:28] Epoch 0. Worker 1 set 90: Sample seen 9002880, train loss 0.267550, average computation time 10.317
+[INFO] [2017-08-02 08:52:28] Epoch 0. Worker 4 set 75: Sample seen 7502400, train loss 0.266479, average computation time 10.397
+[INFO] [2017-08-02 08:52:28] Epoch 0. Worker 6 set 92: Sample seen 9202944, train loss 0.267923, average computation time 10.311
+[INFO] [2017-08-02 08:52:29] Epoch 0. Worker 0 set 82: Sample seen 8202624, train loss 0.268557, average computation time 10.363
+[INFO] [2017-08-02 08:52:29] Epoch 0. Worker 2 set 92: Sample seen 9202944, train loss 0.267329, average computation time 10.310
+[INFO] [2017-08-02 08:52:29] Epoch 0. Worker 7 set 84: Sample seen 8402688, train loss 0.266766, average computation time 10.312
+[INFO] [2017-08-02 08:52:29] Epoch 0. Worker 5 set 90: Sample seen 9002880, train loss 0.268311, average computation time 10.303
+[INFO] [2017-08-02 08:52:29] Epoch 0. Worker 3 set 89: Sample seen 8902848, train loss 0.266452, average computation time 10.298
+[INFO] [2017-08-02 08:52:29] Epoch 0. Worker 1 set 91: Sample seen 9102912, train loss 0.268574, average computation time 10.316
+[INFO] [2017-08-02 08:52:29] Epoch 0. Worker 6 set 93: Sample seen 9302976, train loss 0.268911, average computation time 10.311
+[INFO] [2017-08-02 08:52:30] Epoch 0. Worker 0 set 83: Sample seen 8302656, train loss 0.267078, average computation time 10.363
+[INFO] [2017-08-02 08:52:30] Epoch 0. Worker 4 set 76: Sample seen 7602432, train loss 0.268018, average computation time 10.396
+[INFO] [2017-08-02 08:52:30] Epoch 0. Worker 7 set 85: Sample seen 8502720, train loss 0.267220, average computation time 10.313
+[INFO] [2017-08-02 08:52:30] Epoch 0. Worker 2 set 93: Sample seen 9302976, train loss 0.268023, average computation time 10.310
+[INFO] [2017-08-02 08:52:30] Epoch 0. Worker 3 set 90: Sample seen 9002880, train loss 0.269073, average computation time 10.298
+[INFO] [2017-08-02 08:52:31] Epoch 0. Worker 5 set 91: Sample seen 9102912, train loss 0.268705, average computation time 10.302
+[INFO] [2017-08-02 08:52:30] Epoch 0. Worker 1 set 92: Sample seen 9202944, train loss 0.266023, average computation time 10.316
+[INFO] [2017-08-02 08:52:31] Epoch 0. Worker 6 set 94: Sample seen 9403008, train loss 0.266748, average computation time 10.311
+[INFO] [2017-08-02 08:52:31] Epoch 0. Worker 0 set 84: Sample seen 8402688, train loss 0.268398, average computation time 10.362
+[INFO] [2017-08-02 08:52:31] Epoch 0. Worker 4 set 77: Sample seen 7702464, train loss 0.267416, average computation time 10.395
+[INFO] [2017-08-02 08:52:31] Epoch 0. Worker 2 set 94: Sample seen 9403008, train loss 0.266806, average computation time 10.310
+[INFO] [2017-08-02 08:52:31] Epoch 0. Worker 7 set 86: Sample seen 8602752, train loss 0.267014, average computation time 10.313
+[INFO] [2017-08-02 08:52:32] Epoch 0. Worker 5 set 92: Sample seen 9202944, train loss 0.266623, average computation time 10.302
+[INFO] [2017-08-02 08:52:31] Epoch 0. Worker 3 set 91: Sample seen 9102912, train loss 0.267187, average computation time 10.298
+[INFO] [2017-08-02 08:52:32] Epoch 0. Worker 6 set 95: Sample seen 9503040, train loss 0.267024, average computation time 10.311
+[INFO] [2017-08-02 08:52:32] Epoch 0. Worker 1 set 93: Sample seen 9302976, train loss 0.267587, average computation time 10.316
+[INFO] [2017-08-02 08:52:32] Epoch 0. Worker 0 set 85: Sample seen 8502720, train loss 0.267530, average computation time 10.362
+[INFO] [2017-08-02 08:52:32] Epoch 0. Worker 2 set 95: Sample seen 9503040, train loss 0.267531, average computation time 10.310
+[INFO] [2017-08-02 08:52:32] Epoch 0. Worker 7 set 87: Sample seen 8702784, train loss 0.268729, average computation time 10.313
+[INFO] [2017-08-02 08:52:32] Epoch 0. Worker 4 set 78: Sample seen 7802496, train loss 0.266875, average computation time 10.395
+[INFO] [2017-08-02 08:52:33] Epoch 0. Worker 5 set 93: Sample seen 9302976, train loss 0.268415, average computation time 10.302
+[INFO] [2017-08-02 08:52:33] Epoch 0. Worker 6 set 96: Sample seen 9603072, train loss 0.267447, average computation time 10.311
+[INFO] [2017-08-02 08:52:33] Epoch 0. Worker 3 set 92: Sample seen 9202944, train loss 0.265317, average computation time 10.298
+[INFO] [2017-08-02 08:52:33] Epoch 0. Worker 1 set 94: Sample seen 9403008, train loss 0.267890, average computation time 10.315
+[INFO] [2017-08-02 08:52:33] Epoch 0. Worker 2 set 96: Sample seen 9603072, train loss 0.268104, average computation time 10.309
+[INFO] [2017-08-02 08:52:33] Epoch 0. Worker 0 set 86: Sample seen 8602752, train loss 0.267079, average computation time 10.362
+[INFO] [2017-08-02 08:52:34] Epoch 0. Worker 7 set 88: Sample seen 8802816, train loss 0.268292, average computation time 10.313
+[INFO] [2017-08-02 08:52:34] Epoch 0. Worker 4 set 79: Sample seen 7902528, train loss 0.268794, average computation time 10.394
+[INFO] [2017-08-02 08:52:34] Epoch 0. Worker 6 set 97: Sample seen 9703104, train loss 0.267395, average computation time 10.311
+[INFO] [2017-08-02 08:52:34] Epoch 0. Worker 5 set 94: Sample seen 9403008, train loss 0.268018, average computation time 10.303
+[INFO] [2017-08-02 08:52:34] Epoch 0. Worker 3 set 93: Sample seen 9302976, train loss 0.267499, average computation time 10.298
+[INFO] [2017-08-02 08:52:34] Epoch 0. Worker 1 set 95: Sample seen 9503040, train loss 0.267158, average computation time 10.315
+[INFO] [2017-08-02 08:52:34] Epoch 0. Worker 2 set 97: Sample seen 9703104, train loss 0.270090, average computation time 10.309
+[INFO] [2017-08-02 08:52:35] Epoch 0. Worker 0 set 87: Sample seen 8702784, train loss 0.267064, average computation time 10.362
+[INFO] [2017-08-02 08:52:35] Epoch 0. Worker 6 set 98: Sample seen 9803136, train loss 0.265193, average computation time 10.311
+[INFO] [2017-08-02 08:52:35] Epoch 0. Worker 7 set 89: Sample seen 8902848, train loss 0.268815, average computation time 10.313
+[INFO] [2017-08-02 08:52:35] Epoch 0. Worker 5 set 95: Sample seen 9503040, train loss 0.268799, average computation time 10.303
+[INFO] [2017-08-02 08:52:35] Epoch 0. Worker 3 set 94: Sample seen 9403008, train loss 0.267710, average computation time 10.297
+[INFO] [2017-08-02 08:52:35] Epoch 0. Worker 4 set 80: Sample seen 8002560, train loss 0.266629, average computation time 10.398
+[INFO] [2017-08-02 08:52:35] Epoch 0. Worker 1 set 96: Sample seen 9603072, train loss 0.268048, average computation time 10.315
+[INFO] [2017-08-02 08:52:36] Epoch 0. Worker 2 set 98: Sample seen 9803136, train loss 0.266623, average computation time 10.309
+[INFO] [2017-08-02 08:52:36] Epoch 0. Worker 6 set 99: Sample seen 9903168, train loss 0.267661, average computation time 10.311
+[INFO] [2017-08-02 08:52:36] Epoch 0. Worker 0 set 88: Sample seen 8802816, train loss 0.267454, average computation time 10.361
+[INFO] [2017-08-02 08:52:36] Epoch 0. Worker 7 set 90: Sample seen 9002880, train loss 0.266654, average computation time 10.314
+[INFO] [2017-08-02 08:52:36] Epoch 0. Worker 5 set 96: Sample seen 9603072, train loss 0.267792, average computation time 10.303
+[INFO] [2017-08-02 08:52:36] Epoch 0. Worker 3 set 95: Sample seen 9503040, train loss 0.268779, average computation time 10.297
+[INFO] [2017-08-02 08:52:36] Epoch 0. Worker 1 set 97: Sample seen 9703104, train loss 0.266296, average computation time 10.315
+[INFO] [2017-08-02 08:52:36] Epoch 0. Worker 4 set 81: Sample seen 8102592, train loss 0.267664, average computation time 10.397
+[INFO] [2017-08-02 08:52:37] Epoch 0. Worker 2 set 99: Sample seen 9903168, train loss 0.267855, average computation time 10.309
+[INFO] [2017-08-02 08:52:37] Epoch 0. Worker 6 set 100: Sample seen 10003200, train loss 0.268778, average computation time 10.311
+[INFO] [2017-08-02 08:52:37] Epoch 0. Worker 0 set 89: Sample seen 8902848, train loss 0.267672, average computation time 10.361
+[INFO] [2017-08-02 08:52:37] Epoch 0. Worker 5 set 97: Sample seen 9703104, train loss 0.266269, average computation time 10.303
+[INFO] [2017-08-02 08:52:37] Epoch 0. Worker 7 set 91: Sample seen 9102912, train loss 0.268815, average computation time 10.314
+[INFO] [2017-08-02 08:52:37] Epoch 0. Worker 3 set 96: Sample seen 9603072, train loss 0.266681, average computation time 10.297
+[INFO] [2017-08-02 08:52:37] Epoch 0. Worker 1 set 98: Sample seen 9803136, train loss 0.265297, average computation time 10.314
+[INFO] [2017-08-02 08:52:37] Epoch 0. Worker 4 set 82: Sample seen 8202624, train loss 0.267566, average computation time 10.396
+[INFO] [2017-08-02 08:52:38] Epoch 0. Worker 2 set 100: Sample seen 10003200, train loss 0.269183, average computation time 10.309
+[INFO] [2017-08-02 08:52:38] Epoch 0. Worker 5 set 98: Sample seen 9803136, train loss 0.266656, average computation time 10.303
+[INFO] [2017-08-02 08:52:38] Epoch 0. Worker 0 set 90: Sample seen 9002880, train loss 0.267698, average computation time 10.360
+[INFO] [2017-08-02 08:52:38] Epoch 0. Worker 3 set 97: Sample seen 9703104, train loss 0.265678, average computation time 10.295
+[INFO] [2017-08-02 08:52:38] Epoch 0. Worker 7 set 92: Sample seen 9202944, train loss 0.266395, average computation time 10.314
+[INFO] [2017-08-02 08:52:39] Epoch 0. Worker 1 set 99: Sample seen 9903168, train loss 0.267513, average computation time 10.314
+[INFO] [2017-08-02 08:52:39] Epoch 0. Worker 2 set 101: Sample seen 10103232, train loss 0.267698, average computation time 10.309
+[INFO] [2017-08-02 08:52:39] Epoch 0. Worker 6 set 101: Sample seen 10103232, train loss 0.267308, average computation time 10.311
+[INFO] [2017-08-02 08:52:39] Epoch 0. Worker 4 set 83: Sample seen 8302656, train loss 0.266975, average computation time 10.396
+[INFO] [2017-08-02 08:52:40] Epoch 0. Worker 5 set 99: Sample seen 9903168, train loss 0.267862, average computation time 10.303
+[INFO] [2017-08-02 08:52:39] Epoch 0. Worker 3 set 98: Sample seen 9803136, train loss 0.267295, average computation time 10.295
+[INFO] [2017-08-02 08:52:40] Epoch 0. Worker 0 set 91: Sample seen 9102912, train loss 0.268091, average computation time 10.359
+[INFO] [2017-08-02 08:52:40] Epoch 0. Worker 7 set 93: Sample seen 9302976, train loss 0.268293, average computation time 10.314
+[INFO] [2017-08-02 08:52:40] Epoch 0. Worker 2 set 102: Sample seen 10203264, train loss 0.268625, average computation time 10.309
+[INFO] [2017-08-02 08:52:40] Epoch 0. Worker 1 set 100: Sample seen 10003200, train loss 0.268253, average computation time 10.314
+[INFO] [2017-08-02 08:52:40] Epoch 0. Worker 6 set 102: Sample seen 10203264, train loss 0.267644, average computation time 10.311
+[INFO] [2017-08-02 08:52:40] Epoch 0. Worker 4 set 84: Sample seen 8402688, train loss 0.267132, average computation time 10.392
+[INFO] [2017-08-02 08:52:41] Epoch 0. Worker 5 set 100: Sample seen 10003200, train loss 0.267630, average computation time 10.303
+[INFO] [2017-08-02 08:52:41] Epoch 0. Worker 3 set 99: Sample seen 9903168, train loss 0.268517, average computation time 10.295
+[INFO] [2017-08-02 08:52:41] Epoch 0. Worker 7 set 94: Sample seen 9403008, train loss 0.266769, average computation time 10.314
+[INFO] [2017-08-02 08:52:41] Epoch 0. Worker 2 set 103: Sample seen 10303296, train loss 0.266700, average computation time 10.309
+[INFO] [2017-08-02 08:52:41] Epoch 0. Worker 1 set 101: Sample seen 10103232, train loss 0.267495, average computation time 10.314
+[INFO] [2017-08-02 08:52:41] Epoch 0. Worker 0 set 92: Sample seen 9202944, train loss 0.268399, average computation time 10.359
+[INFO] [2017-08-02 08:52:41] Epoch 0. Worker 6 set 103: Sample seen 10303296, train loss 0.267456, average computation time 10.311
+[INFO] [2017-08-02 08:52:42] Epoch 0. Worker 5 set 101: Sample seen 10103232, train loss 0.265832, average computation time 10.303
+[INFO] [2017-08-02 08:52:42] Epoch 0. Worker 4 set 85: Sample seen 8502720, train loss 0.266341, average computation time 10.392
+[INFO] [2017-08-02 08:52:42] Epoch 0. Worker 3 set 100: Sample seen 10003200, train loss 0.268306, average computation time 10.295
+[INFO] [2017-08-02 08:52:42] Epoch 0. Worker 2 set 104: Sample seen 10403328, train loss 0.268390, average computation time 10.309
+[INFO] [2017-08-02 08:52:42] Epoch 0. Worker 7 set 95: Sample seen 9503040, train loss 0.267153, average computation time 10.314
+[INFO] [2017-08-02 08:52:42] Epoch 0. Worker 6 set 104: Sample seen 10403328, train loss 0.269032, average computation time 10.311
+[INFO] [2017-08-02 08:52:42] Epoch 0. Worker 1 set 102: Sample seen 10203264, train loss 0.268215, average computation time 10.317
+[INFO] [2017-08-02 08:52:42] Epoch 0. Worker 0 set 93: Sample seen 9302976, train loss 0.267341, average computation time 10.358
+[INFO] [2017-08-02 08:52:43] Epoch 0. Worker 5 set 102: Sample seen 10203264, train loss 0.267914, average computation time 10.303
+[INFO] [2017-08-02 08:52:43] Epoch 0. Worker 3 set 101: Sample seen 10103232, train loss 0.268249, average computation time 10.295
+[INFO] [2017-08-02 08:52:43] Epoch 0. Worker 4 set 86: Sample seen 8602752, train loss 0.266186, average computation time 10.391
+[INFO] [2017-08-02 08:52:43] Epoch 0. Worker 2 set 105: Sample seen 10503360, train loss 0.267136, average computation time 10.309
+[INFO] [2017-08-02 08:52:43] Epoch 0. Worker 6 set 105: Sample seen 10503360, train loss 0.267653, average computation time 10.311
+[INFO] [2017-08-02 08:52:43] Epoch 0. Worker 1 set 103: Sample seen 10303296, train loss 0.267368, average computation time 10.316
+[INFO] [2017-08-02 08:52:43] Epoch 0. Worker 7 set 96: Sample seen 9603072, train loss 0.269889, average computation time 10.314
+[INFO] [2017-08-02 08:52:44] Epoch 0. Worker 0 set 94: Sample seen 9403008, train loss 0.267386, average computation time 10.358
+[INFO] [2017-08-02 08:52:44] Epoch 0. Worker 5 set 103: Sample seen 10303296, train loss 0.267792, average computation time 10.303
+[INFO] [2017-08-02 08:52:44] Epoch 0. Worker 3 set 102: Sample seen 10203264, train loss 0.268981, average computation time 10.295
+[INFO] [2017-08-02 08:52:44] Epoch 0. Worker 2 set 106: Sample seen 10603392, train loss 0.266685, average computation time 10.309
+[INFO] [2017-08-02 08:52:44] Epoch 0. Worker 6 set 106: Sample seen 10603392, train loss 0.268329, average computation time 10.312
+[INFO] [2017-08-02 08:52:44] Epoch 0. Worker 4 set 87: Sample seen 8702784, train loss 0.267226, average computation time 10.391
+[INFO] [2017-08-02 08:52:44] Epoch 0. Worker 1 set 104: Sample seen 10403328, train loss 0.267443, average computation time 10.316
+[INFO] [2017-08-02 08:52:44] Epoch 0. Worker 7 set 97: Sample seen 9703104, train loss 0.267217, average computation time 10.314
+[INFO] [2017-08-02 08:52:45] Epoch 0. Worker 0 set 95: Sample seen 9503040, train loss 0.267950, average computation time 10.358
+[INFO] [2017-08-02 08:52:45] Epoch 0. Worker 5 set 104: Sample seen 10403328, train loss 0.267180, average computation time 10.303
+[INFO] [2017-08-02 08:52:45] Epoch 0. Worker 3 set 103: Sample seen 10303296, train loss 0.267808, average computation time 10.295
+[INFO] [2017-08-02 08:52:45] Epoch 0. Worker 2 set 107: Sample seen 10703424, train loss 0.268182, average computation time 10.309
+[INFO] [2017-08-02 08:52:45] Epoch 0. Worker 6 set 107: Sample seen 10703424, train loss 0.267083, average computation time 10.312
+[INFO] [2017-08-02 08:52:45] Epoch 0. Worker 1 set 105: Sample seen 10503360, train loss 0.268760, average computation time 10.316
+[INFO] [2017-08-02 08:52:46] Epoch 0. Worker 7 set 98: Sample seen 9803136, train loss 0.265781, average computation time 10.315
+[INFO] [2017-08-02 08:52:46] Epoch 0. Worker 4 set 88: Sample seen 8802816, train loss 0.267645, average computation time 10.391
+[INFO] [2017-08-02 08:52:46] Epoch 0. Worker 5 set 105: Sample seen 10503360, train loss 0.267702, average computation time 10.303
+[INFO] [2017-08-02 08:52:46] Epoch 0. Worker 0 set 96: Sample seen 9603072, train loss 0.265626, average computation time 10.357
+[INFO] [2017-08-02 08:52:46] Epoch 0. Worker 6 set 108: Sample seen 10803456, train loss 0.266672, average computation time 10.312
+[INFO] [2017-08-02 08:52:46] Epoch 0. Worker 2 set 108: Sample seen 10803456, train loss 0.266479, average computation time 10.309
+[INFO] [2017-08-02 08:52:46] Epoch 0. Worker 3 set 104: Sample seen 10403328, train loss 0.269142, average computation time 10.295
+[INFO] [2017-08-02 08:52:47] Epoch 0. Worker 1 set 106: Sample seen 10603392, train loss 0.266805, average computation time 10.316
+[INFO] [2017-08-02 08:52:47] Epoch 0. Worker 7 set 99: Sample seen 9903168, train loss 0.267483, average computation time 10.315
+[INFO] [2017-08-02 08:52:47] Epoch 0. Worker 4 set 89: Sample seen 8902848, train loss 0.267526, average computation time 10.390
+[INFO] [2017-08-02 08:52:47] Epoch 0. Worker 6 set 109: Sample seen 10903488, train loss 0.267829, average computation time 10.312
+[INFO] [2017-08-02 08:52:47] Epoch 0. Worker 5 set 106: Sample seen 10603392, train loss 0.266768, average computation time 10.303
+[INFO] [2017-08-02 08:52:47] Epoch 0. Worker 2 set 109: Sample seen 10903488, train loss 0.268058, average computation time 10.309
+[INFO] [2017-08-02 08:52:48] Epoch 0. Worker 3 set 105: Sample seen 10503360, train loss 0.267144, average computation time 10.295
+[INFO] [2017-08-02 08:52:48] Epoch 0. Worker 0 set 97: Sample seen 9703104, train loss 0.268344, average computation time 10.357
+[INFO] [2017-08-02 08:52:48] Epoch 0. Worker 1 set 107: Sample seen 10703424, train loss 0.267830, average computation time 10.315
+[INFO] [2017-08-02 08:52:48] Epoch 0. Worker 7 set 100: Sample seen 10003200, train loss 0.267099, average computation time 10.315
+[INFO] [2017-08-02 08:52:48] Epoch 0. Worker 6 set 110: Sample seen 11003520, train loss 0.266848, average computation time 10.312
+[INFO] [2017-08-02 08:52:48] Epoch 0. Worker 2 set 110: Sample seen 11003520, train loss 0.265837, average computation time 10.309
+[INFO] [2017-08-02 08:52:48] Epoch 0. Worker 5 set 107: Sample seen 10703424, train loss 0.267147, average computation time 10.302
+[INFO] [2017-08-02 08:52:48] Epoch 0. Worker 3 set 106: Sample seen 10603392, train loss 0.267938, average computation time 10.295
+[INFO] [2017-08-02 08:52:48] Epoch 0. Worker 4 set 90: Sample seen 9002880, train loss 0.267719, average computation time 10.390
+[INFO] [2017-08-02 08:52:49] Epoch 0. Worker 0 set 98: Sample seen 9803136, train loss 0.265923, average computation time 10.357
+[INFO] [2017-08-02 08:52:49] Epoch 0. Worker 1 set 108: Sample seen 10803456, train loss 0.267528, average computation time 10.315
+[INFO] [2017-08-02 08:52:49] Epoch 0. Worker 7 set 101: Sample seen 10103232, train loss 0.267264, average computation time 10.315
+[INFO] [2017-08-02 08:52:49] Epoch 0. Worker 6 set 111: Sample seen 11103552, train loss 0.266573, average computation time 10.312
+[INFO] [2017-08-02 08:52:50] Epoch 0. Worker 2 set 111: Sample seen 11103552, train loss 0.268442, average computation time 10.309
+[INFO] [2017-08-02 08:52:50] Epoch 0. Worker 5 set 108: Sample seen 10803456, train loss 0.266982, average computation time 10.302
+[INFO] [2017-08-02 08:52:50] Epoch 0. Worker 3 set 107: Sample seen 10703424, train loss 0.267043, average computation time 10.295
+[INFO] [2017-08-02 08:52:50] Epoch 0. Worker 0 set 99: Sample seen 9903168, train loss 0.266650, average computation time 10.357
+[INFO] [2017-08-02 08:52:50] Epoch 0. Worker 4 set 91: Sample seen 9102912, train loss 0.266703, average computation time 10.389
+[INFO] [2017-08-02 08:52:50] Epoch 0. Worker 1 set 109: Sample seen 10903488, train loss 0.268666, average computation time 10.315
+[INFO] [2017-08-02 08:52:50] Epoch 0. Worker 7 set 102: Sample seen 10203264, train loss 0.267370, average computation time 10.315
+[INFO] [2017-08-02 08:52:50] Epoch 0. Worker 6 set 112: Sample seen 11203584, train loss 0.268040, average computation time 10.312
+[INFO] [2017-08-02 08:52:51] Epoch 0. Worker 2 set 112: Sample seen 11203584, train loss 0.267537, average computation time 10.310
+[INFO] [2017-08-02 08:52:51] Epoch 0. Worker 5 set 109: Sample seen 10903488, train loss 0.266698, average computation time 10.302
+[INFO] [2017-08-02 08:52:51] Epoch 0. Worker 3 set 108: Sample seen 10803456, train loss 0.268308, average computation time 10.295
+[INFO] [2017-08-02 08:52:51] Epoch 0. Worker 0 set 100: Sample seen 10003200, train loss 0.266782, average computation time 10.357
+[INFO] [2017-08-02 08:52:51] Epoch 0. Worker 1 set 110: Sample seen 11003520, train loss 0.268723, average computation time 10.315
+[INFO] [2017-08-02 08:52:51] Epoch 0. Worker 4 set 92: Sample seen 9202944, train loss 0.264978, average computation time 10.389
+[INFO] [2017-08-02 08:52:51] Epoch 0. Worker 6 set 113: Sample seen 11303616, train loss 0.270232, average computation time 10.312
+[INFO] [2017-08-02 08:52:52] Epoch 0. Worker 2 set 113: Sample seen 11303616, train loss 0.267390, average computation time 10.309
+[INFO] [2017-08-02 08:52:52] Epoch 0. Worker 7 set 103: Sample seen 10303296, train loss 0.265548, average computation time 10.315
+[INFO] [2017-08-02 08:52:52] Epoch 0. Worker 5 set 110: Sample seen 11003520, train loss 0.266185, average computation time 10.302
+[INFO] [2017-08-02 08:52:52] Epoch 0. Worker 3 set 109: Sample seen 10903488, train loss 0.267993, average computation time 10.295
+[INFO] [2017-08-02 08:52:52] Epoch 0. Worker 0 set 101: Sample seen 10103232, train loss 0.267699, average computation time 10.356
+[INFO] [2017-08-02 08:52:52] Epoch 0. Worker 1 set 111: Sample seen 11103552, train loss 0.268184, average computation time 10.312
+[INFO] [2017-08-02 08:52:52] Epoch 0. Worker 6 set 114: Sample seen 11403648, train loss 0.268584, average computation time 10.312
+[INFO] [2017-08-02 08:52:53] Epoch 0. Worker 4 set 93: Sample seen 9302976, train loss 0.266267, average computation time 10.389
+[INFO] [2017-08-02 08:52:53] Epoch 0. Worker 2 set 114: Sample seen 11403648, train loss 0.268730, average computation time 10.309
+[INFO] [2017-08-02 08:52:53] Epoch 0. Worker 7 set 104: Sample seen 10403328, train loss 0.269149, average computation time 10.315
+[INFO] [2017-08-02 08:52:53] Epoch 0. Worker 5 set 111: Sample seen 11103552, train loss 0.267872, average computation time 10.302
+[INFO] [2017-08-02 08:52:53] Epoch 0. Worker 3 set 110: Sample seen 11003520, train loss 0.267731, average computation time 10.295
+[INFO] [2017-08-02 08:52:53] Epoch 0. Worker 0 set 102: Sample seen 10203264, train loss 0.267698, average computation time 10.356
+[INFO] [2017-08-02 08:52:53] Epoch 0. Worker 1 set 112: Sample seen 11203584, train loss 0.268022, average computation time 10.311
+[INFO] [2017-08-02 08:52:53] Epoch 0. Worker 6 set 115: Sample seen 11503680, train loss 0.267040, average computation time 10.312
+[INFO] [2017-08-02 08:52:54] Epoch 0. Worker 2 set 115: Sample seen 11503680, train loss 0.268204, average computation time 10.309
+[INFO] [2017-08-02 08:52:54] Epoch 0. Worker 5 set 112: Sample seen 11203584, train loss 0.267344, average computation time 10.303
+[INFO] [2017-08-02 08:52:54] Epoch 0. Worker 7 set 105: Sample seen 10503360, train loss 0.266543, average computation time 10.315
+[INFO] [2017-08-02 08:52:54] Epoch 0. Worker 3 set 111: Sample seen 11103552, train loss 0.267438, average computation time 10.295
+[INFO] [2017-08-02 08:52:54] Epoch 0. Worker 4 set 94: Sample seen 9403008, train loss 0.268210, average computation time 10.388
+[INFO] [2017-08-02 08:52:54] Epoch 0. Worker 0 set 103: Sample seen 10303296, train loss 0.267125, average computation time 10.356
+[INFO] [2017-08-02 08:52:54] Epoch 0. Worker 6 set 116: Sample seen 11603712, train loss 0.267432, average computation time 10.312
+[INFO] [2017-08-02 08:52:55] Epoch 0. Worker 1 set 113: Sample seen 11303616, train loss 0.266447, average computation time 10.311
+[INFO] [2017-08-02 08:52:55] Epoch 0. Worker 2 set 116: Sample seen 11603712, train loss 0.267272, average computation time 10.309
+[INFO] [2017-08-02 08:52:55] Epoch 0. Worker 5 set 113: Sample seen 11303616, train loss 0.267713, average computation time 10.302
+[INFO] [2017-08-02 08:52:55] Epoch 0. Worker 7 set 106: Sample seen 10603392, train loss 0.268883, average computation time 10.315
+[INFO] [2017-08-02 08:52:55] Epoch 0. Worker 3 set 112: Sample seen 11203584, train loss 0.268174, average computation time 10.295
+[INFO] [2017-08-02 08:52:56] Epoch 0. Worker 0 set 104: Sample seen 10403328, train loss 0.267893, average computation time 10.355
+[INFO] [2017-08-02 08:52:55] Epoch 0. Worker 4 set 95: Sample seen 9503040, train loss 0.268141, average computation time 10.385
+[INFO] [2017-08-02 08:52:55] Epoch 0. Worker 6 set 117: Sample seen 11703744, train loss 0.268546, average computation time 10.312
+[INFO] [2017-08-02 08:52:56] Epoch 0. Worker 1 set 114: Sample seen 11403648, train loss 0.266113, average computation time 10.311
+[INFO] [2017-08-02 08:52:56] Epoch 0. Worker 2 set 117: Sample seen 11703744, train loss 0.267877, average computation time 10.309
+[INFO] [2017-08-02 08:52:56] Epoch 0. Worker 5 set 114: Sample seen 11403648, train loss 0.268281, average computation time 10.302
+[INFO] [2017-08-02 08:52:56] Epoch 0. Worker 3 set 113: Sample seen 11303616, train loss 0.267141, average computation time 10.295
+[INFO] [2017-08-02 08:52:57] Epoch 0. Worker 6 set 118: Sample seen 11803776, train loss 0.267670, average computation time 10.312
+[INFO] [2017-08-02 08:52:57] Epoch 0. Worker 7 set 107: Sample seen 10703424, train loss 0.267575, average computation time 10.315
+[INFO] [2017-08-02 08:52:57] Epoch 0. Worker 0 set 105: Sample seen 10503360, train loss 0.266363, average computation time 10.355
+[INFO] [2017-08-02 08:52:57] Epoch 0. Worker 1 set 115: Sample seen 11503680, train loss 0.267502, average computation time 10.314
+[INFO] [2017-08-02 08:52:57] Epoch 0. Worker 2 set 118: Sample seen 11803776, train loss 0.268712, average computation time 10.309
+[INFO] [2017-08-02 08:52:57] Epoch 0. Worker 4 set 96: Sample seen 9603072, train loss 0.268990, average computation time 10.384
+[INFO] [2017-08-02 08:52:58] Epoch 0. Worker 5 set 115: Sample seen 11503680, train loss 0.268023, average computation time 10.302
+[INFO] [2017-08-02 08:52:58] Epoch 0. Worker 3 set 114: Sample seen 11403648, train loss 0.267848, average computation time 10.297
+[INFO] [2017-08-02 08:52:58] Epoch 0. Worker 6 set 119: Sample seen 11903808, train loss 0.268180, average computation time 10.312
+[INFO] [2017-08-02 08:52:58] Epoch 0. Worker 0 set 106: Sample seen 10603392, train loss 0.265089, average computation time 10.355
+[INFO] [2017-08-02 08:52:58] Epoch 0. Worker 7 set 108: Sample seen 10803456, train loss 0.269041, average computation time 10.315
+[INFO] [2017-08-02 08:52:58] Epoch 0. Worker 1 set 116: Sample seen 11603712, train loss 0.267150, average computation time 10.314
+[INFO] [2017-08-02 08:52:58] Epoch 0. Worker 2 set 119: Sample seen 11903808, train loss 0.267303, average computation time 10.309
+[INFO] [2017-08-02 08:52:58] Epoch 0. Worker 4 set 97: Sample seen 9703104, train loss 0.264457, average computation time 10.384
+[INFO] [2017-08-02 08:52:59] Epoch 0. Worker 5 set 116: Sample seen 11603712, train loss 0.267303, average computation time 10.302
+[INFO] [2017-08-02 08:52:59] Epoch 0. Worker 3 set 115: Sample seen 11503680, train loss 0.267489, average computation time 10.297
+[INFO] [2017-08-02 08:52:59] Epoch 0. Worker 6 set 120: Sample seen 12003840, train loss 0.266055, average computation time 10.312
+[INFO] [2017-08-02 08:52:59] Epoch 0. Worker 0 set 107: Sample seen 10703424, train loss 0.267651, average computation time 10.354
+[INFO] [2017-08-02 08:52:59] Epoch 0. Worker 7 set 109: Sample seen 10903488, train loss 0.267540, average computation time 10.315
+[INFO] [2017-08-02 08:52:59] Epoch 0. Worker 1 set 117: Sample seen 11703744, train loss 0.266772, average computation time 10.313
+[INFO] [2017-08-02 08:52:59] Epoch 0. Worker 2 set 120: Sample seen 12003840, train loss 0.266014, average computation time 10.309
+[INFO] [2017-08-02 08:53:00] Epoch 0. Worker 5 set 117: Sample seen 11703744, train loss 0.266901, average computation time 10.302
+[INFO] [2017-08-02 08:53:00] Epoch 0. Worker 4 set 98: Sample seen 9803136, train loss 0.268780, average computation time 10.384
+[INFO] [2017-08-02 08:53:00] Epoch 0. Worker 6 set 121: Sample seen 12103872, train loss 0.266814, average computation time 10.312
+[INFO] [2017-08-02 08:53:00] Epoch 0. Worker 3 set 116: Sample seen 11603712, train loss 0.267698, average computation time 10.297
+[INFO] [2017-08-02 08:53:00] Epoch 0. Worker 2 set 121: Sample seen 12103872, train loss 0.266176, average computation time 10.309
+[INFO] [2017-08-02 08:53:00] Epoch 0. Worker 7 set 110: Sample seen 11003520, train loss 0.266536, average computation time 10.315
+[INFO] [2017-08-02 08:53:00] Epoch 0. Worker 1 set 118: Sample seen 11803776, train loss 0.267232, average computation time 10.314
+[INFO] [2017-08-02 08:53:01] Epoch 0. Worker 5 set 118: Sample seen 11803776, train loss 0.268365, average computation time 10.302
+[INFO] [2017-08-02 08:53:01] Epoch 0. Worker 6 set 122: Sample seen 12203904, train loss 0.267759, average computation time 10.312
+[INFO] [2017-08-02 08:53:01] Epoch 0. Worker 3 set 117: Sample seen 11703744, train loss 0.267285, average computation time 10.297
+[INFO] [2017-08-02 08:53:01] Epoch 0. Worker 0 set 108: Sample seen 10803456, train loss 0.266735, average computation time 10.354
+[INFO] [2017-08-02 08:53:01] Epoch 0. Worker 2 set 122: Sample seen 12203904, train loss 0.268099, average computation time 10.309
+[INFO] [2017-08-02 08:53:01] Epoch 0. Worker 4 set 99: Sample seen 9903168, train loss 0.268649, average computation time 10.383
+[INFO] [2017-08-02 08:53:01] Epoch 0. Worker 1 set 119: Sample seen 11903808, train loss 0.267506, average computation time 10.314
+[INFO] [2017-08-02 08:53:02] Epoch 0. Worker 7 set 111: Sample seen 11103552, train loss 0.267341, average computation time 10.315
+[INFO] [2017-08-02 08:53:02] Epoch 0. Worker 6 set 123: Sample seen 12303936, train loss 0.267827, average computation time 10.312
+[INFO] [2017-08-02 08:53:02] Epoch 0. Worker 5 set 119: Sample seen 11903808, train loss 0.267035, average computation time 10.302
+[INFO] [2017-08-02 08:53:02] Epoch 0. Worker 3 set 118: Sample seen 11803776, train loss 0.266540, average computation time 10.297
+[INFO] [2017-08-02 08:53:02] Epoch 0. Worker 0 set 109: Sample seen 10903488, train loss 0.267367, average computation time 10.353
+[INFO] [2017-08-02 08:53:03] Epoch 0. Worker 2 set 123: Sample seen 12303936, train loss 0.268462, average computation time 10.309
+[INFO] [2017-08-02 08:53:03] Epoch 0. Worker 4 set 100: Sample seen 10003200, train loss 0.267433, average computation time 10.383
+[INFO] [2017-08-02 08:53:03] Epoch 0. Worker 1 set 120: Sample seen 12003840, train loss 0.267783, average computation time 10.317
+[INFO] [2017-08-02 08:53:03] Epoch 0. Worker 7 set 112: Sample seen 11203584, train loss 0.266203, average computation time 10.315
+[INFO] [2017-08-02 08:53:03] Epoch 0. Worker 6 set 124: Sample seen 12403968, train loss 0.267513, average computation time 10.312
+[INFO] [2017-08-02 08:53:03] Epoch 0. Worker 5 set 120: Sample seen 12003840, train loss 0.266399, average computation time 10.302
+[INFO] [2017-08-02 08:53:03] Epoch 0. Worker 0 set 110: Sample seen 11003520, train loss 0.266893, average computation time 10.353
+[INFO] [2017-08-02 08:53:03] Epoch 0. Worker 3 set 119: Sample seen 11903808, train loss 0.266249, average computation time 10.297
+[INFO] [2017-08-02 08:53:04] Epoch 0. Worker 2 set 124: Sample seen 12403968, train loss 0.268677, average computation time 10.309
+[INFO] [2017-08-02 08:53:04] Epoch 0. Worker 1 set 121: Sample seen 12103872, train loss 0.266730, average computation time 10.317
+[INFO] [2017-08-02 08:53:04] Epoch 0. Worker 6 set 125: Sample seen 12504000, train loss 0.268780, average computation time 10.312
+[INFO] [2017-08-02 08:53:04] Epoch 0. Worker 4 set 101: Sample seen 10103232, train loss 0.265776, average computation time 10.383
+[INFO] [2017-08-02 08:53:04] Epoch 0. Worker 7 set 113: Sample seen 11303616, train loss 0.266731, average computation time 10.315
+[INFO] [2017-08-02 08:53:04] Epoch 0. Worker 5 set 121: Sample seen 12103872, train loss 0.267006, average computation time 10.302
+[INFO] [2017-08-02 08:53:04] Epoch 0. Worker 0 set 111: Sample seen 11103552, train loss 0.267678, average computation time 10.353
+[INFO] [2017-08-02 08:53:04] Epoch 0. Worker 3 set 120: Sample seen 12003840, train loss 0.267300, average computation time 10.297
+[INFO] [2017-08-02 08:53:05] Epoch 0. Worker 2 set 125: Sample seen 12504000, train loss 0.266881, average computation time 10.309
+[INFO] [2017-08-02 08:53:05] Epoch 0. Worker 1 set 122: Sample seen 12203904, train loss 0.266262, average computation time 10.317
+[INFO] [2017-08-02 08:53:05] Epoch 0. Worker 6 set 126: Sample seen 12604032, train loss 0.267787, average computation time 10.312
+[INFO] [2017-08-02 08:53:05] Epoch 0. Worker 5 set 122: Sample seen 12203904, train loss 0.266217, average computation time 10.302
+[INFO] [2017-08-02 08:53:05] Epoch 0. Worker 7 set 114: Sample seen 11403648, train loss 0.266976, average computation time 10.316
+[INFO] [2017-08-02 08:53:05] Epoch 0. Worker 4 set 102: Sample seen 10203264, train loss 0.268802, average computation time 10.383
+[INFO] [2017-08-02 08:53:06] Epoch 0. Worker 0 set 112: Sample seen 11203584, train loss 0.267475, average computation time 10.353
+[INFO] [2017-08-02 08:53:05] Epoch 0. Worker 3 set 121: Sample seen 12103872, train loss 0.266597, average computation time 10.297
+[INFO] [2017-08-02 08:53:06] Epoch 0. Worker 2 set 126: Sample seen 12604032, train loss 0.267369, average computation time 10.309
+[INFO] [2017-08-02 08:53:06] Epoch 0. Worker 1 set 123: Sample seen 12303936, train loss 0.265910, average computation time 10.317
+[INFO] [2017-08-02 08:53:06] Epoch 0. Worker 6 set 127: Sample seen 12704064, train loss 0.267188, average computation time 10.312
+[INFO] [2017-08-02 08:53:06] Epoch 0. Worker 5 set 123: Sample seen 12303936, train loss 0.266866, average computation time 10.301
+[INFO] [2017-08-02 08:53:07] Epoch 0. Worker 7 set 115: Sample seen 11503680, train loss 0.268257, average computation time 10.316
+[INFO] [2017-08-02 08:53:07] Epoch 0. Worker 0 set 113: Sample seen 11303616, train loss 0.266164, average computation time 10.353
+[INFO] [2017-08-02 08:53:07] Epoch 0. Worker 3 set 122: Sample seen 12203904, train loss 0.268502, average computation time 10.297
+[INFO] [2017-08-02 08:53:07] Epoch 0. Worker 2 set 127: Sample seen 12704064, train loss 0.267201, average computation time 10.309
+[INFO] [2017-08-02 08:53:07] Epoch 0. Worker 4 set 103: Sample seen 10303296, train loss 0.266392, average computation time 10.382
+[INFO] [2017-08-02 08:53:07] Epoch 0. Worker 1 set 124: Sample seen 12403968, train loss 0.268103, average computation time 10.315
+[INFO] [2017-08-02 08:53:07] Epoch 0. Worker 6 set 128: Sample seen 12804096, train loss 0.266746, average computation time 10.312
+[INFO] [2017-08-02 08:53:08] Epoch 0. Worker 5 set 124: Sample seen 12403968, train loss 0.266642, average computation time 10.301
+[INFO] [2017-08-02 08:53:08] Epoch 0. Worker 7 set 116: Sample seen 11603712, train loss 0.267291, average computation time 10.316
+[INFO] [2017-08-02 08:53:08] Epoch 0. Worker 0 set 114: Sample seen 11403648, train loss 0.268764, average computation time 10.352
+[INFO] [2017-08-02 08:53:08] Epoch 0. Worker 2 set 128: Sample seen 12804096, train loss 0.266563, average computation time 10.309
+[INFO] [2017-08-02 08:53:08] Epoch 0. Worker 3 set 123: Sample seen 12303936, train loss 0.268231, average computation time 10.299
+[INFO] [2017-08-02 08:53:08] Epoch 0. Worker 4 set 104: Sample seen 10403328, train loss 0.268500, average computation time 10.382
+[INFO] [2017-08-02 08:53:08] Epoch 0. Worker 1 set 125: Sample seen 12504000, train loss 0.267218, average computation time 10.315
+[INFO] [2017-08-02 08:53:08] Epoch 0. Worker 6 set 129: Sample seen 12904128, train loss 0.267837, average computation time 10.312
+[INFO] [2017-08-02 08:53:09] Epoch 0. Worker 5 set 125: Sample seen 12504000, train loss 0.267210, average computation time 10.301
+[INFO] [2017-08-02 08:53:09] Epoch 0. Worker 0 set 115: Sample seen 11503680, train loss 0.266726, average computation time 10.352
+[INFO] [2017-08-02 08:53:09] Epoch 0. Worker 2 set 129: Sample seen 12904128, train loss 0.267371, average computation time 10.309
+[INFO] [2017-08-02 08:53:09] Epoch 0. Worker 7 set 117: Sample seen 11703744, train loss 0.268514, average computation time 10.316
+[INFO] [2017-08-02 08:53:09] Epoch 0. Worker 3 set 124: Sample seen 12403968, train loss 0.267063, average computation time 10.299
+[INFO] [2017-08-02 08:53:09] Epoch 0. Worker 4 set 105: Sample seen 10503360, train loss 0.268194, average computation time 10.382
+[INFO] [2017-08-02 08:53:09] Epoch 0. Worker 6 set 130: Sample seen 13004160, train loss 0.265336, average computation time 10.312
+[INFO] [2017-08-02 08:53:09] Epoch 0. Worker 1 set 126: Sample seen 12604032, train loss 0.266813, average computation time 10.315
+[INFO] [2017-08-02 08:53:10] Epoch 0. Worker 5 set 126: Sample seen 12604032, train loss 0.266710, average computation time 10.301
+[INFO] [2017-08-02 08:53:10] Epoch 0. Worker 0 set 116: Sample seen 11603712, train loss 0.267610, average computation time 10.351
+[INFO] [2017-08-02 08:53:10] Epoch 0. Worker 2 set 130: Sample seen 13004160, train loss 0.267389, average computation time 10.309
+[INFO] [2017-08-02 08:53:10] Epoch 0. Worker 3 set 125: Sample seen 12504000, train loss 0.267837, average computation time 10.299
+[INFO] [2017-08-02 08:53:10] Epoch 0. Worker 7 set 118: Sample seen 11803776, train loss 0.268152, average computation time 10.316
+[INFO] [2017-08-02 08:53:10] Epoch 0. Worker 6 set 131: Sample seen 13104192, train loss 0.268076, average computation time 10.312
+[INFO] [2017-08-02 08:53:10] Epoch 0. Worker 1 set 127: Sample seen 12704064, train loss 0.268057, average computation time 10.315
+[INFO] [2017-08-02 08:53:10] Epoch 0. Worker 4 set 106: Sample seen 10603392, train loss 0.268508, average computation time 10.382
+[INFO] [2017-08-02 08:53:11] Epoch 0. Worker 5 set 127: Sample seen 12704064, train loss 0.266844, average computation time 10.301
+[INFO] [2017-08-02 08:53:11] Epoch 0. Worker 2 set 131: Sample seen 13104192, train loss 0.268560, average computation time 10.309
+[INFO] [2017-08-02 08:53:11] Epoch 0. Worker 0 set 117: Sample seen 11703744, train loss 0.268723, average computation time 10.351
+[INFO] [2017-08-02 08:53:11] Epoch 0. Worker 3 set 126: Sample seen 12604032, train loss 0.266449, average computation time 10.299
+[INFO] [2017-08-02 08:53:11] Epoch 0. Worker 7 set 119: Sample seen 11903808, train loss 0.268728, average computation time 10.316
+[INFO] [2017-08-02 08:53:11] Epoch 0. Worker 6 set 132: Sample seen 13204224, train loss 0.269029, average computation time 10.312
+[INFO] [2017-08-02 08:53:11] Epoch 0. Worker 1 set 128: Sample seen 12804096, train loss 0.267255, average computation time 10.315
+[INFO] [2017-08-02 08:53:12] Epoch 0. Worker 4 set 107: Sample seen 10703424, train loss 0.266826, average computation time 10.382
+[INFO] [2017-08-02 08:53:12] Epoch 0. Worker 5 set 128: Sample seen 12804096, train loss 0.268463, average computation time 10.301
+[INFO] [2017-08-02 08:53:12] Epoch 0. Worker 2 set 132: Sample seen 13204224, train loss 0.267368, average computation time 10.309
+[INFO] [2017-08-02 08:53:13] Epoch 0. Worker 3 set 127: Sample seen 12704064, train loss 0.266561, average computation time 10.299
+[INFO] [2017-08-02 08:53:12] Epoch 0. Worker 6 set 133: Sample seen 13304256, train loss 0.267220, average computation time 10.312
+[INFO] [2017-08-02 08:53:12] Epoch 0. Worker 0 set 118: Sample seen 11803776, train loss 0.269672, average computation time 10.351
+[INFO] [2017-08-02 08:53:12] Epoch 0. Worker 7 set 120: Sample seen 12003840, train loss 0.266782, average computation time 10.316
+[INFO] [2017-08-02 08:53:12] Epoch 0. Worker 1 set 129: Sample seen 12904128, train loss 0.267901, average computation time 10.315
+[INFO] [2017-08-02 08:53:13] Epoch 0. Worker 5 set 129: Sample seen 12904128, train loss 0.267372, average computation time 10.301
+[INFO] [2017-08-02 08:53:13] Epoch 0. Worker 2 set 133: Sample seen 13304256, train loss 0.267617, average computation time 10.309
+[INFO] [2017-08-02 08:53:13] Epoch 0. Worker 4 set 108: Sample seen 10803456, train loss 0.267820, average computation time 10.382
+[INFO] [2017-08-02 08:53:13] Epoch 0. Worker 6 set 134: Sample seen 13404288, train loss 0.268042, average computation time 10.312
+[INFO] [2017-08-02 08:53:13] Epoch 0. Worker 3 set 128: Sample seen 12804096, train loss 0.265966, average computation time 10.299
+[INFO] [2017-08-02 08:53:14] Epoch 0. Worker 7 set 121: Sample seen 12103872, train loss 0.265037, average computation time 10.316
+[INFO] [2017-08-02 08:53:14] Epoch 0. Worker 0 set 119: Sample seen 11903808, train loss 0.267262, average computation time 10.351
+[INFO] [2017-08-02 08:53:14] Epoch 0. Worker 1 set 130: Sample seen 13004160, train loss 0.266726, average computation time 10.315
+[INFO] [2017-08-02 08:53:14] Epoch 0. Worker 5 set 130: Sample seen 13004160, train loss 0.266568, average computation time 10.301
+[INFO] [2017-08-02 08:53:14] Epoch 0. Worker 2 set 134: Sample seen 13404288, train loss 0.267447, average computation time 10.309
+[INFO] [2017-08-02 08:53:14] Epoch 0. Worker 4 set 109: Sample seen 10903488, train loss 0.267462, average computation time 10.382
+[INFO] [2017-08-02 08:53:14] Epoch 0. Worker 6 set 135: Sample seen 13504320, train loss 0.267836, average computation time 10.312
+[INFO] [2017-08-02 08:53:15] Epoch 0. Worker 7 set 122: Sample seen 12203904, train loss 0.267252, average computation time 10.317
+[INFO] [2017-08-02 08:53:15] Epoch 0. Worker 3 set 129: Sample seen 12904128, train loss 0.267634, average computation time 10.299
+[INFO] [2017-08-02 08:53:15] Epoch 0. Worker 0 set 120: Sample seen 12003840, train loss 0.265874, average computation time 10.351
+[INFO] [2017-08-02 08:53:15] Epoch 0. Worker 5 set 131: Sample seen 13104192, train loss 0.268649, average computation time 10.301
+[INFO] [2017-08-02 08:53:15] Epoch 0. Worker 2 set 135: Sample seen 13504320, train loss 0.267129, average computation time 10.310
+[INFO] [2017-08-02 08:53:15] Epoch 0. Worker 6 set 136: Sample seen 13604352, train loss 0.265986, average computation time 10.312
+[INFO] [2017-08-02 08:53:16] Epoch 0. Worker 4 set 110: Sample seen 11003520, train loss 0.268139, average computation time 10.382
+[INFO] [2017-08-02 08:53:16] Epoch 0. Worker 1 set 131: Sample seen 13104192, train loss 0.266849, average computation time 10.315
+[INFO] [2017-08-02 08:53:16] Epoch 0. Worker 0 set 121: Sample seen 12103872, train loss 0.268096, average computation time 10.350
+[INFO] [2017-08-02 08:53:16] Epoch 0. Worker 3 set 130: Sample seen 13004160, train loss 0.266956, average computation time 10.299
+[INFO] [2017-08-02 08:53:16] Epoch 0. Worker 7 set 123: Sample seen 12303936, train loss 0.267903, average computation time 10.317
+[INFO] [2017-08-02 08:53:16] Epoch 0. Worker 5 set 132: Sample seen 13204224, train loss 0.267611, average computation time 10.301
+[INFO] [2017-08-02 08:53:16] Epoch 0. Worker 2 set 136: Sample seen 13604352, train loss 0.267351, average computation time 10.310
+[INFO] [2017-08-02 08:53:17] Epoch 0. Worker 6 set 137: Sample seen 13704384, train loss 0.267333, average computation time 10.312
+[INFO] [2017-08-02 08:53:17] Epoch 0. Worker 1 set 132: Sample seen 13204224, train loss 0.266970, average computation time 10.315
+[INFO] [2017-08-02 08:53:17] Epoch 0. Worker 7 set 124: Sample seen 12403968, train loss 0.267698, average computation time 10.317
+[INFO] [2017-08-02 08:53:17] Epoch 0. Worker 0 set 122: Sample seen 12203904, train loss 0.266609, average computation time 10.350
+[INFO] [2017-08-02 08:53:17] Epoch 0. Worker 3 set 131: Sample seen 13104192, train loss 0.266715, average computation time 10.299
+[INFO] [2017-08-02 08:53:17] Epoch 0. Worker 4 set 111: Sample seen 11103552, train loss 0.267490, average computation time 10.382
+[INFO] [2017-08-02 08:53:17] Epoch 0. Worker 5 set 133: Sample seen 13304256, train loss 0.265055, average computation time 10.300
+[INFO] [2017-08-02 08:53:18] Epoch 0. Worker 2 set 137: Sample seen 13704384, train loss 0.264865, average computation time 10.310
+[INFO] [2017-08-02 08:53:18] Epoch 0. Worker 6 set 138: Sample seen 13804416, train loss 0.266822, average computation time 10.312
+[INFO] [2017-08-02 08:53:18] Epoch 0. Worker 1 set 133: Sample seen 13304256, train loss 0.267224, average computation time 10.313
+[INFO] [2017-08-02 08:53:18] Epoch 0. Worker 7 set 125: Sample seen 12504000, train loss 0.267826, average computation time 10.317
+[INFO] [2017-08-02 08:53:18] Epoch 0. Worker 0 set 123: Sample seen 12303936, train loss 0.268364, average computation time 10.350
+[INFO] [2017-08-02 08:53:18] Epoch 0. Worker 3 set 132: Sample seen 13204224, train loss 0.267493, average computation time 10.299
+[INFO] [2017-08-02 08:53:18] Epoch 0. Worker 4 set 112: Sample seen 11203584, train loss 0.268690, average computation time 10.382
+[INFO] [2017-08-02 08:53:18] Epoch 0. Worker 5 set 134: Sample seen 13404288, train loss 0.266530, average computation time 10.300
+[INFO] [2017-08-02 08:53:19] Epoch 0. Worker 2 set 138: Sample seen 13804416, train loss 0.266963, average computation time 10.310
+[INFO] [2017-08-02 08:53:19] Epoch 0. Worker 6 set 139: Sample seen 13904448, train loss 0.267096, average computation time 10.312
+[INFO] [2017-08-02 08:53:19] Epoch 0. Worker 1 set 134: Sample seen 13404288, train loss 0.267296, average computation time 10.313
+[INFO] [2017-08-02 08:53:19] Epoch 0. Worker 7 set 126: Sample seen 12604032, train loss 0.266265, average computation time 10.317
+[INFO] [2017-08-02 08:53:19] Epoch 0. Worker 0 set 124: Sample seen 12403968, train loss 0.268544, average computation time 10.350
+[INFO] [2017-08-02 08:53:19] Epoch 0. Worker 3 set 133: Sample seen 13304256, train loss 0.267267, average computation time 10.299
+[INFO] [2017-08-02 08:53:19] Epoch 0. Worker 4 set 113: Sample seen 11303616, train loss 0.266122, average computation time 10.382
+[INFO] [2017-08-02 08:53:20] Epoch 0. Worker 5 set 135: Sample seen 13504320, train loss 0.268036, average computation time 10.300
+[INFO] [2017-08-02 08:53:20] Epoch 0. Worker 2 set 139: Sample seen 13904448, train loss 0.267345, average computation time 10.310
+[INFO] [2017-08-02 08:53:20] Epoch 0. Worker 6 set 140: Sample seen 14004480, train loss 0.266754, average computation time 10.312
+[INFO] [2017-08-02 08:53:20] Epoch 0. Worker 1 set 135: Sample seen 13504320, train loss 0.266405, average computation time 10.313
+[INFO] [2017-08-02 08:53:20] Epoch 0. Worker 7 set 127: Sample seen 12704064, train loss 0.267441, average computation time 10.317
+[INFO] [2017-08-02 08:53:20] Epoch 0. Worker 0 set 125: Sample seen 12504000, train loss 0.267959, average computation time 10.350
+[INFO] [2017-08-02 08:53:20] Epoch 0. Worker 3 set 134: Sample seen 13404288, train loss 0.265805, average computation time 10.299
+[INFO] [2017-08-02 08:53:20] Epoch 0. Worker 4 set 114: Sample seen 11403648, train loss 0.266299, average computation time 10.385
+[INFO] [2017-08-02 08:53:21] Epoch 0. Worker 5 set 136: Sample seen 13604352, train loss 0.266813, average computation time 10.300
+[INFO] [2017-08-02 08:53:21] Epoch 0. Worker 2 set 140: Sample seen 14004480, train loss 0.266974, average computation time 10.310
+[INFO] [2017-08-02 08:53:21] Epoch 0. Worker 6 set 141: Sample seen 14104512, train loss 0.266148, average computation time 10.312
+[INFO] [2017-08-02 08:53:21] Epoch 0. Worker 7 set 128: Sample seen 12804096, train loss 0.266489, average computation time 10.317
+[INFO] [2017-08-02 08:53:21] Epoch 0. Worker 1 set 136: Sample seen 13604352, train loss 0.267025, average computation time 10.313
+[INFO] [2017-08-02 08:53:21] Epoch 0. Worker 0 set 126: Sample seen 12604032, train loss 0.268661, average computation time 10.350
+[INFO] [2017-08-02 08:53:21] Epoch 0. Worker 3 set 135: Sample seen 13504320, train loss 0.268072, average computation time 10.299
+[INFO] [2017-08-02 08:53:22] Epoch 0. Worker 4 set 115: Sample seen 11503680, train loss 0.266161, average computation time 10.385
+[INFO] [2017-08-02 08:53:22] Epoch 0. Worker 5 set 137: Sample seen 13704384, train loss 0.267872, average computation time 10.300
+[INFO] [2017-08-02 08:53:22] Epoch 0. Worker 2 set 141: Sample seen 14104512, train loss 0.266893, average computation time 10.310
+[INFO] [2017-08-02 08:53:22] Epoch 0. Worker 6 set 142: Sample seen 14204544, train loss 0.269071, average computation time 10.312
+[INFO] [2017-08-02 08:53:22] Epoch 0. Worker 7 set 129: Sample seen 12904128, train loss 0.266716, average computation time 10.317
+[INFO] [2017-08-02 08:53:22] Epoch 0. Worker 1 set 137: Sample seen 13704384, train loss 0.269330, average computation time 10.315
+[INFO] [2017-08-02 08:53:23] Epoch 0. Worker 0 set 127: Sample seen 12704064, train loss 0.265858, average computation time 10.350
+[INFO] [2017-08-02 08:53:23] Epoch 0. Worker 5 set 138: Sample seen 13804416, train loss 0.266971, average computation time 10.300
+[INFO] [2017-08-02 08:53:23] Epoch 0. Worker 4 set 116: Sample seen 11603712, train loss 0.267141, average computation time 10.385
+[INFO] [2017-08-02 08:53:23] Epoch 0. Worker 3 set 136: Sample seen 13604352, train loss 0.266787, average computation time 10.299
+[INFO] [2017-08-02 08:53:23] Epoch 0. Worker 2 set 142: Sample seen 14204544, train loss 0.268828, average computation time 10.310
+[INFO] [2017-08-02 08:53:23] Epoch 0. Worker 6 set 143: Sample seen 14304576, train loss 0.266488, average computation time 10.312
+[INFO] [2017-08-02 08:53:23] Epoch 0. Worker 7 set 130: Sample seen 13004160, train loss 0.268428, average computation time 10.317
+[INFO] [2017-08-02 08:53:24] Epoch 0. Worker 1 set 138: Sample seen 13804416, train loss 0.267674, average computation time 10.315
+[INFO] [2017-08-02 08:53:24] Epoch 0. Worker 0 set 128: Sample seen 12804096, train loss 0.268251, average computation time 10.349
+[INFO] [2017-08-02 08:53:24] Epoch 0. Worker 3 set 137: Sample seen 13704384, train loss 0.268419, average computation time 10.300
+[INFO] [2017-08-02 08:53:24] Epoch 0. Worker 5 set 139: Sample seen 13904448, train loss 0.267129, average computation time 10.300
+[INFO] [2017-08-02 08:53:24] Epoch 0. Worker 2 set 143: Sample seen 14304576, train loss 0.266123, average computation time 10.310
+[INFO] [2017-08-02 08:53:24] Epoch 0. Worker 4 set 117: Sample seen 11703744, train loss 0.266533, average computation time 10.385
+[INFO] [2017-08-02 08:53:24] Epoch 0. Worker 6 set 144: Sample seen 14404608, train loss 0.267185, average computation time 10.312
+[INFO] [2017-08-02 08:53:25] Epoch 0. Worker 7 set 131: Sample seen 13104192, train loss 0.266434, average computation time 10.318
+[INFO] [2017-08-02 08:53:25] Epoch 0. Worker 1 set 139: Sample seen 13904448, train loss 0.267946, average computation time 10.315
+[INFO] [2017-08-02 08:53:25] Epoch 0. Worker 3 set 138: Sample seen 13804416, train loss 0.268904, average computation time 10.300
+[INFO] [2017-08-02 08:53:25] Epoch 0. Worker 2 set 144: Sample seen 14404608, train loss 0.266960, average computation time 10.310
+[INFO] [2017-08-02 08:53:25] Epoch 0. Worker 0 set 129: Sample seen 12904128, train loss 0.267669, average computation time 10.350
+[INFO] [2017-08-02 08:53:25] Epoch 0. Worker 5 set 140: Sample seen 14004480, train loss 0.268240, average computation time 10.300
+[INFO] [2017-08-02 08:53:25] Epoch 0. Worker 6 set 145: Sample seen 14504640, train loss 0.266706, average computation time 10.312
+[INFO] [2017-08-02 08:53:25] Epoch 0. Worker 4 set 118: Sample seen 11803776, train loss 0.266517, average computation time 10.384
+[INFO] [2017-08-02 08:53:26] Epoch 0. Worker 7 set 132: Sample seen 13204224, train loss 0.268825, average computation time 10.318
+[INFO] [2017-08-02 08:53:26] Epoch 0. Worker 1 set 140: Sample seen 14004480, train loss 0.266435, average computation time 10.315
+[INFO] [2017-08-02 08:53:26] Epoch 0. Worker 0 set 130: Sample seen 13004160, train loss 0.268453, average computation time 10.350
+[INFO] [2017-08-02 08:53:26] Epoch 0. Worker 2 set 145: Sample seen 14504640, train loss 0.266467, average computation time 10.310
+[INFO] [2017-08-02 08:53:26] Epoch 0. Worker 3 set 139: Sample seen 13904448, train loss 0.268499, average computation time 10.300
+[INFO] [2017-08-02 08:53:26] Epoch 0. Worker 5 set 141: Sample seen 14104512, train loss 0.266558, average computation time 10.300
+[INFO] [2017-08-02 08:53:26] Epoch 0. Worker 6 set 146: Sample seen 14604672, train loss 0.267495, average computation time 10.312
+[INFO] [2017-08-02 08:53:26] Epoch 0. Worker 4 set 119: Sample seen 11903808, train loss 0.265908, average computation time 10.384
+[INFO] [2017-08-02 08:53:27] Epoch 0. Worker 7 set 133: Sample seen 13304256, train loss 0.267799, average computation time 10.318
+[INFO] [2017-08-02 08:53:27] Epoch 0. Worker 2 set 146: Sample seen 14604672, train loss 0.267356, average computation time 10.310
+[INFO] [2017-08-02 08:53:27] Epoch 0. Worker 1 set 141: Sample seen 14104512, train loss 0.268105, average computation time 10.315
+[INFO] [2017-08-02 08:53:27] Epoch 0. Worker 3 set 140: Sample seen 14004480, train loss 0.268852, average computation time 10.300
+[INFO] [2017-08-02 08:53:27] Epoch 0. Worker 6 set 147: Sample seen 14704704, train loss 0.266416, average computation time 10.312
+[INFO] [2017-08-02 08:53:27] Epoch 0. Worker 5 set 142: Sample seen 14204544, train loss 0.267275, average computation time 10.300
+[INFO] [2017-08-02 08:53:27] Epoch 0. Worker 0 set 131: Sample seen 13104192, train loss 0.267986, average computation time 10.349
+[INFO] [2017-08-02 08:53:28] Epoch 0. Worker 4 set 120: Sample seen 12003840, train loss 0.270078, average computation time 10.384
+[INFO] [2017-08-02 08:53:28] Epoch 0. Worker 3 set 141: Sample seen 14104512, train loss 0.266509, average computation time 10.302
+[INFO] [2017-08-02 08:53:28] Epoch 0. Worker 7 set 134: Sample seen 13404288, train loss 0.267377, average computation time 10.318
+[INFO] [2017-08-02 08:53:28] Epoch 0. Worker 2 set 147: Sample seen 14704704, train loss 0.266216, average computation time 10.310
+[INFO] [2017-08-02 08:53:28] Epoch 0. Worker 6 set 148: Sample seen 14804736, train loss 0.268920, average computation time 10.312
+[INFO] [2017-08-02 08:53:28] Epoch 0. Worker 1 set 142: Sample seen 14204544, train loss 0.266487, average computation time 10.315
+[INFO] [2017-08-02 08:53:28] Epoch 0. Worker 5 set 143: Sample seen 14304576, train loss 0.266689, average computation time 10.300
+[INFO] [2017-08-02 08:53:29] Epoch 0. Worker 0 set 132: Sample seen 13204224, train loss 0.267145, average computation time 10.349
+[INFO] [2017-08-02 08:53:29] Epoch 0. Worker 4 set 121: Sample seen 12103872, train loss 0.267965, average computation time 10.384
+[INFO] [2017-08-02 08:53:29] Epoch 0. Worker 6 set 149: Sample seen 14904768, train loss 0.266688, average computation time 10.312
+[INFO] [2017-08-02 08:53:29] Epoch 0. Worker 2 set 148: Sample seen 14804736, train loss 0.266906, average computation time 10.310
+[INFO] [2017-08-02 08:53:29] Epoch 0. Worker 3 set 142: Sample seen 14204544, train loss 0.269069, average computation time 10.302
+[INFO] [2017-08-02 08:53:29] Epoch 0. Worker 1 set 143: Sample seen 14304576, train loss 0.266673, average computation time 10.315
+[INFO] [2017-08-02 08:53:30] Epoch 0. Worker 5 set 144: Sample seen 14404608, train loss 0.267621, average computation time 10.300
+[INFO] [2017-08-02 08:53:29] Epoch 0. Worker 7 set 135: Sample seen 13504320, train loss 0.266620, average computation time 10.318
+[INFO] [2017-08-02 08:53:30] Epoch 0. Worker 0 set 133: Sample seen 13304256, train loss 0.268348, average computation time 10.349
+[INFO] [2017-08-02 08:53:30] Finish train, total sample 14963129
+[INFO] [2017-08-02 08:53:30] Epoch 0. Worker 4 set 122: Sample seen 12203904, train loss 0.265888, average computation time 10.381
+[INFO] [2017-08-02 08:53:30] Epoch 0. Worker 2 set 149: Sample seen 14904768, train loss 0.267155, average computation time 10.310
+[INFO] [2017-08-02 08:53:30] Epoch 0. Worker 3 set 143: Sample seen 14304576, train loss 0.266583, average computation time 10.302
+[INFO] [2017-08-02 08:53:31] Epoch 0. Worker 7 set 136: Sample seen 13604352, train loss 0.267525, average computation time 10.318
+[INFO] [2017-08-02 08:53:30] Epoch 0. Worker 1 set 144: Sample seen 14404608, train loss 0.267904, average computation time 10.315
+[INFO] [2017-08-02 08:53:31] Epoch 0. Worker 5 set 145: Sample seen 14504640, train loss 0.266613, average computation time 10.300
+[INFO] [2017-08-02 08:53:31] Epoch 0. Worker 0 set 134: Sample seen 13404288, train loss 0.266968, average computation time 10.349
+[INFO] [2017-08-02 08:53:31] Finish train, total sample 14963129
+[INFO] [2017-08-02 08:53:31] Epoch 0. Worker 4 set 123: Sample seen 12303936, train loss 0.266558, average computation time 10.381
+[INFO] [2017-08-02 08:53:31] Epoch 0. Worker 3 set 144: Sample seen 14404608, train loss 0.268231, average computation time 10.302
+[INFO] [2017-08-02 08:53:32] Epoch 0. Worker 5 set 146: Sample seen 14604672, train loss 0.266071, average computation time 10.300
+[INFO] [2017-08-02 08:53:32] Epoch 0. Worker 7 set 137: Sample seen 13704384, train loss 0.267349, average computation time 10.318
+[INFO] [2017-08-02 08:53:32] Epoch 0. Worker 0 set 135: Sample seen 13504320, train loss 0.267152, average computation time 10.348
+[INFO] [2017-08-02 08:53:32] Epoch 0. Worker 4 set 124: Sample seen 12403968, train loss 0.268825, average computation time 10.381
+[INFO] [2017-08-02 08:53:33] Epoch 0. Worker 3 set 145: Sample seen 14504640, train loss 0.268942, average computation time 10.302
+[INFO] [2017-08-02 08:53:33] Epoch 0. Worker 5 set 147: Sample seen 14704704, train loss 0.268603, average computation time 10.300
+[INFO] [2017-08-02 08:53:33] Epoch 0. Worker 7 set 138: Sample seen 13804416, train loss 0.266596, average computation time 10.318
+[INFO] [2017-08-02 08:53:33] Epoch 0. Worker 1 set 145: Sample seen 14504640, train loss 0.267537, average computation time 10.315
+[INFO] [2017-08-02 08:53:33] Epoch 0. Worker 0 set 136: Sample seen 13604352, train loss 0.266592, average computation time 10.348
+[INFO] [2017-08-02 08:53:34] Epoch 0. Worker 3 set 146: Sample seen 14604672, train loss 0.266601, average computation time 10.303
+[INFO] [2017-08-02 08:53:34] Epoch 0. Worker 1 set 146: Sample seen 14604672, train loss 0.267619, average computation time 10.315
+[INFO] [2017-08-02 08:53:34] Epoch 0. Worker 4 set 125: Sample seen 12504000, train loss 0.268592, average computation time 10.381
+[INFO] [2017-08-02 08:53:34] Epoch 0. Worker 5 set 148: Sample seen 14804736, train loss 0.268188, average computation time 10.300
+[INFO] [2017-08-02 08:53:34] Epoch 0. Worker 7 set 139: Sample seen 13904448, train loss 0.267746, average computation time 10.318
+[INFO] [2017-08-02 08:53:35] Epoch 0. Worker 5 set 149: Sample seen 14904768, train loss 0.267185, average computation time 10.300
+[INFO] [2017-08-02 08:53:35] Epoch 0. Worker 3 set 147: Sample seen 14704704, train loss 0.267726, average computation time 10.303
+[INFO] [2017-08-02 08:53:35] Epoch 0. Worker 1 set 147: Sample seen 14704704, train loss 0.269295, average computation time 10.315
+[INFO] [2017-08-02 08:53:35] Epoch 0. Worker 4 set 126: Sample seen 12604032, train loss 0.266634, average computation time 10.383
+[INFO] [2017-08-02 08:53:35] Epoch 0. Worker 7 set 140: Sample seen 14004480, train loss 0.266960, average computation time 10.318
+[INFO] [2017-08-02 08:53:35] Finish train, total sample 14963130
+[INFO] [2017-08-02 08:53:36] Epoch 0. Worker 0 set 137: Sample seen 13704384, train loss 0.270071, average computation time 10.348
+[INFO] [2017-08-02 08:53:36] Epoch 0. Worker 3 set 148: Sample seen 14804736, train loss 0.267299, average computation time 10.303
+[INFO] [2017-08-02 08:53:36] Epoch 0. Worker 1 set 148: Sample seen 14804736, train loss 0.266116, average computation time 10.315
+[INFO] [2017-08-02 08:53:36] Epoch 0. Worker 4 set 127: Sample seen 12704064, train loss 0.267447, average computation time 10.383
+[INFO] [2017-08-02 08:53:36] Epoch 0. Worker 7 set 141: Sample seen 14104512, train loss 0.265689, average computation time 10.318
+[INFO] [2017-08-02 08:53:37] Epoch 0. Worker 0 set 138: Sample seen 13804416, train loss 0.267438, average computation time 10.348
+[INFO] [2017-08-02 08:53:37] Epoch 0. Worker 3 set 149: Sample seen 14904768, train loss 0.267670, average computation time 10.303
+[INFO] [2017-08-02 08:53:37] Epoch 0. Worker 1 set 149: Sample seen 14904768, train loss 0.266178, average computation time 10.315
+[INFO] [2017-08-02 08:53:37] Epoch 0. Worker 4 set 128: Sample seen 12804096, train loss 0.268633, average computation time 10.383
+[INFO] [2017-08-02 08:53:38] Finish train, total sample 14963129
+[INFO] [2017-08-02 08:53:38] Epoch 0. Worker 0 set 139: Sample seen 13904448, train loss 0.267693, average computation time 10.347
+[INFO] [2017-08-02 08:53:38] Finish train, total sample 14963129
+[INFO] [2017-08-02 08:53:38] Epoch 0. Worker 4 set 129: Sample seen 12904128, train loss 0.268494, average computation time 10.382
+[INFO] [2017-08-02 08:53:39] Epoch 0. Worker 7 set 142: Sample seen 14204544, train loss 0.267085, average computation time 10.318
+[INFO] [2017-08-02 08:53:39] Epoch 0. Worker 0 set 140: Sample seen 14004480, train loss 0.268956, average computation time 10.347
+[INFO] [2017-08-02 08:53:40] Epoch 0. Worker 7 set 143: Sample seen 14304576, train loss 0.266553, average computation time 10.318
+[INFO] [2017-08-02 08:53:40] Epoch 0. Worker 4 set 130: Sample seen 13004160, train loss 0.266385, average computation time 10.382
+[INFO] [2017-08-02 08:53:40] Epoch 0. Worker 0 set 141: Sample seen 14104512, train loss 0.267094, average computation time 10.347
+[INFO] [2017-08-02 08:53:41] Epoch 0. Worker 7 set 144: Sample seen 14404608, train loss 0.267645, average computation time 10.318
+[INFO] [2017-08-02 08:53:41] Epoch 0. Worker 4 set 131: Sample seen 13104192, train loss 0.267268, average computation time 10.384
+[INFO] [2017-08-02 08:53:41] Epoch 0. Worker 0 set 142: Sample seen 14204544, train loss 0.267076, average computation time 10.347
+[INFO] [2017-08-02 08:53:42] Epoch 0. Worker 7 set 145: Sample seen 14504640, train loss 0.266123, average computation time 10.318
+[INFO] [2017-08-02 08:53:42] Epoch 0. Worker 4 set 132: Sample seen 13204224, train loss 0.267766, average computation time 10.383
+[INFO] [2017-08-02 08:53:42] Epoch 0. Worker 0 set 143: Sample seen 14304576, train loss 0.266867, average computation time 10.346
+[INFO] [2017-08-02 08:53:43] Epoch 0. Worker 7 set 146: Sample seen 14604672, train loss 0.267295, average computation time 10.318
+[INFO] [2017-08-02 08:53:43] Epoch 0. Worker 0 set 144: Sample seen 14404608, train loss 0.267273, average computation time 10.346
+[INFO] [2017-08-02 08:53:43] Epoch 0. Worker 4 set 133: Sample seen 13304256, train loss 0.266326, average computation time 10.383
+[INFO] [2017-08-02 08:53:44] Epoch 0. Worker 0 set 145: Sample seen 14504640, train loss 0.268142, average computation time 10.346
+[INFO] [2017-08-02 08:53:44] Epoch 0. Worker 7 set 147: Sample seen 14704704, train loss 0.266542, average computation time 10.318
+[INFO] [2017-08-02 08:53:44] Epoch 0. Worker 4 set 134: Sample seen 13404288, train loss 0.269149, average computation time 10.383
+[INFO] [2017-08-02 08:53:46] Epoch 0. Worker 0 set 146: Sample seen 14604672, train loss 0.268106, average computation time 10.346
+[INFO] [2017-08-02 08:53:46] Epoch 0. Worker 7 set 148: Sample seen 14804736, train loss 0.267344, average computation time 10.319
+[INFO] [2017-08-02 08:53:46] Epoch 0. Worker 4 set 135: Sample seen 13504320, train loss 0.267988, average computation time 10.380
+[INFO] [2017-08-02 08:53:47] Epoch 0. Worker 0 set 147: Sample seen 14704704, train loss 0.266461, average computation time 10.346
+[INFO] [2017-08-02 08:53:47] Epoch 0. Worker 7 set 149: Sample seen 14904768, train loss 0.268402, average computation time 10.318
+[INFO] [2017-08-02 08:53:47] Epoch 0. Worker 4 set 136: Sample seen 13604352, train loss 0.267981, average computation time 10.380
+[INFO] [2017-08-02 08:53:47] Finish train, total sample 14963129
+[INFO] [2017-08-02 08:53:48] Epoch 0. Worker 0 set 148: Sample seen 14804736, train loss 0.267179, average computation time 10.345
+[INFO] [2017-08-02 08:53:48] Epoch 0. Worker 4 set 137: Sample seen 13704384, train loss 0.267470, average computation time 10.379
+[INFO] [2017-08-02 08:53:49] Epoch 0. Worker 0 set 149: Sample seen 14904768, train loss 0.268155, average computation time 10.345
+[INFO] [2017-08-02 08:53:49] Finish train, total sample 14963129
+[INFO] [2017-08-02 08:53:50] Epoch 0. Worker 4 set 138: Sample seen 13804416, train loss 0.268463, average computation time 10.381
+[INFO] [2017-08-02 08:53:51] Epoch 0. Worker 4 set 139: Sample seen 13904448, train loss 0.268084, average computation time 10.379
+[INFO] [2017-08-02 08:53:52] Epoch 0. Worker 4 set 140: Sample seen 14004480, train loss 0.269299, average computation time 10.378
+[INFO] [2017-08-02 08:53:53] Epoch 0. Worker 4 set 141: Sample seen 14104512, train loss 0.266661, average computation time 10.378
+[INFO] [2017-08-02 08:53:55] Epoch 0. Worker 4 set 142: Sample seen 14204544, train loss 0.266219, average computation time 10.378
+[INFO] [2017-08-02 08:53:56] Epoch 0. Worker 4 set 143: Sample seen 14304576, train loss 0.265040, average computation time 10.377
+[INFO] [2017-08-02 08:53:57] Epoch 0. Worker 4 set 144: Sample seen 14404608, train loss 0.266756, average computation time 10.377
+[INFO] [2017-08-02 08:53:58] Epoch 0. Worker 4 set 145: Sample seen 14504640, train loss 0.268071, average computation time 10.377
+[INFO] [2017-08-02 08:53:59] Epoch 0. Worker 4 set 146: Sample seen 14604672, train loss 0.268381, average computation time 10.377
+[INFO] [2017-08-02 08:54:01] Epoch 0. Worker 4 set 147: Sample seen 14704704, train loss 0.265429, average computation time 10.378
+[INFO] [2017-08-02 08:54:02] Epoch 0. Worker 4 set 148: Sample seen 14804736, train loss 0.267039, average computation time 10.378
+[INFO] [2017-08-02 08:54:03] Epoch 0. Worker 4 set 149: Sample seen 14904768, train loss 0.268248, average computation time 10.378
+[INFO] [2017-08-02 08:54:03] Finish train, total sample 14963129
+[INFO] [2017-08-02 08:54:03] Multiverso Shutdown successfully
+[INFO] [2017-08-02 08:54:03] Multiverso Shutdown successfully
+[INFO] [2017-08-02 08:54:03] Multiverso Shutdown successfully
+[INFO] [2017-08-02 08:54:03] Multiverso Shutdown successfully
+[INFO] [2017-08-02 08:54:04] Multiverso Shutdown successfully
+[INFO] [2017-08-02 08:54:04] Multiverso Shutdown successfully
+[INFO] [2017-08-02 08:54:04] Multiverso Shutdown successfully
+[INFO] [2017-08-02 08:54:03] Multiverso Shutdown successfully

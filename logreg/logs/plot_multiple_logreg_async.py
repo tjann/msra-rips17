@@ -21,7 +21,7 @@ num_workers = 8
 #############################################################
 
 
-GRAPH_OUTPUT_PATH = '../' + synchro + '-2_graphs'
+GRAPH_OUTPUT_PATH = '../' + synchro + '_graphs'
 
 def parse_output_file(file_name):
     with open('../logs/' + file_name, 'r') as f:
@@ -38,6 +38,7 @@ def parse_output_file(file_name):
     for line in (list_of_epoch_information):
         worker = int(re.search(r'.+Worker (\d+)', line).group(1))
         error = float(re.search(r'.+train loss (0\.\d+)', line).group(1))
+        print(file_name)
         time = float(re.search(r'.+average computation time (\d+\.\d+)', line).group(1))
         rowsOfErrors[worker].append(error)
         rowsOfTimes[worker].append(time)
