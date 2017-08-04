@@ -21,7 +21,7 @@ num_workers = 8
 #############################################################
 
 
-GRAPH_OUTPUT_PATH = '../' + synchro + '-2_graphs'
+GRAPH_OUTPUT_PATH = '../' + synchro + '_graphs'
 
 def parse_output_file(file_name):
     with open('../logs/' + file_name, 'r') as f:
