@@ -119,7 +119,7 @@ lower performance.
 [INFO] [2017-08-02 08:23:22] Epoch 0. Worker 3 set 1: Sample seen 100032, train loss 0.692525, average computation time 10.251
 [INFO] [2017-08-02 08:23:22] Epoch 0. Worker 6 set 1: Sample seen 100032, train loss 0.692525, average computation time 10.255
 [INFO] [2017-08-02 08:23:22] Epoch 0. Worker 2 set 1: Sample seen 100032, train loss 0.692525, average computation time 10.266
-[INFO] [2017-08-02 08:23:22] Epoch 0. Worker 0 set 1: Sample seen 100032, train loss 0.692525, average computation time 1-0.098
+[INFO] [2017-08-02 08:23:22] Epoch 0. Worker 0 set 1: Sample seen 100032, train loss 0.692525, average computation time 10.098
 [INFO] [2017-08-02 08:23:22] Epoch 0. Worker 7 set 1: Sample seen 100032, train loss 0.692525, average computation time 10.268
 [INFO] [2017-08-02 08:23:23] Epoch 0. Worker 3 set 2: Sample seen 200064, train loss 0.692525, average computation time 10.305
 [INFO] [2017-08-02 08:23:23] Epoch 0. Worker 4 set 2: Sample seen 200064, train loss 0.692525, average computation time 10.267
