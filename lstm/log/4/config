@@ -1,0 +1,29 @@
+    SGD = {
+        minibatchSize = 288
+        learningRatesPerSample = 0.007
+        # trial 6: 0.007
+        # trial 5: 0.002
+        # trial 4: 0.005*10:0.002*10:0.0008
+
+        # trial 6: disable momentum
+        # momentumAsTimeConstant = 1100
+        # gradientClippingWithTruncation = true   # (as opposed to clipping the Frobenius norm of the matrix)
+        # clippingThresholdPerSample = 2.3   # visibly impacts objectives, but not final result, so keep it for safety
+        maxEpochs = 50
+        numMBsToShowResult = 1
+        # trial 6: disable fsadagrad
+        # gradUpdateType = FSAdaGrad # TODO: Try FSAdaGrad?
+        loadBestModel = false      # true # broken for some models (rereading overwrites something that got set by validation)
+
+        dropoutRate = 0.0
+        ParallelTrain = [
+            parallelizationMethod = BlockMomentumSGD
+            distributedMBReading = true
+            BlockMomentumSGD=[
+                syncPeriod = $period$
+                resetSGDMomentum = true
+                useNesterovMomentum = false
+                blockMomentumAsTimeConstant = 0
+            ]
+        ]
+

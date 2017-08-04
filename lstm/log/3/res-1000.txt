@@ -1,0 +1,265 @@
+CNTK 2.0 (HEAD ade8bc, May 31 2017 17:15:49) on Multiversohk at 2017/08/02 04:17:56
+
+cntk  configFile=translate-async.cntk  makeMode=false  period=1000
+CNTK 2.0 (HEAD ade8bc, May 31 2017 17:15:49) on Multiversohk at 2017/08/02 04:17:56
+
+cntk  configFile=translate-async.cntk  makeMode=false  period=1000
+CNTK 2.0 (HEAD ade8bc, May 31 2017 17:15:49) on Multiversohk at 2017/08/02 04:17:56
+
+cntk  configFile=translate-async.cntk  makeMode=false  period=1000
+--------------------------------------------------------------------------
+[[25213,1],0]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: Multiversohk
+
+Another transport will be used instead, although this may result in
+lower performance.
+--------------------------------------------------------------------------
+ping [requestnodes (before change)]: 3 nodes pinging each other
+ping [requestnodes (before change)]: 3 nodes pinging each other
+ping [requestnodes (before change)]: 3 nodes pinging each other
+ping [requestnodes (after change)]: 3 nodes pinging each other
+ping [requestnodes (after change)]: 3 nodes pinging each other
+ping [requestnodes (after change)]: 3 nodes pinging each other
+requestnodes [MPIWrapperMpi]: using 3 out of 3 MPI nodes on a single host (3 requested); we (2) are in (participating)
+ping [mpihelper]: 3 nodes pinging each other
+requestnodes [MPIWrapperMpi]: using 3 out of 3 MPI nodes on a single host (3 requested); we (1) are in (participating)
+ping [mpihelper]: 3 nodes pinging each other
+requestnodes [MPIWrapperMpi]: using 3 out of 3 MPI nodes on a single host (3 requested); we (0) are in (participating)
+ping [mpihelper]: 3 nodes pinging each other
+-------------------------------------------------------------------
+Build info: 
+
+		Built time: May 31 2017 17:14:11
+		Last modified date: Fri May 26 22:32:46 2017
+		Build type: release
+		Build target: GPU
+		With 1bit-SGD: yes
+		With ASGD: yes
+		Math lib: mkl
+		CUDA_PATH: /usr/local/cuda-8.0
+		CUB_PATH: /usr/local/cub-1.4.1
+		CUDNN_PATH: /usr/local/cudnn-5.1
+		Build Branch: HEAD
+		Build SHA1: ade8bc05d30e61160da729aee078e22f8bd4fced
+		Built by Source/CNTK/buildinfo.h$$0 on 8df6191122a5
+		Build Path: /home/philly/jenkins/workspace/CNTK-Build-Linux
+		MPI distribution: Open MPI
+		MPI version: 1.10.3
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+Build info: 
+
+		Built time: May 31 2017 17:14:11
+		Last modified date: Fri May 26 22:32:46 2017
+		Build type: release
+		Build target: GPU
+		With 1bit-SGD: yes
+		With ASGD: yes
+		Math lib: mkl
+		CUDA_PATH: /usr/local/cuda-8.0
+		CUB_PATH: /usr/local/cub-1.4.1
+		CUDNN_PATH: /usr/local/cudnn-5.1
+		Build Branch: HEAD
+		Build SHA1: ade8bc05d30e61160da729aee078e22f8bd4fced
+		Built by Source/CNTK/buildinfo.h$$0 on 8df6191122a5
+		Build Path: /home/philly/jenkins/workspace/CNTK-Build-Linux
+		MPI distribution: Open MPI
+		MPI version: 1.10.3
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+Build info: 
+
+		Built time: May 31 2017 17:14:11
+		Last modified date: Fri May 26 22:32:46 2017
+		Build type: release
+		Build target: GPU
+		With 1bit-SGD: yes
+		With ASGD: yes
+		Math lib: mkl
+		CUDA_PATH: /usr/local/cuda-8.0
+		CUB_PATH: /usr/local/cub-1.4.1
+		CUDNN_PATH: /usr/local/cudnn-5.1
+		Build Branch: HEAD
+		Build SHA1: ade8bc05d30e61160da729aee078e22f8bd4fced
+		Built by Source/CNTK/buildinfo.h$$0 on 8df6191122a5
+		Build Path: /home/philly/jenkins/workspace/CNTK-Build-Linux
+		MPI distribution: Open MPI
+		MPI version: 1.10.3
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+GPU info:
+
+		Device[0]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 11437 MB
+		Device[1]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+		Device[2]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+		Device[3]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+-------------------------------------------------------------------
+
+##############################################################################
+#                                                                            #
+# train command (train action)                                               #
+#                                                                            #
+##############################################################################
+
+-------------------------------------------------------------------
+GPU info:
+
+		Device[0]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 11437 MB
+		Device[1]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+		Device[2]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+		Device[3]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+-------------------------------------------------------------------
+
+##############################################################################
+#                                                                            #
+# train command (train action)                                               #
+#                                                                            #
+##############################################################################
+
+-------------------------------------------------------------------
+GPU info:
+
+		Device[0]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 11437 MB
+		Device[1]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+		Device[2]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+		Device[3]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+-------------------------------------------------------------------
+
+##############################################################################
+#                                                                            #
+# train command (train action)                                               #
+#                                                                            #
+##############################################################################
+
+[Multiversohk:35598] 2 more processes have sent help message help-mpi-btl-base.txt / btl:no-nics
+[Multiversohk:35598] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+Node 'decoder.layers[0].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[0].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[0].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[0].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[0].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[1].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[1].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[1].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[1].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[2].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[2].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[2].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[2].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[0].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'decoder.layers[0].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'decoder.layers[0].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'decoder.layers[1].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[1].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[1].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[1].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[2].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[2].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[2].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[2].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+
+Model has 625 nodes. Using GPU 1.
+
+Training criterion:   ce = Pass
+Evaluation criterion: errs = Pass
+
+Training 138016746 parameters in 120 parameter tensors.
+
+Node 'decoder.layers[0].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[0].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[0].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[0].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[0].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[1].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[0].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[1].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[1].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[0].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[1].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[0].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[0].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[2].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[0].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[2].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[1].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[2].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[1].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[2].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[1].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[1].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[0].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[2].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[0].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'decoder.layers[0].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[2].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[2].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[1].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[2].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[1].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[1].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[0].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'decoder.layers[1].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[0].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'decoder.layers[2].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[0].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'decoder.layers[2].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[1].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[2].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[1].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[2].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[1].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[1].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[2].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[2].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[2].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[2].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+
+Model has 625 nodes. Using GPU 2.
+
+Training criterion:   ce = Pass
+Evaluation criterion: errs = Pass
+
+Training 138016746 parameters in 120 parameter tensors.
+
+
+Model has 625 nodes. Using GPU 3.
+
+Training criterion:   ce = Pass
+Evaluation criterion: errs = Pass
+
+Training 138016746 parameters in 120 parameter tensors.
+
+[INFO] [2017-08-02 04:18:03] multiverso MPI-Net is initialized under MPI_THREAD_SERIALIZED mode.
+[INFO] [2017-08-02 04:18:03] multiverso MPI-Net is initialized under MPI_THREAD_SERIALIZED mode.
+[INFO] [2017-08-02 04:18:07] multiverso MPI-Net is initialized under MPI_THREAD_SERIALIZED mode.
+[INFO] [2017-08-02 04:18:07] All nodes registered. System contains 3 nodes. num_worker = 3, num_server = 3
+[INFO] [2017-08-02 04:18:07] Create a async server
+[INFO] [2017-08-02 04:18:07] Create a async server
+[INFO] [2017-08-02 04:18:07] Create a async server
+[INFO] [2017-08-02 04:18:07] Rank 1: Multiverso start successfully
+[INFO] [2017-08-02 04:18:07] Rank 0: Multiverso start successfully
+[INFO] [2017-08-02 04:18:07] Rank 2: Multiverso start successfully
+Finished Epoch[ 1 of 50]: [Training] ce = 11.95970893 * 50796; errs = 95.915% * 50796; totalSamplesSeen = 50796; learningRatePerSample = 9.9999997e-05; epochTime=323.162s
+Finished Epoch[ 1 of 50]: [Training] ce = 11.94711138 * 99745; errs = 95.095% * 99745; totalSamplesSeen = 99745; learningRatePerSample = 9.9999997e-05; epochTime=613.03s
+Finished Epoch[ 1 of 50]: [Training] ce = 11.94073519 * 124355; errs = 94.982% * 124355; totalSamplesSeen = 124355; learningRatePerSample = 9.9999997e-05; epochTime=765.591s
+Finished Epoch[ 2 of 50]: [Training] ce = 11.89598614 * 52490; errs = 94.136% * 52490; totalSamplesSeen = 103286; learningRatePerSample = 9.9999997e-05; epochTime=324.869s
+Finished Epoch[ 2 of 50]: [Training] ce = 11.87585510 * 105835; errs = 94.002% * 105835; totalSamplesSeen = 205580; learningRatePerSample = 9.9999997e-05; epochTime=640.554s
+Finished Epoch[ 2 of 50]: [Training] ce = 11.87186926 * 117145; errs = 94.044% * 117145; totalSamplesSeen = 241500; learningRatePerSample = 9.9999997e-05; epochTime=712.645s
+Finished Epoch[ 3 of 50]: [Training] ce = 11.81616161 * 57130; errs = 93.926% * 57130; totalSamplesSeen = 160416; learningRatePerSample = 9.9999997e-05; epochTime=353.746s
+Finished Epoch[ 3 of 50]: [Training] ce = 11.79714474 * 107626; errs = 94.159% * 107626; totalSamplesSeen = 313206; learningRatePerSample = 9.9999997e-05; epochTime=650.113s
+Finished Epoch[ 3 of 50]: [Training] ce = 11.79508314 * 109994; errs = 94.070% * 109994; totalSamplesSeen = 351494; learningRatePerSample = 9.9999997e-05; epochTime=672.102s
+Finished Epoch[ 4 of 50]: [Training] ce = 11.73043334 * 59786; errs = 93.898% * 59786; totalSamplesSeen = 220202; learningRatePerSample = 9.9999997e-05; epochTime=372.546s
+Finished Epoch[ 4 of 50]: [Training] ce = 11.70851715 * 99059; errs = 94.210% * 99059; totalSamplesSeen = 450553; learningRatePerSample = 9.9999997e-05; epochTime=605.848s
+Finished Epoch[ 4 of 50]: [Training] ce = 11.69447205 * 116241; errs = 93.956% * 116241; totalSamplesSeen = 429447; learningRatePerSample = 9.9999997e-05; epochTime=705.146s
+Finished Epoch[ 5 of 50]: [Training] ce = 11.53324414 * 63671; errs = 94.134% * 63671; totalSamplesSeen = 283873; learningRatePerSample = 9.9999997e-05; epochTime=392.925s
+Finished Epoch[ 5 of 50]: [Training] ce = 11.31976706 * 98415; errs = 94.087% * 98415; totalSamplesSeen = 548968; learningRatePerSample = 9.9999997e-05; epochTime=597.693s
+Finished Epoch[ 5 of 50]: [Training] ce = 11.18130964 * 112756; errs = 93.954% * 112756; totalSamplesSeen = 542203; learningRatePerSample = 9.9999997e-05; epochTime=685.069s
+Finished Epoch[ 6 of 50]: [Training] ce = 9.42467365 * 68063; errs = 95.946% * 68063; totalSamplesSeen = 351936; learningRatePerSample = 9.9999997e-05; epochTime=420.155s
+Finished Epoch[ 6 of 50]: [Training] ce = 9.18887570 * 100585; errs = 96.207% * 100585; totalSamplesSeen = 649553; learningRatePerSample = 9.9999997e-05; epochTime=609.48s
+Finished Epoch[ 6 of 50]: [Training] ce = 9.14374694 * 106364; errs = 96.118% * 106364; totalSamplesSeen = 648567; learningRatePerSample = 9.9999997e-05; epochTime=649.204s
+Finished Epoch[ 7 of 50]: [Training] ce = 8.48555708 * 71220; errs = 95.355% * 71220; totalSamplesSeen = 423156; learningRatePerSample = 9.9999997e-05; epochTime=443.871s
+Finished Epoch[ 7 of 50]: [Training] ce = 8.39087684 * 101130; errs = 95.708% * 101130; totalSamplesSeen = 750683; learningRatePerSample = 9.9999997e-05; epochTime=616.279s
+Finished Epoch[ 7 of 50]: [Training] ce = 8.33644821 * 102539; errs = 95.413% * 102539; totalSamplesSeen = 751106; learningRatePerSample = 9.9999997e-05; epochTime=625.242s

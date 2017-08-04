@@ -1,0 +1,528 @@
+CNTK 2.0 (HEAD ade8bc, May 31 2017 17:15:49) on Multiversohk at 2017/08/01 03:00:04
+
+cntk  configFile=translate.cntk  makeMode=false  period=2400
+CNTK 2.0 (HEAD ade8bc, May 31 2017 17:15:49) on Multiversohk at 2017/08/01 03:00:04
+
+cntk  configFile=translate.cntk  makeMode=false  period=2400
+CNTK 2.0 (HEAD ade8bc, May 31 2017 17:15:49) on Multiversohk at 2017/08/01 03:00:04
+
+cntk  configFile=translate.cntk  makeMode=false  period=2400
+--------------------------------------------------------------------------
+[[30532,1],1]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: Multiversohk
+
+Another transport will be used instead, although this may result in
+lower performance.
+--------------------------------------------------------------------------
+ping [requestnodes (before change)]: 3 nodes pinging each other
+ping [requestnodes (before change)]: 3 nodes pinging each other
+ping [requestnodes (before change)]: 3 nodes pinging each other
+ping [requestnodes (after change)]: 3 nodes pinging each other
+requestnodes [MPIWrapperMpi]: using 3 out of 3 MPI nodes on a single host (3 requested); we (2) are in (participating)
+ping [mpihelper]: 3 nodes pinging each other
+ping [requestnodes (after change)]: 3 nodes pinging each other
+requestnodes [MPIWrapperMpi]: using 3 out of 3 MPI nodes on a single host (3 requested); we (1) are in (participating)
+ping [mpihelper]: 3 nodes pinging each other
+ping [requestnodes (after change)]: 3 nodes pinging each other
+requestnodes [MPIWrapperMpi]: using 3 out of 3 MPI nodes on a single host (3 requested); we (0) are in (participating)
+ping [mpihelper]: 3 nodes pinging each other
+-------------------------------------------------------------------
+Build info: 
+
+		Built time: May 31 2017 17:14:11
+		Last modified date: Fri May 26 22:32:46 2017
+		Build type: release
+		Build target: GPU
+		With 1bit-SGD: yes
+		With ASGD: yes
+		Math lib: mkl
+		CUDA_PATH: /usr/local/cuda-8.0
+		CUB_PATH: /usr/local/cub-1.4.1
+		CUDNN_PATH: /usr/local/cudnn-5.1
+		Build Branch: HEAD
+		Build SHA1: ade8bc05d30e61160da729aee078e22f8bd4fced
+		Built by Source/CNTK/buildinfo.h$$0 on 8df6191122a5
+		Build Path: /home/philly/jenkins/workspace/CNTK-Build-Linux
+		MPI distribution: Open MPI
+		MPI version: 1.10.3
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+Build info: 
+
+		Built time: May 31 2017 17:14:11
+		Last modified date: Fri May 26 22:32:46 2017
+		Build type: release
+		Build target: GPU
+		With 1bit-SGD: yes
+		With ASGD: yes
+		Math lib: mkl
+		CUDA_PATH: /usr/local/cuda-8.0
+		CUB_PATH: /usr/local/cub-1.4.1
+		CUDNN_PATH: /usr/local/cudnn-5.1
+		Build Branch: HEAD
+		Build SHA1: ade8bc05d30e61160da729aee078e22f8bd4fced
+		Built by Source/CNTK/buildinfo.h$$0 on 8df6191122a5
+		Build Path: /home/philly/jenkins/workspace/CNTK-Build-Linux
+		MPI distribution: Open MPI
+		MPI version: 1.10.3
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+Build info: 
+
+		Built time: May 31 2017 17:14:11
+		Last modified date: Fri May 26 22:32:46 2017
+		Build type: release
+		Build target: GPU
+		With 1bit-SGD: yes
+		With ASGD: yes
+		Math lib: mkl
+		CUDA_PATH: /usr/local/cuda-8.0
+		CUB_PATH: /usr/local/cub-1.4.1
+		CUDNN_PATH: /usr/local/cudnn-5.1
+		Build Branch: HEAD
+		Build SHA1: ade8bc05d30e61160da729aee078e22f8bd4fced
+		Built by Source/CNTK/buildinfo.h$$0 on 8df6191122a5
+		Build Path: /home/philly/jenkins/workspace/CNTK-Build-Linux
+		MPI distribution: Open MPI
+		MPI version: 1.10.3
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+GPU info:
+
+		Device[0]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 11437 MB
+		Device[1]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+		Device[2]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+		Device[3]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+-------------------------------------------------------------------
+
+##############################################################################
+#                                                                            #
+# train command (train action)                                               #
+#                                                                            #
+##############################################################################
+
+-------------------------------------------------------------------
+GPU info:
+
+		Device[0]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 11437 MB
+		Device[1]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+		Device[2]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+		Device[3]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+-------------------------------------------------------------------
+
+##############################################################################
+#                                                                            #
+# train command (train action)                                               #
+#                                                                            #
+##############################################################################
+
+WARNING: option syncPeroid in BlockMomentumSGD is going to be deprecated. Please use blockSizePerWorker instead in the future.
+-------------------------------------------------------------------
+GPU info:
+
+		Device[0]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 11437 MB
+		Device[1]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+		Device[2]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+		Device[3]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+-------------------------------------------------------------------
+
+##############################################################################
+#                                                                            #
+# train command (train action)                                               #
+#                                                                            #
+##############################################################################
+
+WARNING: option syncPeroid in BlockMomentumSGD is going to be deprecated. Please use blockSizePerWorker instead in the future.
+WARNING: option syncPeroid in BlockMomentumSGD is going to be deprecated. Please use blockSizePerWorker instead in the future.
+[Multiversohk:40503] 2 more processes have sent help message help-mpi-btl-base.txt / btl:no-nics
+[Multiversohk:40503] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+Node 'decoder.layers[0].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[0].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[0].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[0].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[0].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[1].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[1].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[1].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[1].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[2].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[2].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[2].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[2].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[0].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'decoder.layers[0].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'decoder.layers[0].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'decoder.layers[1].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[1].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[1].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[1].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[2].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[2].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[2].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[2].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+
+Model has 625 nodes. Using GPU 1.
+
+Training criterion:   ce = Pass
+Evaluation criterion: errs = Pass
+
+Training 138016746 parameters in 120 parameter tensors.
+
+Node 'decoder.layers[0].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[0].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[0].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[0].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[0].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[1].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[1].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[1].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[1].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[2].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[2].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[2].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[2].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[0].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'decoder.layers[0].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'decoder.layers[0].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'decoder.layers[1].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[1].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[1].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[1].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[2].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[2].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[2].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[2].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[0].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[0].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[0].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[0].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[0].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[1].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[1].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[1].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[1].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[2].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[2].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[2].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[2].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[0].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'decoder.layers[0].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'decoder.layers[0].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'decoder.layers[1].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[1].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[1].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[1].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[2].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[2].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[2].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[2].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+
+Model has 625 nodes. Using GPU 2.
+
+Training criterion:   ce = Pass
+Evaluation criterion: errs = Pass
+
+Training 138016746 parameters in 120 parameter tensors.
+
+
+Model has 625 nodes. Using GPU 3.
+
+Training criterion:   ce = Pass
+Evaluation criterion: errs = Pass
+
+Training 138016746 parameters in 120 parameter tensors.
+
+Parallel training (3 workers) using BlockMomentumSGD with block momentum = 0.0000, block momentum time constant (per worker) = 0.0000, block learning rate = 1.0000, block size per worker = 2400 samples, resetting SGD momentum after sync.
+Parallel training (3 workers) using BlockMomentumSGD with block momentum = 0.0000, block momentum time constant (per worker) = 0.0000, block learning rate = 1.0000, block size per worker = 2400 samples, resetting SGD momentum after sync.
+Parallel training (3 workers) using BlockMomentumSGD with block momentum = 0.0000, block momentum time constant (per worker) = 0.0000, block learning rate = 1.0000, block size per worker = 2400 samples, resetting SGD momentum after sync.
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.99-seconds latency this time; accumulated time on sync point = 0.99 seconds , average latency = 0.99 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 1.06-seconds latency this time; accumulated time on sync point = 1.06 seconds , average latency = 1.06 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.00 seconds , average latency = 0.00 seconds
+		(model aggregation stats): 2-th sync point was hit, introducing a 2.03-seconds latency this time; accumulated time on sync point = 2.03 seconds , average latency = 1.01 seconds
+		(model aggregation stats): 2-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 1.06 seconds , average latency = 0.53 seconds
+		(model aggregation stats): 2-th sync point was hit, introducing a 1.72-seconds latency this time; accumulated time on sync point = 2.71 seconds , average latency = 1.35 seconds
+		(model aggregation stats): 3-th sync point was hit, introducing a 2.98-seconds latency this time; accumulated time on sync point = 5.68 seconds , average latency = 1.89 seconds
+		(model aggregation stats): 3-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 1.06 seconds , average latency = 0.35 seconds
+		(model aggregation stats): 3-th sync point was hit, introducing a 2.10-seconds latency this time; accumulated time on sync point = 4.13 seconds , average latency = 1.38 seconds
+		(model aggregation stats): 4-th sync point was hit, introducing a 1.81-seconds latency this time; accumulated time on sync point = 7.49 seconds , average latency = 1.87 seconds
+		(model aggregation stats): 4-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 1.06 seconds , average latency = 0.26 seconds
+		(model aggregation stats): 4-th sync point was hit, introducing a 2.33-seconds latency this time; accumulated time on sync point = 6.46 seconds , average latency = 1.61 seconds
+		(model aggregation stats): 5-th sync point was hit, introducing a 0.25-seconds latency this time; accumulated time on sync point = 1.31 seconds , average latency = 0.26 seconds
+		(model aggregation stats): 5-th sync point was hit, introducing a 1.13-seconds latency this time; accumulated time on sync point = 7.59 seconds , average latency = 1.52 seconds
+		(model aggregation stats): 5-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 7.49 seconds , average latency = 1.50 seconds
+		(model aggregation stats): 6-th sync point was hit, introducing a 1.50-seconds latency this time; accumulated time on sync point = 9.09 seconds , average latency = 1.51 seconds
+		(model aggregation stats): 6-th sync point was hit, introducing a 0.81-seconds latency this time; accumulated time on sync point = 8.30 seconds , average latency = 1.38 seconds
+		(model aggregation stats): 6-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 1.31 seconds , average latency = 0.22 seconds
+		(model aggregation stats): 7-th sync point was hit, introducing a 0.76-seconds latency this time; accumulated time on sync point = 9.85 seconds , average latency = 1.41 seconds
+		(model aggregation stats): 7-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 1.31 seconds , average latency = 0.19 seconds
+		(model aggregation stats): 7-th sync point was hit, introducing a 2.43-seconds latency this time; accumulated time on sync point = 10.74 seconds , average latency = 1.53 seconds
+		(model aggregation stats): 8-th sync point was hit, introducing a 0.11-seconds latency this time; accumulated time on sync point = 10.85 seconds , average latency = 1.36 seconds
+		(model aggregation stats): 8-th sync point was hit, introducing a 0.35-seconds latency this time; accumulated time on sync point = 1.66 seconds , average latency = 0.21 seconds
+		(model aggregation stats): 8-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 9.85 seconds , average latency = 1.23 seconds
+		(model aggregation stats): 9-th sync point was hit, introducing a 0.51-seconds latency this time; accumulated time on sync point = 11.35 seconds , average latency = 1.26 seconds
+		(model aggregation stats): 9-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 1.66 seconds , average latency = 0.18 seconds
+		(model aggregation stats): 9-th sync point was hit, introducing a 0.55-seconds latency this time; accumulated time on sync point = 10.39 seconds , average latency = 1.15 seconds
+		(model aggregation stats): 10-th sync point was hit, introducing a 0.54-seconds latency this time; accumulated time on sync point = 11.89 seconds , average latency = 1.19 seconds
+		(model aggregation stats): 10-th sync point was hit, introducing a 1.02-seconds latency this time; accumulated time on sync point = 11.41 seconds , average latency = 1.14 seconds
+		(model aggregation stats): 10-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 1.66 seconds , average latency = 0.17 seconds
+		(model aggregation stats): 11-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 11.41 seconds , average latency = 1.04 seconds
+		(model aggregation stats): 11-th sync point was hit, introducing a 2.47-seconds latency this time; accumulated time on sync point = 14.36 seconds , average latency = 1.31 seconds
+		(model aggregation stats): 11-th sync point was hit, introducing a 1.83-seconds latency this time; accumulated time on sync point = 3.48 seconds , average latency = 0.32 seconds
+		(model aggregation stats): 12-th sync point was hit, introducing a 3.01-seconds latency this time; accumulated time on sync point = 14.42 seconds , average latency = 1.20 seconds
+		(model aggregation stats): 12-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 3.48 seconds , average latency = 0.29 seconds
+		(model aggregation stats): 12-th sync point was hit, introducing a 3.44-seconds latency this time; accumulated time on sync point = 17.80 seconds , average latency = 1.48 seconds
+		(model aggregation stats): 13-th sync point was hit, introducing a 2.23-seconds latency this time; accumulated time on sync point = 20.03 seconds , average latency = 1.54 seconds
+		(model aggregation stats): 13-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 3.48 seconds , average latency = 0.27 seconds
+		(model aggregation stats): 13-th sync point was hit, introducing a 1.11-seconds latency this time; accumulated time on sync point = 15.54 seconds , average latency = 1.20 seconds
+		(model aggregation stats): 14-th sync point was hit, introducing a 1.81-seconds latency this time; accumulated time on sync point = 17.35 seconds , average latency = 1.24 seconds
+		(model aggregation stats): 14-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 20.03 seconds , average latency = 1.43 seconds
+		(model aggregation stats): 14-th sync point was hit, introducing a 0.86-seconds latency this time; accumulated time on sync point = 4.35 seconds , average latency = 0.31 seconds
+		(model aggregation stats): 15-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 20.03 seconds , average latency = 1.34 seconds
+		(model aggregation stats): 15-th sync point was hit, introducing a 0.16-seconds latency this time; accumulated time on sync point = 4.50 seconds , average latency = 0.30 seconds
+		(model aggregation stats): 15-th sync point was hit, introducing a 0.45-seconds latency this time; accumulated time on sync point = 17.80 seconds , average latency = 1.19 seconds
+		(model aggregation stats): 16-th sync point was hit, introducing a 0.99-seconds latency this time; accumulated time on sync point = 18.78 seconds , average latency = 1.17 seconds
+		(model aggregation stats): 16-th sync point was hit, introducing a 0.01-seconds latency this time; accumulated time on sync point = 4.51 seconds , average latency = 0.28 seconds
+		(model aggregation stats): 16-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 20.03 seconds , average latency = 1.25 seconds
+		(model aggregation stats): 17-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 4.51 seconds , average latency = 0.27 seconds
+		(model aggregation stats): 17-th sync point was hit, introducing a 2.51-seconds latency this time; accumulated time on sync point = 22.55 seconds , average latency = 1.33 seconds
+		(model aggregation stats): 17-th sync point was hit, introducing a 1.05-seconds latency this time; accumulated time on sync point = 19.83 seconds , average latency = 1.17 seconds
+		(model aggregation stats): 18-th sync point was hit, introducing a 0.43-seconds latency this time; accumulated time on sync point = 4.95 seconds , average latency = 0.27 seconds
+		(model aggregation stats): 18-th sync point was hit, introducing a 0.57-seconds latency this time; accumulated time on sync point = 20.40 seconds , average latency = 1.13 seconds
+		(model aggregation stats): 18-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 22.55 seconds , average latency = 1.25 seconds
+		(model aggregation stats): 19-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 20.40 seconds , average latency = 1.07 seconds
+		(model aggregation stats): 19-th sync point was hit, introducing a 0.35-seconds latency this time; accumulated time on sync point = 5.29 seconds , average latency = 0.28 seconds
+		(model aggregation stats): 19-th sync point was hit, introducing a 1.01-seconds latency this time; accumulated time on sync point = 23.56 seconds , average latency = 1.24 seconds
+		(model aggregation stats): 20-th sync point was hit, introducing a 0.96-seconds latency this time; accumulated time on sync point = 24.52 seconds , average latency = 1.23 seconds
+		(model aggregation stats): 20-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 5.29 seconds , average latency = 0.26 seconds
+		(model aggregation stats): 20-th sync point was hit, introducing a 2.31-seconds latency this time; accumulated time on sync point = 22.72 seconds , average latency = 1.14 seconds
+		(model aggregation stats): 21-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 22.72 seconds , average latency = 1.08 seconds
+		(model aggregation stats): 21-th sync point was hit, introducing a 0.42-seconds latency this time; accumulated time on sync point = 5.71 seconds , average latency = 0.27 seconds
+		(model aggregation stats): 21-th sync point was hit, introducing a 0.68-seconds latency this time; accumulated time on sync point = 25.20 seconds , average latency = 1.20 seconds
+		(model aggregation stats): 22-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 22.72 seconds , average latency = 1.03 seconds
+		(model aggregation stats): 22-th sync point was hit, introducing a 0.46-seconds latency this time; accumulated time on sync point = 25.66 seconds , average latency = 1.17 seconds
+		(model aggregation stats): 22-th sync point was hit, introducing a 2.37-seconds latency this time; accumulated time on sync point = 8.08 seconds , average latency = 0.37 seconds
+		(model aggregation stats): 23-th sync point was hit, introducing a 1.38-seconds latency this time; accumulated time on sync point = 24.09 seconds , average latency = 1.05 seconds
+		(model aggregation stats): 23-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 8.08 seconds , average latency = 0.35 seconds
+		(model aggregation stats): 23-th sync point was hit, introducing a 1.54-seconds latency this time; accumulated time on sync point = 27.20 seconds , average latency = 1.18 seconds
+		(model aggregation stats): 24-th sync point was hit, introducing a 7.57-seconds latency this time; accumulated time on sync point = 15.65 seconds , average latency = 0.65 seconds
+		(model aggregation stats): 24-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 24.09 seconds , average latency = 1.00 seconds
+		(model aggregation stats): 24-th sync point was hit, introducing a 182.02-seconds latency this time; accumulated time on sync point = 209.22 seconds , average latency = 8.72 seconds
+Finished Epoch[ 1 of 50]: [Training] ce = 10.21750385 * 274896; errs = 94.173% * 274896; totalSamplesSeen = 274896; learningRatePerSample = 0.0070000002; epochTime=944.609s
+Finished Epoch[ 1 of 50]: [Training] Finished Epoch[ 1 of 50]: [Training] ce = 10.21750385 * 274896; errs = 94.173% * 274896; totalSamplesSeen = 274896; learningRatePerSample = 0.0070000002; epochTime=944.609s
+ce = 10.21750385 * 274896; errs = 94.173% * 274896; totalSamplesSeen = 274896; learningRatePerSample = 0.0070000002; epochTime=944.609s
+Parallel training (3 workers) using BlockMomentumSGD with block momentum = 0.0000, block momentum time constant (per worker) = 0.0000, block learning rate = 1.0000, block size per worker = 2400 samples, resetting SGD momentum after sync.
+Parallel training (3 workers) using BlockMomentumSGD with block momentum = 0.0000, block momentum time constant (per worker) = 0.0000, block learning rate = 1.0000, block size per worker = 2400 samples, resetting SGD momentum after sync.
+Parallel training (3 workers) using BlockMomentumSGD with block momentum = 0.0000, block momentum time constant (per worker) = 0.0000, block learning rate = 1.0000, block size per worker = 2400 samples, resetting SGD momentum after sync.
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.00 seconds , average latency = 0.00 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 1.16-seconds latency this time; accumulated time on sync point = 1.16 seconds , average latency = 1.16 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.72-seconds latency this time; accumulated time on sync point = 0.72 seconds , average latency = 0.72 seconds
+		(model aggregation stats): 2-th sync point was hit, introducing a 0.24-seconds latency this time; accumulated time on sync point = 0.97 seconds , average latency = 0.48 seconds
+		(model aggregation stats): 2-th sync point was hit, introducing a 0.67-seconds latency this time; accumulated time on sync point = 0.67 seconds , average latency = 0.34 seconds
+		(model aggregation stats): 2-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 1.16 seconds , average latency = 0.58 seconds
+		(model aggregation stats): 3-th sync point was hit, introducing a 1.13-seconds latency this time; accumulated time on sync point = 2.10 seconds , average latency = 0.70 seconds
+		(model aggregation stats): 3-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.67 seconds , average latency = 0.22 seconds
+		(model aggregation stats): 3-th sync point was hit, introducing a 1.70-seconds latency this time; accumulated time on sync point = 2.86 seconds , average latency = 0.95 seconds
+		(model aggregation stats): 4-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.67 seconds , average latency = 0.17 seconds
+		(model aggregation stats): 4-th sync point was hit, introducing a 1.12-seconds latency this time; accumulated time on sync point = 3.22 seconds , average latency = 0.80 seconds
+		(model aggregation stats): 4-th sync point was hit, introducing a 0.12-seconds latency this time; accumulated time on sync point = 2.98 seconds , average latency = 0.75 seconds
+		(model aggregation stats): 5-th sync point was hit, introducing a 0.26-seconds latency this time; accumulated time on sync point = 3.24 seconds , average latency = 0.65 seconds
+		(model aggregation stats): 5-th sync point was hit, introducing a 0.98-seconds latency this time; accumulated time on sync point = 4.20 seconds , average latency = 0.84 seconds
+		(model aggregation stats): 5-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.67 seconds , average latency = 0.13 seconds
+		(model aggregation stats): 6-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.67 seconds , average latency = 0.11 seconds
+		(model aggregation stats): 6-th sync point was hit, introducing a 0.25-seconds latency this time; accumulated time on sync point = 3.49 seconds , average latency = 0.58 seconds
+		(model aggregation stats): 6-th sync point was hit, introducing a 1.65-seconds latency this time; accumulated time on sync point = 5.85 seconds , average latency = 0.97 seconds
+		(model aggregation stats): 7-th sync point was hit, introducing a 1.62-seconds latency this time; accumulated time on sync point = 2.29 seconds , average latency = 0.33 seconds
+		(model aggregation stats): 7-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 3.49 seconds , average latency = 0.50 seconds
+		(model aggregation stats): 7-th sync point was hit, introducing a 1.46-seconds latency this time; accumulated time on sync point = 7.31 seconds , average latency = 1.04 seconds
+		(model aggregation stats): 8-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 7.31 seconds , average latency = 0.91 seconds
+		(model aggregation stats): 8-th sync point was hit, introducing a 0.78-seconds latency this time; accumulated time on sync point = 4.27 seconds , average latency = 0.53 seconds
+		(model aggregation stats): 8-th sync point was hit, introducing a 0.83-seconds latency this time; accumulated time on sync point = 3.11 seconds , average latency = 0.39 seconds
+		(model aggregation stats): 9-th sync point was hit, introducing a 0.69-seconds latency this time; accumulated time on sync point = 8.00 seconds , average latency = 0.89 seconds
+		(model aggregation stats): 9-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 4.27 seconds , average latency = 0.47 seconds
+		(model aggregation stats): 9-th sync point was hit, introducing a 0.79-seconds latency this time; accumulated time on sync point = 3.91 seconds , average latency = 0.43 seconds
+		(model aggregation stats): 10-th sync point was hit, introducing a 0.70-seconds latency this time; accumulated time on sync point = 4.97 seconds , average latency = 0.50 seconds
+		(model aggregation stats): 10-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 3.91 seconds , average latency = 0.39 seconds
+		(model aggregation stats): 10-th sync point was hit, introducing a 0.16-seconds latency this time; accumulated time on sync point = 8.16 seconds , average latency = 0.82 seconds
+		(model aggregation stats): 11-th sync point was hit, introducing a 0.13-seconds latency this time; accumulated time on sync point = 5.10 seconds , average latency = 0.46 seconds
+		(model aggregation stats): 11-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 3.91 seconds , average latency = 0.36 seconds
+		(model aggregation stats): 11-th sync point was hit, introducing a 0.87-seconds latency this time; accumulated time on sync point = 9.03 seconds , average latency = 0.82 seconds
+		(model aggregation stats): 12-th sync point was hit, introducing a 0.59-seconds latency this time; accumulated time on sync point = 5.69 seconds , average latency = 0.47 seconds
+		(model aggregation stats): 12-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 9.03 seconds , average latency = 0.75 seconds
+		(model aggregation stats): 12-th sync point was hit, introducing a 0.59-seconds latency this time; accumulated time on sync point = 4.50 seconds , average latency = 0.37 seconds
+		(model aggregation stats): 13-th sync point was hit, introducing a 0.79-seconds latency this time; accumulated time on sync point = 9.82 seconds , average latency = 0.76 seconds
+		(model aggregation stats): 13-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 5.69 seconds , average latency = 0.44 seconds
+		(model aggregation stats): 13-th sync point was hit, introducing a 0.57-seconds latency this time; accumulated time on sync point = 5.07 seconds , average latency = 0.39 seconds
+		(model aggregation stats): 14-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 5.07 seconds , average latency = 0.36 seconds
+		(model aggregation stats): 14-th sync point was hit, introducing a 1.19-seconds latency this time; accumulated time on sync point = 6.89 seconds , average latency = 0.49 seconds
+		(model aggregation stats): 14-th sync point was hit, introducing a 0.66-seconds latency this time; accumulated time on sync point = 10.48 seconds , average latency = 0.75 seconds
+		(model aggregation stats): 15-th sync point was hit, introducing a 2.68-seconds latency this time; accumulated time on sync point = 9.57 seconds , average latency = 0.64 seconds
+		(model aggregation stats): 15-th sync point was hit, introducing a 2.20-seconds latency this time; accumulated time on sync point = 12.68 seconds , average latency = 0.85 seconds
+		(model aggregation stats): 15-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 5.07 seconds , average latency = 0.34 seconds
+		(model aggregation stats): 16-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 9.57 seconds , average latency = 0.60 seconds
+		(model aggregation stats): 16-th sync point was hit, introducing a 0.20-seconds latency this time; accumulated time on sync point = 5.27 seconds , average latency = 0.33 seconds
+		(model aggregation stats): 16-th sync point was hit, introducing a 0.16-seconds latency this time; accumulated time on sync point = 12.84 seconds , average latency = 0.80 seconds
+		(model aggregation stats): 17-th sync point was hit, introducing a 0.49-seconds latency this time; accumulated time on sync point = 10.06 seconds , average latency = 0.59 seconds
+		(model aggregation stats): 17-th sync point was hit, introducing a 0.66-seconds latency this time; accumulated time on sync point = 13.50 seconds , average latency = 0.79 seconds
+		(model aggregation stats): 17-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 5.27 seconds , average latency = 0.31 seconds
+		(model aggregation stats): 18-th sync point was hit, introducing a 1.16-seconds latency this time; accumulated time on sync point = 14.67 seconds , average latency = 0.81 seconds
+		(model aggregation stats): 18-th sync point was hit, introducing a 1.13-seconds latency this time; accumulated time on sync point = 11.19 seconds , average latency = 0.62 seconds
+		(model aggregation stats): 18-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 5.27 seconds , average latency = 0.29 seconds
+		(model aggregation stats): 19-th sync point was hit, introducing a 0.90-seconds latency this time; accumulated time on sync point = 15.56 seconds , average latency = 0.82 seconds
+		(model aggregation stats): 19-th sync point was hit, introducing a 1.19-seconds latency this time; accumulated time on sync point = 6.46 seconds , average latency = 0.34 seconds
+		(model aggregation stats): 19-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 11.19 seconds , average latency = 0.59 seconds
+		(model aggregation stats): 20-th sync point was hit, introducing a 2.05-seconds latency this time; accumulated time on sync point = 17.61 seconds , average latency = 0.88 seconds
+		(model aggregation stats): 20-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 11.19 seconds , average latency = 0.56 seconds
+		(model aggregation stats): 20-th sync point was hit, introducing a 0.62-seconds latency this time; accumulated time on sync point = 7.08 seconds , average latency = 0.35 seconds
+		(model aggregation stats): 21-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 7.08 seconds , average latency = 0.34 seconds
+		(model aggregation stats): 21-th sync point was hit, introducing a 1.21-seconds latency this time; accumulated time on sync point = 12.41 seconds , average latency = 0.59 seconds
+		(model aggregation stats): 21-th sync point was hit, introducing a 1.06-seconds latency this time; accumulated time on sync point = 18.67 seconds , average latency = 0.89 seconds
+		(model aggregation stats): 22-th sync point was hit, introducing a 2.63-seconds latency this time; accumulated time on sync point = 15.03 seconds , average latency = 0.68 seconds
+		(model aggregation stats): 22-th sync point was hit, introducing a 2.37-seconds latency this time; accumulated time on sync point = 21.04 seconds , average latency = 0.96 seconds
+		(model aggregation stats): 22-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 7.08 seconds , average latency = 0.32 seconds
+		(model aggregation stats): 23-th sync point was hit, introducing a 0.72-seconds latency this time; accumulated time on sync point = 21.76 seconds , average latency = 0.95 seconds
+		(model aggregation stats): 23-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 15.03 seconds , average latency = 0.65 seconds
+		(model aggregation stats): 23-th sync point was hit, introducing a 0.04-seconds latency this time; accumulated time on sync point = 7.11 seconds , average latency = 0.31 seconds
+		(model aggregation stats): 24-th sync point was hit, introducing a 0.88-seconds latency this time; accumulated time on sync point = 22.64 seconds , average latency = 0.94 seconds
+		(model aggregation stats): 24-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 7.11 seconds , average latency = 0.30 seconds
+		(model aggregation stats): 24-th sync point was hit, introducing a 0.49-seconds latency this time; accumulated time on sync point = 15.52 seconds , average latency = 0.65 seconds
+		(model aggregation stats): 25-th sync point was hit, introducing a 1.70-seconds latency this time; accumulated time on sync point = 8.81 seconds , average latency = 0.35 seconds
+		(model aggregation stats): 25-th sync point was hit, introducing a 80.94-seconds latency this time; accumulated time on sync point = 103.58 seconds , average latency = 4.14 seconds
+		(model aggregation stats): 25-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 15.52 seconds , average latency = 0.62 seconds
+Finished Epoch[ 2 of 50]: [Training] ce = 8.41357317 * 275470; errs = 94.402% * 275470; totalSamplesSeen = 550366; learningRatePerSample = 0.0070000002; epochTime=881.72s
+Finished Epoch[ 2 of 50]: [Training] ce = 8.41357317 * 275470; errs = 94.402% * 275470; Finished Epoch[ 2 of 50]: [Training] totalSamplesSeen = 550366; learningRatePerSample = 0.0070000002; epochTime=881.721s
+ce = 8.41357317 * 275470; errs = 94.402% * 275470; totalSamplesSeen = 550366; learningRatePerSample = 0.0070000002; epochTime=881.721s
+Parallel training (3 workers) using BlockMomentumSGD with block momentum = 0.0000, block momentum time constant (per worker) = 0.0000, block learning rate = 1.0000, block size per worker = 2400 samples, resetting SGD momentum after sync.
+Parallel training (3 workers) using BlockMomentumSGD with block momentum = 0.0000, block momentum time constant (per worker) = 0.0000, block learning rate = 1.0000, block size per worker = 2400 samples, resetting SGD momentum after sync.
+Parallel training (3 workers) using BlockMomentumSGD with block momentum = 0.0000, block momentum time constant (per worker) = 0.0000, block learning rate = 1.0000, block size per worker = 2400 samples, resetting SGD momentum after sync.
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.21-seconds latency this time; accumulated time on sync point = 0.21 seconds , average latency = 0.21 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 1.03-seconds latency this time; accumulated time on sync point = 1.03 seconds , average latency = 1.03 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.00 seconds , average latency = 0.00 seconds
+		(model aggregation stats): 2-th sync point was hit, introducing a 1.00-seconds latency this time; accumulated time on sync point = 1.00 seconds , average latency = 0.50 seconds
+		(model aggregation stats): 2-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.21 seconds , average latency = 0.10 seconds
+		(model aggregation stats): 2-th sync point was hit, introducing a 1.48-seconds latency this time; accumulated time on sync point = 2.51 seconds , average latency = 1.25 seconds
+		(model aggregation stats): 3-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.21 seconds , average latency = 0.07 seconds
+		(model aggregation stats): 3-th sync point was hit, introducing a 2.61-seconds latency this time; accumulated time on sync point = 5.12 seconds , average latency = 1.71 seconds
+		(model aggregation stats): 3-th sync point was hit, introducing a 3.28-seconds latency this time; accumulated time on sync point = 4.28 seconds , average latency = 1.43 seconds
+		(model aggregation stats): 4-th sync point was hit, introducing a 1.54-seconds latency this time; accumulated time on sync point = 1.75 seconds , average latency = 0.44 seconds
+		(model aggregation stats): 4-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 4.28 seconds , average latency = 1.07 seconds
+		(model aggregation stats): 4-th sync point was hit, introducing a 2.60-seconds latency this time; accumulated time on sync point = 7.71 seconds , average latency = 1.93 seconds
+		(model aggregation stats): 5-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 1.75 seconds , average latency = 0.35 seconds
+		(model aggregation stats): 5-th sync point was hit, introducing a 2.42-seconds latency this time; accumulated time on sync point = 10.13 seconds , average latency = 2.03 seconds
+		(model aggregation stats): 5-th sync point was hit, introducing a 1.16-seconds latency this time; accumulated time on sync point = 5.43 seconds , average latency = 1.09 seconds
+		(model aggregation stats): 6-th sync point was hit, introducing a 0.48-seconds latency this time; accumulated time on sync point = 10.61 seconds , average latency = 1.77 seconds
+		(model aggregation stats): 6-th sync point was hit, introducing a 0.59-seconds latency this time; accumulated time on sync point = 2.34 seconds , average latency = 0.39 seconds
+		(model aggregation stats): 6-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 5.43 seconds , average latency = 0.91 seconds
+		(model aggregation stats): 7-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 2.34 seconds , average latency = 0.33 seconds
+		(model aggregation stats): 7-th sync point was hit, introducing a 3.72-seconds latency this time; accumulated time on sync point = 14.33 seconds , average latency = 2.05 seconds
+		(model aggregation stats): 7-th sync point was hit, introducing a 2.46-seconds latency this time; accumulated time on sync point = 7.89 seconds , average latency = 1.13 seconds
+		(model aggregation stats): 8-th sync point was hit, introducing a 0.32-seconds latency this time; accumulated time on sync point = 2.66 seconds , average latency = 0.33 seconds
+		(model aggregation stats): 8-th sync point was hit, introducing a 0.03-seconds latency this time; accumulated time on sync point = 7.92 seconds , average latency = 0.99 seconds
+		(model aggregation stats): 8-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 14.33 seconds , average latency = 1.79 seconds
+		(model aggregation stats): 9-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 7.92 seconds , average latency = 0.88 seconds
+		(model aggregation stats): 9-th sync point was hit, introducing a 0.42-seconds latency this time; accumulated time on sync point = 3.08 seconds , average latency = 0.34 seconds
+		(model aggregation stats): 9-th sync point was hit, introducing a 1.40-seconds latency this time; accumulated time on sync point = 15.73 seconds , average latency = 1.75 seconds
+		(model aggregation stats): 10-th sync point was hit, introducing a 1.17-seconds latency this time; accumulated time on sync point = 9.09 seconds , average latency = 0.91 seconds
+		(model aggregation stats): 10-th sync point was hit, introducing a 1.69-seconds latency this time; accumulated time on sync point = 17.42 seconds , average latency = 1.74 seconds
+		(model aggregation stats): 10-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 3.08 seconds , average latency = 0.31 seconds
+		(model aggregation stats): 11-th sync point was hit, introducing a 1.33-seconds latency this time; accumulated time on sync point = 10.41 seconds , average latency = 0.95 seconds
+		(model aggregation stats): 11-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 3.08 seconds , average latency = 0.28 seconds
+		(model aggregation stats): 11-th sync point was hit, introducing a 0.72-seconds latency this time; accumulated time on sync point = 18.14 seconds , average latency = 1.65 seconds
+		(model aggregation stats): 12-th sync point was hit, introducing a 1.31-seconds latency this time; accumulated time on sync point = 19.46 seconds , average latency = 1.62 seconds
+		(model aggregation stats): 12-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 3.08 seconds , average latency = 0.26 seconds
+		(model aggregation stats): 12-th sync point was hit, introducing a 1.41-seconds latency this time; accumulated time on sync point = 11.82 seconds , average latency = 0.99 seconds
+		(model aggregation stats): 13-th sync point was hit, introducing a 2.62-seconds latency this time; accumulated time on sync point = 22.07 seconds , average latency = 1.70 seconds
+		(model aggregation stats): 13-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 3.08 seconds , average latency = 0.24 seconds
+		(model aggregation stats): 13-th sync point was hit, introducing a 2.61-seconds latency this time; accumulated time on sync point = 14.43 seconds , average latency = 1.11 seconds
+		(model aggregation stats): 14-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 3.08 seconds , average latency = 0.22 seconds
+		(model aggregation stats): 14-th sync point was hit, introducing a 1.55-seconds latency this time; accumulated time on sync point = 15.98 seconds , average latency = 1.14 seconds
+		(model aggregation stats): 14-th sync point was hit, introducing a 2.61-seconds latency this time; accumulated time on sync point = 24.68 seconds , average latency = 1.76 seconds
+		(model aggregation stats): 15-th sync point was hit, introducing a 2.36-seconds latency this time; accumulated time on sync point = 27.04 seconds , average latency = 1.80 seconds
+		(model aggregation stats): 15-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 3.08 seconds , average latency = 0.21 seconds
+		(model aggregation stats): 15-th sync point was hit, introducing a 2.62-seconds latency this time; accumulated time on sync point = 18.60 seconds , average latency = 1.24 seconds
+		(model aggregation stats): 16-th sync point was hit, introducing a 0.75-seconds latency this time; accumulated time on sync point = 3.83 seconds , average latency = 0.24 seconds
+		(model aggregation stats): 16-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 18.60 seconds , average latency = 1.16 seconds
+		(model aggregation stats): 16-th sync point was hit, introducing a 1.38-seconds latency this time; accumulated time on sync point = 28.42 seconds , average latency = 1.78 seconds
+		(model aggregation stats): 17-th sync point was hit, introducing a 0.46-seconds latency this time; accumulated time on sync point = 4.29 seconds , average latency = 0.25 seconds
+		(model aggregation stats): 17-th sync point was hit, introducing a 2.24-seconds latency this time; accumulated time on sync point = 30.66 seconds , average latency = 1.80 seconds
+		(model aggregation stats): 17-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 18.60 seconds , average latency = 1.09 seconds
+		(model aggregation stats): 18-th sync point was hit, introducing a 0.28-seconds latency this time; accumulated time on sync point = 4.58 seconds , average latency = 0.25 seconds
+		(model aggregation stats): 18-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 18.60 seconds , average latency = 1.03 seconds
+		(model aggregation stats): 18-th sync point was hit, introducing a 0.88-seconds latency this time; accumulated time on sync point = 31.54 seconds , average latency = 1.75 seconds
+		(model aggregation stats): 19-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 4.58 seconds , average latency = 0.24 seconds
+		(model aggregation stats): 19-th sync point was hit, introducing a 0.97-seconds latency this time; accumulated time on sync point = 32.52 seconds , average latency = 1.71 seconds
+		(model aggregation stats): 19-th sync point was hit, introducing a 0.53-seconds latency this time; accumulated time on sync point = 19.13 seconds , average latency = 1.01 seconds
+		(model aggregation stats): 20-th sync point was hit, introducing a 0.30-seconds latency this time; accumulated time on sync point = 4.88 seconds , average latency = 0.24 seconds
+		(model aggregation stats): 20-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 19.13 seconds , average latency = 0.96 seconds
+		(model aggregation stats): 20-th sync point was hit, introducing a 1.84-seconds latency this time; accumulated time on sync point = 34.36 seconds , average latency = 1.72 seconds
+		(model aggregation stats): 21-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 4.88 seconds , average latency = 0.23 seconds
+		(model aggregation stats): 21-th sync point was hit, introducing a 3.52-seconds latency this time; accumulated time on sync point = 37.88 seconds , average latency = 1.80 seconds
+		(model aggregation stats): 21-th sync point was hit, introducing a 2.81-seconds latency this time; accumulated time on sync point = 21.94 seconds , average latency = 1.04 seconds
+		(model aggregation stats): 22-th sync point was hit, introducing a 0.85-seconds latency this time; accumulated time on sync point = 38.73 seconds , average latency = 1.76 seconds
+		(model aggregation stats): 22-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 4.88 seconds , average latency = 0.22 seconds
+		(model aggregation stats): 22-th sync point was hit, introducing a 0.55-seconds latency this time; accumulated time on sync point = 22.49 seconds , average latency = 1.02 seconds
+		(model aggregation stats): 23-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 38.73 seconds , average latency = 1.68 seconds
+		(model aggregation stats): 23-th sync point was hit, introducing a 0.32-seconds latency this time; accumulated time on sync point = 22.80 seconds , average latency = 0.99 seconds
+		(model aggregation stats): 23-th sync point was hit, introducing a 0.03-seconds latency this time; accumulated time on sync point = 4.91 seconds , average latency = 0.21 seconds
+		(model aggregation stats): 24-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 38.73 seconds , average latency = 1.61 seconds
+		(model aggregation stats): 24-th sync point was hit, introducing a 0.01-seconds latency this time; accumulated time on sync point = 4.93 seconds , average latency = 0.21 seconds
+		(model aggregation stats): 24-th sync point was hit, introducing a 1.75-seconds latency this time; accumulated time on sync point = 24.55 seconds , average latency = 1.02 seconds
+		(model aggregation stats): 25-th sync point was hit, introducing a 0.13-seconds latency this time; accumulated time on sync point = 5.06 seconds , average latency = 0.20 seconds
+		(model aggregation stats): 25-th sync point was hit, introducing a 1.57-seconds latency this time; accumulated time on sync point = 40.29 seconds , average latency = 1.61 seconds
+		(model aggregation stats): 25-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 24.55 seconds , average latency = 0.98 seconds
+		(model aggregation stats): 26-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 5.06 seconds , average latency = 0.19 seconds
+		(model aggregation stats): 26-th sync point was hit, introducing a 0.63-seconds latency this time; accumulated time on sync point = 25.18 seconds , average latency = 0.97 seconds
+		(model aggregation stats): 26-th sync point was hit, introducing a 0.82-seconds latency this time; accumulated time on sync point = 41.11 seconds , average latency = 1.58 seconds
+		(model aggregation stats): 27-th sync point was hit, introducing a 10.62-seconds latency this time; accumulated time on sync point = 15.68 seconds , average latency = 0.58 seconds
+		(model aggregation stats): 27-th sync point was hit, introducing a 14.78-seconds latency this time; accumulated time on sync point = 55.89 seconds , average latency = 2.07 seconds
+		(model aggregation stats): 27-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 25.18 seconds , average latency = 0.93 seconds
+Finished Epoch[ 3 of 50]: [Training] ce = 7.76346121 * 274750; errs = 94.079% * 274750; totalSamplesSeen = 825116; learningRatePerSample = 0.0070000002; epochTime=843.728s
+Finished Epoch[ 3 of 50]: [Training] ce = 7.76346121 * 274750; errs = 94.079% * 274750; totalSamplesSeen = 825116; learningRatePerSample = 0.0070000002; epochTime=843.728s
+Finished Epoch[ 3 of 50]: [Training] ce = 7.76346121 * 274750; errs = 94.079% * 274750; totalSamplesSeen = 825116; learningRatePerSample = 0.0070000002; epochTime=843.728s
+Parallel training (3 workers) using BlockMomentumSGD with block momentum = 0.0000, block momentum time constant (per worker) = 0.0000, block learning rate = 1.0000, block size per worker = 2400 samples, resetting SGD momentum after sync.
+Parallel training (3 workers) using BlockMomentumSGD with block momentum = 0.0000, block momentum time constant (per worker) = 0.0000, block learning rate = 1.0000, block size per worker = 2400 samples, resetting SGD momentum after sync.
+Parallel training (3 workers) using BlockMomentumSGD with block momentum = 0.0000, block momentum time constant (per worker) = 0.0000, block learning rate = 1.0000, block size per worker = 2400 samples, resetting SGD momentum after sync.
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.00 seconds , average latency = 0.00 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.29-seconds latency this time; accumulated time on sync point = 0.29 seconds , average latency = 0.29 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 1.13-seconds latency this time; accumulated time on sync point = 1.13 seconds , average latency = 1.13 seconds
+		(model aggregation stats): 2-th sync point was hit, introducing a 1.53-seconds latency this time; accumulated time on sync point = 2.66 seconds , average latency = 1.33 seconds
+		(model aggregation stats): 2-th sync point was hit, introducing a 1.55-seconds latency this time; accumulated time on sync point = 1.55 seconds , average latency = 0.78 seconds
+		(model aggregation stats): 2-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.29 seconds , average latency = 0.14 seconds
+		(model aggregation stats): 3-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.29 seconds , average latency = 0.10 seconds
+		(model aggregation stats): 3-th sync point was hit, introducing a 0.75-seconds latency this time; accumulated time on sync point = 2.31 seconds , average latency = 0.77 seconds
+		(model aggregation stats): 3-th sync point was hit, introducing a 0.18-seconds latency this time; accumulated time on sync point = 2.84 seconds , average latency = 0.95 seconds
+		(model aggregation stats): 4-th sync point was hit, introducing a 0.50-seconds latency this time; accumulated time on sync point = 2.81 seconds , average latency = 0.70 seconds
+		(model aggregation stats): 4-th sync point was hit, introducing a 0.40-seconds latency this time; accumulated time on sync point = 3.23 seconds , average latency = 0.81 seconds
+		(model aggregation stats): 4-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.29 seconds , average latency = 0.07 seconds
+		(model aggregation stats): 5-th sync point was hit, introducing a 0.50-seconds latency this time; accumulated time on sync point = 3.73 seconds , average latency = 0.75 seconds
+		(model aggregation stats): 5-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 2.81 seconds , average latency = 0.56 seconds
+		(model aggregation stats): 5-th sync point was hit, introducing a 0.09-seconds latency this time; accumulated time on sync point = 0.38 seconds , average latency = 0.08 seconds
+		(model aggregation stats): 6-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.38 seconds , average latency = 0.06 seconds
+		(model aggregation stats): 6-th sync point was hit, introducing a 2.76-seconds latency this time; accumulated time on sync point = 5.57 seconds , average latency = 0.93 seconds
+		(model aggregation stats): 6-th sync point was hit, introducing a 2.54-seconds latency this time; accumulated time on sync point = 6.27 seconds , average latency = 1.05 seconds
+		(model aggregation stats): 7-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 6.27 seconds , average latency = 0.90 seconds
+		(model aggregation stats): 7-th sync point was hit, introducing a 0.22-seconds latency this time; accumulated time on sync point = 0.59 seconds , average latency = 0.08 seconds
+		(model aggregation stats): 7-th sync point was hit, introducing a 0.93-seconds latency this time; accumulated time on sync point = 6.50 seconds , average latency = 0.93 seconds
+		(model aggregation stats): 8-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.59 seconds , average latency = 0.07 seconds
+		(model aggregation stats): 8-th sync point was hit, introducing a 0.74-seconds latency this time; accumulated time on sync point = 7.24 seconds , average latency = 0.90 seconds
+		(model aggregation stats): 8-th sync point was hit, introducing a 0.20-seconds latency this time; accumulated time on sync point = 6.47 seconds , average latency = 0.81 seconds
+		(model aggregation stats): 9-th sync point was hit, introducing a 0.72-seconds latency this time; accumulated time on sync point = 7.96 seconds , average latency = 0.88 seconds
+		(model aggregation stats): 9-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.59 seconds , average latency = 0.07 seconds
+		(model aggregation stats): 9-th sync point was hit, introducing a 1.20-seconds latency this time; accumulated time on sync point = 7.67 seconds , average latency = 0.85 seconds
+		(model aggregation stats): 10-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 7.96 seconds , average latency = 0.80 seconds
+		(model aggregation stats): 10-th sync point was hit, introducing a 1.40-seconds latency this time; accumulated time on sync point = 9.07 seconds , average latency = 0.91 seconds
+		(model aggregation stats): 10-th sync point was hit, introducing a 0.16-seconds latency this time; accumulated time on sync point = 0.75 seconds , average latency = 0.07 seconds
+		(model aggregation stats): 11-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 9.07 seconds , average latency = 0.82 seconds
+		(model aggregation stats): 11-th sync point was hit, introducing a 0.29-seconds latency this time; accumulated time on sync point = 1.04 seconds , average latency = 0.09 seconds
+		(model aggregation stats): 11-th sync point was hit, introducing a 0.81-seconds latency this time; accumulated time on sync point = 8.77 seconds , average latency = 0.80 seconds
+		(model aggregation stats): 12-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 1.04 seconds , average latency = 0.09 seconds
+		(model aggregation stats): 12-th sync point was hit, introducing a 0.48-seconds latency this time; accumulated time on sync point = 9.25 seconds , average latency = 0.77 seconds
+		(model aggregation stats): 12-th sync point was hit, introducing a 0.76-seconds latency this time; accumulated time on sync point = 9.83 seconds , average latency = 0.82 seconds
+		(model aggregation stats): 13-th sync point was hit, introducing a 1.03-seconds latency this time; accumulated time on sync point = 2.07 seconds , average latency = 0.16 seconds
+		(model aggregation stats): 13-th sync point was hit, introducing a 1.89-seconds latency this time; accumulated time on sync point = 11.72 seconds , average latency = 0.90 seconds
+		(model aggregation stats): 13-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 9.25 seconds , average latency = 0.71 seconds
+		(model aggregation stats): 14-th sync point was hit, introducing a 0.79-seconds latency this time; accumulated time on sync point = 12.51 seconds , average latency = 0.89 seconds
+		(model aggregation stats): 14-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 2.07 seconds , average latency = 0.15 seconds
+		(model aggregation stats): 14-th sync point was hit, introducing a 0.98-seconds latency this time; accumulated time on sync point = 10.23 seconds , average latency = 0.73 seconds
