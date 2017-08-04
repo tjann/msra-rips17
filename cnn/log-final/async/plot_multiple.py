@@ -76,29 +76,30 @@ for i in range(len(error_lists)):
 fix, ax = plt.subplots()
 for i in range(len(file_names)):
     ax.plot(list(range(1, len(error_lists[i]) + 1)), error_lists[i], color=color_list[i], label=label_list[i])
-ax.legend(loc='upper right')
-plt.title('Training Error of CNN on CIFAR-10 data (BMUF)')
-plt.xlabel("Number of epoch")
-plt.ylabel("Training error in %")
-plt.savefig(ERROR_GRAPH_OUTPUT_PATH + '/async/error-128,256,512-avg.pdf')
+ax.legend(loc='upper right', fontsize=18)
+# plt.title('Training Error of CNN on CIFAR-10 data (BMUF) - Async')
+plt.xlabel("Number of epoch", fontsize=18)
+plt.ylabel("Training error in %", fontsize=18)
+plt.savefig(ERROR_GRAPH_OUTPUT_PATH + '/async/cnn-async-error.pdf')
 
 # PLOT TIME GRAPH
 fig, ax = plt.subplots()
 for i in range(len(file_names)):
     ax.plot(list(range(1, len(time_lists[i][1:]) + 1)), time_lists[i][1:], color=color_list[i], label=label_list[i])
-ax.legend(loc='upper right')
+ax.legend(loc='center right', fontsize=14)
 # ADD AVERAGE TIME
 avg_text = ''
 for i in range(len(file_names)):
     avg_text += avg_list[i] + ': ' +str(np.average(time_lists[i])) + '\n'
-plt.text(0.2, 0.9, avg_text,
-     horizontalalignment='center',
+plt.text(0.0, 0.5, avg_text,
+     horizontalalignment='left',
      verticalalignment='center',
-     transform = ax.transAxes)
-plt.title('Time per epoch of CNN on CIFAR-10 data (BMUF)')
-plt.xlabel("Number of epoch")
-plt.ylabel("Time in second")
-plt.savefig(TIME_GRAPH_OUTPUT_PATH + '/async/time-128,256,512-avg.pdf')
+     transform = ax.transAxes,
+     fontsize=12)
+# plt.title('Time per epoch of CNN on CIFAR-10 data (BMUF) - Async')
+plt.xlabel("Number of epoch", fontsize=18)
+plt.ylabel("Time in second", fontsize=18)
+plt.savefig(TIME_GRAPH_OUTPUT_PATH + '/async/cnn-async-time.pdf')
 
 # PLOT TIME x Error Graph
 fig, ax = plt.subplots()
@@ -117,9 +118,9 @@ print(error_lists[1])
 for i in range(len(file_names)):
     ax.plot(accum_time[i], error_lists[i], color=color_list[i], label=label_list[i])
 
-ax.legend(loc='upper right')
-plt.title('Training Error by Time of CNN on CIFAR-10 data (BMUF)')
-plt.xlabel("Time")
-plt.ylabel("Training error in %")
-plt.savefig(ERROR_GRAPH_OUTPUT_PATH + '/async/error-by-time-128,256,512-avg.pdf')
+ax.legend(loc='upper right', fontsize=18)
+# plt.title('Training Error by Time of CNN on CIFAR-10 data (BMUF) - Async')
+plt.xlabel("Time", fontsize=18)
+plt.ylabel("Training error in %", fontsize=18)
+plt.savefig(ERROR_GRAPH_OUTPUT_PATH + '/async/cnn-async-error-by-time.pdf')
 
