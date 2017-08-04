@@ -17,7 +17,7 @@ file_names10000 = ['sync10000a.txt', 'sync10000b.txt', 'sync10000c.txt', 'sync10
 
 num_epoch = 149  # num_samples for logreg
 num_workers = 8
-prefix = 'zoom'
+prefix = ''
 #############################################################
 #############################################################
 
@@ -76,10 +76,10 @@ avg_list = ['Avg 100', 'Avg 1000', 'Avg 10000']
 fig, ax = plt.subplots()
 # PLOT SAMPLES SEEN X TRAIN LOSS GRAPH
 for i in range(num_sf):
-    x = list(range(10048, 14963129, 10048))
-    x = x[:200]
+    x = list(range(1004800, 14963129, 1004800))
+#    x = x[:200]
     y = list(error_lists[i])
-    y = y[:200]
+#    y = y[:200]
     # ax.plot(list(range(100032, 14963129, 100032)), list(error_lists[i]), color=color_list[i], label=label_list[i])
     ax.plot(x, y, color=color_list[i], label=label_list[i])
 ax.legend(loc='upper right')
@@ -92,7 +92,7 @@ plt.savefig(GRAPH_OUTPUT_PATH + 'error_graph_sf100,1000,10000.pdf')
 # PLOT SAMPLES SEEN X TIME GRAPH
 fig, ax = plt.subplots()
 for i in range(num_sf):
-    ax.plot(list(range(10048, 14963129, 10048)), list(time_lists[i]), color=color_list[i], label=label_list[i])
+    ax.plot(list(range(1004800, 14963129, 1004800)), list(time_lists[i]), color=color_list[i], label=label_list[i])
 ax.legend(loc='upper right')
 # add average time
 avg_text = ''
