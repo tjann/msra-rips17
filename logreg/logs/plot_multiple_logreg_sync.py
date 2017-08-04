@@ -75,7 +75,7 @@ avg_list = ['Avg 100', 'Avg 1000', 'Avg 10000']
 fig, ax = plt.subplots()
 # PLOT SAMPLES SEEN X TRAIN LOSS GRAPH
 for i in range(num_sf):
-    x = list(range(100032, 14963129, 100032))
+    x = list(range(10048, 14963129, 10048))
 #    x = x[:30]
     y = list(error_lists[i])
 #    y = y[:30]
@@ -91,7 +91,7 @@ plt.savefig(GRAPH_OUTPUT_PATH + '/error_graph_sf100,1000,10000.pdf')
 # PLOT SAMPLES SEEN X TIME GRAPH
 fig, ax = plt.subplots()
 for i in range(num_sf):
-    ax.plot(list(range(100032, 14963129, 100032)), list(time_lists[i]), color=color_list[i], label=label_list[i])
+    ax.plot(list(range(10048, 14963129, 10048)), list(time_lists[i]), color=color_list[i], label=label_list[i])
 ax.legend(loc='upper right')
 # add average time
 avg_text = ''
