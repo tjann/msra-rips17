@@ -1,0 +1,408 @@
+CNTK 2.0 (HEAD ade8bc, May 31 2017 17:15:49) on Multiversohk at 2017/08/02 02:23:37
+
+cntk  configFile=translate-async.cntk  makeMode=false  period=2500
+CNTK 2.0 (HEAD ade8bc, May 31 2017 17:15:49) on Multiversohk at 2017/08/02 02:23:37
+
+cntk  configFile=translate-async.cntk  makeMode=false  period=2500
+CNTK 2.0 (HEAD ade8bc, May 31 2017 17:15:49) on Multiversohk at 2017/08/02 02:23:37
+
+cntk  configFile=translate-async.cntk  makeMode=false  period=2500
+CNTK 2.0 (HEAD ade8bc, May 31 2017 17:15:49) on Multiversohk at 2017/08/02 02:23:37
+
+cntk  configFile=translate-async.cntk  makeMode=false  period=2500
+--------------------------------------------------------------------------
+[[51946,1],0]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: Multiversohk
+
+Another transport will be used instead, although this may result in
+lower performance.
+--------------------------------------------------------------------------
+ping [requestnodes (before change)]: 4 nodes pinging each other
+ping [requestnodes (before change)]: 4 nodes pinging each other
+ping [requestnodes (before change)]: 4 nodes pinging each other
+ping [requestnodes (after change)]: 4 nodes pinging each other
+requestnodes [MPIWrapperMpi]: using 4 out of 4 MPI nodes on a single host (4 requested); we (1) are in (participating)
+ping [mpihelper]: 4 nodes pinging each other
+ping [requestnodes (after change)]: 4 nodes pinging each other
+requestnodes [MPIWrapperMpi]: using 4 out of 4 MPI nodes on a single host (4 requested); we (3) are in (participating)
+ping [mpihelper]: 4 nodes pinging each other
+ping [requestnodes (before change)]: 4 nodes pinging each other
+ping [requestnodes (after change)]: 4 nodes pinging each other
+requestnodes [MPIWrapperMpi]: using 4 out of 4 MPI nodes on a single host (4 requested); we (0) are in (participating)
+ping [mpihelper]: 4 nodes pinging each other
+ping [requestnodes (after change)]: 4 nodes pinging each other
+requestnodes [MPIWrapperMpi]: using 4 out of 4 MPI nodes on a single host (4 requested); we (2) are in (participating)
+ping [mpihelper]: 4 nodes pinging each other
+-------------------------------------------------------------------
+Build info: 
+
+		Built time: May 31 2017 17:14:11
+		Last modified date: Fri May 26 22:32:46 2017
+		Build type: release
+		Build target: GPU
+		With 1bit-SGD: yes
+		With ASGD: yes
+		Math lib: mkl
+		CUDA_PATH: /usr/local/cuda-8.0
+		CUB_PATH: /usr/local/cub-1.4.1
+		CUDNN_PATH: /usr/local/cudnn-5.1
+		Build Branch: HEAD
+		Build SHA1: ade8bc05d30e61160da729aee078e22f8bd4fced
+		Built by Source/CNTK/buildinfo.h$$0 on 8df6191122a5
+		Build Path: /home/philly/jenkins/workspace/CNTK-Build-Linux
+		MPI distribution: Open MPI
+		MPI version: 1.10.3
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+Build info: 
+
+		Built time: May 31 2017 17:14:11
+		Last modified date: Fri May 26 22:32:46 2017
+		Build type: release
+		Build target: GPU
+		With 1bit-SGD: yes
+		With ASGD: yes
+		Math lib: mkl
+		CUDA_PATH: /usr/local/cuda-8.0
+		CUB_PATH: /usr/local/cub-1.4.1
+		CUDNN_PATH: /usr/local/cudnn-5.1
+		Build Branch: HEAD
+		Build SHA1: ade8bc05d30e61160da729aee078e22f8bd4fced
+		Built by Source/CNTK/buildinfo.h$$0 on 8df6191122a5
+		Build Path: /home/philly/jenkins/workspace/CNTK-Build-Linux
+		MPI distribution: Open MPI
+		MPI version: 1.10.3
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+Build info: 
+
+		Built time: May 31 2017 17:14:11
+		Last modified date: Fri May 26 22:32:46 2017
+		Build type: release
+		Build target: GPU
+		With 1bit-SGD: yes
+		With ASGD: yes
+		Math lib: mkl
+		CUDA_PATH: /usr/local/cuda-8.0
+		CUB_PATH: /usr/local/cub-1.4.1
+		CUDNN_PATH: /usr/local/cudnn-5.1
+		Build Branch: HEAD
+		Build SHA1: ade8bc05d30e61160da729aee078e22f8bd4fced
+		Built by Source/CNTK/buildinfo.h$$0 on 8df6191122a5
+		Build Path: /home/philly/jenkins/workspace/CNTK-Build-Linux
+		MPI distribution: Open MPI
+		MPI version: 1.10.3
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+Build info: 
+
+		Built time: May 31 2017 17:14:11
+		Last modified date: Fri May 26 22:32:46 2017
+		Build type: release
+		Build target: GPU
+		With 1bit-SGD: yes
+		With ASGD: yes
+		Math lib: mkl
+		CUDA_PATH: /usr/local/cuda-8.0
+		CUB_PATH: /usr/local/cub-1.4.1
+		CUDNN_PATH: /usr/local/cudnn-5.1
+		Build Branch: HEAD
+		Build SHA1: ade8bc05d30e61160da729aee078e22f8bd4fced
+		Built by Source/CNTK/buildinfo.h$$0 on 8df6191122a5
+		Build Path: /home/philly/jenkins/workspace/CNTK-Build-Linux
+		MPI distribution: Open MPI
+		MPI version: 1.10.3
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+GPU info:
+
+		Device[0]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 11437 MB
+		Device[1]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+		Device[2]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+		Device[3]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+-------------------------------------------------------------------
+
+##############################################################################
+#                                                                            #
+# train command (train action)                                               #
+#                                                                            #
+##############################################################################
+
+-------------------------------------------------------------------
+GPU info:
+
+		Device[0]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 11437 MB
+		Device[1]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+		Device[2]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+		Device[3]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+-------------------------------------------------------------------
+
+##############################################################################
+#                                                                            #
+# train command (train action)                                               #
+#                                                                            #
+##############################################################################
+
+-------------------------------------------------------------------
+GPU info:
+
+		Device[0]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 11437 MB
+		Device[1]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+		Device[2]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+		Device[3]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+-------------------------------------------------------------------
+
+##############################################################################
+#                                                                            #
+# train command (train action)                                               #
+#                                                                            #
+##############################################################################
+
+-------------------------------------------------------------------
+GPU info:
+
+		Device[0]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 11436 MB
+		Device[1]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+		Device[2]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+		Device[3]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+-------------------------------------------------------------------
+
+##############################################################################
+#                                                                            #
+# train command (train action)                                               #
+#                                                                            #
+##############################################################################
+
+[Multiversohk:09113] 3 more processes have sent help message help-mpi-btl-base.txt / btl:no-nics
+[Multiversohk:09113] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+Node 'decoder.layers[0].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[0].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[0].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[0].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[0].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[1].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[1].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[1].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[1].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[2].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[2].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[2].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[2].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[0].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'decoder.layers[0].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'decoder.layers[0].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'decoder.layers[1].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[1].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[1].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[1].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[2].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[2].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[2].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[2].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+
+Model has 625 nodes. Using GPU 1.
+
+Training criterion:   ce = Pass
+Evaluation criterion: errs = Pass
+
+Training 138016746 parameters in 120 parameter tensors.
+
+Node 'decoder.layers[0].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[0].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[0].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[0].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[0].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[1].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[1].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[1].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[1].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[2].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[2].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[2].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[2].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[0].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'decoder.layers[0].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'decoder.layers[0].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'decoder.layers[0].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[0].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'decoder.layers[1].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[0].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'decoder.layers[1].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[0].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[0].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'decoder.layers[1].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[1].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[1].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[2].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[1].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[2].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[1].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[1].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[2].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[2].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[2].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[2].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[2].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[2].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[0].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'decoder.layers[0].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'decoder.layers[0].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'decoder.layers[1].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[1].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[1].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[1].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[2].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[2].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[2].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[2].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+
+Model has 625 nodes. Using GPU 3.
+
+Training criterion:   ce = Pass
+Evaluation criterion: errs = Pass
+
+Training 138016746 parameters in 120 parameter tensors.
+
+Node 'decoder.layers[0].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[0].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[0].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[0].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[0].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[1].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[1].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[1].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[1].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+
+Model has 625 nodes. Using GPU 2.
+
+Training criterion:   ce = Pass
+Evaluation criterion: errs = Pass
+Node 'encoder.layers[2].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[2].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[2].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[2].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[0].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+
+Training 138016746 parameters in 120 parameter tensors.
+
+Node 'decoder.layers[0].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'decoder.layers[0].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'decoder.layers[1].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[1].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[1].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[1].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[2].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[2].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[2].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[2].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+
+Model has 625 nodes. Using GPU 0.
+
+Training criterion:   ce = Pass
+Evaluation criterion: errs = Pass
+
+Training 138016746 parameters in 120 parameter tensors.
+
+[INFO] [2017-08-02 02:23:45] multiverso MPI-Net is initialized under MPI_THREAD_SERIALIZED mode.
+[INFO] [2017-08-02 02:23:45] multiverso MPI-Net is initialized under MPI_THREAD_SERIALIZED mode.
+[INFO] [2017-08-02 02:23:45] multiverso MPI-Net is initialized under MPI_THREAD_SERIALIZED mode.
+[INFO] [2017-08-02 02:23:49] multiverso MPI-Net is initialized under MPI_THREAD_SERIALIZED mode.
+[INFO] [2017-08-02 02:23:49] All nodes registered. System contains 4 nodes. num_worker = 4, num_server = 4
+[INFO] [2017-08-02 02:23:49] [INFO] [2017-08-02 02:23:49] [INFO] [2017-08-02 02:23:49] Create a async server
+Create a async server
+[INFO] [2017-08-02 02:23:49] Create a async server
+Create a async server
+[INFO] [2017-08-02 02:23:49] Rank 0: Multiverso start successfully
+[INFO] [2017-08-02 02:23:49] Rank 1: Multiverso start successfully
+[INFO] [2017-08-02 02:23:49] Rank 3: Multiverso start successfully
+[INFO] [2017-08-02 02:23:49] Rank 2: Multiverso start successfully
+multiverso initial model loaded.
+multiverso initial model loaded.
+multiverso initial model loaded.
+multiverso initial model loaded.
+Finished Epoch[ 1 of 50]: [Training] ce = 0.00000000 * 0; errs = 0.000% * 0; totalSamplesSeen = 0; learningRatePerSample = 9.9999997e-06; epochTime=0.0505676s
+CUDA failure 2: out of memory ; GPU=3 ; hostname=Multiversohk ; expr=cudaMalloc((void**) &deviceBufferPtr, sizeof(AllocatedElemType) * AsMultipleOf(numElements, 2))
+~MultiversoHelper
+CUDA failure 2: out of memory ; GPU=2 ; hostname=Multiversohk ; expr=cudaMalloc((void**) &deviceBufferPtr, sizeof(AllocatedElemType) * AsMultipleOf(numElements, 2))
+~MultiversoHelper
+CUDA failure 2: out of memory ; GPU=1 ; hostname=Multiversohk ; expr=cudaMalloc((void**) &deviceBufferPtr, sizeof(AllocatedElemType) * AsMultipleOf(numElements, 2))
+~MultiversoHelper
+[INFO] [2017-08-02 02:23:57] Multiverso Shutdown successfully
+[INFO] [2017-08-02 02:23:57] Multiverso Shutdown successfully
+[INFO] [2017-08-02 02:23:57] Multiverso Shutdown successfully
+
+
+[CALL STACK]
+[0x83772c]                                                            
+[0x7fa091324ae3]                                                       + 0x82dae3
+[0x7fa09135508d]    float* Microsoft::MSR::CNTK::TracingGPUMemoryAllocator::  Allocate  <float>(int,  unsigned long,  unsigned long) + 0x4d
+[0x7fa09135538e]    Microsoft::MSR::CNTK::GPUMatrix<float>::  Resize  (unsigned long,  unsigned long,  bool) + 0xee
+[0x7fa0912b3715]    Microsoft::MSR::CNTK::Matrix<float>::  Resize  (unsigned long,  unsigned long,  unsigned long,  bool) + 0xb5
+[0xc395c9]          Microsoft::MSR::CNTK::ComputationNode<float>::  BeginForwardProp  () + 0xe9
+[0xcb5b41]          Microsoft::MSR::CNTK::ComputationNetwork::PARTraversalFlowControlNode::  ForwardProp  (std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase> const&,  Microsoft::MSR::CNTK::FrameRange const&) + 0x41
+[0x990353]          std::_Function_handler<void (std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase> const&),void Microsoft::MSR::CNTK::ComputationNetwork::ForwardProp<std::vector<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>,std::allocator<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>>>>(std::vector<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>,std::allocator<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>>> const&)::{lambda(std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase> const&)#1}>::  _M_invoke  (std::_Any_data const&,  std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase> const&) + 0x53
+[0x99af97]          void Microsoft::MSR::CNTK::ComputationNetwork::  TravserseInSortedGlobalEvalOrder  <std::vector<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>,std::allocator<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>>>>(std::vector<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>,std::allocator<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>>> const&,  std::function<void (std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase> const&)> const&) + 0x1f7
+[0x99b17e]          void Microsoft::MSR::CNTK::ComputationNetwork::  ForwardProp  <std::vector<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>,std::allocator<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>>>>(std::vector<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>,std::allocator<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>>> const&) + 0x5e
+[0xabd025]          Microsoft::MSR::CNTK::SGD<float>::  TrainOneEpoch  (std::shared_ptr<Microsoft::MSR::CNTK::ComputationNetwork>,  std::shared_ptr<Microsoft::MSR::CNTK::ComputationNetwork>,  std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase> const&,  int,  unsigned long,  Microsoft::MSR::CNTK::IDataReader*,  double,  unsigned long,  std::vector<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>,std::allocator<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>>> const&,  std::vector<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>,std::allocator<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>>> const&,  std::vector<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>,std::allocator<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>>> const&,  std::vector<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>,std::allocator<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>>> const&,  Microsoft::MSR::CNTK::StreamMinibatchInputs*,  std::lis[0xac408e]          Microsoft::MSR::CNTK::SGD<float>::  TrainOrAdaptModel  (int,  std::shared_ptr<Microsoft::MSR::CNTK::ComputationNetwork>,  bool,  std::shared_ptr<Microsoft::MSR::CNTK::ComputationNetwork>,  std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>,  Microsoft::MSR::CNTK::IDataReader*,  Microsoft::MSR::CNTK::IDataReader*) + 0x1dae
+[0xac7332]          Microsoft::MSR::CNTK::SGD<float>::  Train  (std::shared_ptr<Microsoft::MSR::CNTK::ComputationNetwork>,  int,  Microsoft::MSR::CNTK::IDataReader*,  Microsoft::MSR::CNTK::IDataReader*,  int,  bool) + 0x142
+[0x98858d]          void  DoTrain  <Microsoft::MSR::CNTK::ConfigParameters,float>(Microsoft::MSR::CNTK::ConfigParameters const&) + 0x3bd
+[0x9165c0]          void  DoCommands  <float>(Microsoft::MSR::CNTK::ConfigParameters const&,  std::shared_ptr<Microsoft::MSR::CNTK::MPIWrapper> const&) + 0x9e0
+[0x8759d5]          wmainOldCNTKConfig  (int,  wchar_t**)              + 0x9a5
+[0x8760ef]          wmain1  (int,  wchar_t**)                          + 0x7f
+[0x823758]          main                                               + 0xd8
+[0x7fa08f312830]    __libc_start_main                                  + 0xf0
+[0x8349de]                                                            
+EXCEPTION occurred: CUDA failure 2: out of memory ; GPU=2 ; hostname=Multiversohk ; expr=cudaMalloc((void**) &deviceBufferPtr, sizeof(AllocatedElemType) * AsMultipleOf(numElements, 2))
+
+
+[CALL STACK]
+[0x83772c]                                                            
+[0x7f47170f7ae3]                                                       + 0x82dae3
+[0x7f471712808d]    float* Microsoft::MSR::CNTK::TracingGPUMemoryAllocator::  Allocate  <float>(int,  unsigned long,  unsigned long) + 0x4d
+[0x7f471712838e]    Microsoft::MSR::CNTK::GPUMatrix<float>::  Resize  (unsigned long,  unsigned long,  bool) + 0xee
+[0x7f4717086715]    Microsoft::MSR::CNTK::Matrix<float>::  Resize  (unsigned long,  unsigned long,  unsigned long,  bool) + 0xb5
+[0xc395c9]          Microsoft::MSR::CNTK::ComputationNode<float>::  BeginForwardProp  () + 0xe9
+[0xcb5b41]          Microsoft::MSR::CNTK::ComputationNetwork::PARTraversalFlowControlNode::  ForwardProp  (std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase> const&,  Microsoft::MSR::CNTK::FrameRange const&) + 0x41
+[0x990353]          std::_Function_handler<void (std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase> const&),void Microsoft::MSR::CNTK::ComputationNetwork::ForwardProp<std::vector<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>,std::allocator<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>>>>(std::vector<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>,std::allocator<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>>> const&)::{lambda(std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase> const&)#1}>::  _M_invoke  (std::_Any_data const&,  std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase> const&) + 0x53
+[0x99af97]          void Microsoft::MSR::CNTK::ComputationNetwork::  TravserseInSortedGlobalEvalOrder  <std::vector<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>,std::allocator<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>>>>(std::vector<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>,std::allocator<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>>> const&,  std::function<void (std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase> const&)> const&) + 0x1f7
+[0x99b17e]          void Microsoft::MSR::CNTK::ComputationNetwork::  ForwardProp  <std::vector<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>,std::allocator<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>>>>(std::vector<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>,std::allocator<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>>> const&) + 0x5e
+[0xabd025]          Microsoft::MSR::CNTK::SGD<float>::  TrainOneEpoch  (std::shared_ptr<Microsoft::MSR::CNTK::ComputationNetwork>,  std::shared_ptr<Microsoft::MSR::CNTK::ComputationNetwork>,  std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase> const&,  int,  unsigned long,  Microsoft::MSR::CNTK::IDataReader*,  double,  unsigned long,  std::vector<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>,std::allocator<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>>> const&,  std::vector<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>,std::allocator<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>>> const&,  std::vector<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>,std::allocator<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>>> const&,  std::vector<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>,std::allocator<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>>> const&,  Microsoft::MSR::CNTK::StreamMinibatchInputs*,  std::lis[0xac408e]          Microsoft::MSR::CNTK::SGD<float>::  TrainOrAdaptModel  (int,  std::shared_ptr<Microsoft::MSR::CNTK::ComputationNetwork>,  bool,  std::shared_ptr<Microsoft::MSR::CNTK::ComputationNetwork>,  std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>,  Microsoft::MSR::CNTK::IDataReader*,  Microsoft::MSR::CNTK::IDataReader*) + 0x1dae
+[0xac7332]          Microsoft::MSR::CNTK::SGD<float>::  Train  (std::shared_ptr<Microsoft::MSR::CNTK::ComputationNetwork>,  int,  Microsoft::MSR::CNTK::IDataReader*,  Microsoft::MSR::CNTK::IDataReader*,  int,  bool) + 0x142
+[0x98858d]          void  DoTrain  <Microsoft::MSR::CNTK::ConfigParameters,float>(Microsoft::MSR::CNTK::ConfigParameters const&) + 0x3bd
+[0x9165c0]          void  DoCommands  <float>(Microsoft::MSR::CNTK::ConfigParameters const&,  std::shared_ptr<Microsoft::MSR::CNTK::MPIWrapper> const&) + 0x9e0
+[0x8759d5]          wmainOldCNTKConfig  (int,  wchar_t**)              + 0x9a5
+[0x8760ef]          wmain1  (int,  wchar_t**)                          + 0x7f
+[0x823758]          main                                               + 0xd8
+[0x7f47150e5830]    __libc_start_main                                  + 0xf0
+[0x8349de]                                                            
+EXCEPTION occurred: CUDA failure 2: out of memory ; GPU=3 ; hostname=Multiversohk ; expr=cudaMalloc((void**) &deviceBufferPtr, sizeof(AllocatedElemType) * AsMultipleOf(numElements, 2))
+
+
+[CALL STACK]
+[0x83772c]                                                            
+[0x7fb5d9c32ae3]                                                       + 0x82dae3
+[0x7fb5d9c6308d]    float* Microsoft::MSR::CNTK::TracingGPUMemoryAllocator::  Allocate  <float>(int,  unsigned long,  unsigned long) + 0x4d
+[0x7fb5d9c6338e]    Microsoft::MSR::CNTK::GPUMatrix<float>::  Resize  (unsigned long,  unsigned long,  bool) + 0xee
+[0x7fb5d9bc1715]    Microsoft::MSR::CNTK::Matrix<float>::  Resize  (unsigned long,  unsigned long,  unsigned long,  bool) + 0xb5
+[0xc395c9]          Microsoft::MSR::CNTK::ComputationNode<float>::  BeginForwardProp  () + 0xe9
+[0xcb5b41]          Microsoft::MSR::CNTK::ComputationNetwork::PARTraversalFlowControlNode::  ForwardProp  (std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase> const&,  Microsoft::MSR::CNTK::FrameRange const&) + 0x41
+[0x990353]          std::_Function_handler<void (std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase> const&),void Microsoft::MSR::CNTK::ComputationNetwork::ForwardProp<std::vector<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>,std::allocator<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>>>>(std::vector<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>,std::allocator<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>>> const&)::{lambda(std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase> const&)#1}>::  _M_invoke  (std::_Any_data const&,  std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase> const&) + 0x53
+[0x99af97]          void Microsoft::MSR::CNTK::ComputationNetwork::  TravserseInSortedGlobalEvalOrder  <std::vector<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>,std::allocator<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>>>>(std::vector<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>,std::allocator<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>>> const&,  std::function<void (std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase> const&)> const&) + 0x1f7
+[0x99b17e]          void Microsoft::MSR::CNTK::ComputationNetwork::  ForwardProp  <std::vector<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>,std::allocator<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>>>>(std::vector<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>,std::allocator<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>>> const&) + 0x5e
+[0xabd025]          Microsoft::MSR::CNTK::SGD<float>::  TrainOneEpoch  (std::shared_ptr<Microsoft::MSR::CNTK::ComputationNetwork>,  std::shared_ptr<Microsoft::MSR::CNTK::ComputationNetwork>,  std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase> const&,  int,  unsigned long,  Microsoft::MSR::CNTK::IDataReader*,  double,  unsigned long,  std::vector<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>,std::allocator<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>>> const&,  std::vector<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>,std::allocator<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>>> const&,  std::vector<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>,std::allocator<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>>> const&,  std::vector<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>,std::allocator<std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>>> const&,  Microsoft::MSR::CNTK::StreamMinibatchInputs*,  std::lis[0xac408e]          Microsoft::MSR::CNTK::SGD<float>::  TrainOrAdaptModel  (int,  std::shared_ptr<Microsoft::MSR::CNTK::ComputationNetwork>,  bool,  std::shared_ptr<Microsoft::MSR::CNTK::ComputationNetwork>,  std::shared_ptr<Microsoft::MSR::CNTK::ComputationNodeBase>,  Microsoft::MSR::CNTK::IDataReader*,  Microsoft::MSR::CNTK::IDataReader*) + 0x1dae
+[0xac7332]          Microsoft::MSR::CNTK::SGD<float>::  Train  (std::shared_ptr<Microsoft::MSR::CNTK::ComputationNetwork>,  int,  Microsoft::MSR::CNTK::IDataReader*,  Microsoft::MSR::CNTK::IDataReader*,  int,  bool) + 0x142
+[0x98858d]          void  DoTrain  <Microsoft::MSR::CNTK::ConfigParameters,float>(Microsoft::MSR::CNTK::ConfigParameters const&) + 0x3bd
+[0x9165c0]          void  DoCommands  <float>(Microsoft::MSR::CNTK::ConfigParameters const&,  std::shared_ptr<Microsoft::MSR::CNTK::MPIWrapper> const&) + 0x9e0
+[0x8759d5]          wmainOldCNTKConfig  (int,  wchar_t**)              + 0x9a5
+[0x8760ef]          wmain1  (int,  wchar_t**)                          + 0x7f
+[0x823758]          main                                               + 0xd8
+[0x7fb5d7c20830]    __libc_start_main                                  + 0xf0
+[0x8349de]                                                            
+EXCEPTION occurred: CUDA failure 2: out of memory ; GPU=1 ; hostname=Multiversohk ; expr=cudaMalloc((void**) &deviceBufferPtr, sizeof(AllocatedElemType) * AsMultipleOf(numElements, 2))
+-------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code.. Per user-direction, the job has been aborted.
+-------------------------------------------------------

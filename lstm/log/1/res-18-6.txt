@@ -1,0 +1,869 @@
+CNTK 2.0 (HEAD ade8bc, May 31 2017 17:15:49) on Multiversohk at 2017/07/21 17:18:58
+
+cntk  configFile=translate.cntk  makeMode=false  syncPeriod=18
+CNTK 2.0 (HEAD ade8bc, May 31 2017 17:15:49) on Multiversohk at 2017/07/21 17:18:58
+
+cntk  configFile=translate.cntk  makeMode=false  syncPeriod=18
+CNTK 2.0 (HEAD ade8bc, May 31 2017 17:15:49) on Multiversohk at 2017/07/21 17:18:58
+
+cntk  configFile=translate.cntk  makeMode=false  syncPeriod=18
+CNTK 2.0 (HEAD ade8bc, May 31 2017 17:15:49) on Multiversohk at 2017/07/21 17:18:58
+
+cntk  configFile=translate.cntk  makeMode=false  syncPeriod=18
+--------------------------------------------------------------------------
+[[37889,1],1]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: Multiversohk
+
+Another transport will be used instead, although this may result in
+lower performance.
+--------------------------------------------------------------------------
+ping [requestnodes (before change)]: 4 nodes pinging each other
+ping [requestnodes (before change)]: 4 nodes pinging each other
+ping [requestnodes (before change)]: 4 nodes pinging each other
+ping [requestnodes (before change)]: 4 nodes pinging each other
+ping [requestnodes (after change)]: 4 nodes pinging each other
+ping [requestnodes (after change)]: 4 nodes pinging each other
+ping [requestnodes (after change)]: 4 nodes pinging each other
+ping [requestnodes (after change)]: 4 nodes pinging each other
+requestnodes [MPIWrapperMpi]: using 4 out of 4 MPI nodes on a single host (4 requested); we (3) are in (participating)
+ping [mpihelper]: 4 nodes pinging each other
+requestnodes [MPIWrapperMpi]: using 4 out of 4 MPI nodes on a single host (4 requested); we (1) are in (participating)
+ping [mpihelper]: 4 nodes pinging each other
+requestnodes [MPIWrapperMpi]: using 4 out of 4 MPI nodes on a single host (4 requested); we (0) are in (participating)
+ping [mpihelper]: 4 nodes pinging each other
+requestnodes [MPIWrapperMpi]: using 4 out of 4 MPI nodes on a single host (4 requested); we (2) are in (participating)
+ping [mpihelper]: 4 nodes pinging each other
+-------------------------------------------------------------------
+Build info: 
+
+		Built time: May 31 2017 17:14:11
+		Last modified date: Fri May 26 22:32:46 2017
+		Build type: release
+		Build target: GPU
+		With 1bit-SGD: yes
+		With ASGD: yes
+		Math lib: mkl
+		CUDA_PATH: /usr/local/cuda-8.0
+		CUB_PATH: /usr/local/cub-1.4.1
+		CUDNN_PATH: /usr/local/cudnn-5.1
+		Build Branch: HEAD
+		Build SHA1: ade8bc05d30e61160da729aee078e22f8bd4fced
+		Built by Source/CNTK/buildinfo.h$$0 on 8df6191122a5
+		Build Path: /home/philly/jenkins/workspace/CNTK-Build-Linux
+		MPI distribution: Open MPI
+		MPI version: 1.10.3
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+Build info: 
+
+		Built time: May 31 2017 17:14:11
+		Last modified date: Fri May 26 22:32:46 2017
+		Build type: release
+		Build target: GPU
+		With 1bit-SGD: yes
+		With ASGD: yes
+		Math lib: mkl
+		CUDA_PATH: /usr/local/cuda-8.0
+		CUB_PATH: /usr/local/cub-1.4.1
+		CUDNN_PATH: /usr/local/cudnn-5.1
+		Build Branch: HEAD
+		Build SHA1: ade8bc05d30e61160da729aee078e22f8bd4fced
+		Built by Source/CNTK/buildinfo.h$$0 on 8df6191122a5
+		Build Path: /home/philly/jenkins/workspace/CNTK-Build-Linux
+		MPI distribution: Open MPI
+		MPI version: 1.10.3
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+Build info: 
+
+		Built time: May 31 2017 17:14:11
+		Last modified date: Fri May 26 22:32:46 2017
+		Build type: release
+		Build target: GPU
+		With 1bit-SGD: yes
+		With ASGD: yes
+		Math lib: mkl
+		CUDA_PATH: /usr/local/cuda-8.0
+		CUB_PATH: /usr/local/cub-1.4.1
+		CUDNN_PATH: /usr/local/cudnn-5.1
+		Build Branch: HEAD
+		Build SHA1: ade8bc05d30e61160da729aee078e22f8bd4fced
+		Built by Source/CNTK/buildinfo.h$$0 on 8df6191122a5
+		Build Path: /home/philly/jenkins/workspace/CNTK-Build-Linux
+		MPI distribution: Open MPI
+		MPI version: 1.10.3
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+Build info: 
+
+		Built time: May 31 2017 17:14:11
+		Last modified date: Fri May 26 22:32:46 2017
+		Build type: release
+		Build target: GPU
+		With 1bit-SGD: yes
+		With ASGD: yes
+		Math lib: mkl
+		CUDA_PATH: /usr/local/cuda-8.0
+		CUB_PATH: /usr/local/cub-1.4.1
+		CUDNN_PATH: /usr/local/cudnn-5.1
+		Build Branch: HEAD
+		Build SHA1: ade8bc05d30e61160da729aee078e22f8bd4fced
+		Built by Source/CNTK/buildinfo.h$$0 on 8df6191122a5
+		Build Path: /home/philly/jenkins/workspace/CNTK-Build-Linux
+		MPI distribution: Open MPI
+		MPI version: 1.10.3
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+GPU info:
+
+		Device[0]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 11437 MB
+		Device[1]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+		Device[2]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+		Device[3]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+-------------------------------------------------------------------
+
+##############################################################################
+#                                                                            #
+# train command (train action)                                               #
+#                                                                            #
+##############################################################################
+
+-------------------------------------------------------------------
+GPU info:
+
+		Device[0]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 11437 MB
+		Device[1]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+		Device[2]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+		Device[3]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+-------------------------------------------------------------------
+
+##############################################################################
+#                                                                            #
+# train command (train action)                                               #
+#                                                                            #
+##############################################################################
+
+WARNING: option syncPeroid in BlockMomentumSGD is going to be deprecated. Please use blockSizePerWorker instead in the future.
+-------------------------------------------------------------------
+GPU info:
+
+		Device[0]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 11437 MB
+		Device[1]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+		Device[2]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+		Device[3]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+-------------------------------------------------------------------
+
+##############################################################################
+#                                                                            #
+# train command (train action)                                               #
+#                                                                            #
+##############################################################################
+
+-------------------------------------------------------------------
+GPU info:
+
+		Device[0]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 11436 MB
+		Device[1]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+		Device[2]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+		Device[3]: cores = 2496; computeCapability = 3.7; type = "Tesla K80"; total memory = 11439 MB; free memory = 0 MB
+-------------------------------------------------------------------
+
+##############################################################################
+#                                                                            #
+# train command (train action)                                               #
+#                                                                            #
+##############################################################################
+
+WARNING: option syncPeroid in BlockMomentumSGD is going to be deprecated. Please use blockSizePerWorker instead in the future.
+WARNING: option syncPeroid in BlockMomentumSGD is going to be deprecated. Please use blockSizePerWorker instead in the future.
+WARNING: option syncPeroid in BlockMomentumSGD is going to be deprecated. Please use blockSizePerWorker instead in the future.
+[Multiversohk:97651] 3 more processes have sent help message help-mpi-btl-base.txt / btl:no-nics
+[Multiversohk:97651] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+Node 'decoder.layers[0].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[0].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[0].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[0].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[0].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[1].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[1].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[1].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[1].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[2].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[2].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[2].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[2].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[0].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'decoder.layers[0].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'decoder.layers[0].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'decoder.layers[1].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[1].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[1].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[1].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[2].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[2].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[2].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[2].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+
+Model has 625 nodes. Using GPU 1.
+
+Training criterion:   ce = Pass
+Evaluation criterion: errs = Pass
+
+Training 138016746 parameters in 120 parameter tensors.
+
+Node 'decoder.layers[0].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[0].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[0].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'decoder.layers[0].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[0].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[0].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'decoder.layers[0].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[0].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[1].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[0].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[0].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[0].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[1].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[0].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[0].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[1].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[0].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[1].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[1].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[1].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[1].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[2].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[0].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[1].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[2].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[2].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[1].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[2].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[2].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[1].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[2].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[1].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[0].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[2].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[1].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'encoder.layers[2].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[0].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'decoder.layers[0].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[2].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[0].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[2].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[1].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[0].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[2].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[1].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[0].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'encoder.layers[2].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[1].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[1].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[1].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[0].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'decoder.layers[1].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[2].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[1].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[0].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'decoder.layers[2].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[1].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[0].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 200].
+Node 'decoder.layers[2].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[2].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[1].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[2].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[2].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[1].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[2].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[1].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[2].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[1].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[2].lstmState._.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[2].lstmState._.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[2].lstmState._.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+Node 'decoder.layers[2].lstmState._.bit.ElementTimesArgs[1].z.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) operation: Tensor shape was inferred as [256 x 256].
+
+Model has 625 nodes. Using GPU 3.
+
+Training criterion:   ce = Pass
+Evaluation criterion: errs = Pass
+
+Model has 625 nodes. Using GPU 0.
+
+Training criterion:   ce = Pass
+Evaluation criterion: errs = Pass
+
+Model has 625 nodes. Using GPU 2.
+
+Training criterion:   ce = Pass
+Evaluation criterion: errs = Pass
+
+Training 138016746 parameters in 120 parameter tensors.
+
+
+Training 138016746 parameters in 120 parameter tensors.
+
+
+Training 138016746 parameters in 120 parameter tensors.
+
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+		(model aggregation stats): 1-th sync point was hit, introducing a 1.82-seconds latency this time; accumulated time on sync point = 1.82 seconds , average latency = 1.82 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.00 seconds , average latency = 0.00 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 493.92-seconds latency this time; accumulated time on sync point = 493.92 seconds , average latency = 493.92 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 183.22-seconds latency this time; accumulated time on sync point = 183.22 seconds , average latency = 183.22 seconds
+Finished Epoch[ 1 of 50]: [Training] ce = 7.81016608 * 140469; errs = 94.867% * 140469; totalSamplesSeen = 140469; learningRatePerSample = 0.0070000002; epochTime=836.178s
+Finished Epoch[ 1 of 50]: [Training] ce = 7.81016608 * 140469; errs = 94.867% * 140469; totalSamplesSeen = 140469; learningRatePerSample = 0.0070000002; epochTime=836.178s
+Finished Epoch[ 1 of 50]: [Training] ce = 7.81016608 * 140469; errs = 94.867% * 140469; totalSamplesSeen = 140469; learningRatePerSample = 0.0070000002; epochTime=836.178s
+Finished Epoch[ 1 of 50]: [Training] ce = 7.81016608 * 140469; errs = 94.867% * 140469; totalSamplesSeen = 140469; learningRatePerSample = 0.0070000002; epochTime=836.178s
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+		(model aggregation stats): 1-th sync point was hit, introducing a 2.72-seconds latency this time; accumulated time on sync point = 2.72 seconds , average latency = 2.72 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 483.59-seconds latency this time; accumulated time on sync point = 483.59 seconds , average latency = 483.59 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.00 seconds , average latency = 0.00 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 154.23-seconds latency this time; accumulated time on sync point = 154.23 seconds , average latency = 154.23 seconds
+Finished Epoch[ 2 of 50]: [Training] ce = 7.00303133 * 140548; errs = 94.822% * 140548; totalSamplesSeen = 281017; learningRatePerSample = 0.0070000002; epochTime=818.236s
+Finished Epoch[ 2 of 50]: [Training] ce = 7.00303133 * 140548; errs = 94.822% * 140548; totalSamplesSeen = 281017; learningRatePerSample = 0.0070000002; epochTime=818.236s
+Finished Epoch[ 2 of 50]: [Training] Finished Epoch[ 2 of 50]: [Training] ce = 7.00303133 * 140548; errs = 94.822% * 140548; totalSamplesSeen = 281017; learningRatePerSample = 0.0070000002; epochTime=818.236s
+ce = 7.00303133 * 140548; errs = 94.822% * 140548; totalSamplesSeen = 281017; learningRatePerSample = 0.0070000002; epochTime=818.236s
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.77-seconds latency this time; accumulated time on sync point = 0.77 seconds , average latency = 0.77 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 426.10-seconds latency this time; accumulated time on sync point = 426.10 seconds , average latency = 426.10 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.00 seconds , average latency = 0.00 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 88.09-seconds latency this time; accumulated time on sync point = 88.09 seconds , average latency = 88.09 seconds
+Finished Epoch[ 3 of 50]: [Training] ce = 6.71403811 * 140784; errs = 93.617% * 140784; totalSamplesSeen = 421801; learningRatePerSample = 0.0070000002; epochTime=776.553s
+Finished Epoch[ 3 of 50]: [Training] ce = 6.71403811 * 140784; errs = 93.617% * 140784; totalSamplesSeen = 421801; learningRatePerSample = 0.0070000002; epochTime=776.553s
+Finished Epoch[ 3 of 50]: [Training] ce = 6.71403811 * 140784; errs = 93.617% * 140784; totalSamplesSeen = 421801; learningRatePerSample = 0.0070000002; epochTime=776.553s
+Finished Epoch[ 3 of 50]: [Training] ce = 6.71403811 * 140784; errs = 93.617% * 140784; totalSamplesSeen = 421801; learningRatePerSample = 0.0070000002; epochTime=776.553s
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.96-seconds latency this time; accumulated time on sync point = 0.96 seconds , average latency = 0.96 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 87.89-seconds latency this time; accumulated time on sync point = 87.89 seconds , average latency = 87.89 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.00 seconds , average latency = 0.00 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 420.25-seconds latency this time; accumulated time on sync point = 420.25 seconds , average latency = 420.25 seconds
+Finished Epoch[ 4 of 50]: [Training] ce = 6.30132349 * 140764; errs = 89.363% * 140764; totalSamplesSeen = 562565; learningRatePerSample = 0.0070000002; epochTime=775.675s
+Finished Epoch[ 4 of 50]: [Training] ce = 6.30132349 * 140764; errs = 89.363% * 140764; totalSamplesSeen = 562565; learningRatePerSample = 0.0070000002; epochTime=775.675s
+Finished Epoch[ 4 of 50]: [Training] ce = 6.30132349 * 140764; errs = 89.363% * 140764; totalSamplesSeen = 562565; learningRatePerSample = 0.0070000002; epochTime=775.675s
+Finished Epoch[ 4 of 50]: [Training] ce = 6.30132349 * 140764; errs = 89.363% * 140764; totalSamplesSeen = 562565; learningRatePerSample = 0.0070000002; epochTime=775.675s
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.51-seconds latency this time; accumulated time on sync point = 0.51 seconds , average latency = 0.51 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.00 seconds , average latency = 0.00 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 373.84-seconds latency this time; accumulated time on sync point = 373.84 seconds , average latency = 373.84 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 51.06-seconds latency this time; accumulated time on sync point = 51.06 seconds , average latency = 51.06 seconds
+Finished Epoch[ 5 of 50]: [Training] ce = 6.01857731 * 140425; errs = 86.576% * 140425Finished Epoch[ 5 of 50]: [Training] Finished Epoch[ 5 of 50]: [Training] ce = 6.01857731 * 140425; errs = 86.576% * 140425; totalSamplesSeen = 702990; learningRatePerSample = 0.0070000002; epochTime=750.795s
+Finished Epoch[ 5 of 50]: [Training] ce = 6.01857731 * 140425; errs = 86.576% * 140425; totalSamplesSeen = 702990; learningRatePerSample = 0.0070000002; epochTime=750.795s
+; totalSamplesSeen = 702990; learningRatePerSample = 0.0070000002; epochTime=750.795s
+ce = 6.01857731 * 140425; errs = 86.576% * 140425; totalSamplesSeen = 702990; learningRatePerSample = 0.0070000002; epochTime=750.795s
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.78-seconds latency this time; accumulated time on sync point = 0.78 seconds , average latency = 0.78 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 364.37-seconds latency this time; accumulated time on sync point = 364.37 seconds , average latency = 364.37 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.00 seconds , average latency = 0.00 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 40.86-seconds latency this time; accumulated time on sync point = 40.86 seconds , average latency = 40.86 seconds
+Finished Epoch[ 6 of 50]: [Training] ce = 5.86319643 * 140319; errs = 85.240% * 140319; totalSamplesSeen = 843309; learningRatePerSample = 0.0070000002; epochTime=743.755s
+Finished Epoch[ 6 of 50]: [Training] Finished Epoch[ 6 of 50]: [Training] ce = 5.86319643 * 140319; errs = 85.240% * 140319; totalSamplesSeen = 843309; learningRatePerSample = 0.0070000002; epochTime=743.755s
+Finished Epoch[ 6 of 50]: [Training] ce = 5.86319643 * 140319; errs = 85.240% * 140319; totalSamplesSeen = 843309; learningRatePerSample = 0.0070000002; epochTime=743.755s
+ce = 5.86319643 * 140319; errs = 85.240% * 140319; totalSamplesSeen = 843309; learningRatePerSample = 0.0070000002; epochTime=743.755s
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.63-seconds latency this time; accumulated time on sync point = 0.63 seconds , average latency = 0.63 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 361.71-seconds latency this time; accumulated time on sync point = 361.71 seconds , average latency = 361.71 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.00 seconds , average latency = 0.00 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 73.21-seconds latency this time; accumulated time on sync point = 73.21 seconds , average latency = 73.21 seconds
+Finished Epoch[ 7 of 50]: [Training] ce = 5.74454588 * 140665; errs = 84.489% * 140665; totalSamplesSeen = 983974; learningRatePerSample = 0.0070000002; epochTime=751.744s
+Finished Epoch[ 7 of 50]: [Training] ce = 5.74454588 * 140665; errs = 84.489% * 140665; totalSamplesSeen = 983974; learningRatePerSample = 0.0070000002; epochTime=751.744s
+Finished Epoch[ 7 of 50]: [Training] ce = 5.74454588 * 140665; errs = 84.489% * 140665; totalSamplesSeen = 983974; learningRatePerSample = 0.0070000002; epochTime=751.744s
+Finished Epoch[ 7 of 50]: [Training] ce = 5.74454588 * 140665; errs = 84.489% * 140665; totalSamplesSeen = 983974; learningRatePerSample = 0.0070000002; epochTime=751.744s
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+		(model aggregation stats): 1-th sync point was hit, introducing a 1.05-seconds latency this time; accumulated time on sync point = 1.05 seconds , average latency = 1.05 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.00 seconds , average latency = 0.00 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 157.58-seconds latency this time; accumulated time on sync point = 157.58 seconds , average latency = 157.58 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 383.99-seconds latency this time; accumulated time on sync point = 383.99 seconds , average latency = 383.99 seconds
+Finished Epoch[ 8 of 50]: [Training] ce = 5.64913917 * 140591; errs = 83.737% * 140591; totalSamplesSeen = 1124565; learningRatePerSample = 0.0070000002; epochTime=786.61s
+Finished Epoch[ 8 of 50]: [Training] Finished Epoch[ 8 of 50]: [Training] ce = 5.64913917 * 140591; errs = 83.737% * 140591; totalSamplesSeen = 1124565; learningRatePerSample = 0.0070000002; epochTime=786.61s
+Finished Epoch[ 8 of 50]: [Training] ce = 5.64913917 * 140591; errs = 83.737% * 140591; totalSamplesSeen = 1124565; learningRatePerSample = 0.0070000002; epochTime=786.61s
+ce = 5.64913917 * 140591; errs = 83.737% * 140591; totalSamplesSeen = 1124565; learningRatePerSample = 0.0070000002; epochTime=786.61s
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.91-seconds latency this time; accumulated time on sync point = 0.91 seconds , average latency = 0.91 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 322.56-seconds latency this time; accumulated time on sync point = 322.56 seconds , average latency = 322.56 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.00 seconds , average latency = 0.00 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 88.34-seconds latency this time; accumulated time on sync point = 88.34 seconds , average latency = 88.34 seconds
+Finished Epoch[ 9 of 50]: [Training] ce = 5.59124476 * 140524; errs = 83.331% * 140524; totalSamplesSeen = 1265089; learningRatePerSample = 0.0070000002; epochTime=745.655s
+Finished Epoch[ 9 of 50]: [Training] ce = 5.59124476 * 140524; errs = 83.331% * 140524; totalSamplesSeen = 1265089; learningRatePerSample = 0.0070000002; epochTime=745.655s
+Finished Epoch[ 9 of 50]: [Training] Finished Epoch[ 9 of 50]: [Training] ce = 5.59124476 * 140524; errs = 83.331% * 140524; totalSamplesSeen = 1265089; learningRatePerSample = 0.0070000002; epochTime=745.655s
+ce = 5.59124476 * 140524; errs = 83.331% * 140524; totalSamplesSeen = 1265089; learningRatePerSample = 0.0070000002; epochTime=745.655s
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+		(model aggregation stats): 1-th sync point was hit, introducing a 1.01-seconds latency this time; accumulated time on sync point = 1.01 seconds , average latency = 1.01 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.00 seconds , average latency = 0.00 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 75.69-seconds latency this time; accumulated time on sync point = 75.69 seconds , average latency = 75.69 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 293.52-seconds latency this time; accumulated time on sync point = 293.52 seconds , average latency = 293.52 seconds
+Finished Epoch[10 of 50]: [Training] ce = 5.49076691 * 140468; errs = 82.580% * 140468; totalSamplesSeen = 1405557; learningRatePerSample = 0.0070000002; epochTime=733.366s
+Finished Epoch[10 of 50]: [Training] ce = 5.49076691 * 140468; errs = 82.580% * 140468; totalSamplesSeen = 1405557; learningRatePerSample = 0.0070000002; epochTime=733.366s
+Finished Epoch[10 of 50]: [Training] Finished Epoch[10 of 50]: [Training] ce = 5.49076691 * 140468; errs = 82.580% * 140468; totalSamplesSeen = 1405557; learningRatePerSample = 0.0070000002; epochTime=733.366s
+ce = 5.49076691 * 140468; errs = 82.580% * 140468; totalSamplesSeen = 1405557; learningRatePerSample = 0.0070000002; epochTime=733.366s
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.59-seconds latency this time; accumulated time on sync point = 0.59 seconds , average latency = 0.59 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 19.98-seconds latency this time; accumulated time on sync point = 19.98 seconds , average latency = 19.98 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 255.21-seconds latency this time; accumulated time on sync point = 255.21 seconds , average latency = 255.21 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.00 seconds , average latency = 0.00 seconds
+Finished Epoch[11 of 50]: [Training] Finished Epoch[11 of 50]: [Training] ce = 5.44835930 * 140670; errs = 82.226% * 140670; totalSamplesSeen = 1546227; learningRatePerSample = 0.0070000002; epochTime=696.507s
+Finished Epoch[11 of 50]: [Training] ce = 5.44835930 * 140670; errs = 82.226% * 140670; totalSamplesSeen = 1546227; learningRatePerSample = 0.0070000002; epochTime=696.507s
+Finished Epoch[11 of 50]: [Training] ce = 5.44835930 * 140670; errs = 82.226% * 140670; totalSamplesSeen = 1546227; learningRatePerSample = 0.0070000002; epochTime=696.507s
+ce = 5.44835930 * 140670; errs = 82.226% * 140670; totalSamplesSeen = 1546227; learningRatePerSample = 0.0070000002; epochTime=696.507s
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+		(model aggregation stats): 1-th sync point was hit, introducing a 1.06-seconds latency this time; accumulated time on sync point = 1.06 seconds , average latency = 1.06 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.00 seconds , average latency = 0.00 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 257.16-seconds latency this time; accumulated time on sync point = 257.16 seconds , average latency = 257.16 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 47.22-seconds latency this time; accumulated time on sync point = 47.22 seconds , average latency = 47.22 seconds
+Finished Epoch[12 of 50]: [Training] Finished Epoch[12 of 50]: [Training] ce = 5.40573949 * 140485; errs = 81.794% * 140485; totalSamplesSeen = 1686712; learningRatePerSample = 0.0070000002; epochTime=709.167s
+Finished Epoch[12 of 50]: [Training] ce = 5.40573949 * 140485; errs = 81.794% * 140485; totalSamplesSeen = 1686712; learningRatePerSample = 0.0070000002; epochTime=709.167s
+Finished Epoch[12 of 50]: [Training] ce = 5.40573949 * 140485; errs = 81.794% * 140485; totalSamplesSeen = 1686712; learningRatePerSample = 0.0070000002; epochTime=709.167s
+ce = 5.40573949 * 140485; errs = 81.794% * 140485; totalSamplesSeen = 1686712; learningRatePerSample = 0.0070000002; epochTime=709.167s
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.84-seconds latency this time; accumulated time on sync point = 0.84 seconds , average latency = 0.84 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.00 seconds , average latency = 0.00 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 8.49-seconds latency this time; accumulated time on sync point = 8.49 seconds , average latency = 8.49 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 214.17-seconds latency this time; accumulated time on sync point = 214.17 seconds , average latency = 214.17 seconds
+Finished Epoch[13 of 50]: [Training] Finished Epoch[13 of 50]: [Training] ce = 5.30962699 * 140467; errs = 80.096% * 140467; totalSamplesSeen = 1827179; learningRatePerSample = 0.0070000002; epochTime=681.327s
+Finished Epoch[13 of 50]: [Training] ce = 5.30962699 * 140467; errs = 80.096% * 140467; totalSamplesSeen = 1827179; learningRatePerSample = 0.0070000002; epochTime=681.327s
+Finished Epoch[13 of 50]: [Training] ce = 5.30962699 * 140467; errs = 80.096% * 140467; totalSamplesSeen = 1827179; learningRatePerSample = 0.0070000002; epochTime=681.327s
+ce = 5.30962699 * 140467; errs = 80.096% * 140467; totalSamplesSeen = 1827179; learningRatePerSample = 0.0070000002; epochTime=681.327s
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.76-seconds latency this time; accumulated time on sync point = 0.76 seconds , average latency = 0.76 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 195.08-seconds latency this time; accumulated time on sync point = 195.08 seconds , average latency = 195.08 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.00 seconds , average latency = 0.00 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 6.34-seconds latency this time; accumulated time on sync point = 6.34 seconds , average latency = 6.34 seconds
+Finished Epoch[14 of 50]: [Training] ce = 5.24843393 * 140509; errs = 78.697% * 140509; totalSamplesSeen = 1967688; learningRatePerSample = 0.0070000002; epochTime=674.647s
+Finished Epoch[14 of 50]: [Training] ce = 5.24843393 * 140509; errs = 78.697% * 140509; totalSamplesSeen = 1967688; learningRatePerSample = 0.0070000002; epochTime=674.643s
+Finished Epoch[14 of 50]: [Training] ce = 5.24843393 * 140509; errs = 78.697% * 140509; totalSamplesSeen = 1967688; learningRatePerSample = 0.0070000002; epochTime=674.647s
+Finished Epoch[14 of 50]: [Training] ce = 5.24843393 * 140509; errs = 78.697% * 140509; totalSamplesSeen = 1967688; learningRatePerSample = 0.0070000002; epochTime=674.643s
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+		(model aggregation stats): 1-th sync point was hit, introducing a 1.10-seconds latency this time; accumulated time on sync point = 1.10 seconds , average latency = 1.10 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 162.27-seconds latency this time; accumulated time on sync point = 162.27 seconds , average latency = 162.27 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.00 seconds , average latency = 0.00 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 23.53-seconds latency this time; accumulated time on sync point = 23.53 seconds , average latency = 23.53 seconds
+Finished Epoch[15 of 50]: [Training] ce = 5.19260640 * 140467; errs = 78.235% * 140467; totalSamplesSeen = 2108155; learningRatePerSample = 0.0070000002; epochTime=671.82s
+Finished Epoch[15 of 50]: [Training] Finished Epoch[15 of 50]: [Training] ce = 5.19260640 * 140467; errs = 78.235% * 140467; totalSamplesSeen = 2108155; learningRatePerSample = 0.0070000002; epochTime=671.82s
+Finished Epoch[15 of 50]: [Training] ce = 5.19260640 * 140467; errs = 78.235% * 140467; totalSamplesSeen = 2108155; learningRatePerSample = 0.0070000002; epochTime=671.82s
+ce = 5.19260640 * 140467; errs = 78.235% * 140467; totalSamplesSeen = 2108155; learningRatePerSample = 0.0070000002; epochTime=671.82s
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.76-seconds latency this time; accumulated time on sync point = 0.76 seconds , average latency = 0.76 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 59.58-seconds latency this time; accumulated time on sync point = 59.58 seconds , average latency = 59.58 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 194.49-seconds latency this time; accumulated time on sync point = 194.49 seconds , average latency = 194.49 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.00 seconds , average latency = 0.00 seconds
+Finished Epoch[16 of 50]: [Training] ce = 5.16464912 * 140636; errs = 78.074% * 140636; totalSamplesSeen = 2248791; learningRatePerSample = 0.0070000002; epochTime=690.909s
+Finished Epoch[16 of 50]: [Training] ce = 5.16464912 * 140636; errs = 78.074% * 140636; totalSamplesSeen = 2248791; learningRatePerSample = 0.0070000002; epochTime=690.909s
+Finished Epoch[16 of 50]: [Training] ce = 5.16464912 * 140636; errs = 78.074% * 140636; totalSamplesSeen = 2248791; learningRatePerSample = 0.0070000002; epochTime=690.91s
+Finished Epoch[16 of 50]: [Training] ce = 5.16464912 * 140636; errs = 78.074% * 140636; totalSamplesSeen = 2248791; learningRatePerSample = 0.0070000002; epochTime=690.91s
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+		(model aggregation stats): 1-th sync point was hit, introducing a 1.02-seconds latency this time; accumulated time on sync point = 1.02 seconds , average latency = 1.02 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 247.07-seconds latency this time; accumulated time on sync point = 247.07 seconds , average latency = 247.07 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.00 seconds , average latency = 0.00 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 51.14-seconds latency this time; accumulated time on sync point = 51.14 seconds , average latency = 51.14 seconds
+Finished Epoch[17 of 50]: [Training] ce = 5.11758382 * 140611; errs = 77.628% * 140611; totalSamplesSeen = 2389402; learningRatePerSample = 0.0070000002; epochTime=705.347s
+Finished Epoch[17 of 50]: [Training] Finished Epoch[17 of 50]: [Training] ce = 5.11758382 * 140611; errs = 77.628% * 140611; totalSamplesSeen = 2389402; learningRatePerSample = 0.0070000002; epochTime=705.347s
+Finished Epoch[17 of 50]: [Training] ce = 5.11758382 * 140611; errs = 77.628% * 140611; totalSamplesSeen = 2389402; learningRatePerSample = 0.0070000002; epochTime=705.347s
+ce = 5.11758382 * 140611; errs = 77.628% * 140611; totalSamplesSeen = 2389402; learningRatePerSample = 0.0070000002; epochTime=705.347s
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.89-seconds latency this time; accumulated time on sync point = 0.89 seconds , average latency = 0.89 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.00 seconds , average latency = 0.00 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 253.22-seconds latency this time; accumulated time on sync point = 253.22 seconds , average latency = 253.22 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 36.87-seconds latency this time; accumulated time on sync point = 36.87 seconds , average latency = 36.87 seconds
+Finished Epoch[18 of 50]: [Training] Finished Epoch[18 of 50]: [Training] ce = 5.08337979 * 140479; errs = 77.446% * 140479; totalSamplesSeen = 2529881; learningRatePerSample = 0.0070000002; epochTime=703.976s
+Finished Epoch[18 of 50]: [Training] ce = 5.08337979 * 140479; errs = 77.446% * 140479; totalSamplesSeen = 2529881; learningRatePerSample = 0.0070000002; epochTime=703.976s
+Finished Epoch[18 of 50]: [Training] ce = 5.08337979 * 140479; errs = 77.446% * 140479; totalSamplesSeen = 2529881; learningRatePerSample = 0.0070000002; epochTime=703.976s
+ce = 5.08337979 * 140479; errs = 77.446% * 140479; totalSamplesSeen = 2529881; learningRatePerSample = 0.0070000002; epochTime=703.976s
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.39-seconds latency this time; accumulated time on sync point = 0.39 seconds , average latency = 0.39 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 251.91-seconds latency this time; accumulated time on sync point = 251.91 seconds , average latency = 251.91 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.00 seconds , average latency = 0.00 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 52.79-seconds latency this time; accumulated time on sync point = 52.79 seconds , average latency = 52.79 seconds
+Finished Epoch[19 of 50]: [Training] Finished Epoch[19 of 50]: [Training] ce = 5.06139914 * 140686; errs = 77.077% * 140686; totalSamplesSeen = 2670567; learningRatePerSample = 0.0070000002; epochTime=707.328s
+Finished Epoch[19 of 50]: [Training] ce = 5.06139914 * 140686; errs = 77.077% * 140686; totalSamplesSeen = 2670567; learningRatePerSample = 0.0070000002; epochTime=707.328s
+Finished Epoch[19 of 50]: [Training] ce = 5.06139914 * 140686; errs = 77.077% * 140686; totalSamplesSeen = 2670567; learningRatePerSample = 0.0070000002; epochTime=707.328s
+ce = 5.06139914 * 140686; errs = 77.077% * 140686; totalSamplesSeen = 2670567; learningRatePerSample = 0.0070000002; epochTime=707.328s
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.82-seconds latency this time; accumulated time on sync point = 0.82 seconds , average latency = 0.82 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.00 seconds , average latency = 0.00 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 275.90-seconds latency this time; accumulated time on sync point = 275.90 seconds , average latency = 275.90 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 380.54-seconds latency this time; accumulated time on sync point = 380.54 seconds , average latency = 380.54 seconds
+Finished Epoch[20 of 50]: [Training] Finished Epoch[20 of 50]: [Training] ce = 4.99613754 * 140661; errs = 76.669% * 140661; totalSamplesSeen = 2811228; learningRatePerSample = 0.0070000002; epochTime=828.287s
+Finished Epoch[20 of 50]: [Training] ce = 4.99613754 * 140661; errs = 76.669% * 140661; totalSamplesSeen = 2811228; learningRatePerSample = 0.0070000002; epochTime=828.287s
+Finished Epoch[20 of 50]: [Training] ce = 4.99613754 * 140661; errs = 76.669% * 140661; totalSamplesSeen = 2811228; learningRatePerSample = 0.0070000002; epochTime=828.287s
+ce = 4.99613754 * 140661; errs = 76.669% * 140661; totalSamplesSeen = 2811228; learningRatePerSample = 0.0070000002; epochTime=828.287s
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+		(model aggregation stats): 1-th sync point was hit, introducing a 1.36-seconds latency this time; accumulated time on sync point = 1.36 seconds , average latency = 1.36 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.00 seconds , average latency = 0.00 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 207.65-seconds latency this time; accumulated time on sync point = 207.65 seconds , average latency = 207.65 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 361.61-seconds latency this time; accumulated time on sync point = 361.61 seconds , average latency = 361.61 seconds
+Finished Epoch[21 of 50]: [Training] Finished Epoch[21 of 50]: [Training] ce = 4.97103831 * 140442; errs = 76.605% * 140442; totalSamplesSeen = 2951670; learningRatePerSample = 0.0070000002; epochTime=800.039s
+Finished Epoch[21 of 50]: [Training] ce = 4.97103831 * 140442; errs = 76.605% * 140442; totalSamplesSeen = 2951670; learningRatePerSample = 0.0070000002; epochTime=800.039s
+Finished Epoch[21 of 50]: [Training] ce = 4.97103831 * 140442; errs = 76.605% * 140442; totalSamplesSeen = 2951670; learningRatePerSample = 0.0070000002; epochTime=800.039s
+ce = 4.97103831 * 140442; errs = 76.605% * 140442; totalSamplesSeen = 2951670; learningRatePerSample = 0.0070000002; epochTime=800.039s
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+		(model aggregation stats): 1-th sync point was hit, introducing a 1.22-seconds latency this time; accumulated time on sync point = 1.22 seconds , average latency = 1.22 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.00 seconds , average latency = 0.00 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 214.71-seconds latency this time; accumulated time on sync point = 214.71 seconds , average latency = 214.71 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 380.96-seconds latency this time; accumulated time on sync point = 380.96 seconds , average latency = 380.96 seconds
+Finished Epoch[22 of 50]: [Training] Finished Epoch[22 of 50]: [Training] ce = 4.93206527 * 140445; errs = 76.500% * 140445; totalSamplesSeen = 3092115; learningRatePerSample = 0.0070000002; epochTime=810.037s
+Finished Epoch[22 of 50]: [Training] ce = 4.93206527 * 140445; errs = 76.500% * 140445; totalSamplesSeen = 3092115; learningRatePerSample = 0.0070000002; epochTime=810.037s
+Finished Epoch[22 of 50]: [Training] ce = 4.93206527 * 140445; errs = 76.500% * 140445; totalSamplesSeen = 3092115; learningRatePerSample = 0.0070000002; epochTime=810.037s
+ce = 4.93206527 * 140445; errs = 76.500% * 140445; totalSamplesSeen = 3092115; learningRatePerSample = 0.0070000002; epochTime=810.037s
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.87-seconds latency this time; accumulated time on sync point = 0.87 seconds , average latency = 0.87 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 321.07-seconds latency this time; accumulated time on sync point = 321.07 seconds , average latency = 321.07 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.00 seconds , average latency = 0.00 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 166.60-seconds latency this time; accumulated time on sync point = 166.60 seconds , average latency = 166.60 seconds
+Finished Epoch[23 of 50]: [Training] Finished Epoch[23 of 50]: [Training] ce = 4.93215416 * 140445; errs = 76.420% * 140445; totalSamplesSeen = 3232560; learningRatePerSample = 0.0070000002; epochTime=772.422s
+Finished Epoch[23 of 50]: [Training] ce = 4.93215416 * 140445; errs = 76.420% * 140445; totalSamplesSeen = 3232560; learningRatePerSample = 0.0070000002; epochTime=772.422s
+Finished Epoch[23 of 50]: [Training] ce = 4.93215416 * 140445; errs = 76.420% * 140445; totalSamplesSeen = 3232560; learningRatePerSample = 0.0070000002; epochTime=772.422s
+ce = 4.93215416 * 140445; errs = 76.420% * 140445; totalSamplesSeen = 3232560; learningRatePerSample = 0.0070000002; epochTime=772.422s
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.51-seconds latency this time; accumulated time on sync point = 0.51 seconds , average latency = 0.51 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 122.93-seconds latency this time; accumulated time on sync point = 122.93 seconds , average latency = 122.93 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 298.17-seconds latency this time; accumulated time on sync point = 298.17 seconds , average latency = 298.17 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.00 seconds , average latency = 0.00 seconds
+Finished Epoch[24 of 50]: [Training] ce = 4.89286601 * 140429; errs = 76.001% * 140429; totalSamplesSeen = 3372989; learningRatePerSample = 0.0070000002; epochTime=748.449s
+Finished Epoch[24 of 50]: [Training] ce = 4.89286601 * 140429; errs = 76.001% * 140429; totalSamplesSeen = 3372989; learningRatePerSample = 0.0070000002; epochTime=748.449s
+Finished Epoch[24 of 50]: [Training] ce = 4.89286601 * 140429; errs = 76.001% * 140429; totalSamplesSeen = 3372989; learningRatePerSample = 0.0070000002; epochTime=748.449s
+Finished Epoch[24 of 50]: [Training] ce = 4.89286601 * 140429; errs = 76.001% * 140429; totalSamplesSeen = 3372989; learningRatePerSample = 0.0070000002; epochTime=748.449s
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.95-seconds latency this time; accumulated time on sync point = 0.95 seconds , average latency = 0.95 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 69.57-seconds latency this time; accumulated time on sync point = 69.57 seconds , average latency = 69.57 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 262.21-seconds latency this time; accumulated time on sync point = 262.21 seconds , average latency = 262.21 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.00 seconds , average latency = 0.00 seconds
+Finished Epoch[25 of 50]: [Training] ce = 4.87191233 * 140549; errs = 76.057% * 140549; totalSamplesSeen = 3513538; learningRatePerSample = 0.0070000002; epochTime=720.524s
+Finished Epoch[25 of 50]: [Training] ce = 4.87191233 * 140549; errs = 76.057% * 140549; totalSamplesSeen = 3513538; learningRatePerSample = 0.0070000002; epochTime=720.524s
+Finished Epoch[25 of 50]: [Training] ce = 4.87191233 * 140549; errs = 76.057% * 140549; totalSamplesSeen = 3513538; learningRatePerSample = 0.0070000002; epochTime=720.524s
+Finished Epoch[25 of 50]: [Training] ce = 4.87191233 * 140549; errs = 76.057% * 140549; totalSamplesSeen = 3513538; learningRatePerSample = 0.0070000002; epochTime=720.524s
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+		(model aggregation stats): 1-th sync point was hit, introducing a 1.06-seconds latency this time; accumulated time on sync point = 1.06 seconds , average latency = 1.06 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 206.39-seconds latency this time; accumulated time on sync point = 206.39 seconds , average latency = 206.39 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.00 seconds , average latency = 0.00 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 13.38-seconds latency this time; accumulated time on sync point = 13.38 seconds , average latency = 13.38 seconds
+Finished Epoch[26 of 50]: [Training] ce = 4.87091986 * 140463; errs = 75.924% * 140463; totalSamplesSeen = 3654001; learningRatePerSample = 0.0070000002; epochTime=682.321s
+Finished Epoch[26 of 50]: [Training] ce = 4.87091986 * 140463; errs = 75.924% * 140463; totalSamplesSeen = 3654001; learningRatePerSample = 0.0070000002; epochTime=682.321s
+Finished Epoch[26 of 50]: [Training] ce = 4.87091986 * 140463; errs = 75.924% * 140463; totalSamplesSeen = 3654001; learningRatePerSample = 0.0070000002; epochTime=682.321s
+Finished Epoch[26 of 50]: [Training] ce = 4.87091986 * 140463; errs = 75.924% * 140463; totalSamplesSeen = 3654001; learningRatePerSample = 0.0070000002; epochTime=682.321s
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+		(model aggregation stats): 1-th sync point was hit, introducing a 1.05-seconds latency this time; accumulated time on sync point = 1.05 seconds , average latency = 1.05 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 21.38-seconds latency this time; accumulated time on sync point = 21.38 seconds , average latency = 21.38 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.00 seconds , average latency = 0.00 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 203.85-seconds latency this time; accumulated time on sync point = 203.85 seconds , average latency = 203.85 seconds
+Finished Epoch[27 of 50]: [Training] ce = 4.87088469 * 140227; errs = 76.099% * 140227; totalSamplesSeen = 3794228; learningRatePerSample = 0.0070000002; epochTime=682.708s
+Finished Epoch[27 of 50]: [Training] ce = 4.87088469 * 140227; errs = 76.099% * 140227; totalSamplesSeen = 3794228; learningRatePerSample = 0.0070000002; epochTime=682.708s
+Finished Epoch[27 of 50]: [Training] ce = 4.87088469 * 140227; errs = 76.099% * 140227; totalSamplesSeen = 3794228; learningRatePerSample = 0.0070000002; epochTime=682.708s
+Finished Epoch[27 of 50]: [Training] ce = 4.87088469 * 140227; errs = 76.099% * 140227; totalSamplesSeen = 3794228; learningRatePerSample = 0.0070000002; epochTime=682.708s
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+		(model aggregation stats): 1-th sync point was hit, introducing a 1.49-seconds latency this time; accumulated time on sync point = 1.49 seconds , average latency = 1.49 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.00 seconds , average latency = 0.00 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 38.97-seconds latency this time; accumulated time on sync point = 38.97 seconds , average latency = 38.97 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 271.01-seconds latency this time; accumulated time on sync point = 271.01 seconds , average latency = 271.01 seconds
+Finished Epoch[28 of 50]: [Training] ce = 4.86649693 * 140848; errs = 75.882% * 140848; totalSamplesSeen = 3935076; learningRatePerSample = 0.0070000002; epochTime=711.464s
+Finished Epoch[28 of 50]: [Training] ce = 4.86649693 * 140848; errs = 75.882% * 140848; totalSamplesSeen = 3935076; learningRatePerSample = 0.0070000002; epochTime=711.464s
+Finished Epoch[28 of 50]: [Training] ce = 4.86649693 * 140848; errs = 75.882% * 140848; totalSamplesSeen = 3935076; learningRatePerSample = 0.0070000002; epochTime=711.464s
+Finished Epoch[28 of 50]: [Training] ce = 4.86649693 * 140848; errs = 75.882% * 140848; totalSamplesSeen = 3935076; learningRatePerSample = 0.0070000002; epochTime=711.464s
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+		(model aggregation stats): 1-th sync point was hit, introducing a 2.57-seconds latency this time; accumulated time on sync point = 2.57 seconds , average latency = 2.57 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 287.62-seconds latency this time; accumulated time on sync point = 287.62 seconds , average latency = 287.62 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.00 seconds , average latency = 0.00 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 76.27-seconds latency this time; accumulated time on sync point = 76.27 seconds , average latency = 76.27 seconds
+Finished Epoch[29 of 50]: [Training] ce = 4.83366068 * 140605; errs = 75.692% * 140605; totalSamplesSeen = 4075681; learningRatePerSample = 0.0070000002; epochTime=730.346s
+Finished Epoch[29 of 50]: [Training] ce = 4.83366068 * 140605; errs = 75.692% * 140605; totalSamplesSeen = 4075681; learningRatePerSample = 0.0070000002; epochTime=730.346s
+Finished Epoch[29 of 50]: [Training] ce = 4.83366068 * 140605; errs = 75.692% * 140605; totalSamplesSeen = 4075681; learningRatePerSample = 0.0070000002; epochTime=730.346s
+Finished Epoch[29 of 50]: [Training] ce = 4.83366068 * 140605; errs = 75.692% * 140605; totalSamplesSeen = 4075681; learningRatePerSample = 0.0070000002; epochTime=730.346s
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+		(model aggregation stats): 1-th sync point was hit, introducing a 1.00-seconds latency this time; accumulated time on sync point = 1.00 seconds , average latency = 1.00 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 340.82-seconds latency this time; accumulated time on sync point = 340.82 seconds , average latency = 340.82 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.00 seconds , average latency = 0.00 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 75.92-seconds latency this time; accumulated time on sync point = 75.92 seconds , average latency = 75.92 seconds
+Finished Epoch[30 of 50]: [Training] ce = 4.84259849 * 140861; errs = 75.800% * 140861; totalSamplesSeen = 4216542; learningRatePerSample = 0.0070000002; epochTime=747.817s
+Finished Epoch[30 of 50]: [Training] ce = 4.84259849 * 140861; errs = 75.800% * 140861; totalSamplesSeen = 4216542; learningRatePerSample = 0.0070000002; epochTime=747.817s
+Finished Epoch[30 of 50]: [Training] ce = 4.84259849 * 140861; errs = 75.800% * 140861; totalSamplesSeen = 4216542; learningRatePerSample = 0.0070000002; epochTime=747.817s
+Finished Epoch[30 of 50]: [Training] ce = 4.84259849 * 140861; errs = 75.800% * 140861; totalSamplesSeen = 4216542; learningRatePerSample = 0.0070000002; epochTime=747.817s
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+		(model aggregation stats): 1-th sync point was hit, introducing a 1.02-seconds latency this time; accumulated time on sync point = 1.02 seconds , average latency = 1.02 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 399.14-seconds latency this time; accumulated time on sync point = 399.14 seconds , average latency = 399.14 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 146.55-seconds latency this time; accumulated time on sync point = 146.55 seconds , average latency = 146.55 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.00 seconds , average latency = 0.00 seconds
+Finished Epoch[31 of 50]: [Training] ce = 4.80327001 * 140395; errs = 75.518% * 140395; totalSamplesSeen = 4356937; learningRatePerSample = 0.0070000002; epochTime=789.308s
+Finished Epoch[31 of 50]: [Training] ce = 4.80327001 * 140395; errs = 75.518% * 140395; totalSamplesSeen = 4356937; learningRatePerSample = 0.0070000002; epochTime=789.308s
+Finished Epoch[31 of 50]: [Training] ce = 4.80327001 * 140395; errs = 75.518% * 140395; totalSamplesSeen = 4356937; learningRatePerSample = 0.0070000002; epochTime=789.308s
+Finished Epoch[31 of 50]: [Training] ce = 4.80327001 * 140395; errs = 75.518% * 140395; totalSamplesSeen = 4356937; learningRatePerSample = 0.0070000002; epochTime=789.308s
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.73-seconds latency this time; accumulated time on sync point = 0.73 seconds , average latency = 0.73 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 403.40-seconds latency this time; accumulated time on sync point = 403.40 seconds , average latency = 403.40 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 75.08-seconds latency this time; accumulated time on sync point = 75.08 seconds , average latency = 75.08 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.00 seconds , average latency = 0.00 seconds
+Finished Epoch[32 of 50]: [Training] ce = 4.79955031 * 140638; errs = 75.581% * 140638; totalSamplesSeen = 4497575; learningRatePerSample = 0.0070000002; epochTime=767.678s
+Finished Epoch[32 of 50]: [Training] ce = 4.79955031 * 140638; errs = 75.581% * 140638; totalSamplesSeen = 4497575; learningRatePerSample = 0.0070000002; epochTime=767.678s
+Finished Epoch[32 of 50]: [Training] ce = 4.79955031 * 140638; errs = 75.581% * 140638; totalSamplesSeen = 4497575; learningRatePerSample = 0.0070000002; epochTime=767.678s
+Finished Epoch[32 of 50]: [Training] ce = 4.79955031 * 140638; errs = 75.581% * 140638; totalSamplesSeen = 4497575; learningRatePerSample = 0.0070000002; epochTime=767.678s
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+		(model aggregation stats): 1-th sync point was hit, introducing a 1.49-seconds latency this time; accumulated time on sync point = 1.49 seconds , average latency = 1.49 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 390.55-seconds latency this time; accumulated time on sync point = 390.55 seconds , average latency = 390.55 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 74.88-seconds latency this time; accumulated time on sync point = 74.88 seconds , average latency = 74.88 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.00 seconds , average latency = 0.00 seconds
+Finished Epoch[33 of 50]: [Training] ce = 4.79591397 * 140653; errs = 75.398% * 140653; totalSamplesSeen = 4638228; learningRatePerSample = 0.0070000002; epochTime=763.35s
+Finished Epoch[33 of 50]: [Training] ce = 4.79591397 * 140653; errs = 75.398% * 140653; totalSamplesSeen = 4638228; learningRatePerSample = 0.0070000002; epochTime=763.35s
+Finished Epoch[33 of 50]: [Training] ce = 4.79591397 * 140653; errs = 75.398% * 140653; totalSamplesSeen = 4638228; learningRatePerSample = 0.0070000002; epochTime=763.35s
+Finished Epoch[33 of 50]: [Training] ce = 4.79591397 * 140653; errs = 75.398% * 140653; totalSamplesSeen = 4638228; learningRatePerSample = 0.0070000002; epochTime=763.35s
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+		(model aggregation stats): 1-th sync point was hit, introducing a 1.06-seconds latency this time; accumulated time on sync point = 1.06 seconds , average latency = 1.06 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 65.42-seconds latency this time; accumulated time on sync point = 65.42 seconds , average latency = 65.42 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.00 seconds , average latency = 0.00 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 357.48-seconds latency this time; accumulated time on sync point = 357.48 seconds , average latency = 357.48 seconds
+Finished Epoch[34 of 50]: [Training] ce = 4.77480247 * 140502; errs = 75.270% * 140502; totalSamplesSeen = 4778730; learningRatePerSample = 0.0070000002; epochTime=751.723s
+Finished Epoch[34 of 50]: [Training] ce = 4.77480247 * 140502; errs = 75.270% * 140502; totalSamplesSeen = 4778730; learningRatePerSample = 0.0070000002; epochTime=751.723s
+Finished Epoch[34 of 50]: [Training] ce = 4.77480247 * 140502; errs = 75.270% * 140502; totalSamplesSeen = 4778730; learningRatePerSample = 0.0070000002; epochTime=751.723s
+Finished Epoch[34 of 50]: [Training] ce = 4.77480247 * 140502; errs = 75.270% * 140502; totalSamplesSeen = 4778730; learningRatePerSample = 0.0070000002; epochTime=751.723s
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.77-seconds latency this time; accumulated time on sync point = 0.77 seconds , average latency = 0.77 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 69.36-seconds latency this time; accumulated time on sync point = 69.36 seconds , average latency = 69.36 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.00 seconds , average latency = 0.00 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 362.70-seconds latency this time; accumulated time on sync point = 362.70 seconds , average latency = 362.70 seconds
+Finished Epoch[35 of 50]: [Training] ce = 4.77120421 * 140516; errs = 75.118% * 140516; totalSamplesSeen = 4919246; learningRatePerSample = 0.0070000002; epochTime=754.097s
+Finished Epoch[35 of 50]: [Training] ce = 4.77120421 * 140516; errs = 75.118% * 140516; totalSamplesSeen = 4919246; learningRatePerSample = 0.0070000002; epochTime=754.097s
+Finished Epoch[35 of 50]: [Training] ce = 4.77120421 * 140516; errs = 75.118% * 140516; totalSamplesSeen = 4919246; learningRatePerSample = 0.0070000002; epochTime=754.097s
+Finished Epoch[35 of 50]: [Training] ce = 4.77120421 * 140516; errs = 75.118% * 140516; totalSamplesSeen = 4919246; learningRatePerSample = 0.0070000002; epochTime=754.097s
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+		(model aggregation stats): 1-th sync point was hit, introducing a 1.38-seconds latency this time; accumulated time on sync point = 1.38 seconds , average latency = 1.38 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 328.08-seconds latency this time; accumulated time on sync point = 328.08 seconds , average latency = 328.08 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 29.76-seconds latency this time; accumulated time on sync point = 29.76 seconds , average latency = 29.76 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.00 seconds , average latency = 0.00 seconds
+Finished Epoch[36 of 50]: [Training] ce = 4.77098289 * 140698; errs = 75.218% * 140698; totalSamplesSeen = 5059944; learningRatePerSample = 0.0070000002; epochTime=728.272s
+Finished Epoch[36 of 50]: [Training] ce = 4.77098289 * 140698; errs = 75.218% * 140698; totalSamplesSeen = 5059944; learningRatePerSample = 0.0070000002; epochTime=728.272s
+Finished Epoch[36 of 50]: [Training] ce = 4.77098289 * 140698; errs = 75.218% * 140698; totalSamplesSeen = 5059944; learningRatePerSample = 0.0070000002; epochTime=728.272s
+Finished Epoch[36 of 50]: [Training] ce = 4.77098289 * 140698; errs = 75.218% * 140698; totalSamplesSeen = 5059944; learningRatePerSample = 0.0070000002; epochTime=728.272s
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.67-seconds latency this time; accumulated time on sync point = 0.67 seconds , average latency = 0.67 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 321.33-seconds latency this time; accumulated time on sync point = 321.33 seconds , average latency = 321.33 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 20.62-seconds latency this time; accumulated time on sync point = 20.62 seconds , average latency = 20.62 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.00 seconds , average latency = 0.00 seconds
+Finished Epoch[37 of 50]: [Training] ce = 4.74113638 * 140550; errs = 74.891% * 140550; totalSamplesSeen = 5200494; learningRatePerSample = 0.0070000002; epochTime=720.785s
+Finished Epoch[37 of 50]: [Training] ce = 4.74113638 * 140550; errs = 74.891% * 140550; totalSamplesSeen = 5200494; learningRatePerSample = 0.0070000002; epochTime=720.785s
+Finished Epoch[37 of 50]: [Training] ce = 4.74113638 * 140550; errs = 74.891% * 140550; totalSamplesSeen = 5200494; learningRatePerSample = 0.0070000002; epochTime=720.785s
+Finished Epoch[37 of 50]: [Training] ce = 4.74113638 * 140550; errs = 74.891% * 140550; totalSamplesSeen = 5200494; learningRatePerSample = 0.0070000002; epochTime=720.785s
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+		(model aggregation stats): 1-th sync point was hit, introducing a 1.02-seconds latency this time; accumulated time on sync point = 1.02 seconds , average latency = 1.02 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 9.96-seconds latency this time; accumulated time on sync point = 9.96 seconds , average latency = 9.96 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 292.27-seconds latency this time; accumulated time on sync point = 292.27 seconds , average latency = 292.27 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.00 seconds , average latency = 0.00 seconds
+Finished Epoch[38 of 50]: [Training] ce = 4.76495221 * 140553; errs = 75.046% * 140553; totalSamplesSeen = 5341047; learningRatePerSample = 0.0070000002; epochTime=708.828s
+Finished Epoch[38 of 50]: [Training] ce = 4.76495221 * 140553; errs = 75.046% * 140553; totalSamplesSeen = 5341047; learningRatePerSample = 0.0070000002; epochTime=708.828s
+Finished Epoch[38 of 50]: [Training] ce = 4.76495221 * 140553; errs = 75.046% * 140553; totalSamplesSeen = 5341047; learningRatePerSample = 0.0070000002; epochTime=708.828s
+Finished Epoch[38 of 50]: [Training] ce = 4.76495221 * 140553; errs = 75.046% * 140553; totalSamplesSeen = 5341047; learningRatePerSample = 0.0070000002; epochTime=708.828s
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+		(model aggregation stats): 1-th sync point was hit, introducing a 1.00-seconds latency this time; accumulated time on sync point = 1.00 seconds , average latency = 1.00 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 382.75-seconds latency this time; accumulated time on sync point = 382.75 seconds , average latency = 382.75 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 191.30-seconds latency this time; accumulated time on sync point = 191.30 seconds , average latency = 191.30 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.00 seconds , average latency = 0.00 seconds
+Finished Epoch[39 of 50]: [Training] ce = 4.64860838 * 140636; errs = 74.518% * 140636; totalSamplesSeen = 5481683; learningRatePerSample = 0.0070000002; epochTime=799.659s
+Finished Epoch[39 of 50]: [Training] ce = 4.64860838 * 140636; errs = 74.518% * 140636; totalSamplesSeen = 5481683; learningRatePerSample = 0.0070000002; epochTime=799.659s
+Finished Epoch[39 of 50]: [Training] ce = 4.64860838 * 140636; errs = 74.518% * 140636; totalSamplesSeen = 5481683; learningRatePerSample = 0.0070000002; epochTime=799.659s
+Finished Epoch[39 of 50]: [Training] ce = 4.64860838 * 140636; errs = 74.518% * 140636; totalSamplesSeen = 5481683; learningRatePerSample = 0.0070000002; epochTime=799.659s
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.92-seconds latency this time; accumulated time on sync point = 0.92 seconds , average latency = 0.92 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 222.31-seconds latency this time; accumulated time on sync point = 222.31 seconds , average latency = 222.31 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.00 seconds , average latency = 0.00 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 398.80-seconds latency this time; accumulated time on sync point = 398.80 seconds , average latency = 398.80 seconds
+Finished Epoch[40 of 50]: [Training] ce = 4.61512166 * 140530; errs = 74.160% * 140530; totalSamplesSeen = 5622213; learningRatePerSample = 0.0070000002; epochTime=813.705s
+Finished Epoch[40 of 50]: [Training] ce = 4.61512166 * 140530; errs = 74.160% * 140530; totalSamplesSeen = 5622213; learningRatePerSample = 0.0070000002; epochTime=813.705s
+Finished Epoch[40 of 50]: [Training] Finished Epoch[40 of 50]: [Training] ce = 4.61512166 * 140530; errs = 74.160% * 140530; totalSamplesSeen = 5622213; learningRatePerSample = 0.0070000002; epochTime=813.705s
+ce = 4.61512166 * 140530; errs = 74.160% * 140530; totalSamplesSeen = 5622213; learningRatePerSample = 0.0070000002; epochTime=813.705s
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+		(model aggregation stats): 1-th sync point was hit, introducing a 1.02-seconds latency this time; accumulated time on sync point = 1.02 seconds , average latency = 1.02 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.00 seconds , average latency = 0.00 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 185.57-seconds latency this time; accumulated time on sync point = 185.57 seconds , average latency = 185.57 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 346.33-seconds latency this time; accumulated time on sync point = 346.33 seconds , average latency = 346.33 seconds
+Finished Epoch[41 of 50]: [Training] ce = 4.61238178 * 140625; errs = 74.182% * 140625; totalSamplesSeen = 5762838; learningRatePerSample = 0.0070000002; epochTime=787.573s
+Finished Epoch[41 of 50]: [Training] Finished Epoch[41 of 50]: [Training] ce = 4.61238178 * 140625; errs = 74.182% * 140625; totalSamplesSeen = 5762838; learningRatePerSample = 0.0070000002; epochTime=787.573s
+Finished Epoch[41 of 50]: [Training] ce = 4.61238178 * 140625; errs = 74.182% * 140625; totalSamplesSeen = 5762838; learningRatePerSample = 0.0070000002; epochTime=787.573s
+ce = 4.61238178 * 140625; errs = 74.182% * 140625; totalSamplesSeen = 5762838; learningRatePerSample = 0.0070000002; epochTime=787.573s
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+		(model aggregation stats): 1-th sync point was hit, introducing a 1.08-seconds latency this time; accumulated time on sync point = 1.08 seconds , average latency = 1.08 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 128.11-seconds latency this time; accumulated time on sync point = 128.11 seconds , average latency = 128.11 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 322.46-seconds latency this time; accumulated time on sync point = 322.46 seconds , average latency = 322.46 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.00 seconds , average latency = 0.00 seconds
+Finished Epoch[42 of 50]: [Training] Finished Epoch[42 of 50]: [Training] ce = 4.62313987 * 140355; errs = 74.531% * 140355; totalSamplesSeen = 5903193; learningRatePerSample = 0.0070000002; epochTime=757.558s
+Finished Epoch[42 of 50]: [Training] ce = 4.62313987 * 140355; errs = 74.531% * 140355; totalSamplesSeen = 5903193; learningRatePerSample = 0.0070000002; epochTime=757.558s
+Finished Epoch[42 of 50]: [Training] ce = 4.62313987 * 140355; errs = 74.531% * 140355; totalSamplesSeen = 5903193; learningRatePerSample = 0.0070000002; epochTime=757.558s
+ce = 4.62313987 * 140355; errs = 74.531% * 140355; totalSamplesSeen = 5903193; learningRatePerSample = 0.0070000002; epochTime=757.558s
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.78-seconds latency this time; accumulated time on sync point = 0.78 seconds , average latency = 0.78 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 291.31-seconds latency this time; accumulated time on sync point = 291.31 seconds , average latency = 291.31 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 91.34-seconds latency this time; accumulated time on sync point = 91.34 seconds , average latency = 91.34 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.00 seconds , average latency = 0.00 seconds
+Finished Epoch[43 of 50]: [Training] ce = 4.61200738 * 140777; errs = 74.201% * 140777; totalSamplesSeen = 6043970; learningRatePerSample = 0.0070000002; epochTime=735.759s
+Finished Epoch[43 of 50]: [Training] ce = 4.61200738 * 140777; errs = 74.201% * 140777; totalSamplesSeen = 6043970; learningRatePerSample = 0.0070000002; epochTime=735.759s
+Finished Epoch[43 of 50]: [Training] ce = 4.61200738 * 140777; errs = 74.201% * 140777; totalSamplesSeen = 6043970; learningRatePerSample = 0.0070000002; epochTime=735.759s
+Finished Epoch[43 of 50]: [Training] ce = 4.61200738 * 140777; errs = 74.201% * 140777; totalSamplesSeen = 6043970; learningRatePerSample = 0.0070000002; epochTime=735.759s
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.39-seconds latency this time; accumulated time on sync point = 0.39 seconds , average latency = 0.39 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 48.16-seconds latency this time; accumulated time on sync point = 48.16 seconds , average latency = 48.16 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.00 seconds , average latency = 0.00 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 229.62-seconds latency this time; accumulated time on sync point = 229.62 seconds , average latency = 229.62 seconds
+Finished Epoch[44 of 50]: [Training] Finished Epoch[44 of 50]: [Training] ce = 4.60634911 * 140475; errs = 74.109% * 140475; totalSamplesSeen = 6184445; learningRatePerSample = 0.0070000002; epochTime=701.441s
+Finished Epoch[44 of 50]: [Training] ce = 4.60634911 * 140475; errs = 74.109% * 140475; totalSamplesSeen = 6184445; learningRatePerSample = 0.0070000002; epochTime=701.441s
+Finished Epoch[44 of 50]: [Training] ce = 4.60634911 * 140475; errs = 74.109% * 140475; totalSamplesSeen = 6184445; learningRatePerSample = 0.0070000002; epochTime=701.441s
+ce = 4.60634911 * 140475; errs = 74.109% * 140475; totalSamplesSeen = 6184445; learningRatePerSample = 0.0070000002; epochTime=701.44s
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.60-seconds latency this time; accumulated time on sync point = 0.60 seconds , average latency = 0.60 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.00 seconds , average latency = 0.00 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 10.68-seconds latency this time; accumulated time on sync point = 10.68 seconds , average latency = 10.68 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 214.19-seconds latency this time; accumulated time on sync point = 214.19 seconds , average latency = 214.19 seconds
+Finished Epoch[45 of 50]: [Training] ce = 4.62034683 * 140331; errs = 74.532% * 140331; totalSamplesSeen = 6324776; learningRatePerSample = 0.0070000002; epochTime=683.661s
+Finished Epoch[45 of 50]: [Training] ce = 4.62034683 * 140331; errs = 74.532% * 140331; totalSamplesSeen = 6324776; learningRatePerSample = 0.0070000002; epochTime=683.661s
+Finished Epoch[45 of 50]: [Training] ce = 4.62034683 * 140331; errs = 74.532% * 140331; totalSamplesSeen = 6324776; learningRatePerSample = 0.0070000002; epochTime=683.661s
+Finished Epoch[45 of 50]: [Training] ce = 4.62034683 * 140331; errs = 74.532% * 140331; totalSamplesSeen = 6324776; learningRatePerSample = 0.0070000002; epochTime=683.661s
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+		(model aggregation stats): 1-th sync point was hit, introducing a 1.22-seconds latency this time; accumulated time on sync point = 1.22 seconds , average latency = 1.22 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 22.07-seconds latency this time; accumulated time on sync point = 22.07 seconds , average latency = 22.07 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 210.65-seconds latency this time; accumulated time on sync point = 210.65 seconds , average latency = 210.65 seconds
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.00-seconds latency this time; accumulated time on sync point = 0.00 seconds , average latency = 0.00 seconds
+Finished Epoch[46 of 50]: [Training] ce = 4.62380461 * 140461; errs = 74.415% * 140461; totalSamplesSeen = 6465237; learningRatePerSample = 0.0070000002; epochTime=686.405s
+Finished Epoch[46 of 50]: [Training] Finished Epoch[46 of 50]: [Training] ce = 4.62380461 * 140461; errs = 74.415% * 140461; totalSamplesSeen = 6465237; learningRatePerSample = 0.0070000002; epochTime=686.405s
+Finished Epoch[46 of 50]: [Training] ce = 4.62380461 * 140461; errs = 74.415% * 140461; totalSamplesSeen = 6465237; learningRatePerSample = 0.0070000002; epochTime=686.405s
+ce = 4.62380461 * 140461; errs = 74.415% * 140461; totalSamplesSeen = 6465237; learningRatePerSample = 0.0070000002; epochTime=686.405s
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+Parallel training (4 workers) using BlockMomentumSGD with block momentum = 0.7500, block momentum time constant (per worker) = 62.5691, block learning rate = 1.0000, block size per worker = 18 samples, resetting SGD momentum after sync.
+		(model aggregation stats): 1-th sync point was hit, introducing a 0.96-seconds latency this time; accumulated time on sync point = 0.96 seconds , average latency = 0.96 seconds
