@@ -17,11 +17,12 @@ file_names10000 = ['sync10000a.txt', 'sync10000b.txt', 'sync10000c.txt', 'sync10
 
 num_epoch = 149  # num_samples for logreg
 num_workers = 8
+prefix = 'zoom'
 #############################################################
 #############################################################
 
 
-GRAPH_OUTPUT_PATH = '../' + synchro + '_graphs'
+GRAPH_OUTPUT_PATH = '../' + synchro + '_graphs/' + prefix
 
 def parse_output_file(file_name):
     with open('../logs/' + file_name, 'r') as f:
@@ -76,16 +77,16 @@ fig, ax = plt.subplots()
 # PLOT SAMPLES SEEN X TRAIN LOSS GRAPH
 for i in range(num_sf):
     x = list(range(10048, 14963129, 10048))
-#    x = x[:30]
+    x = x[:70]
     y = list(error_lists[i])
-#    y = y[:30]
+    y = y[:70]
     # ax.plot(list(range(100032, 14963129, 100032)), list(error_lists[i]), color=color_list[i], label=label_list[i])
     ax.plot(x, y, color=color_list[i], label=label_list[i])
 ax.legend(loc='upper right')
 plt.title('Train Loss of Logistic Regression on KDD Cup 2012 Data (' + synchro + ')')
 plt.xlabel("Number of Samples Seen")
 plt.ylabel("Train Loss")
-plt.savefig(GRAPH_OUTPUT_PATH + '/error_graph_sf100,1000,10000.pdf')
+plt.savefig(GRAPH_OUTPUT_PATH + 'error_graph_sf100,1000,10000.pdf')
 
 
 # PLOT SAMPLES SEEN X TIME GRAPH
@@ -104,7 +105,7 @@ plt.text(0.2, 0.9, avg_text,
 plt.title('Time Per Samples Set Logistic Regression on KDD Cup 2012 Data (' + synchro + ')')
 plt.xlabel("Number of Samples Seen")
 plt.ylabel("Compute Time in Seconds")
-plt.savefig(GRAPH_OUTPUT_PATH + '/time_graph_sf100,1000,10000.pdf')
+plt.savefig(GRAPH_OUTPUT_PATH + 'time_graph_sf100,1000,10000.pdf')
 
 # PLOT TIME x TRAIN LOSS
 fig, ax = plt.subplots()
@@ -123,7 +124,7 @@ ax.legend(loc='upper right')
 plt.title('Train Loss by Time of Logistic Regression on KDD Cup 2012 Data (' + synchro + ')')
 plt.xlabel("Time (seconds)")
 plt.ylabel("Train Loss")
-plt.savefig(GRAPH_OUTPUT_PATH + '/error_by_time_graph_sf100,1000,10000.pdf')
+plt.savefig(GRAPH_OUTPUT_PATH + 'error_by_time_graph_sf100,1000,10000.pdf')
 """
 # PLOT TIME GRAPH
 fig, ax = plt.subplots()
