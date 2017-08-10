@@ -1,0 +1,425 @@
+diff --git a/Applications/LogisticRegression/example/mnist.config b/Applications/LogisticRegression/example/mnist.config
+index f947a57..236193e 100644
+--- a/Applications/LogisticRegression/example/mnist.config
++++ b/Applications/LogisticRegression/example/mnist.config
+@@ -3,12 +3,16 @@ output_size=10
+ objective_type=softmax
+ regular_type=L2
+ updater_type=sgd
+-train_epoch=9
++train_epoch=1
+ sparse=false
+-use_ps=false
++use_ps=true
+ minibatch_size=20
+ train_file=train.data
+ test_file=test.data
+ output_file=test.out
+ learning_rate_coef=7e6
++learning_rate=0.001
+ regular_coef=0.0007
++sync_frequency=10
++show_time_per_sample=1000
++read_buffer_size=10000
+diff --git a/Applications/LogisticRegression/example/run.sh b/Applications/LogisticRegression/example/run.sh
+index 504e820..31fcce8 100644
+--- a/Applications/LogisticRegression/example/run.sh
++++ b/Applications/LogisticRegression/example/run.sh
+@@ -1,18 +1,18 @@
+-cd ../../../
+-mkdir build
+-cd build
+-cmake .. && make
++#cd ../../../
++#mkdir build
++#cd build
++#cmake .. && make
+ 
+-cd ../Applications/LogisticRegression/example/
++#cd ../Applications/LogisticRegression/example/
+ 
+-wget http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz && gunzip train-images-idx3-ubyte.gz &
+-wget http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz && gunzip train-labels-idx1-ubyte.gz &
+-wget http://yann.lecun.com/exdb/mnist/t10k-images-idx3-ubyte.gz && gunzip t10k-images-idx3-ubyte.gz &
+-wget http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz && gunzip t10k-labels-idx1-ubyte.gz &
+-wait
++#wget http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz && gunzip train-images-idx3-ubyte.gz &
++#wget http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz && gunzip train-labels-idx1-ubyte.gz &
++#wget http://yann.lecun.com/exdb/mnist/t10k-images-idx3-ubyte.gz && gunzip t10k-images-idx3-ubyte.gz &
++#wget http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz && gunzip t10k-labels-idx1-ubyte.gz &
++#wait
+ 
+-python convert.py train && rm train-images-idx3-ubyte -f && rm train-labels-idx1-ubyte -f &
+-python convert.py test && rm t10k-images-idx3-ubyte -f && rm t10k-labels-idx1-ubyte -f &
+-wait
++#python convert.py train && rm train-images-idx3-ubyte -f && rm train-labels-idx1-ubyte -f &
++#python convert.py test && rm t10k-images-idx3-ubyte -f && rm t10k-labels-idx1-ubyte -f &
++#wait
+ 
+-../../../build/Applications/LogisticRegression/LogisticRegression mnist.config
++mpirun --mca orte_base_help_aggregate 0 --hostfile hostfile ../../../build/Applications/LogisticRegression/LogisticRegression mnist.config
+diff --git a/Applications/LogisticRegression/src/logreg.cpp b/Applications/LogisticRegression/src/logreg.cpp
+index f4b79b9..70baad8 100644
+--- a/Applications/LogisticRegression/src/logreg.cpp
++++ b/Applications/LogisticRegression/src/logreg.cpp
+@@ -9,6 +9,9 @@
+ #include "util/timer.h"
+ #include "multiverso/io/io.h"
+ 
++#include <cmath>
++#include <math.h>
++#include <algorithm>
+ namespace logreg {
+ 
+ template<typename EleType>
+@@ -57,32 +60,50 @@ void LogReg<EleType>::Train(const std::string& train_file) {
+   size_t sample_seen = 0;
+   float train_loss = 0.0f;
+   size_t last = 0;
++
++  // rips17 changing output to train loss and time
++  // auto stream = multiverso::StreamFactory::GetStream(
++  //   multiverso::URI("graphlog-" + multiverso::MV_WorkerId()),
++  //   multiverso::FileOpenMode::Write);
++
+   for (int ep = 0; ep < train_epoch; ++ep) {
+     reader->Reset();
+     // wait for reading
+     std::this_thread::sleep_for(std::chrono::milliseconds(50));
+-    Log::Write(Info, "Start train epoch %d\n", ep);
++    // rips17 changed Info -> Debug
++    Log::Write(Debug, "Start train epoch %d\n", ep);
+     model_->SetKeys(reader->keys());
++    int displayCount = 0;
++    float avg_compute_time = 0;
+     do {
+       while ((count = reader->Read(buffer_size, samples))) {
+         Log::Write(Debug, "model training %d samples, sample seen %d\n", 
+           count, sample_seen);
+         train_loss += model_->Update(count, samples);
+         sample_seen += count;
+-        if (sample_seen - last >= config_->show_time_per_sample) {
+-          Log::Write(Info, "Sample seen %lld, train loss %f\n", sample_seen, train_loss / (sample_seen - last));
++
++        if (sample_seen - last >= config_->show_time_per_sample) {	
++     //   if ((sample_seen - last) >= 10000) {
++          displayCount = displayCount + 1;
++          if (model_->compute_count_ == 0) {
++            avg_compute_time = 0;
++          } else {
++            avg_compute_time = model_->computation_time_ / model_->compute_count_;
++	  }
++          Log::Write(Info, "Epoch %d. Worker %d set %d: Sample seen %lld, train loss %f, average computation time %d%.3f\n", ep, model_->GetWorkerId(), displayCount, sample_seen, train_loss / (sample_seen - last), avg_compute_time);
+           train_loss = 0.0f;
+           last = sample_seen;
+-          model_->DisplayTime();
++          // model_->DisplayTime();
+         }
+         reader->Free(count);
+       }
+     } while (!reader->EndOfFile());
+-    Test();
++    // Test();
+   }
+   delete reader;
+ 
+   delete[]samples;
++
+   Log::Write(Info, "Finish train, total sample %lld\n", sample_seen);
+ }
+ 
+@@ -149,17 +170,47 @@ double LogReg<EleType>::Test(const std::string& test_file, EleType**result) {
+ 
+   size_t correct_count = 0;
+   size_t total_sample = 0;
++  // const int n_thresholds = 101;
++  // double tpfntnfp_x_thresholds[4][n_thresholds] = {{0.0}};
++  std::vector<double> tpfntnfp_count {0.0, 0.0, 0.0, 0.0};  
++  std::vector<double> tpfntnfp {0.0, 0.0, 0.0, 0.0};
+   model_->SetKeys(reader->keys());
+   do {
+     int count;
+     while ((count = reader->Read(buffer_size, samples))) {
+       total_sample += count;
+       correct_count += model_->Predict(count, samples, result);
++//      for (int i = 0; i < n_thresholds; i += 1) {
++//        tpfntnfp = model_->PredictRIPS(count, samples, result, ((double) i) / ((double) (n_thresholds-1)));
++//        tpfntnfp_x_thresholds[0][i] += tpfntnfp[0];
++//        tpfntnfp_x_thresholds[1][i] += tpfntnfp[1];
++//        tpfntnfp_x_thresholds[2][i] += tpfntnfp[2];
++//        tpfntnfp_x_thresholds[3][i] += tpfntnfp[3];
++//      }
++
++      for (int i = 0; i < 4; i += 1) {
++        tpfntnfp_count[i] += tpfntnfp[i];
++      }
+       reader->Free(count);
++      // if (count % config_->show_time_per_sample == 0) {
++      //     SaveOutput(stream, count, config_->output_size, result);
++      // }
+       SaveOutput(stream, count, config_->output_size, result);
+     }
+   } while (!reader->EndOfFile());
+-  
++  // double tprs[n_thresholds];
++  // double fprs[n_thresholds];
++  // for (int i = 0; i < n_thresholds; i += 1) {
++  //   tprs[i] = tpfntnfp_x_thresholds[0][i] / (tpfntnfp_x_thresholds[0][i] + tpfntnfp_x_thresholds[1][i]);
++  //   fprs[i] = tpfntnfp_x_thresholds[3][i] / (tpfntnfp_x_thresholds[3][i] + tpfntnfp_x_thresholds[2][i]);
++  // }
++  // double auc = 0.0;
++  // for (int i = 1; i < n_thresholds; i += 1) {
++  //   auc += (tprs[i-1] + tprs[i]) * fabs(fprs[i] - fprs[i - 1]) / 2.0;
++  //   Log::Write(Info, "tpr 1, tpr 2, fpr 1, fpr 2, auc:  %f %f %f %f %f\n", tprs[i - 1], tprs[i], fprs[i - 1], fprs[i], auc);
++  //   model_->DisplayTime();
++  // }
++  // Log::Write(Info, "auc: %f\n", auc);
+   double test_error = 1.0 - static_cast<double>(correct_count) / total_sample;
+   Log::Write(Info, "test error: %f\n", test_error);
+ 
+@@ -170,6 +221,7 @@ double LogReg<EleType>::Test(const std::string& test_file, EleType**result) {
+     FreeMatrix(buffer_size, result);
+   }
+   return test_error;
++  // return auc;
+ }
+ 
+ template<typename EleType>
+diff --git a/Applications/LogisticRegression/src/model/model.cpp b/Applications/LogisticRegression/src/model/model.cpp
+index f024c53..480bc78 100644
+--- a/Applications/LogisticRegression/src/model/model.cpp
++++ b/Applications/LogisticRegression/src/model/model.cpp
+@@ -6,8 +6,14 @@
+ #include "updater/updater.h"
+ #include "multiverso/io/io.h"
+ 
++#include <vector>
++
+ namespace logreg {
+ 
++inline int Round(float x, double threshold) {
++    return x < threshold ? 0 : 1;
++}
++
+ template<typename EleType>
+ Model<EleType>::Model(Configure& config) :
+   updater_(nullptr),
+@@ -122,6 +128,12 @@ void Model<EleType>::DisplayTime() {
+   compute_count_ = 0;
+ }
+ 
++// rips17 added
++template<typename EleType>
++int Model<EleType>::GetWorkerId() {
++  return 0;
++}
++
+ template<typename EleType>
+ inline void Model<EleType>::UpdateTable(DataBlock<EleType>* delta) {
+   // Log::Write(Debug, "Local model updating %d rows\n", update_idx_.size());
+@@ -144,6 +156,37 @@ int Model<EleType>::Predict(int count, Sample<EleType>**samples,
+ }
+ 
+ template<typename EleType>
++std::vector<double> Model<EleType>::PredictRIPS(int count, Sample<EleType>**samples,
++  EleType**predicts, double threshold) {
++  std::vector<double> tpfntnfp {0, 0, 0, 0};
++  float curr_predicts;
++  int curr_samples;
++  for (int i = 0; i < count; i += this->minibatch_size_) {
++    int upper = i + this->minibatch_size_;
++    upper = upper > count ? count : upper;
++    for (int j = i; j < upper; ++j) {
++      this->objective_->Predict(samples[j], this->table_, predicts[j]);
++      curr_predicts = Round(static_cast<float>(*predicts[j]), threshold);
++      curr_samples = static_cast<int>(samples[j]->label == 1);
++      if (curr_samples == 1) {
++        if (curr_predicts == 1) {
++          tpfntnfp[0] += 1;
++        }  else {
++          tpfntnfp[1] += 1;
++        }
++      }  else {
++        if (curr_predicts == 1) {
++          tpfntnfp[3] += 1;
++        }  else {
++          tpfntnfp[2] += 1;
++        }
++      }
++    }
++  }
++  return tpfntnfp;
++}
++
++template<typename EleType>
+ void Model<EleType>::Load(const std::string& model_file) {
+   auto stream = multiverso::StreamFactory::GetStream(
+     multiverso::URI(model_file),
+diff --git a/Applications/LogisticRegression/src/model/model.h b/Applications/LogisticRegression/src/model/model.h
+index f54f3ff..d41b8a8 100644
+--- a/Applications/LogisticRegression/src/model/model.h
++++ b/Applications/LogisticRegression/src/model/model.h
+@@ -20,6 +20,8 @@ namespace logreg {
+ template<typename EleType>
+ class Model {
+ public:
++  double computation_time_;
++  double compute_count_;
+   // initiate with config data
+   // \param config should provide:
+   //  objective type
+@@ -34,12 +36,15 @@ public:
+   // \param input one input
+   // \return correct number
+   virtual int Predict(int count, Sample<EleType>**samples, EleType**predicts);
++  // RIPS-HK added
++  virtual std::vector<double> PredictRIPS(int count, Sample<EleType>**samples, EleType**predicts, double threshold);
+   // load model data from a binary file
+   virtual void Load(const std::string& model_file);
+   // write model data in binary method
+   virtual void Store(const std::string& model_file);
+   virtual void SetKeys(multiverso::MtQueue<SparseBlock<bool>*> *keys) {}
+   virtual void DisplayTime();
++  virtual int GetWorkerId();
+   DataBlock<EleType>* table() const { return table_; }
+   // factory method to get a new instance
+   // \param config should contain model needed configs
+@@ -68,8 +73,6 @@ protected:
+   DataBlock<EleType>* delta_;
+ 
+   Timer timer_;
+-  double computation_time_;
+-  double compute_count_;
+ };
+ 
+ }  // namespace logreg
+diff --git a/Applications/LogisticRegression/src/model/ps_model.cpp b/Applications/LogisticRegression/src/model/ps_model.cpp
+index 77ad47a..d7e3e27 100644
+--- a/Applications/LogisticRegression/src/model/ps_model.cpp
++++ b/Applications/LogisticRegression/src/model/ps_model.cpp
+@@ -7,8 +7,14 @@
+ #include "util/ftrl_sparse_table.h"
+ #include "multiverso/util/configure.h"
+ 
++#include <vector> 
++#include <math.h>
+ namespace logreg {
+ 
++inline int Round(float x, double threshold) {
++  return x < threshold ? 0 : 1;
++}
++
+ template<typename EleType>
+ PSModel<EleType>::PSModel(Configure& config) :
+   Model<EleType>(config),
+@@ -22,6 +28,9 @@ PSModel<EleType>::PSModel(Configure& config) :
+ 
+   // set multiverso updater type
+   multiverso::SetCMDFlag<std::string>("updater_type", "sgd");
++  // rips17 edit
++  // set multiverso to sync
++  multiverso::MV_SetFlag("sync", true);
+   // start multiverso
+   multiverso::MV_Init();
+   // create table
+@@ -94,6 +103,12 @@ void PSModel<EleType>::DisplayTime() {
+   push_time_ = pull_time_ = 0;
+ }
+ 
++// rips17 added
++template<typename EleType>
++int PSModel<EleType>::GetWorkerId() {
++  return multiverso::MV_WorkerId();
++}
++
+ template<typename EleType>
+ int PSModel<EleType>::Predict(int count, Sample<EleType>**samples, 
+   EleType**predicts) {
+@@ -113,6 +128,38 @@ int PSModel<EleType>::Predict(int count, Sample<EleType>**samples,
+ }
+ 
+ template<typename EleType>
++std::vector<double> PSModel<EleType>::PredictRIPS(int count, Sample<EleType>**samples,
++  EleType**predicts, double threshold) {
++  std::vector<double> tpfntnfp {0, 0, 0, 0};
++  float curr_predicts;
++  int curr_samples;
++  for (int i = 0; i < count; i += this->minibatch_size_) {
++    int upper = i + this->minibatch_size_;
++    upper = upper > count ? count : upper;
++    for (int j = i; j < upper; ++j) {
++      this->objective_->Predict(samples[j], this->table_, predicts[j]);
++      curr_predicts = Round(static_cast<float>(*predicts[j]), threshold);
++      curr_samples = static_cast<int>(samples[j]->label == 1);
++      if (curr_samples == 1) {
++        if (curr_predicts == 1) {
++          tpfntnfp[0] += 1;
++        }  else {
++          tpfntnfp[1] += 1;
++        }
++      }  else {
++        if (curr_predicts == 1) {
++          tpfntnfp[3] += 1;
++        }  else {
++          tpfntnfp[2] += 1;
++        }
++      }
++    }
++    DoesNeedSync();
++  }
++  return tpfntnfp;
++}
++
++template<typename EleType>
+ void PSModel<EleType>::Load(const std::string& model_file) {
+   Model<EleType>::Load(model_file);
+   // only load in one machine
+@@ -172,8 +219,10 @@ template<typename EleType>
+ inline void PSModel<EleType>::DoesNeedSync() {
+   if (++count_sample_ >= sync_frequency_) {
+     if (buffer_index_ != -1) {
++      Log::Write(Info, "async pull %f\n", buffer_index_);
+       GetPipelineTable();
+     } else {
++      Log::Write(Info, "sync pull %f\n", buffer_index_);
+       PullModel();
+     }
+     
+diff --git a/Applications/LogisticRegression/src/model/ps_model.h b/Applications/LogisticRegression/src/model/ps_model.h
+index 4f29e39..4eb6b59 100644
+--- a/Applications/LogisticRegression/src/model/ps_model.h
++++ b/Applications/LogisticRegression/src/model/ps_model.h
+@@ -13,6 +13,7 @@
+ 
+ #include "util/timer.h"
+ 
++#include <vector>
+ namespace logreg {
+ 
+ template <typename EleType>
+@@ -21,10 +22,12 @@ public:
+   explicit PSModel(Configure& config);
+   ~PSModel();
+   int Predict(int count, Sample<EleType>**samples, EleType**predicts);
++  std::vector<double> PredictRIPS(int count, Sample<EleType>**samples, EleType**predicts, double threshold);
+   void Load(const std::string& model_file);
+   void Store(const std::string& model_file);
+   void SetKeys(multiverso::MtQueue<SparseBlock<bool>*> *keys);
+   void DisplayTime();
++  int GetWorkerId();
+ 
+ private:
+   // use multiverso table add interface
+diff --git a/Applications/LogisticRegression/src/updater/updater.cpp b/Applications/LogisticRegression/src/updater/updater.cpp
+index 92b6fa0..9804461 100644
+--- a/Applications/LogisticRegression/src/updater/updater.cpp
++++ b/Applications/LogisticRegression/src/updater/updater.cpp
+@@ -64,7 +64,7 @@ void SGDUpdater<EleType>::Process(DataBlock<EleType>* delta) {
+     }
+   }
+   ++update_count_;
+-  learning_rate_ = max(1e-3,
++  learning_rate_ = max(1e-9,
+     initial_learning_rate_ - (update_count_ / 
+     (learning_rate_coef_ * minibatch_size_)));
+   Log::Write(Debug, "SGD learning rate : %f\n", learning_rate_);
